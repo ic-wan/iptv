@@ -151,6 +151,8 @@ https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTINF:-1 tvg-id="moji.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZInVi0Do4-LgZxRLpAH79XIRrCOKJnmrJjlKQmMg_w&s=10" group-title="Lokal",Moji tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
+#EXTINF:-1 tvg-id="nhkworld.id" group-title="Lokal",Nhk world japan
+https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4Y_baYWVbj91xIGOXwL4AOZqn6aaCVVNe_PN7mswwQ&s=10" group-title="Lokal",Tv one
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="3ABNKids.us@SD" tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Kids",3abn kids network
@@ -197,8 +199,6 @@ https://amg00861-amg00861c22-stirr-us-8773.playouts.now.amagi.tv/playlist.m3u8
 https://videoelephantlimited-travelescapes-1-us.ohlscdn.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelTV.bg@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfa9_ShcHf9w35fNpdVYIv9BScuWzpqBEQPt0xvut5Aw&s=10" group-title="Travels",Travel tv (576p)
 https://streamer103.neterra.tv/travel/live.m3u8
-#EXTINF:-1 tvg-id="nhkworld.id",Nhk world japan
-https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="hbo.id" group-title="indihome",Hbo
 https://cdnbal1.indihometv.com/atm/DASH/hbo/master.mpd
 #EXTINF:-1 tvg-id="beritasatu.id" group-title="indihome",Berita satu
