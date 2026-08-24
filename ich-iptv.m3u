@@ -1,4 +1,5 @@
-#EXTM3U
+#EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
+
 #EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="ADHIMIX",Adhimix (360p)
 https://www.dropbox.com/scl/fi/2gsnn5ef4c63gxn8n76kj/Mars-and-Hymne-Adhimix-Precast-Indonesia-1.mp4?rlkey=2wpjehia04592wxj9pfdcyp89&st=mkpmzmjm&dl=1
 #EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="ADHIMIX",Adhimix (720p)
