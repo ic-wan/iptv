@@ -6,7 +6,7 @@ import io
 
 # Daftar URL file EPG (mendukung .xml dan .xml.gz)
 EPG_URLS = [
-    "https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml.gz", # Mengarah ke file .gz Anda sendiri
+    "https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml.gz", 
     "https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml",
     "https://www.open-epg.com/files/indonesia6.xml.gz",
     "https://www.open-epg.com/files/indonesia5.xml.gz",
@@ -56,14 +56,15 @@ def merge_and_clean_epgs():
         if root_master is None:
             root_master = tree # Jadikan EPG pertama sebagai basis
 
-        # Ambil dan filter channel (mencegah duplikat ID)
+        # Ambil dan filter channel (ID channel tetap dicek agar tidak error dobel di XML)
         for channel in tree.findall('channel'):
             channel_id = channel.get('id')
             if channel_id not in channels_set:
                 channels_set.add(channel_id)
                 root_master.append(channel)
 
-        # Ambil dan filter programme (buang yang sudah lewat)
+        # Ambil programme: Masukkan semuanya TANPA CEK DUPLIKAT, 
+        # asalkan jadwal selesainya (stop) belum kedaluwarsa dari waktu sekarang.
         for programme in tree.findall('programme'):
             stop_time_str = programme.get('stop')
             
@@ -84,7 +85,7 @@ def merge_and_clean_epgs():
         with gzip.open('epg.xml.gz', 'wb') as f:
             f.write(xml_bytes)
             
-        print("Berhasil menggabungkan, membersihkan, dan mengompresi EPG ke epg.xml.gz!")
+        print("Berhasil menggabungkan semua program (tanpa hapus duplikat), membersihkan jadwal lama, dan mengompresi ke epg.xml.gz!")
 
 if __name__ == '__main__':
     merge_and_clean_epgs()
