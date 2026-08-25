@@ -1,9 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
 
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="Adhimix",Adhimix (360p)
-https://www.dropbox.com/scl/fi/2gsnn5ef4c63gxn8n76kj/Mars-and-Hymne-Adhimix-Precast-Indonesia-1.mp4?rlkey=2wpjehia04592wxj9pfdcyp89&st=mkpmzmjm&dl=1
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="Adhimix",Adhimix (720p)
-https://www.dropbox.com/scl/fi/jughhef87nkbdddvwrx3k/Mars-and-Hymne-Adhimix-Precast-Indonesia.mp4?rlkey=n30bpho8jfq2v3ypydloy5q4v&st=wnd1hnkg&dl=1
 #EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="Adhimix",Indonesia raya
 https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
 #EXTINF:-1 tvg-id="prambors.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
