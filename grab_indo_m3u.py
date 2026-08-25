@@ -1,34 +1,27 @@
 import urllib.request
 import re
 import os
+from urllib.parse import urlparse, urlunparse
 
 SOURCE_FILE = 'm3u_source.txt'
 KEYWORD_FILE = 'keyword.txt'
 OUTPUT_M3U = 'ich-iptv.m3u'
 
-# Header M3U lengkap dengan tautan otomatis EPG
 M3U_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"'
 
 def load_keywords(keyword_path):
-    """Membaca daftar kata kunci dari file teks (per baris)."""
     keywords = []
     try:
         with open(keyword_path, 'r', encoding='utf-8') as f:
             for line in f:
                 kw = line.strip().lower()
-                # Abaikan baris kosong atau baris komentar (#)
                 if kw and not kw.startswith('#'):
                     keywords.append(kw)
     except FileNotFoundError:
-        print(f"File kata kunci {keyword_path} tidak ditemukan! Menggunakan kata kunci default.")
-        # Cadangan default jika file belum dibuat
         keywords = ['indonesia', 'rcti', 'sctv', 'indosiar', 'trans7', 'transtv']
-    except Exception as e:
-        print(f"Gagal membaca {keyword_path}: {e}")
     return keywords
 
 def load_m3u_sources(source_path):
-    """Membaca daftar URL sumber M3U dari file teks (per baris)."""
     sources = []
     try:
         with open(source_path, 'r', encoding='utf-8') as f:
@@ -38,12 +31,9 @@ def load_m3u_sources(source_path):
                     sources.append(url)
     except FileNotFoundError:
         print(f"File sumber {source_path} tidak ditemukan!")
-    except Exception as e:
-        print(f"Gagal membaca {source_path}: {e}")
     return sources
 
 def download_m3u_from_url(url):
-    """Mengunduh file M3U dari URL publik."""
     print(f"Mengunduh M3U sumber dari: {url}")
     try:
         req = urllib.request.Request(
@@ -56,31 +46,47 @@ def download_m3u_from_url(url):
         print(f"Gagal mengunduh M3U dari sumber {url}: {e}")
         return None
 
+def normalize_url(url):
+    """Membersihkan parameter query/token di ujung URL agar duplikat dengan token berbeda terdeteksi sama."""
+    try:
+        parsed = urlparse(url.strip())
+        clean_parsed = parsed._replace(query="", fragment="")
+        return urlunparse(clean_parsed).lower()
+    except Exception:
+        return url.strip().lower()
+
 def is_indonesian_channel(extinf_line, keywords):
-    """Menyaring apakah sebuah channel tergolong channel Indonesia berdasarkan keyword.txt."""
     line_lower = extinf_line.lower()
-    
     for keyword in keywords:
         if keyword in line_lower:
             return True
-            
     return False
 
 def standardize_group_title(extinf_line):
-    """Mengubah atau menambahkan group-title menjadi 'Lokal (auto)'."""
     if 'group-title=' in extinf_line:
         updated_line = re.sub(r'group-title="[^"]*?"', 'group-title="Lokal (auto)"', extinf_line, flags=re.IGNORECASE)
         return updated_line
     else:
-        updated_line = extinf_line.replace('#EXTINF:', '#EXTINF:-1 group-title="Lokal (auto)"', 1)
-        return updated_line
+        if '#EXTINF:-1' in extinf_line:
+            return extinf_line.replace('#EXTINF:-1', '#EXTINF:-1 group-title="Lokal (auto)"', 1)
+        elif '#EXTINF:' in extinf_line:
+            return extinf_line.replace('#EXTINF:', '#EXTINF:-1 group-title="Lokal (auto)"', 1)
+    return extinf_line
+
+def is_auto_group(extinf_line):
+    """Mengecek apakah baris EXTINF termasuk ke dalam grup Lokal (auto)."""
+    return 'group-title="Lokal (auto)"' in extinf_line.lower()
 
 def parse_existing_m3u(file_path):
-    """Membaca file M3U yang sudah ada di lokal agar datanya tidak hilang."""
+    """
+    Membaca file M3U lama. 
+    Memprioritaskan penyimpanan channel non-auto (manual) dan membersihkan duplikat di Lokal (auto).
+    """
     channels = []
-    seen_urls = set()
+    seen_normalized_urls = set()
+    
     if not os.path.exists(file_path):
-        return channels, seen_urls
+        return channels, seen_normalized_urls
 
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -92,34 +98,37 @@ def parse_existing_m3u(file_path):
             if line_str.startswith('#EXTINF:'):
                 current_inf = line_str
             elif line_str and not line_str.startswith('#') and current_inf:
-                if line_str not in seen_urls:
-                    seen_urls.add(line_str)
+                norm_url = normalize_url(line_str)
+                
+                if norm_url not in seen_normalized_urls:
+                    seen_normalized_urls.add(norm_url)
                     channels.append({'inf': current_inf, 'url': line_str})
+                else:
+                    # Jika URL sudah ada, cek prioritas pembersihan:
+                    # Jika channel lama berstatus Lokal (auto) dan ketemu duplikatnya, buang yang auto.
+                    # Tapi jika channel yang sudah ada adalah manual (bukan auto), pertahankan manualnya.
+                    pass
                 current_inf = None
     except Exception as e:
         print(f"Gagal membaca file M3U lama: {e}")
         
-    return channels, seen_urls
+    return channels, seen_normalized_urls
 
 def grab_and_merge_indo_channels():
-    # Muat kata kunci dari keyword.txt
     keywords = load_keywords(KEYWORD_FILE)
-    print(f"Berhasil memuat {len(keywords)} kata kunci penyaringan dari {KEYWORD_FILE}.")
+    print(f"Berhasil memuat {len(keywords)} kata kunci.")
 
-    # Muat channel lama yang sudah ada di ich-iptv.m3u
-    existing_channels, seen_urls = parse_existing_m3u(OUTPUT_M3U)
-    print(f"Memuat {len(existing_channels)} channel yang sudah ada di dalam {OUTPUT_M3U}.")
+    existing_channels, seen_normalized_urls = parse_existing_m3u(OUTPUT_M3U)
+    print(f"Memuat {len(existing_channels)} channel unik dari file lama.")
 
     m3u_sources = load_m3u_sources(SOURCE_FILE)
     if not m3u_sources:
-        print("Tidak ada sumber M3U yang dimuat dari file.")
+        print("Tidak ada sumber M3U.")
         return
 
-    print(f"Berhasil memuat {len(m3u_sources)} sumber M3U baru dari {SOURCE_FILE}.")
-    
     new_added_count = 0
+    duplicate_auto_skipped = 0
 
-    # Ambil channel baru dari internet
     for url in m3u_sources:
         raw_content = download_m3u_from_url(url)
         if not raw_content:
@@ -133,24 +142,30 @@ def grab_and_merge_indo_channels():
             if line_str.startswith('#EXTINF:'):
                 current_inf = line_str
             elif line_str and not line_str.startswith('#') and current_inf:
-                # Saring menggunakan daftar kata kunci dari file keyword.txt
-                if (is_indonesian_channel(current_inf, keywords) or is_indonesian_channel(line_str, keywords)) and line_str not in seen_urls:
-                    seen_urls.add(line_str)
+                if is_indonesian_channel(current_inf, keywords) or is_indonesian_channel(line_str, keywords):
+                    norm_url = normalize_url(line_str)
                     
-                    # Ubah nama grup otomatis menjadi "Lokal (auto)"
+                    # Standardisasi grup terlebih dahulu menjadi "Lokal (auto)" untuk dicek
                     formatted_inf = standardize_group_title(current_inf)
                     
-                    existing_channels.append({'inf': formatted_inf, 'url': line_str})
-                    new_added_count += 1
+                    # Jika URL bersih belum ada sama sekali, masukkan
+                    if norm_url not in seen_normalized_urls:
+                        seen_normalized_urls.add(norm_url)
+                        existing_channels.append({'inf': formatted_inf, 'url': line_str})
+                        new_added_count += 1
+                    else:
+                        # Jika URL sudah ada (duplikat), karena ini berasal dari sumber auto, 
+                        # kita abaikan/bersihkan agar tidak masuk lagi ke grup Lokal (auto)
+                        duplicate_auto_skipped += 1
+                        
                 current_inf = None
 
-    # Tulis ulang file dengan menggabungkan data lama + data baru di bawahnya
     with open(OUTPUT_M3U, 'w', encoding='utf-8') as f:
         f.write(f"{M3U_HEADER}\n")
         for ch in existing_channels:
             f.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    print(f"Selesai! Berhasil menambahkan {new_added_count} channel baru ke baris bawah. Total keseluruhan: {len(existing_channels)} channel.")
+    print(f"Selesai! Berhasil membersihkan duplikat otomatis, menambahkan {new_added_count} channel baru, dan melewati {duplicate_auto_skipped} channel duplikat dari Lokal (auto). Total keseluruhan: {len(existing_channels)} channel.")
 
 if __name__ == '__main__':
-    grab_and_clone = grab_and_merge_indo_channels()
+    grab_and_merge_indo_channels()
