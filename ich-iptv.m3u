@@ -1,5 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml.gz"
-
+#EXTM3U
 #EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="Adhimix",Indonesia raya
 https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
 #EXTINF:-1 tvg-id="prambors.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
@@ -12,20 +11,14 @@ https://stream.radiojar.com/7csmg90fuqruv
 https://stream-ssl.arenastreaming.com:8004/hardrock
 #EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal",Atambua tv (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="BETV.id@SD" tvg-logo="https://i.imgur.com/3EX0zax.png" group-title="Lokal",Be tv (720p)
-https://flv.intechmedia.net/live/ch58.m3u8
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://pbs.twimg.com/profile_images/1567391888617111552/vzO7QNcc_400x400.jpg" group-title="Lokal",Bn channel (720p)
 https://flv.intechmedia.net/live/ch112.m3u8
 #EXTINF:-1 tvg-id="BRTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/1/1f/Logo_BRTV.png" group-title="Lokal",Brtv (720p)
 https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
 #EXTINF:-1 tvg-id="BandungTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/1/13/Bandungtv_2011.png/250px-Bandungtv_2011.png?utm_source=id.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Lokal",Bandung tv (360p)
 http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
-#EXTINF:-1 tvg-id="BantenTV.id@SD" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten tv (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 #EXTINF:-1 tvg-id="BMSTV.id@SD" tvg-logo="https://i.imgur.com/snMxng5.png" group-title="Lokal",Banyumas tv (720p) [not 24/7]
 https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-#EXTINF:-1 tvg-id="BatamTV.id@SD" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam tv (480p) [not 24/7]
-http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="BiznetAdventure.id@SD" tvg-logo="https://i.imgur.com/ZREy4zM.png" group-title="Lokal",Biznet adventure (1080p)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BiznetLifestyle.id@SD" tvg-logo="https://i.imgur.com/XqUfQKA.png" group-title="Lokal",Biznet lifestyle (1080p)
@@ -64,8 +57,6 @@ http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
 http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JogjaIstimewaTV.id@SD" tvg-logo="https://i.imgur.com/VEqQfTu.png" group-title="Lokal",Jogja istimewa tv (720p)
 http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="JogjaTV.id@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/40/Jogjatvnew.png" group-title="Lokal",Jogja tv (720p) [not 24/7]
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-id="KTV.id@SD" tvg-logo="https://i.imgur.com/j3wtaDc.png" group-title="Lokal",Ktv (720p)
 https://flv.intechmedia.net/live/ch118.m3u8
 #EXTINF:-1 tvg-id="KawanuaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua tv (720p)
@@ -88,8 +79,6 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
 http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="PalembangTV.id@SD" tvg-logo="https://i.imgur.com/e2F1zyU.png" group-title="Lokal",Palembang tv (720p)
-https://flv.intechmedia.net/live/ch18.m3u8
 #EXTINF:-1 tvg-id="rtv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikV_Z_AmHvqeldMc5aboPloZaAbs92LVJadwk0-2S9g&s" group-title="Lokal",R tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
 #EXTINF:-1 tvg-id="RRINet.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxynm-TiJQLSD0iQRbzRTVvtTdUZHlacYNDSlnofD3g&s" group-title="Lokal",Rri net (1080p)
@@ -98,16 +87,12 @@ https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_o
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
 https://streaming.yufid.com/hls/radiokitatv.m3u8
-#EXTINF:-1 tvg-id="RakyatBengkuluTV.id@SD" tvg-logo="https://i.imgur.com/5L2q081.png" group-title="Lokal",Rakyat bengkulu tv (720p)
-https://flv.intechmedia.net/live/ch59.m3u8
 #EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja tv (720p)
 https://rodjatv.com/rodjatv/live.m3u8
 #EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",Smtv (720p) [not 24/7]
 http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="SaliraTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira tv (720p)
 https://live.salira.tv/p/3870/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="SriwijayaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya tv (576p) [not 24/7]
-https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-id="StaraTV.id@SumedangMajalengka" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv (720p)
 https://stream.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="StaraTV.id@Bandung" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv bandung (1080p)
@@ -118,14 +103,10 @@ https://cianjur.staratv.id/hls/0/stream.m3u8
 https://malang.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="TATV.id@SD" tvg-logo="https://i.imgur.com/1f0EC7t.png" group-title="Lokal",Tatv (720p) [not 24/7]
 https://v2.siar.us/tatv/live.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMu.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/d/d0/TvMu.png" group-title="Lokal",Tv mu (720p) [not 24/7]
-https://e.siar.us/live/tvmu.m3u8
 #EXTINF:-1 tvg-id="TVTabalong.id@SD" tvg-logo="https://i.imgur.com/2YhDH98.png" group-title="Lokal",Tv tabalong (720p) [not 24/7]
 https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
 #EXTINF:-1 tvg-id="TV9Nusantara.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal",Tv9 nusantara (720p)
 https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="Lokal",Tvku (720p)
-https://tvku.tv/hlsstream/hls/live.m3u8
 #EXTINF:-1 tvg-id="TVRParlemen.id@SD" tvg-logo="https://i.imgur.com/2XYpmHL.png" group-title="Lokal",Tvr parlemen (720p) [not 24/7]
 http://103.18.181.69:1935/golive/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRI.id@WestJava" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8S3p8dGa7_u3LEhdIZAJ9RfhqIo7d5N43N72ay-f1A&s=10" group-title="Lokal",Tvri jawa barat (480p)
