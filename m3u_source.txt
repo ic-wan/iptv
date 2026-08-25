@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/id.m3u
+https://raw.githubusercontent.com/dhasap/dhanytv/main/dhanytv.m3u
+
