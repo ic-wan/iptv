@@ -1,10 +1,10 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml"
 
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="ADHIMIX",Adhimix (360p)
+#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="Adhimix",Adhimix (360p)
 https://www.dropbox.com/scl/fi/2gsnn5ef4c63gxn8n76kj/Mars-and-Hymne-Adhimix-Precast-Indonesia-1.mp4?rlkey=2wpjehia04592wxj9pfdcyp89&st=mkpmzmjm&dl=1
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="ADHIMIX",Adhimix (720p)
+#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTynA-M04_NDPqbHubIqYtan6leriDeaFMkQ&s" group-title="Adhimix",Adhimix (720p)
 https://www.dropbox.com/scl/fi/jughhef87nkbdddvwrx3k/Mars-and-Hymne-Adhimix-Precast-Indonesia.mp4?rlkey=n30bpho8jfq2v3ypydloy5q4v&st=wnd1hnkg&dl=1
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="ADHIMIX",Indonesia raya
+#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="Adhimix",Indonesia raya
 https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
 #EXTINF:-1 tvg-id="prambors.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
 https://n03-us.rcs.revma.com/h77wwp48kxcwv?rj-ttl=5&rj-tok=AAABnrc_4EoAs27N82x_rDtjUQ
@@ -52,7 +52,7 @@ https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
 #EXTINF:-1 tvg-id="DhohoTV.id@SD" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho tv (720p)
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="discovery.id" group-title="Lokal",Discovery channel
+#EXTINF:-1 tvg-id="discovery.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbvGPN5N3tj_7xbFc_WhUYbQ2CVhkZAgIHDmFntmwjwg&s=10" group-title="Lokal",Discovery channel
 https://cdnbal1.indihometv.com/atm/DASH/disco/disco-avc1_1000000=500-3277707030000000.mpd
 #EXTINF:-1 tvg-id="DutaTV.id@SD" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Lokal",Duta tv (360p) [not 24/7]
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
@@ -142,17 +142,17 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal",Ugtv (720p)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1 tvg-id="denstv.id@learning" group-title="Lokal",Dens tv learning
+#EXTINF:-1 tvg-id="denstv.id@learning" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIwG4_cGayft-P28Xa0AbdpZv3dcCWw0lJqC9-BOmNw&s=10" group-title="Lokal",Dens tv learning
 https://op-flashcon-digdayahd-1.dens.tv/h/h236/02.m3u8
-#EXTINF:-1 tvg-id="indonesiana.id" group-title="Lokal",Indonesiana tv
+#EXTINF:-1 tvg-id="indonesiana.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhI5EheZFa-udrTLfcj9dhjFbed1CrOw5CeTS-yoPgQ&s=10" group-title="Lokal",Indonesiana tv
 https://tvstreamcast.com/indonesiana.m3u8
-#EXTINF:-1 tvg-id="jowo.id" group-title="Lokal",Jowo
+#EXTINF:-1 tvg-id="auto.jowo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQObCWWVNrR7kjEtiE6iS4x5kvrQkHOYALSCwHzDxLFyA&s" group-title="Lokal",Jowo
 https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8
 #EXTINF:-1 tvg-id="kompas.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcm_S8Cr6P_EwtqFG7vFGKfwUtpiCZFQttQz8SQBjcw&s=10" group-title="Lokal",Kompas tv
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 #EXTINF:-1 tvg-id="moji.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZInVi0Do4-LgZxRLpAH79XIRrCOKJnmrJjlKQmMg_w&s=10" group-title="Lokal",Moji tv
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-#EXTINF:-1 tvg-id="nhkworld.id" group-title="Lokal",Nhk world japan
+#EXTINF:-1 tvg-id="nhkworld.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOhkWJfkm-FcT4agmxooYSDpQbvXjMkbygX7ELFiIag&s=10" group-title="Lokal",Nhk world japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
 #EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4Y_baYWVbj91xIGOXwL4AOZqn6aaCVVNe_PN7mswwQ&s=10" group-title="Lokal",Tv one
 https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
@@ -200,39 +200,39 @@ https://amg00861-amg00861c22-stirr-us-8773.playouts.now.amagi.tv/playlist.m3u8
 https://videoelephantlimited-travelescapes-1-us.ohlscdn.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TravelTV.bg@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfa9_ShcHf9w35fNpdVYIv9BScuWzpqBEQPt0xvut5Aw&s=10" group-title="Travels",Travel tv (576p)
 https://streamer103.neterra.tv/travel/live.m3u8
-#EXTINF:-1 tvg-id="hbo.id" group-title="indihome",Hbo
+#EXTINF:-1 tvg-id="hbo.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPoX8X2YqbcxjPhRvgfIus1omunFPCnRV8Cn9tIqjcA&s=10" group-title="Indihome",Hbo
 https://cdnbal1.indihometv.com/atm/DASH/hbo/master.mpd
-#EXTINF:-1 tvg-id="beritasatu.id" group-title="indihome",Berita satu
+#EXTINF:-1 tvg-id="auto.beritasatu" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa41GMti1kTMXdTv2ywDvMb2QOhsos2dPgH1sFlxZehw&s=10" group-title="Indihome",Berita satu
 https://cdnbal1.indihometv.com/atm/DASH/beritasatu/master.mpd
-#EXTINF:-1 tvg-id="cartoonito.id" group-title="indihome",Cartoonito
+#EXTINF:-1 tvg-id="auto.cartoonito.2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ-d3uVnP9k0EE91MkHUNpXQVvC8caBfMT3ZAHffVA-A&s=10" group-title="Indihome",Cartoonito
 https://cdnbal1.indihometv.com/atm/DASH/boomerang/master.mpd
-#EXTINF:-1 tvg-id="cinemax.id" group-title="indihome",Cinemax
+#EXTINF:-1 tvg-id="auto.cinemax.iht" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyxFw1Vc-8XfG-uP6ZhHT-gUTuD5xqKbMTB2mhet9_AA&s=10" group-title="Indihome",Cinemax
 https://cdnbal1.indihometv.com/atm/DASH/cinemax/master.mpd
-#EXTINF:-1 tvg-id="discovery.id" group-title="indihome",Discovery
+#EXTINF:-1 tvg-id="auto.discovery.channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr1xI-gZN9rLZkf90ppskaCiK6Vv2d1xzftDhAvgMeCA&s=10" group-title="Indihome",Discovery
 https://cdnbal1.indihometv.com/atm/DASH/disco/master.mpd
-#EXTINF:-1 tvg-id="global.id" group-title="indihome",Global tv
+#EXTINF:-1 tvg-id="global tv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXPBnoS1r70-BPT_M1LMWISSyLGUxG2BDHprQO_6jNgQ&s=10" group-title="Indihome",Global tv
 https://cdnbal1.indihometv.com/atm/DASH/globaltv/master.mpd
-#EXTINF:-1 tvg-id="hbohits.id" group-title="indihome",Hbo hits
+#EXTINF:-1 tvg-id="hbohits.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR46hKUMgz0zst71Jh16xJoVaL_lId8a6VNHcOAEcxJ0w&s" group-title="Indihome",Hbo hits
 https://cdnbal1.indihometv.com/atm/DASH/hbohits/master.mpd
-#EXTINF:-1 tvg-id="hbosignature.id" group-title="indihome",Hbo signature
+#EXTINF:-1 tvg-id="hbosignature.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1pxCdhNits6DBpCpzvEr-bJ4HotNgCuD4_WeUSOW_Jw&s" group-title="Indihome",Hbo signature
 https://cdnbal1.indihometv.com/atm/DASH/hbosignature/master.mpd
-#EXTINF:-1 tvg-id="inews.id" group-title="indihome",I news
+#EXTINF:-1 tvg-id="inews.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6KG6iLwin1LuitRDjUTWgrocrzhARBm1OV8wbXW-Pjw&s=10" group-title="Indihome",I news
 https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
-#EXTINF:-1 tvg-id="jtv.id" group-title="indihome",J tv
+#EXTINF:-1 tvg-id="JTV.id@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2w6Z04xVsVuHv1U7CLUxhXz8-I7HqCrjbu8UTD9YilA&s=10" group-title="Indihome",Jtv
 https://cdnbal1.indihometv.com/atm/DASH/jtv/master.mpd
-#EXTINF:-1 tvg-id="kompas.id" group-title="indihome",Kompas tv
+#EXTINF:-1 tvg-id="kompastv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcm_S8Cr6P_EwtqFG7vFGKfwUtpiCZFQttQz8SQBjcw&s=10" group-title="Indihome",Kompas tv
 https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/master.mpd
-#EXTINF:-1 tvg-id="maxsport.id" group-title="indihome",Max sport
+#EXTINF:-1 tvg-id="max sport.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5tTIj7p3bLrG4He0WWyJHf_sp4ksKY2PAzpt4E8IEfQ&s=10" group-title="Indihome",Max sport
 https://cdnbal1.indihometv.com/atm/DASH/useesport/master.mpd
-#EXTINF:-1 tvg-id="mnc.id" group-title="indihome",Mnc tv
+#EXTINF:-1 tvg-id="mnctv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLwir2SbB2Id2GQCScP2--6fnB2wdXInadXkFzGNIZQ&s=10" group-title="Indihome",Mnc tv
 https://cdnbal1.indihometv.com/atm/DASH/mnctv/master.mpd
-#EXTINF:-1 tvg-id="pramborstv.id" group-title="indihome",Prambors tv
+#EXTINF:-1 tvg-id="prambors tv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1D9lcxkTEeZ0CU_5flPM_3ld1yzDIs_KIRenb10j6RA&s=10" group-title="Indihome",Prambors tv
 https://cdnbal1.indihometv.com/atm/DASH/pramborstv/master.mpd
-#EXTINF:-1 tvg-id="rcti.id" group-title="indihome",Rcti
+#EXTINF:-1 tvg-id="rcti.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKoxSwGoCq9QTs4q_NxpCWVPU7kPrTyypdDosiaVUaQ&s=10" group-title="Indihome",Rcti
 https://cdnbal1.indihometv.com/atm/DASH/rcti/master.mpd
-#EXTINF:-1 tvg-id="rtv.id" group-title="indihome",Rtv
+#EXTINF:-1 tvg-id="rtv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbEOWSiHFO_a6f0DUBaG8cA__MJHuU1OonFhlE3wks8w&s=10" group-title="Indihome",Rtv
 https://cdnbal1.indihometv.com/atm/DASH/RAJAWALI_TV/master.mpd
-#EXTINF:-1 tvg-id="sctv.id" group-title="indihome",Sctv
+#EXTINF:-1 tvg-id="sctv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUWJc9Wq-MSsKNWlO8TcgY-YoklRfpxxRZW0Zcsjdukg&s" group-title="Indihome",Sctv
 https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
-#EXTINF:-1 tvg-id="warner.id" group-title="indihome",Warner tv
+#EXTINF:-1 tvg-id="warner tv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cMdgSCf9GXFLTNU6uy4dKc-QmvttmDEfrgxen3icog&s" group-title="Indihome",Warner tv
 https://cdnbal1.indihometv.com/atm/DASH/warner/master.mpd
