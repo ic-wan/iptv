@@ -1,6 +1,5 @@
 import urllib.request
 
-# Konfigurasi nama file sesuai punya Anda
 INPUT_M3U = 'ich-iptv.m3u'
 ACTIVE_M3U = 'ich-iptv.m3u'
 DEAD_M3U = 'hapus.m3u'
@@ -42,6 +41,19 @@ def parse_m3u(file_path):
     
     return channels
 
+def get_existing_dead_urls(dead_file):
+    """Membaca file hapus.m3u yang sudah ada agar tidak terjadi duplikasi."""
+    existing_urls = set()
+    try:
+        with open(dead_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line_str = line.strip()
+                if line_str and not line_str.startswith('#'):
+                    existing_urls.add(line_str)
+    except FileNotFoundError:
+        pass # Jika file belum ada, abaikan
+    return existing_urls
+
 def check_and_filter_playlist():
     print(f"Membaca file {INPUT_M3U}...")
     channels = parse_m3u(INPUT_M3U)
@@ -63,22 +75,43 @@ def check_and_filter_playlist():
             print(" -> STATUS: AKTIF")
             active_channels.append(ch)
         else:
-            print(" -> STATUS: MATI (Dipindah ke hapus.m3u)")
+            print(" -> STATUS: MATI (Masuk antrean hapus.m3u)")
             dead_channels.append(ch)
 
-    # Simpan kembali channel yang aktif ke ich-iptv.m3u
+    # 1. Simpan kembali channel yang aktif ke ich-iptv.m3u (di-reset bersih dari yang mati)
     with open(ACTIVE_M3U, 'w', encoding='utf-8') as f:
         f.write("#EXTM3U\n")
         for ch in active_channels:
             f.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    # Simpan/tumpuk channel yang mati ke hapus.m3u
-    with open(DEAD_M3U, 'w', encoding='utf-8') as f:
-        f.write("#EXTM3U\n")
-        for ch in dead_channels:
-            f.write(f"{ch['inf']}\n{ch['url']}\n")
+    # 2. Ambil URL yang sudah ada di hapus.m3u sebelumnya supaya tidak dobel
+    existing_dead_urls = get_existing_dead_urls(DEAD_M3U)
+    
+    # Filter dead_channels yang benar-benar baru (belum ada di hapus.m3u)
+    new_dead_channels = [ch for ch in dead_channels if ch['url'] not in existing_dead_urls]
 
-    print(f"\nPengecekan selesai! Channel aktif: {len(active_channels)}, Channel mati dipindah: {len(dead_channels)}")
+    # 3. Tambahkan (menumpuk ke bawah) hanya channel mati yang BARU ke file hapus.m3u
+    if new_dead_channels:
+        # Cek apakah file hapus.m3u sudah punya isi atau belum
+        file_is_empty = True
+        try:
+            with open(DEAD_M3U, 'r', encoding='utf-8') as f:
+                if f.read().strip():
+                    file_is_empty = False
+        except FileNotFoundError:
+            pass
+
+        with open(DEAD_M3U, 'a', encoding='utf-8') as f:
+            if file_is_empty:
+                f.write("#EXTM3U\n")
+            
+            for ch in new_dead_channels:
+                f.write(f"{ch['inf']}\n{ch['url']}\n")
+        print(f"Berhasil menambahkan {len(new_dead_channels)} link mati baru ke {DEAD_M3U}.")
+    else:
+        print("Tidak ada link mati baru yang perlu ditambahkan ke hapus.m3u.")
+
+    print(f"\nPengecekan selesai! Channel aktif tersisa: {len(active_channels)}, Channel mati baru: {len(new_dead_channels)}")
 
 if __name__ == '__main__':
     check_and_filter_playlist()
