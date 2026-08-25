@@ -1,17 +1,19 @@
 from datetime import datetime, timezone
 import urllib.request
 import xml.etree.ElementTree as ET
+import gzip
+import io
 
-# Daftar URL file EPG yang ingin digabungkan (Ganti dengan link RAW masing-masing)
+# Daftar URL file EPG (mendukung .xml dan .xml.gz)
 EPG_URLS = [
-    "https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml",
+    "https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml.gz", # Mengarah ke file .gz Anda sendiri
     "https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml",
-    "https://www.open-epg.com/files/indonesia6.xml",
-    "https://www.open-epg.com/files/indonesia5.xml",
-    "https://www.open-epg.com/files/indonesia4.xml",
-    "https://www.open-epg.com/files/indonesia3.xml",
-    "https://www.open-epg.com/files/indonesia2.xml",
-    "https://www.open-epg.com/files/indonesia1.xml",
+    "https://www.open-epg.com/files/indonesia6.xml.gz",
+    "https://www.open-epg.com/files/indonesia5.xml.gz",
+    "https://www.open-epg.com/files/indonesia4.xml.gz",
+    "https://www.open-epg.com/files/indonesia3.xml.gz",
+    "https://www.open-epg.com/files/indonesia2.xml.gz",
+    "https://www.open-epg.com/files/indonesia1.xml.gz",
 ]
 
 def parse_xml_time(time_str):
@@ -26,9 +28,16 @@ def fetch_xml(url):
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     try:
         with urllib.request.urlopen(req) as response:
-            return ET.fromstring(response.read())
+            content = response.read()
+            
+            # Jika URL berakhiran .gz, ekstrak terlebih dahulu di memori
+            if url.endswith('.gz'):
+                with gzip.GzipFile(fileobj=io.BytesIO(content)) as gz:
+                    content = gz.read()
+                    
+            return ET.fromstring(content)
     except Exception as e:
-        print(f"Gagal mendownload dari {url}: {e}")
+        print(f"Gagal mendownload/mengekstrak dari {url}: {e}")
         return None
 
 def merge_and_clean_epgs():
@@ -39,6 +48,7 @@ def merge_and_clean_epgs():
     now = datetime.now(timezone.utc)
 
     for url in EPG_URLS:
+        print(f"Memproses: {url}")
         tree = fetch_xml(url)
         if tree is None:
             continue
@@ -66,10 +76,15 @@ def merge_and_clean_epgs():
 
     if root_master is not None:
         tree_out = ET.ElementTree(root_master)
-        with open('epg.xml', 'wb') as f:
-            f.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
-            tree_out.write(f, encoding='utf-8', xml_declaration=False)
-        print("Berhasil menggabungkan dan membersihkan EPG dari jadwal kadaluarsa!")
+        
+        # Simpan sementara string XML ke memori bytes
+        xml_bytes = b'<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root_master, encoding='utf-8', xml_declaration=False)
+        
+        # Kompresi ke format .gz dan simpan sebagai epg.xml.gz
+        with gzip.open('epg.xml.gz', 'wb') as f:
+            f.write(xml_bytes)
+            
+        print("Berhasil menggabungkan, membersihkan, dan mengompresi EPG ke epg.xml.gz!")
 
 if __name__ == '__main__':
     merge_and_clean_epgs()
