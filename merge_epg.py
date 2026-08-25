@@ -8,12 +8,12 @@ import io
 EPG_URLS = [
     "https://raw.githubusercontent.com/ic-wan/iptv/main/epg.xml.gz", 
     "https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml",
-    "https://www.open-epg.com/files/indonesia6.xml.gz",
+    "https://www.open-epg.com/files/indonesia.xml.gz",
     "https://www.open-epg.com/files/indonesia5.xml.gz",
     "https://www.open-epg.com/files/indonesia4.xml.gz",
     "https://www.open-epg.com/files/indonesia3.xml.gz",
     "https://www.open-epg.com/files/indonesia2.xml.gz",
-    "https://www.open-epg.com/files/indonesia1.xml.gz",
+    "https://www.open-epg.com/files/indonesia6.xml.gz",
 ]
 
 def parse_xml_time(time_str):
