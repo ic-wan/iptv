@@ -4,6 +4,9 @@ INPUT_M3U = 'ich-iptv.m3u'
 ACTIVE_M3U = 'ich-iptv.m3u'
 DEAD_M3U = 'hapus.m3u'
 
+# Header M3U lengkap dengan tautan otomatis EPG
+M3U_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"'
+
 def is_link_active(url, timeout=4):
     """Mengecek apakah link streaming m3u8/http masih aktif."""
     if not url or not url.startswith('http'):
@@ -51,7 +54,7 @@ def get_existing_dead_urls(dead_file):
                 if line_str and not line_str.startswith('#'):
                     existing_urls.add(line_str)
     except FileNotFoundError:
-        pass # Jika file belum ada, abaikan
+        pass
     return existing_urls
 
 def check_and_filter_playlist():
@@ -78,21 +81,16 @@ def check_and_filter_playlist():
             print(" -> STATUS: MATI (Masuk antrean hapus.m3u)")
             dead_channels.append(ch)
 
-    # 1. Simpan kembali channel yang aktif ke ich-iptv.m3u (di-reset bersih dari yang mati)
+    # Simpan kembali channel aktif ke ich-iptv.m3u dengan header khusus url-tvg
     with open(ACTIVE_M3U, 'w', encoding='utf-8') as f:
-        f.write("#EXTM3U\n")
+        f.write(f"{M3U_HEADER}\n")
         for ch in active_channels:
             f.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    # 2. Ambil URL yang sudah ada di hapus.m3u sebelumnya supaya tidak dobel
     existing_dead_urls = get_existing_dead_urls(DEAD_M3U)
-    
-    # Filter dead_channels yang benar-benar baru (belum ada di hapus.m3u)
     new_dead_channels = [ch for ch in dead_channels if ch['url'] not in existing_dead_urls]
 
-    # 3. Tambahkan (menumpuk ke bawah) hanya channel mati yang BARU ke file hapus.m3u
     if new_dead_channels:
-        # Cek apakah file hapus.m3u sudah punya isi atau belum
         file_is_empty = True
         try:
             with open(DEAD_M3U, 'r', encoding='utf-8') as f:
