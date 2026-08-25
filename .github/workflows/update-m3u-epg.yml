@@ -1,4 +1,4 @@
-name: Auto Check M3U & Merge EPG
+name: Auto IPTV & Custom EPG Update
 
 on:
   schedule:
@@ -18,15 +18,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: 1. Run M3U Checker Script
+      - name: 1. Run M3U Checker & Filter Dead Links
         run: python check_m3u.py
 
-      - name: 2. Run EPG Merge Script
-        run: python merge_epg.py
+      - name: 2. Generate Custom EPG for M3U Channels
+        run: python generate_epg.py
 
       - name: 3. Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ich-iptv.m3u hapus.m3u epg.xml.gz
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: filter dead links & update EPG [skip ci]" && git push)
+          git add ich-iptv.m3u hapus.m3u epg-ich.xml.gz
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: M3U filtered & generated epg-ich.xml.gz [skip ci]" && git push)
