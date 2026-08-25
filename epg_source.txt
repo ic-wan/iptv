@@ -9,3 +9,4 @@ https://raw.githubusercontent.com/dhasap/dhanytv/main/epg.xml
 https://raw.githubusercontent.com/AqFad2811/epg/main/indonesia.xml
 https://epg.pw/xmltv/epg_ID.xml.gz
 https://epg.pw/xmltv/epg.xml.gz
+https://epg.lat/files/id.xml.gz
