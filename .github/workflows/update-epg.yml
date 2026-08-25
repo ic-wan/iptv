@@ -1,0 +1,30 @@
+name: Auto Merge EPG
+
+on:
+  schedule:
+    # Dijalankan otomatis setiap 12 jam sekali
+    - cron: '0 */12 * * *'
+  workflow_dispatch: # Memungkinkan tombol 'Run workflow' manual di tab Actions
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Merge Script
+        run: python merge_epg.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add epg.xml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update EPG xml [skip ci]" && git push)
+
