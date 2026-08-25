@@ -28,5 +28,5 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add ich-iptv.m3u hapus.m3u epg-ich.xml.gz
+          git add ich-iptv.m3u hapus.m3u epg-ich.xml.gz epg_source.txt
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update: M3U filtered & generated epg-ich.xml.gz [skip ci]" && git push)
