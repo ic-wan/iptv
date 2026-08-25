@@ -1,49 +1,62 @@
-# Penanda Atribut Grup & Negara
+# ==========================================
+# PENANDA ATRIBUT GRUP & NEGARA
+# ==========================================
 group-title="indonesia"
 group-title="id"
 tvg-country="id"
 indonesia
 
-# TV Nasional & Swasta Utama (Beserta Variasi HD/Digital)
+# ==========================================
+# TV NASIONAL & SWASTA UTAMA (DENGAN / TANPA SPASI)
+# ==========================================
 rcti
 sctv
 indosiar
 mnctv
 antv
 trans7
+trans 7
 transtv
+trans tv
 metrotv
+metro tv
 tvone
+tv one
 kompastv
+kompas tv
 nettv
 net.
 rtv
 inews
 gictv
 beritasatu
+berita satu
 garuda tv
 mentari tv
 magtv
 tv mu
 daai tv
 
-# Berita & Publik
+# ==========================================
+# BERITA & PUBLIK
+# ==========================================
 cnn indonesia
 cnbc indonesia
 tvri
 jaktv
+jak tv
 doremi
 indonesiana
 idx channel
-kompas tv
 
-# Jaringan TV Daerah & Lokal Populer
+# ==========================================
+# JARINGAN TV DAERAH & LOKAL POPULER
+# ==========================================
 jtv
 bali tv
 dhipa tv
 tvri nasional
 tvri lokal
-jak tv
 surakarta tv
 bandung tv
 jogja tv
