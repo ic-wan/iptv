@@ -3,10 +3,29 @@ import re
 import os
 
 SOURCE_FILE = 'm3u_source.txt'
+KEYWORD_FILE = 'keyword.txt'
 OUTPUT_M3U = 'ich-iptv.m3u'
 
 # Header M3U lengkap dengan tautan otomatis EPG
 M3U_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"'
+
+def load_keywords(keyword_path):
+    """Membaca daftar kata kunci dari file teks (per baris)."""
+    keywords = []
+    try:
+        with open(keyword_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                kw = line.strip().lower()
+                # Abaikan baris kosong atau baris komentar (#)
+                if kw and not kw.startswith('#'):
+                    keywords.append(kw)
+    except FileNotFoundError:
+        print(f"File kata kunci {keyword_path} tidak ditemukan! Menggunakan kata kunci default.")
+        # Cadangan default jika file belum dibuat
+        keywords = ['indonesia', 'rcti', 'sctv', 'indosiar', 'trans7', 'transtv']
+    except Exception as e:
+        print(f"Gagal membaca {keyword_path}: {e}")
+    return keywords
 
 def load_m3u_sources(source_path):
     """Membaca daftar URL sumber M3U dari file teks (per baris)."""
@@ -37,19 +56,11 @@ def download_m3u_from_url(url):
         print(f"Gagal mengunduh M3U dari sumber {url}: {e}")
         return None
 
-def is_indonesian_channel(extinf_line):
-    """Menyaring apakah sebuah channel tergolong channel Indonesia."""
+def is_indonesian_channel(extinf_line, keywords):
+    """Menyaring apakah sebuah channel tergolong channel Indonesia berdasarkan keyword.txt."""
     line_lower = extinf_line.lower()
     
-    indo_keywords = [
-        'group-title="indonesia"', 'group-title="id"', 'tvg-country="id"', 
-        'indonesia', 'rcti', 'sctv', 'indosiar', 'mnctv', 'antv', 'trans7', 
-        'transtv', 'metrotv', 'tvone', 'kompastv', 'nettv', 'net.', 'rtv', 
-        'inews', 'gictv', 'beritasatu', 'cnn indonesia', 'cnbc indonesia', 
-        'tvri', 'jaktv', 'doremi', 'indonesiana'
-    ]
-    
-    for keyword in indo_keywords:
+    for keyword in keywords:
         if keyword in line_lower:
             return True
             
@@ -91,7 +102,11 @@ def parse_existing_m3u(file_path):
     return channels, seen_urls
 
 def grab_and_merge_indo_channels():
-    # 1. Muat channel lama yang sudah ada di ich-iptv.m3u (agar aman dan tidak terhapus)
+    # Muat kata kunci dari keyword.txt
+    keywords = load_keywords(KEYWORD_FILE)
+    print(f"Berhasil memuat {len(keywords)} kata kunci penyaringan dari {KEYWORD_FILE}.")
+
+    # Muat channel lama yang sudah ada di ich-iptv.m3u
     existing_channels, seen_urls = parse_existing_m3u(OUTPUT_M3U)
     print(f"Memuat {len(existing_channels)} channel yang sudah ada di dalam {OUTPUT_M3U}.")
 
@@ -104,7 +119,7 @@ def grab_and_merge_indo_channels():
     
     new_added_count = 0
 
-    # 2. Ambil channel baru dari internet
+    # Ambil channel baru dari internet
     for url in m3u_sources:
         raw_content = download_m3u_from_url(url)
         if not raw_content:
@@ -118,19 +133,18 @@ def grab_and_merge_indo_channels():
             if line_str.startswith('#EXTINF:'):
                 current_inf = line_str
             elif line_str and not line_str.startswith('#') and current_inf:
-                # Jika termasuk channel Indonesia DAN URL-nya belum pernah ada sebelumnya
-                if (is_indonesian_channel(current_inf) or is_indonesian_channel(line_str)) and line_str not in seen_urls:
+                # Saring menggunakan daftar kata kunci dari file keyword.txt
+                if (is_indonesian_channel(current_inf, keywords) or is_indonesian_channel(line_str, keywords)) and line_str not in seen_urls:
                     seen_urls.add(line_str)
                     
                     # Ubah nama grup otomatis menjadi "Lokal (auto)"
                     formatted_inf = standardize_group_title(current_inf)
                     
-                    # Masukkan ke dalam daftar channel (ditaruh di bagian bawah/append)
                     existing_channels.append({'inf': formatted_inf, 'url': line_str})
                     new_added_count += 1
                 current_inf = None
 
-    # 3. Tulis ulang file dengan menggabungkan data lama + data baru di bawahnya
+    # Tulis ulang file dengan menggabungkan data lama + data baru di bawahnya
     with open(OUTPUT_M3U, 'w', encoding='utf-8') as f:
         f.write(f"{M3U_HEADER}\n")
         for ch in existing_channels:
@@ -139,4 +153,4 @@ def grab_and_merge_indo_channels():
     print(f"Selesai! Berhasil menambahkan {new_added_count} channel baru ke baris bawah. Total keseluruhan: {len(existing_channels)} channel.")
 
 if __name__ == '__main__':
-    grab_and_merge_indo_channels()
+    grab_and_clone = grab_and_merge_indo_channels()
