@@ -103,7 +103,7 @@ def generate_filtered_epg():
         source_channels = root.findall('channel')
         source_programmes = root.findall('programme')
 
-        print(f"Mencocokkan channel dari sumber: {url}")
+        print(f"Mencocokkan channel dari sumber (Threshold 0.75): {url}")
         
         id_map = {}
         for ch in source_channels:
@@ -113,8 +113,9 @@ def generate_filtered_epg():
                 ch_name = display_name_elem.text.strip()
                 
                 for m3u_name in m3u_channels:
+                    # Ambang batas diturunkan ke 0.75 untuk cakupan yang lebih luas
                     score = similarity(ch_name, m3u_name)
-                    if score >= 0.85:
+                    if score >= 0.75:
                         id_map[ch_id] = ch
                         matched_channel_ids.add(ch_id)
                         new_root.append(ch)
