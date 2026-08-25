@@ -7,3 +7,4 @@ https://www.open-epg.com/files/indonesia3.xml.gz
 https://www.open-epg.com/files/indonesia2.xml.gz
 https://www.open-epg.com/files/indonesia1.xml.gz
 https://raw.githubusercontent.com/AqFad2811/epg/main/indonesia.xml
+https://epg.pw/xmltv/epg_ID.xml.gz
