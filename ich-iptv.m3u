@@ -213,3 +213,7 @@ https://cdnbal1.indihometv.com/atm/DASH/RAJAWALI_TV/master.mpd
 https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
 #EXTINF:-1 tvg-id="warner tv.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8cMdgSCf9GXFLTNU6uy4dKc-QmvttmDEfrgxen3icog&s" group-title="Indihome",Warner tv
 https://cdnbal1.indihometv.com/atm/DASH/warner/master.mpd
+#EXTINF:-1 tvg-id="BantenTV.id@SD" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten tv (720p) [not 24/7]
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="Lokal",Tvku (720p)
+https://tvku.tv/hlsstream/hls/live.m3u8

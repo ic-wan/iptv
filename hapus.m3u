@@ -1,9 +1,6 @@
-
 #EXTM3U
 #EXTINF:-1 tvg-id="BETV.id@SD" tvg-logo="https://i.imgur.com/3EX0zax.png" group-title="Lokal",Be tv (720p)
 https://flv.intechmedia.net/live/ch58.m3u8
-#EXTINF:-1 tvg-id="BantenTV.id@SD" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten tv (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 #EXTINF:-1 tvg-id="BatamTV.id@SD" tvg-logo="https://i.imgur.com/lo7YXnW.png" group-title="Lokal",Batam tv (480p) [not 24/7]
 http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="JogjaTV.id@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/40/Jogjatvnew.png" group-title="Lokal",Jogja tv (720p) [not 24/7]
@@ -16,5 +13,3 @@ https://flv.intechmedia.net/live/ch59.m3u8
 https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-id="TVMu.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/d/d0/TvMu.png" group-title="Lokal",Tv mu (720p) [not 24/7]
 https://e.siar.us/live/tvmu.m3u8
-#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="Lokal",Tvku (720p)
-https://tvku.tv/hlsstream/hls/live.m3u8
