@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="Adhimix",Indonesia raya
+#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="INDONESIA",Indonesia raya
 https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
 #EXTINF:-1 tvg-id="prambors.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
 https://n03-us.rcs.revma.com/h77wwp48kxcwv?rj-ttl=5&rj-tok=AAABnrc_4EoAs27N82x_rDtjUQ
