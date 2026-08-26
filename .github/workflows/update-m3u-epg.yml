@@ -8,7 +8,6 @@ on:
 
 jobs:
   update-playlist:
-  name: Run IPTV Pipeline
     runs-on: ubuntu-latest
 
     steps:
@@ -23,27 +22,25 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run Grabber Script
+      - name: 1. Run Grabber Script
         run: python grab_indo_m3u.py
 
-      - name: Run 2-Level Link Checker
+      - name: 2. Run 2-Level Link Checker
         run: python check_m3u.py
 
-      - name: Run Global Blacklist Filter
+      - name: 3. Run Global Blacklist Filter
         run: python apply_blacklist.py
 
-      - name: Run Program List Generator
+      - name: 4. Run Program List Generator
         run: python generate_program_list.py
 
-      - name: Run EPG Generator
+      - name: 5. Run EPG Generator
         run: python generate_epg.py
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-update IPTV playlist, EPG, and reports [skip ci]"
-          git push
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: All IPTV pipelines"
+          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt
