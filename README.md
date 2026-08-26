@@ -21,7 +21,7 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
    - Membuat laporan rekapitulasi terstruktur per kategori ke dalam file `List_program.txt`.
 
 5. **Otomatisasi GitHub Actions (`update-m3u-epg.yml`)**
-   - Menjalankan seluruh rangkaian skrip secara otomatis setiap 12 jam sekali atau via tombol *Run workflow* manual.
+   - Menjalankan seluruh rangkaian skrip secara otomatis setiap 24 jam sekali atau via tombol *Run workflow* manual.
 
 ---
 
