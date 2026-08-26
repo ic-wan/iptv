@@ -2,16 +2,17 @@ name: Update IPTV Playlist & EPG
 
 on:
   schedule:
-    # Dijalankan setiap 12 jam sekali
-    - cron: '0 */12 * * *'
-  workflow_dispatch: # Memungkinkan tombol Run manual di tab Actions GitHub
+    # Dijalankan setiap hari sekali pada jam 02:00 UTC (Jam 09:00 Pagi WIB / UTC+7)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Memungkinkan eksekusi manual via tab Actions
 
 jobs:
-  update-iptv:
+  update-playlist:
+  name: Run IPTV Pipeline
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -19,29 +20,30 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          # Tambahkan library tambahan jika diperlukan oleh skrip EPG Anda (misal: requests, lxml, dll)
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests
 
-      - name: 1. Run Grabber (Grab & Filter Indonesian Channels + Blacklist)
+      - name: Run Grabber Script
         run: python grab_indo_m3u.py
 
-      - name: 2. Run Link Checker (2-Level Validation & Revival Check)
+      - name: Run 2-Level Link Checker
         run: python check_m3u.py
 
-      - name: 3. Run Global Blacklist Filter (Clean ich-iptv & hapus.m3u)
+      - name: Run Global Blacklist Filter
         run: python apply_blacklist.py
 
-      - name: 4. Run Program List Generator (Create List_program.txt)
+      - name: Run Program List Generator
         run: python generate_program_list.py
 
-      - name: 5. Run EPG Generator
+      - name: Run EPG Generator
         run: python generate_epg.py
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto-update: Grab, Check (2-Level), Blacklist, Program List, & EPG"
-          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-update IPTV playlist, EPG, and reports [skip ci]"
+          git push
