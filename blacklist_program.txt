@@ -1,1 +1,7 @@
+# Tulis judul channel/program yang ingin di-blacklist di bawah ini (tidak case-sensitive)
+# Untuk tulis komentar
+# Contoh:
+Channel Sampah 1
+Adult TV
+Dummy Channel
 
