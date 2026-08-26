@@ -6,7 +6,6 @@ from urllib.parse import urlparse
 INPUT_M3U = 'ich-iptv.m3u'
 TRASH_M3U = 'hapus.m3u'
 
-# Header standar agar dianggap sebagai pemutar media sah oleh server tujuan
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     'Accept': '*/*'
@@ -28,14 +27,25 @@ def load_existing_trash():
         pass
     return trash_links
 
-def is_stream_actually_working(url):
+def level_1_quick_check(url):
     """
-    Melakukan validasi mendalam:
-    1. Cek koneksi HTTP (harus 200 OK).
-    2. Jika berupa file m3u8, pastikan isi teksnya mengandung tag valid IPTV (#EXTINF atau #EXTM3U atau segmen .ts/.m4s).
+    Level 1: Pengecekan Cepat (Fast HTTP Response Check).
+    Memastikan server merespons dengan status 200 OK dalam waktu singkat.
     """
     try:
-        # Ekstrak domain untuk dijadikan referer otomatis jika dibutuhkan server
+        req = urllib.request.Request(url, headers=HEADERS, method='GET')
+        # Timeout sangat cepat (5 detik) untuk menyaring link mati total
+        with urllib.request.urlopen(req, timeout=5) as response:
+            return response.status == 200
+    except Exception:
+        return False
+
+def level_2_deep_check(url):
+    """
+    Level 2: Pengecekan Mendalam (Content & Stream Validation).
+    Dijalankan khusus bagi link yang lolos Level 1 untuk memvalidasi isi payload m3u8.
+    """
+    try:
         parsed_url = urlparse(url)
         referer_base = f"{parsed_url.scheme}://{parsed_url.netloc}/"
         
@@ -43,20 +53,18 @@ def is_stream_actually_working(url):
         custom_headers['Referer'] = referer_base
 
         req = urllib.request.Request(url, headers=custom_headers)
-        # Timeout diperkecil ke 10 detik agar proses berjalan efisien
-        with urllib.request.urlopen(req, timeout=10) as response:
+        with urllib.request.urlopen(req, timeout=8) as response:
             if response.status != 200:
                 return False
             
-            # Jika link berformat m3u8 / playlist kecil, baca beberapa byte awal untuk verifikasi isi
+            # Jika berformat m3u8, baca isinya untuk memastikan validitas file streaming
             if url.endswith('.m3u8') or 'm3u8' in url.lower():
                 content = response.read(1024).decode('utf-8', errors='ignore')
-                # Pastikan file balasan bukan halaman HTML error / Cloudflare challenge
-                if '<html' in content.lower() or 'access denied' in content.lower():
+                # Tolak jika balasan berupa halaman HTML error atau proteksi Cloudflare
+                if '<html' in content.lower() or 'access denied' in content.lower() or 'error' in content.lower():
                     return False
-                if '#extinf' in content.lower() or '.ts' in content.lower() or 'm3u' in content.lower():
+                if '#extinf' in content.lower() or '.ts' in content.lower() or 'm3u' in content.lower() or 'm4s' in content.lower():
                     return True
-                # Jika m3u8 tapi kosong isinya
                 if len(content.strip()) == 0:
                     return False
             
@@ -64,12 +72,21 @@ def is_stream_actually_working(url):
     except Exception:
         return False
 
+def is_stream_valid_2levels(url):
+    """Menggabungkan 2 level pengecekan untuk efisiensi waktu dan akurasi tinggi."""
+    # Level 1: Cepat
+    if not level_1_quick_check(url):
+        return False
+    
+    # Level 2: Mendalam (hanya jika lolos Level 1)
+    return level_2_deep_check(url)
+
 def check_and_clean_playlists():
     if not os.path.exists(INPUT_M3U):
         print(f"File {INPUT_M3U} tidak ditemukan.")
         return
 
-    print("Mulai memvalidasi status keaktifan channel dengan pengujian mendalam...")
+    print("Mulai memvalidasi channel dengan sistem 2 Level (Cepat & Mendalam)...")
 
     with open(INPUT_M3U, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -89,22 +106,22 @@ def check_and_clean_playlists():
             url = line_str
             print(f"Menguji: {url}")
             
-            if is_stream_actually_working(url):
+            if is_stream_valid_2levels(url):
                 valid_channels.append({'inf': current_inf, 'url': url})
                 active_count += 1
-                print(" -> [AKTIF]")
+                print(" -> [AKTIF (Lolos 2 Level)]")
             else:
                 dead_channels.append({'inf': current_inf, 'url': url})
                 dead_count += 1
-                print(" -> [MATI / GAGAL DIPUTAR]")
+                print(" -> [MATI / GAGAL]")
             current_inf = None
 
-    # Proses Revival Check (Memulihkan link dari hapus.m3u yang kini hidup kembali)
+    # Proses Revival Check (Memulihkan link dari hapus.m3u dengan sistem 2 level)
     existing_trash = load_existing_trash()
     revived_count = 0
     
     if os.path.exists(TRASH_M3U):
-        print("\nMemeriksa kembali arsip link mati (Revival Check)...")
+        print("\nMemeriksa kembali arsip link mati (Revival Check 2 Level)...")
         with open(TRASH_M3U, 'r', encoding='utf-8') as f:
             trash_lines = f.readlines()
         
@@ -116,28 +133,27 @@ def check_and_clean_playlists():
                 t_inf = line_str
             elif line_str and not line_str.startswith('#') and t_inf:
                 t_url = line_str
-                if is_stream_actually_working(t_url):
-                    print(f" -> [PULIH] {t_url} kembali aktif dan dikembalikan ke playlist!")
+                if is_stream_valid_2levels(t_url):
+                    print(f" -> [PULIH] {t_url} kembali aktif!")
                     valid_channels.append({'inf': t_inf, 'url': t_url})
                     revived_count += 1
                 else:
                     remaining_trash.append({'inf': t_inf, 'url': t_url})
                 t_inf = None
         
-        # Simpan sisa trash yang masih mati
         with open(TRASH_M3U, 'w', encoding='utf-8') as tf:
             tf.write('#EXTM3U\n')
             for item in remaining_trash:
                 tf.write(f"{item['inf']}\n{item['url']}\n")
     
-    # Tulis ulang file M3U utama dengan channel yang benar-benar lolos uji
+    # Simpan playlist utama yang sudah bersih
     header_line = '#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"'
     with open(INPUT_M3U, 'w', encoding='utf-8') as f:
         f.write(f"{header_line}\n")
         for ch in valid_channels:
             f.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    # Tambahkan channel mati baru ke file hapus.m3u (tanpa duplikat)
+    # Masukkan link mati baru ke hapus.m3u
     if dead_channels:
         mode = 'a' if os.path.exists(TRASH_M3U) else 'w'
         with open(TRASH_M3U, mode, encoding='utf-8') as tf:
@@ -147,7 +163,7 @@ def check_and_clean_playlists():
                 if ch['url'] not in existing_trash:
                     tf.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    print(f"\nSelesai! Aktif: {active_count} | Dipindahkan ke Arsip Mati: {dead_count} | Dipulihkan: {revived_count}")
+    print(f"\nSelesai! Aktif: {active_count} | Masuk Arsip Mati: {dead_count} | Dipulihkan: {revived_count}")
 
 if __name__ == '__main__':
     check_and_clean_playlists()
