@@ -1,44 +1,45 @@
-# 📺 Otomatisasi IPTV, Pembersih Link & Custom EPG (`ic-wan/iptv`)
+# IPTV Playlist & EPG Automation
 
-Sistem otomatisasi berbasis **GitHub Actions** yang berjalan setiap 12 jam sekali (atau dapat dijalankan secara manual) untuk mengambil playlist M3U dari berbagai sumber, menyaring channel lokal Indonesia berdasarkan kata kunci, membersihkan link mati, memulihkan link yang hidup kembali, dan menghasilkan jadwal EPG secara spesifik.
+Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secara terpadu menggunakan GitHub Actions.
 
----
+## 🚀 Arsitektur Pipeline
 
-## 📂 Struktur File di Repository
+1. **Grabber Pintar & Filter Keyword (`grab_indo_m3u.py`)**
+   - Mengambil tautan sumber M3U mentah yang terdaftar di `m3u_source.txt`.
+   - Menyaring channel lokal berdasarkan daftar kata kunci fleksibel di `keyword.txt`.
+   - Menyeragamkan atribut grup secara bersih menjadi `Lokal (auto)` dan mencegah duplikasi URL.
 
-* **`ich-iptv.m3u`** : Playlist M3U utama (dilengkapi header `url-tvg` otomatis) yang berisi daftar channel aktif dengan pengelompokan grup standar `Lokal (auto)`.
-* **`hapus.m3u`** : File arsip penampung link *streaming* yang mati (terakumulasi secara otomatis tanpa duplikat baris).
-* **`epg-ich.xml.gz`** : File jadwal siaran (EPG) terkompresi yang murni hanya berisi jadwal untuk channel-channel yang aktif di playlist.
-* **`m3u_source.txt`** : Daftar link sumber M3U publik (satu link per baris) yang ditarik oleh sistem.
-* **`keyword.txt`** : Daftar kata kunci atau nama stasiun TV lokal untuk menyaring channel Indonesia secara fleksibel tanpa mengubah kode.
-* **`epg_source.txt`** : Daftar link sumber EPG publik (satu link per baris).
-* **`grab_indo_m3u.py`** : Skrip untuk mengambil, menyaring, menyeragamkan grup, dan menggabungkan channel baru ke bagian bawah playlist.
-* **`check_m3u.py`** : Skrip Python untuk memvalidasi status link, membuang link mati ke arsip, serta mengetes ulang arsip untuk memulihkan link yang hidup kembali.
-* **`generate_epg.py`** : Skrip Python untuk mencocokkan nama channel aktif dengan sumber EPG menggunakan metode *fuzzy matching* (ambang batas kemiripan 75%).
-* **`.github/workflows/update-m3u-epg.yml`** : Konfigurasi alur kerja GitHub Actions yang mengatur seluruh proses otomatisasi secara berurutan.
+2. **Pengecek Link 2-Level & Pemulihan (`check_m3u.py`)**
+   - **Level 1 (Quick Check):** Memastikan server merespons dengan status HTTP `200 OK`.
+   - **Level 2 (Deep Check):** Memeriksa isi payload stream `.m3u8` agar bebas dari halaman error atau blokir.
+   - Memindahkan link mati ke `hapus.m3u` serta otomatis memulihkan (*revival*) link yang kembali aktif.
 
----
+3. **Penyaring Blacklist Global (`apply_blacklist.py`)**
+   - Membersihkan channel yang terdaftar di dalam daftar blokir (`blacklist_program.txt`) dari playlist utama maupun arsip link mati.
 
-## ⚙️ Alur Kerja Sistem (Workflow)
+4. **Generator Laporan Program (`generate_program_list.py`)**
+   - Membuat laporan rekapitulasi terstruktur per kategori ke dalam file `List_program.txt`.
 
-1. **Pengambilan & Penggabungan M3U (`grab_indo_m3u.py`):**
-   * Membaca daftar sumber dari `m3u_source.txt` dan kata kunci dari `keyword.txt`.
-   * Menyaring channel lokal Indonesia, menyeragamkan nama grup menjadi `group-title="Lokal (auto)"`, lalu menggabungkannya ke baris bawah file `ich-iptv.m3u` tanpa menghapus data lama.
-
-2. **Pengecekan & Pemulihan Playlist (`check_m3u.py`):**
-   * **Penyaringan Utama:** Menguji link di `ich-iptv.m3u`. Link yang mati akan dipindahkan ke `hapus.m3u`.
-   * **Pemulihan (Revival Check):** Menguji ulang link-link di dalam arsip `hapus.m3u`. Jika ada yang aktif kembali, link tersebut akan **otomatis dikembalikan** ke `ich-iptv.m3u`.
-
-3. **Pembuatan EPG Khusus Playlist (`generate_epg.py`):**
-   * Membaca daftar link sumber dari `epg_source.txt` dan mencocokkan nama channel menggunakan *fuzzy matching* (skor $\ge 0.75$), lalu mengompres hasilnya menjadi file XMLTV `epg-ich.xml.gz`.
-
-4. **Penyimpanan Otomatis (`Commit & Push`):**
-   * GitHub Actions mendeteksi perubahan file, melakukan *commit* otomatis, dan menyimpannya kembali ke repository.
+5. **Otomatisasi GitHub Actions (`update-m3u-epg.yml`)**
+   - Menjalankan seluruh rangkaian skrip secara otomatis setiap 12 jam sekali atau via tombol *Run workflow* manual.
 
 ---
 
-## 🚀 Cara Penggunaan di Aplikasi IPTV
+## 📁 Struktur File Repository
 
-Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV Anda (seperti TiviMate, OTT Navigator, dll.):
-* **Link Playlist Utama:** Mengarah ke file `ich-iptv.m3u` *(EPG akan otomatis terhubung di aplikasi)*
-* **Link EPG Utama:** Mengarah ke file `epg-ich.xml.gz`
+- `ich-iptv.m3u` — Playlist utama channel IPTV aktif.
+- `hapus.m3u` — Arsip cadangan untuk link channel yang sedang mati.
+- `List_program.txt` — Laporan rekapitulasi daftar channel dan grup.
+- `keyword.txt` — Konfigurasi kata kunci pencarian channel.
+- `blacklist_program.txt` — Daftar hitam channel/program yang ingin diabaikan.
+- `m3u_source.txt` — Daftar tautan sumber M3U eksternal.
+- `.github/workflows/update-m3u-epg.yml` — Konfigurasi otomatisasi GitHub Actions.
+
+---
+
+## ⚙️ Cara Menjalankan Eksekusi Manual
+
+1. Buka tab **Actions** di halaman repository GitHub Anda.
+2. Pilih workflow **Update IPTV Playlist & EPG** dari daftar menu di sebelah kiri.
+3. Klik tombol **Run workflow** di sebelah kanan atas.
+4. Konfirmasi dengan mengklik tombol hijau **Run workflow**.
