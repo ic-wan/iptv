@@ -5,6 +5,7 @@ from urllib.parse import urlparse, urlunparse
 
 SOURCE_FILE = 'm3u_source.txt'
 KEYWORD_FILE = 'keyword.txt'
+BLACKLIST_FILE = 'blacklist_program.txt'
 OUTPUT_M3U = 'ich-iptv.m3u'
 
 M3U_HEADER = '#EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"'
@@ -18,8 +19,22 @@ def load_keywords(keyword_path):
                 if kw and not kw.startswith('#'):
                     keywords.append(kw)
     except FileNotFoundError:
-        keywords = ['indonesia', 'rcti', 'sctv', 'indosiar', 'trans7', 'transtv']
+        keywords = ['indonesia', 'rcti', 'sctv', 'indosiar', 'trans7', 'transtv', 'trans tv', 'trans 7']
     return keywords
+
+def load_blacklist(blacklist_path):
+    blacklist = set()
+    if not os.path.exists(blacklist_path):
+        return blacklist
+    try:
+        with open(blacklist_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                item = line.strip().lower()
+                if item and not item.startswith('#'):
+                    blacklist.add(item)
+    except Exception:
+        pass
+    return blacklist
 
 def load_m3u_sources(source_path):
     sources = []
@@ -63,6 +78,7 @@ def is_indonesian_channel(extinf_line, keywords):
     return False
 
 def standardize_group_title(extinf_line):
+    """Menyeragamkan grup menjadi Lokal (auto) secara bersih tanpa sisa atau imbuhan keliru."""
     if 'group-title=' in extinf_line:
         updated_line = re.sub(r'group-title="[^"]*?"', 'group-title="Lokal (auto)"', extinf_line, flags=re.IGNORECASE)
         return updated_line
@@ -73,15 +89,14 @@ def standardize_group_title(extinf_line):
             return extinf_line.replace('#EXTINF:', '#EXTINF:-1 group-title="Lokal (auto)"', 1)
     return extinf_line
 
-def is_auto_group(extinf_line):
-    """Mengecek apakah baris EXTINF termasuk ke dalam grup Lokal (auto)."""
-    return 'group-title="Lokal (auto)"' in extinf_line.lower()
+def extract_channel_name(extinf_line):
+    """Mengekstrak nama channel dari baris EXTINF."""
+    if ',' in extinf_line:
+        return extinf_line.split(',')[-1].strip().lower()
+    return ""
 
 def parse_existing_m3u(file_path):
-    """
-    Membaca file M3U lama. 
-    Memprioritaskan penyimpanan channel non-auto (manual) dan membersihkan duplikat di Lokal (auto).
-    """
+    """Membaca file M3U lama dan mencatat URL bersihnya."""
     channels = []
     seen_normalized_urls = set()
     
@@ -99,15 +114,9 @@ def parse_existing_m3u(file_path):
                 current_inf = line_str
             elif line_str and not line_str.startswith('#') and current_inf:
                 norm_url = normalize_url(line_str)
-                
                 if norm_url not in seen_normalized_urls:
                     seen_normalized_urls.add(norm_url)
                     channels.append({'inf': current_inf, 'url': line_str})
-                else:
-                    # Jika URL sudah ada, cek prioritas pembersihan:
-                    # Jika channel lama berstatus Lokal (auto) dan ketemu duplikatnya, buang yang auto.
-                    # Tapi jika channel yang sudah ada adalah manual (bukan auto), pertahankan manualnya.
-                    pass
                 current_inf = None
     except Exception as e:
         print(f"Gagal membaca file M3U lama: {e}")
@@ -116,7 +125,8 @@ def parse_existing_m3u(file_path):
 
 def grab_and_merge_indo_channels():
     keywords = load_keywords(KEYWORD_FILE)
-    print(f"Berhasil memuat {len(keywords)} kata kunci.")
+    blacklist = load_blacklist(BLACKLIST_FILE)
+    print(f"Berhasil memuat {len(keywords)} kata kunci dan {len(blacklist)} aturan blacklist.")
 
     existing_channels, seen_normalized_urls = parse_existing_m3u(OUTPUT_M3U)
     print(f"Memuat {len(existing_channels)} channel unik dari file lama.")
@@ -128,6 +138,7 @@ def grab_and_merge_indo_channels():
 
     new_added_count = 0
     duplicate_auto_skipped = 0
+    blacklisted_skipped = 0
 
     for url in m3u_sources:
         raw_content = download_m3u_from_url(url)
@@ -142,30 +153,42 @@ def grab_and_merge_indo_channels():
             if line_str.startswith('#EXTINF:'):
                 current_inf = line_str
             elif line_str and not line_str.startswith('#') and current_inf:
+                # Cek apakah channel memenuhi kriteria kata kunci Indonesia
                 if is_indonesian_channel(current_inf, keywords) or is_indonesian_channel(line_str, keywords):
-                    norm_url = normalize_url(line_str)
                     
-                    # Standardisasi grup terlebih dahulu menjadi "Lokal (auto)" untuk dicek
+                    # Cek Blacklist berdasarkan nama channel
+                    ch_name = extract_channel_name(current_inf)
+                    is_blacklisted = any(bl in ch_name for bl in blacklist)
+                    
+                    if is_blacklisted:
+                        blacklisted_skipped += 1
+                        current_inf = None
+                        continue
+
+                    norm_url = normalize_url(line_str)
                     formatted_inf = standardize_group_title(current_inf)
                     
-                    # Jika URL bersih belum ada sama sekali, masukkan
+                    # Jika URL belum ada, masukkan ke playlist. Jika sudah ada, prioritas bersihkan yang auto.
                     if norm_url not in seen_normalized_urls:
                         seen_normalized_urls.add(norm_url)
                         existing_channels.append({'inf': formatted_inf, 'url': line_str})
                         new_added_count += 1
                     else:
-                        # Jika URL sudah ada (duplikat), karena ini berasal dari sumber auto, 
-                        # kita abaikan/bersihkan agar tidak masuk lagi ke grup Lokal (auto)
                         duplicate_auto_skipped += 1
                         
                 current_inf = None
 
+    # Tulis ulang file M3U utama secara rapi dan bersih
     with open(OUTPUT_M3U, 'w', encoding='utf-8') as f:
         f.write(f"{M3U_HEADER}\n")
         for ch in existing_channels:
             f.write(f"{ch['inf']}\n{ch['url']}\n")
 
-    print(f"Selesai! Berhasil membersihkan duplikat otomatis, menambahkan {new_added_count} channel baru, dan melewati {duplicate_auto_skipped} channel duplikat dari Lokal (auto). Total keseluruhan: {len(existing_channels)} channel.")
+    print(f"\nSelesai! Rangkuman proses grabber:")
+    print(f" - Channel baru ditambahkan : {new_added_count}")
+    print(f" - Duplikat auto dibersihkan: {duplicate_auto_skipped}")
+    print(f" - Dibuang karena blacklist : {blacklisted_skipped}")
+    print(f" - Total keseluruhan di file: {len(existing_channels)} channel.")
 
 if __name__ == '__main__':
     grab_and_merge_indo_channels()
