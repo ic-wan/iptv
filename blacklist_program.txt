@@ -5,3 +5,23 @@ Channel Sampah 1
 Adult TV
 Dummy Channel
 
+Nour TV
+Omide Iran
+Payam Javan TV (720p) [Not 24/7]
+Payam-e-Afghan TV (480p) [Not 24/7]
+Peer TV Alto Adige (1280p)
+Peer TV South Tyrol (1280p)
+Peer TV Südtirol (1080p)
+Régió TV (406p)
+San Marino RTV (720p)
+San Marino RTV Sport (720p)
+TV Monaco (1080p)
+TVE Internacional America HD (1080p) [Geo-blocked]
+TVE Internacional Asia-Oceania (576p) [Geo-blocked]
+TVE Internacional Asia-Oceania HD (1080p) [Geo-blocked]
+TVE Internacional Europe (576p) [Geo-blocked]
+TVE Internacional Europe HD (1080p) [Geo-blocked]
+A Haber (1080p)
+A Spor (1080p)
+A2TV (1080p)
+
