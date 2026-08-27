@@ -5,8 +5,6 @@ https://flv.intechmedia.net/live/ch58.m3u8
 https://flv.intechmedia.net/live/ch18.m3u8
 #EXTINF:-1 tvg-id="RakyatBengkuluTV.id@SD" tvg-logo="https://i.imgur.com/5L2q081.png" group-title="Lokal",Rakyat bengkulu tv (720p)
 https://flv.intechmedia.net/live/ch59.m3u8
-#EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal",Atambua tv (720p)
-http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="ANTV.id@SD",ANTV (720p)
 http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="BeritaSatu.id@SD",BeritaSatu (1080p)
@@ -15,8 +13,6 @@ https://xtdslboppkkv-pull.bpmedialive.com/live/beritasatu/abr.m3u8
 https://b1world.beritasatumedia.com/Beritasatu/B1World_manifest.m3u8
 #EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="JTV.id@Madura",JTV Madura (480p) [Not 24/7]
 http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="RiauTV.id@SD",Riau TV (1080p) [Not 24/7]
-http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="TegarTVLampung.id@SD",Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]
 http://wms.klikhost.com:1935/tegartv/tegartv/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)"-1 tvg-id="TegarTVLampung.id@SD",Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]
@@ -417,23 +413,43 @@ https://d2xx73ro32cip.cloudfront.net/out/v1/a90cb773466446b08595007bab12b920/ind
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/8cf72e61626f4361a45c57ce6f2fdad8/index.mpd
 #EXTINF:-1 tvg-id="HanacarakaTV.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_90.png" group-title="Lokal (auto)",Hanacaraka TV (V+)
 https://d1vckova5fh9mt.cloudfront.net/out/v1/17c724036c5f4615bd0b8093126b5c44/index.mpd
-#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="Lokal (auto)",Anadolu Net TV (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1 tvg-id="auto.cnbc.indonesia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/4415ae88fbabaa7f388eaa7dead5e038.png" group-title="Lokal (auto)",CNBC INDONESIA
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
-https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="Moji" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV (Video)
 https://aspaltvpasti.top/Drmvidbos/Akun121/bosstv.m3u8?id=206
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
-http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BatamTV.id@SD",Batam TV (480p) [Not 24/7]
-http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="CNN.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",Cnn 2
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1440476333_b280000_sleng.m3u8
-#EXTINF:-1,group-title="Lokal (auto)"CNN TV https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="EfarinaTV.id@SD" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina tv (720p)
+https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
+#EXTINF:-1 tvg-id="TATV.id@SD" tvg-logo="https://i.imgur.com/1f0EC7t.png" group-title="Lokal",Tatv (720p) [not 24/7]
+https://v2.siar.us/tatv/live.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AlImanTV.id@SD",Al-Iman TV (720p)
+https://tv.aliman.id/aliman/live.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@Aceh",TVRI Aceh (720p)
+https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RCTI.id@HD",RCTI HD (720p)
+https://mncmedia.malingtv.workers.dev/rcti.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="MNCTV.id@HD",MNCTV HD (720p)
+https://mncmedia.malingtv.workers.dev/mnctv.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="iNews.id@HD",iNews HD (720p)
+https://mncmedia.malingtv.workers.dev/inews.m3u8
+#EXTINF:-1 tvg-id="VTV.id@HD" tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV HD (1080p)
+http://ikitv.sqn.at:8000/play/a023/index.m3u8
+#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
+https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/g6zqJ5DAVvSGkXcs4US-vLY_pw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/731/dd0793.png" group-title="Lokal (auto)",GTV HD
+https://mncmedia.malingtv.workers.dev/gtv.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
+https://streaming.yufid.com/hls/radiokitatv.m3u8
+#EXTINF:-1 tvg-id="auto.angel.tv.indonesia" group-title="Lokal (auto)",Angel TV Indonesia
+https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngarirang.m3u8
+#EXTINF:-1 tvg-id="auto.jambi.tv" group-title="Lokal (auto)",Jambi TV
+https://jambitv.globaldigitalcore.com/hls/sah5tu7Eiveepohyieyie3O9Aeich6ooxohm3luqueeFie2ooH2iebahy4haeCh9oobi0j/index.m3u8
+#EXTINF:-1 tvg-id="auto.groovia.kanal" group-title="Lokal (auto)",Groovia Kanal
+https://gist.githubusercontent.com/iptvonlinetv/02d20920708284601733a7d61f21a942/raw/grooviakanal.m3u
