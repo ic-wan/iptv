@@ -46,4 +46,7 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
 
 Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV Anda (seperti TiviMate, OTT Navigator, dll.):
 * **Link Playlist Utama (`ich-iptv.m3u`):** Cukup masukkan link ini ke aplikasi, maka daftar channel dan EPG akan otomatis tersinkronisasi.
+  *https://raw.githubusercontent.com/ic-wan/iptv/refs/heads/main/ich-iptv.m3u*
+  
 * **Link EPG Utama (`epg-ich.xml.gz`):** Dapat digunakan secara terpisah apabila aplikasi IPTV Anda memerlukan pengaturan EPG secara manual.
+  *https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz*
