@@ -39,8 +39,34 @@ jobs:
       - name: 5. Run EPG Generator
         run: python generate_epg.py
 
+      - name: 6. Update README with Program List
+        run: |
+          python -c '
+          with open("List_program.txt", "r", encoding="utf-8") as f:
+              prog_content = f.read()
+
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          start_marker = "<!-- START_PROGRAM_LIST -->"
+          end_marker = "<!-- END_PROGRAM_LIST -->"
+
+          new_section = f"{start_marker}\n```text\n{prog_content}\n```\n{end_marker}"
+
+          if start_marker in readme and end_marker in readme:
+              parts = readme.split(start_marker)
+              before = parts[0]
+              after = readme.split(end_marker)[1]
+              new_readme = before + new_section + after
+          else:
+              new_readme = readme.strip() + "\n\n## 📺 Live Program List\n" + new_section + "\n"
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(new_readme)
+          '
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update: All IPTV pipelines"
-          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt
+          commit_message: "Auto-update: IPTV pipelines and README.md"
+          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt epg_source.txt README.md
