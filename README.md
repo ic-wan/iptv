@@ -56,17 +56,8 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
 
 ## 📺 Daftar Channel Aktif & Rekap Program
 
-<details>
-<summary><b>Klik untuk melihat daftar channel dan grup aktif (Dari List_program.txt)</b></summary>
 
 > *Catatan: Daftar di bawah ini diperbarui secara otomatis oleh sistem.*
 
-```text
-# Salin atau tampilkan isi ringkasan dari file List_program.txt di sini
-# Contoh format isi:
-[Lokal (auto)]
-- RCTI
-- SCTV
-- Indosiar
-- Trans TV
-- Trans7
+<!-- START_PROGRAM_LIST -->
+<!-- END_PROGRAM_LIST -->
