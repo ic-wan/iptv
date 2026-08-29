@@ -50,3 +50,23 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
   
 * **Link EPG Utama (`epg-ich.xml.gz`):** Dapat digunakan secara terpisah apabila aplikasi IPTV Anda memerlukan pengaturan EPG secara manual.
   *https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz*
+
+
+---
+
+## 📺 Daftar Channel Aktif & Rekap Program
+
+<details>
+<summary><b>Klik untuk melihat daftar channel dan grup aktif (Dari List_program.txt)</b></summary>
+
+> *Catatan: Daftar di bawah ini diperbarui secara otomatis oleh sistem.*
+
+```text
+# Salin atau tampilkan isi ringkasan dari file List_program.txt di sini
+# Contoh format isi:
+[Lokal (auto)]
+- RCTI
+- SCTV
+- Indosiar
+- Trans TV
+- Trans7
