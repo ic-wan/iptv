@@ -22,7 +22,7 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
    - Membuat laporan rekapitulasi terstruktur per kategori ke dalam file `List_program.txt`.
 
 5. **Otomatisasi GitHub Actions (`update-m3u-epg.yml`)**
-   - Menjalankan seluruh rangkaian skrip secara otomatis setiap 24 jam sekali atau via tombol *Run workflow* manual.
+   - Menjalankan seluruh rangkaian skrip secara otomatis setiap hari sekali pada pukul 09:00 WIB (02:00 UTC) atau via tombol *Run workflow* manual.
 
 ---
 
@@ -30,17 +30,20 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
 
 - `ich-iptv.m3u` — Playlist utama channel IPTV aktif.
 - `hapus.m3u` — Arsip cadangan untuk link channel yang sedang mati.
+- `epg-ich.xml.gz` — File panduan acara (EPG) terkompresi untuk seluruh channel.
 - `List_program.txt` — Laporan rekapitulasi daftar channel dan grup.
 - `keyword.txt` — Konfigurasi kata kunci pencarian channel.
 - `blacklist_program.txt` — Daftar hitam channel/program yang ingin diabaikan.
 - `m3u_source.txt` — Daftar tautan sumber M3U eksternal.
+- `epg_source.txt` (atau format file terkait) — Daftar tautan atau sumber data EPG eksternal.
+- `generate_epg.py` — Skrip utama untuk mengambil dan menghasilkan data EPG.
 - `.github/workflows/update-m3u-epg.yml` — Konfigurasi otomatisasi GitHub Actions.
+
 
 ---
 
 ## 🚀 Cara Penggunaan di Aplikasi IPTV
 
 Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV Anda (seperti TiviMate, OTT Navigator, dll.):
-* **Link Playlist Utama:** Mengarah ke file `ich-iptv.m3u` *(EPG akan otomatis terhubung di aplikasi)*
-* **Link EPG Utama:** Mengarah ke file `epg-ich.xml.gz` ( secara otomatis sudah termasuk di playlist utama, kecuali jika ingin menambahkan secara manual, bisa menggunakan link ini.
-
+* **Link Playlist Utama (`ich-iptv.m3u`):** Cukup masukkan link ini ke aplikasi, maka daftar channel dan EPG akan otomatis tersinkronisasi.
+* **Link EPG Utama (`epg-ich.xml.gz`):** Dapat digunakan secara terpisah apabila aplikasi IPTV Anda memerlukan pengaturan EPG secara manual.
