@@ -38,9 +38,9 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
 
 ---
 
-## ⚙️ Cara Menjalankan Eksekusi Manual
+## 🚀 Cara Penggunaan di Aplikasi IPTV
 
-1. Buka tab **Actions** di halaman repository GitHub Anda.
-2. Pilih workflow **Update IPTV Playlist & EPG** dari daftar menu di sebelah kiri.
-3. Klik tombol **Run workflow** di sebelah kanan atas.
-4. Konfirmasi dengan mengklik tombol hijau **Run workflow**.
+Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV Anda (seperti TiviMate, OTT Navigator, dll.):
+* **Link Playlist Utama:** Mengarah ke file `ich-iptv.m3u` *(EPG akan otomatis terhubung di aplikasi)*
+* **Link EPG Utama:** Mengarah ke file `epg-ich.xml.gz` ( secara otomatis sudah termasuk di playlist utama, kecuali jika ingin menambahkan secara manual, bisa menggunakan link ini.
+
