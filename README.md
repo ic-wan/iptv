@@ -1,4 +1,5 @@
-# IPTV Playlist & EPG Automation [ INDONESIA CHANNEL ]
+# IPTV Playlist & EPG Automation 
+# [ INDONESIA CHANNEL ]
 
 Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secara terpadu menggunakan GitHub Actions.
 
