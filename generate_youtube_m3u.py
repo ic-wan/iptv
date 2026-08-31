@@ -3,13 +3,11 @@ import shutil
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper dengan argumen anti-bot cloud runner yang diperkuat."""
     try:
         base_args = [
             "yt-dlp",
             "--no-warnings",
             "--geo-bypass",
-            # Menggunakan kombinasi pemutar tv/embedded/android untuk bypass blokir IP datacenter
             "--extractor-args", "youtube:player_client=tv,android,web"
         ]
         
@@ -17,9 +15,16 @@ def run_ytdlp(args):
         temp_cookie = "active_cookies.txt"
 
         if os.path.exists(cookie_file):
+            # Debug: Cek apakah file cookie memiliki ukuran & isi yang valid
+            with open(cookie_file, "r", encoding="utf-8") as cf:
+                content = cf.read()
+                if "SID=" not in content and "__Secure" not in content:
+                    print("[WARNING] File cookies.txt TIDAK MEMILIKI TOKEN SESI AKUN (SID/__Secure)! Ini penyebab utama error bot.")
+                else:
+                    print("[INFO] Token sesi akun terdeteksi di dalam cookies.txt.")
+
             shutil.copy(cookie_file, temp_cookie)
             base_args += ["--cookies", temp_cookie]
-            print("[INFO] Menggunakan salinan cookies untuk autentikasi.")
         else:
             print("[WARNING] File cookies.txt TIDAK DITEMUKAN!")
             
@@ -56,11 +61,9 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul video
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # Ambil direct stream url
         stream_res = run_ytdlp(["-g", "-f", "bestaudio/best", url])
         
         if stream_res:
