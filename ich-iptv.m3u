@@ -101,8 +101,6 @@ https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
 #EXTINF:-1 tvg-id="nhkworld.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOhkWJfkm-FcT4agmxooYSDpQbvXjMkbygX7ELFiIag&s=10" group-title="Lokal",Nhk world japan
 https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4Y_baYWVbj91xIGOXwL4AOZqn6aaCVVNe_PN7mswwQ&s=10" group-title="Lokal",Tv one
-https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
 #EXTINF:-1 tvg-id="3ABNKids.us@SD" tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Kids",3abn kids network
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BabySharkTV.us@SD" tvg-logo="https://i.imgur.com/SbBKr8L.png" group-title="Kids",Baby shark tv (720p)
@@ -239,8 +237,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w766556031_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCGfXjFgIUUTUUlzdG6BenXA
-#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
-https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8
 #EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
@@ -329,8 +325,6 @@ https://op-flashcon-digdayahd-1.dens.tv/h/h235/01.m3u8
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
 #EXTINF:-1 tvg-id="auto.cnn.indonesia" tvg-logo="https://download.logo.wine/logo/CNN/CNN-Logo.wine.png" group-title="Lokal (auto)",CNN INDONESIA
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w2069650134_b280000_sleng.m3u8
-#EXTINF:-1 tvg-id="Moji.id" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV HD (Alt 3 - DensTV flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h210/01.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
@@ -355,12 +349,8 @@ http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
 https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8
 #EXTINF:-1 tvg-id="garuda.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Garuda TV (ChannelFeed)
 https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
-#EXTINF:-1 tvg-id="MagnaChannel.id" group-title="Lokal (auto)",MAGNA Channel (Flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h24/01.m3u8
 #EXTINF:-1 tvg-id="MetroTV.id" group-title="Lokal (auto)",MetroTV (Flashcon)
 http://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id" group-title="Lokal (auto)",Garuda TV (Flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 #EXTINF:-1 tvg-id="AshiilTV.id@SD" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal (auto)",Ashiil TV (480p)
 https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
 #EXTINF:-1 tvg-id="AjwaTV.id@SD" tvg-logo="https://i.imgur.com/JXjbUhB.png" group-title="Lokal (auto)",Ajwa TV (1080p)
@@ -377,8 +367,6 @@ https://streaming.id18.tunnel.my.id/hls/stream.m3u8
 https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="Lokal (auto)",Salam TV (720p)
 https://live.salamtelevisi.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
-https://rinjanitv.cloud/hls/tvkabel.m3u8
 #EXTINF:-1 tvg-id="SangajiTV.id@SD" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal (auto)",Sangaji TV (720p)
 https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
 #EXTINF:-1 tvg-id="StaraTV.id@Jakarta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Jakarta (1080p)
@@ -423,8 +411,6 @@ https://streaming.yufid.com/hls/radiokitatv.m3u8
 https://rodjatv.com/rodjatv/live.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal (auto)",Kompas TV HD (Alt 3 - DensTV flashcon)
 https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BanjarTV.id@SD",Banjar TV (720p) [Not 24/7]
-https://banjartv.siar.us/banjartv/live/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BatamTV.id@SD",Batam TV (480p) [Not 24/7]
 http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
@@ -437,39 +423,379 @@ https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVMu.id@SD",TV Mu (720p) [Not 24/7]
 https://e.siar.us/live/tvmu.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Madura",JTV Madura (480p) [Not 24/7]
-http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar
 https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
-https://live-3.otcnet.ru/Balapan/index.m3u8
 #EXTINF:-1 tvg-id="DhohoTV.id@SD" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho tv (720p)
 https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="NusantaraTV.id@SD" tvg-logo="https://i.imgur.com/viun5hj.png" group-title="Lokal",Nusantara tv (1080p)
-https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="DutaTV.id@SD" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Lokal",Duta tv (360p) [not 24/7]
 https://dutatv.siar.us/dutatv/live/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Madura",JTV Madura (480p) [Not 24/7]
-http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal",Atambua tv (720p)
-http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
-https://live-3.otcnet.ru/Balapan/index.m3u8
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
 http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Lokal (auto)",Kids TV
-http://origin5.mediacdn.ru/live/kidstv/index.m3u8
-#EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
-https://v3.siar.us/ficomchannel/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal (auto)",SMTV (720p)
+https://e.siar.us/live/smtv.m3u8
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
+https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=DNL6Wy6IstE
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=BzOOF_BDtho
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=s22oOdx9mtQ
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=H2ZASCOFRtg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=82-jTNka3uc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=TikiAOuYncM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=zyLmavBAY7k
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=WhEUZrB2Osc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=vZYbEL06lEU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=WqbJT_vC0rs
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=78wrful9cVU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ko70cExuzZM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=XoYu7K6Ywkg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=3sur4BmjQt8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=OqEc_169ywY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=QWrafQg2zNY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=c8zq4kAn_O0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=y0So162UPKE
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=hG4lT4fxj8M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=30LxaF4fd3A
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=UsR08cY8k0A
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=3O1_3zBUKM8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=MWASeaYuHZo
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=KNtJGQkC-WI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kbEC-AGr9n0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=jn40gqhxoSY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Ch6xdV_ZjdU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=JEFZpasFjvE
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=WKZO-CWeOVA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=4D7u5KF7SP8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kPa7bsKwL-c
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ZjBZ8MUnB0E
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=XoiOOiuH8iI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=RlPNh_PBZb4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=qWJU_eANW4M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=M9z7qB80UYM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=oet5L-gqctk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=b1kbLwvqugk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=zWxuc8L0W_Y
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=WcIcVapfqXw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=4VaqA-5aQTM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=mNEUkkoUoIA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=H5v3kku4y6Q
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=dtJLA0N5EAA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Osq0RgGVwK8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=1uwVvgNeI6Q
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=k6ZoE4RrcDs
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=3YqPKLZF_WU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=YaEG2aWJnZ8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=cUy-lZVN22A
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=qod03PVTLqk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ySQzH0WoHW0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=LTojkGxyk_M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kcXGgMhHr5Q
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=orJSJGHjBLI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=JXgV1rXUoME
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=fdrjPRnTYC0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=qFX2cXJyxuI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=hmUyEDG7Jy0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ZQFmRXgeR-s
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=dvAJMANtDoc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=LIIDh-qI9oI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ThYGrYiyvA8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=XXYlFuWEuKI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ighBYeE40BI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=TUVcZfQe-Kw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=8CEJoCr_9UI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=s0-f5RncxcA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=E07s5ZYygMg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=afRFR2UNYzI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Nj2U6rhnucI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=9HDEHj2yzew
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=4NRXx6U8ABQ
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=yezDEWako8U
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=oygrmJFKYZY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=okY_x8HDkX0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=GftZ601-pXs
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=XZ868t23Pb4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=a909uxd3GWg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=hlznpxNGFGQ
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Q4-jOuHO-z4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kg1BljLu9YY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=KfXvjxbRhZk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=S5VeT4sBLtI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=jxTmLVLK304
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=t_e_45Szprk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=bpUgcEc3iLw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=nZm3EZVYh4U
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Ixk87pq0JE4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=VY1eFxgRR-k
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=mQ055hHdxbE
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ffxKSjUwKdU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=jzD_yyEcp0M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=pj6k-EFxqAI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=M3mJkSqZbX4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=lY_0mkYDZDU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=6cmMYouVsXg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=vQ3XgMKAgxc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ClU3fctbGls
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=K_lhBNtXwBY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=OK848_DSj6k
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=GsF05B8TFWg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=qFLhGq0060w
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=m-YcRkOQh2s
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=543QxjYuYxU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=e2vBLd5Egnk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ginBV6aeVlc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=K0ibBPhiaG0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=O6plFAX3qRY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=b4Bj7Zb-YD4
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=34Na4j8AVgA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=RnBT9uUYb1w
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=dc-nyGo0aC8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kOkQ4T5WO9E
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Io0fBr1XBUA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=2Y6Nne8RvaA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=OEiva3cMv6k
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=QtXby3twMmI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=BMaT2nGaEVg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=-XY6alp2SdI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=bMpFmHSgC4Q
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=s5K1PtwJ9Wo
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=EgqUJOudrcM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=KEI4qSrkPAs
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=TObtwHlfLFk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=il9nqWw9W3Y
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=5j1RCys4R0g
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=BPgEgaPk62M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=-CmadmM5cOk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=kMAzstG5O7E
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=5XR7naZ_zZA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=J9NQFACZYEU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=a7SouU3ECpU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=SSCzDykng4g
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=tCxAmfUeWpk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=fiore9Z5iUg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=IgGjUjQRAxw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=m-M1AtrxztU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=i-gyZ35074k
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=EWwrELSYpgw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=F90Cw4l-8NY
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=IxxstCcJlsc
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=D-NvQ6VJYtE
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=yTCDVfMz15M
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=YA2Nw3SoJx0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ivPEKaBHjYA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=r1MN4pR5wXM
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=mr_ASUwp0rw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=JRfuAukYTKg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=rtOvBOTyX00
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=1G4isv_Fylg
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=fyMhvkC3A84
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=KlyXNRrsk4A
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=LndySwcNzpw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=yMuuc_pqx2s
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=uWqo0fy0-b0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=lAhHNCfA7NI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=LjhCEhWiKXk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=2q9_ZEtuTR8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=_OLUSELxFok
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=jxKjOOR9sPU
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=vW1hv37imjw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=FRSH-egVyzk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=cjVQ36NhbMk
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=0S7Qu5HMiCA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=WIUAC03YMlA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=u86VdOc3asA
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=H1W2UddURXI
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=LQ5wTHM1zkw
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=Cwkej79U3ek
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=ub36ffWAqgQ
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=TMy6X5cQul8
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=-wc0qMerzz0
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=dvgZkm1xWPE
+#EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Lokal (auto)",RCTI
+https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
+#EXTINF:-1 tvg-id="GTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Lokal (auto)",GTV
+https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
+#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="Lokal (auto)",iNews
+https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
+#EXTINF:-1 tvg-id="MaduTV.id@SD" tvg-logo="https://i.imgur.com/cKpgbgW.png" group-title="Lokal",Madu tv (576p)
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
