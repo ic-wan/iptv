@@ -3,19 +3,19 @@ import shutil
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper yang menggunakan salinan cookies.txt agar file asli tidak tertimpa."""
+    """Fungsi helper dengan argumen anti-bot cloud runner yang diperkuat."""
     try:
         base_args = [
             "yt-dlp",
             "--no-warnings",
             "--geo-bypass",
-            "--extractor-args", "youtube:player_client=android,web"
+            # Menggunakan kombinasi pemutar tv/embedded/android untuk bypass blokir IP datacenter
+            "--extractor-args", "youtube:player_client=tv,android,web"
         ]
         
         cookie_file = "cookies.txt"
         temp_cookie = "active_cookies.txt"
 
-        # Salin cookies.txt ke file temp agar yt-dlp tidak merusak file aslinya
         if os.path.exists(cookie_file):
             shutil.copy(cookie_file, temp_cookie)
             base_args += ["--cookies", temp_cookie]
@@ -26,13 +26,11 @@ def run_ytdlp(args):
         cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         
-        # Bersihkan file temp setelah selesai digunakan
         if os.path.exists(temp_cookie):
             os.remove(temp_cookie)
             
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        # Bersihkan juga jika terjadi error
         if os.path.exists("active_cookies.txt"):
             os.remove("active_cookies.txt")
         print(f"yt-dlp error detail: {e.stderr.strip() if e.stderr else e}")
@@ -58,9 +56,11 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
+        # Ambil judul video
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
+        # Ambil direct stream url
         stream_res = run_ytdlp(["-g", "-f", "bestaudio/best", url])
         
         if stream_res:
