@@ -461,6 +461,8 @@ https://www.streaming.radartv.co.id/hls/test.m3u8
 # --- YouTube Streams ---
 
 # --- YouTube Streams ---
+
+# --- YouTube Streams ---
 #EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
 https://www.youtube.com/watch?v=DNL6Wy6IstE
 #EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
@@ -671,8 +673,8 @@ https://www.youtube.com/watch?v=qFLhGq0060w
 https://www.youtube.com/watch?v=m-YcRkOQh2s
 #EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
 https://www.youtube.com/watch?v=543QxjYuYxU
-#EXTINF:-1 tvg-group="Youtube Music" tvg-name="YouTube Stream",YouTube Stream
-https://rr5---sn-vgqsrn6z.googlevideo.com/videoplayback?expire=1788210656&ei=gJmVap79CMPW2_gP6Ou-gAo&ip=64.236.153.90&id=o-ANx9N19bquzdT1NMKbRjCsW3ZQRK57siwg4Xn1Npnis9&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=818&met=1788189056%2C&mh=iW&mm=18%2C26&mn=sn-vgqsrn6z%2Csn-q4flrnld&ms=aub%2Conr&mv=u&mvi=5&pl=21&rms=aub%2Caub&bui=AR3QkAl3Ar2FAErnFV1RKvV5QSmLFDXfvAzPfjoOpCJIWyOg9aAR3yccs2jzG1UnHBa7tylNzdCHeRns&spc=KBGBcvscq0tQiE-asepxCHSb4DVDBwIvSmyqfJ05CHVCjo4wXVDpVUhPakHNpqhcpk0&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&cnr=14&ratebypass=yes&dur=230.249&lmt=1775914119401376&mt=1788188750&fvip=4&fexp=51565116%2C52135441&c=ANDROID&txp=5538534&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AE0s2JYwRAIgPjtYXOSolekuAIf4zXKmECJohoz_FprjAvqz_nLNEOkCIC8jBe36EynA5PC0YbReDedh1BU-GfyhgfY6feaeD0Fk&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms&lsig=APaTxxMwRQIgVCTsFbnHjpflnSuKZ_YeHzLih6dX2ZEx4L_78fRsbagCIQCZ8KIxBqNohdD5l8lo84rjZlv4U5iZkWlhtcIuuR-o-g%3D%3D
+#EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
+https://www.youtube.com/watch?v=e2vBLd5Egnk
 #EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
 https://www.youtube.com/watch?v=ginBV6aeVlc
 #EXTINF:-1 tvg-group="Youtube Music" tvg-name="expired_YouTube Stream",expired_YouTube Stream
