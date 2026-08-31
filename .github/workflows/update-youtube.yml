@@ -25,10 +25,16 @@ jobs:
         run: |
           git pull origin main --rebase || true
 
+      # TAMBAHKAN LANGKAH INSTALASI FFMPEG DI SINI
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11' # Diubah ke 3.11
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
