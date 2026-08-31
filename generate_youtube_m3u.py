@@ -61,15 +61,16 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
+        # 1. Selalu ambil judul asli video terlebih dahulu
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # 1. Coba ambil link stream dengan format default terbaik tanpa opsi -f yang membatasi
-        stream_res = run_ytdlp(["-g", url])
+        # 2. Coba ambil tautan stream menggunakan format HLS/m3u8 jika tersedia (lebih stabil untuk IPTV)
+        stream_res = run_ytdlp(["-g", "-f", "hls", url])
         
-        # 2. Jika gagal, coba gunakan format aman universal (worst/fallback)
+        # 3. Jika gagal, coba ambil format default universal tanpa batasan ketat format tunggal
         if not stream_res:
-            stream_res = run_ytdlp(["-g", "-f", "worst", url])
+            stream_res = run_ytdlp(["-g", "--format", "b/best/mp4", url])
 
         if stream_res:
             lines = stream_res.split("\n")
@@ -81,7 +82,7 @@ def main():
             active_url = url
             print(f"Gagal mendapatkan stream, menandai sebagai: {title}")
 
-        extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{title}",{title}\n'
+        extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
 
