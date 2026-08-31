@@ -2,7 +2,7 @@ import os
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper untuk menjalankan yt-dlp dengan menyertakan cookies.txt."""
+    """Fungsi helper untuk menjalankan yt-dlp dengan pengecekan cookies yang ketat."""
     try:
         base_args = [
             "yt-dlp",
@@ -10,9 +10,12 @@ def run_ytdlp(args):
             "--geo-bypass"
         ]
         
-        # Jika file cookies.txt tersedia, sertakan untuk melewati proteksi bot
+        # Cek apakah file cookies.txt ada di direktori saat ini
         if os.path.exists("cookies.txt"):
             base_args += ["--cookies", "cookies.txt"]
+            print("[INFO] Menggunakan file cookies.txt untuk autentikasi.")
+        else:
+            print("[WARNING] File cookies.txt TIDAK DITEMUKAN di direktori! YouTube akan memblokir request.")
             
         cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
@@ -39,7 +42,7 @@ def main():
     youtube_entries = []
 
     for url in urls:
-        print(f"Memproses YouTube URL: {url}")
+        print(f"\nMemproses YouTube URL: {url}")
         
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
@@ -65,7 +68,7 @@ def main():
             existing_content = f.readlines()
 
         cleaned_content = []
-        skip = False
+        skip = false = False
         for line in existing_content:
             if 'tvg-group="Youtube Music"' in line:
                 skip = True
@@ -90,7 +93,7 @@ def main():
 
         with open(target_playlist, "w", encoding="utf-8") as f:
             f.writelines(cleaned_content)
-        print(f"Berhasil memperbarui channel YouTube ke {target_playlist}")
+        print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist}")
 
 if __name__ == "__main__":
     main()
