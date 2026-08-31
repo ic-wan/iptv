@@ -2,20 +2,22 @@ import os
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper untuk menjalankan yt-dlp dengan parameter anti-bot dan player web standar."""
+    """Fungsi helper untuk menjalankan yt-dlp dengan menyertakan cookies.txt."""
     try:
-        # Menambahkan argumen ekstra untuk menghindari blokir bot di server cloud
         base_args = [
             "yt-dlp",
             "--no-warnings",
-            "--extractor-args", "youtube:player_client=android,web",
             "--geo-bypass"
         ]
+        
+        # Jika file cookies.txt tersedia, sertakan untuk melewati proteksi bot
+        if os.path.exists("cookies.txt"):
+            base_args += ["--cookies", "cookies.txt"]
+            
         cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
-        # Jika gagal, cetak pesan error kecil untuk debugging di log action
         print(f"yt-dlp error detail: {e.stderr.strip() if e.stderr else e}")
         return None
 
@@ -39,11 +41,9 @@ def main():
     for url in urls:
         print(f"Memproses YouTube URL: {url}")
         
-        # 1. Ambil judul asli video/stream
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # 2. Ambil direct stream url menggunakan format m4a/mp4 audio/video terbaik
         stream_res = run_ytdlp(["-g", "-f", "bestaudio/best", url])
         
         if stream_res:
@@ -52,12 +52,10 @@ def main():
             title = raw_title
             print(f"Berhasil mendapatkan stream: {title}")
         else:
-            # Jika masih gagal, beri tanda expired
             title = f"expired_{raw_title}"
             active_url = url
             print(f"Gagal mendapatkan stream, menandai sebagai: {title}")
 
-        # Format baris M3U dengan group-title "Youtube Music"
         extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
@@ -73,16 +71,14 @@ def main():
                 skip = True
                 continue
             if skip and (line.startswith("http://") or line.startswith("https://") or "youtube.com" in line or "youtu.be" in line):
-                skip = True # Lewati baris link lama
+                skip = True
                 continue
-            # Matikan skip jika sudah melewati blok youtube music
             if skip and not (line.startswith("http://") or line.startswith("https://")):
                 skip = False
 
             if not skip:
                 cleaned_content.append(line)
 
-        # Bersihkan baris kosong berlebih di akhir
         while cleaned_content and cleaned_content[-1].strip() == "":
             cleaned_content.pop()
 
