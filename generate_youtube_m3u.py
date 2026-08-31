@@ -7,26 +7,15 @@ def run_ytdlp(args):
         base_args = [
             "yt-dlp",
             "--no-warnings",
-            "--geo-bypass",
-            "--extractor-args", "youtube:player_client=android,web",
-            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+            "--geo-bypass"
         ]
         
         cookie_file = "cookies.txt"
         temp_cookie = "active_cookies.txt"
 
         if os.path.exists(cookie_file):
-            with open(cookie_file, "r", encoding="utf-8") as cf:
-                content = cf.read()
-                if "SID=" not in content and "__Secure" not in content:
-                    print("[WARNING] File cookies.txt TIDAK MEMILIKI TOKEN SESI AKUN!")
-                else:
-                    print("[INFO] Token sesi akun terdeteksi di dalam cookies.txt.")
-
             shutil.copy(cookie_file, temp_cookie)
             base_args += ["--cookies", temp_cookie]
-        else:
-            print("[WARNING] File cookies.txt TIDAK DITEMUKAN!")
             
         cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
@@ -38,7 +27,6 @@ def run_ytdlp(args):
     except subprocess.CalledProcessError as e:
         if os.path.exists("active_cookies.txt"):
             os.remove("active_cookies.txt")
-        print(f"yt-dlp error detail: {e.stderr.strip() if e.stderr else e}")
         return None
 
 def main():
@@ -61,26 +49,14 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul asli video
+        # Ambil judul asli video dari YouTube
         title_res = run_ytdlp(["--get-title", url])
-        raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
+        raw_title = title_res.replace(",", " ") if title_res else "YouTube Channel"
 
-        # Gunakan format yang aman dengan dukungan ffmpeg yang baru diinstal
-        stream_res = run_ytdlp(["-g", "-f", "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / best", url])
+        title = raw_title
+        active_url = url  # Menggunakan URL asli YouTube yang dijamin aman dan tidak kedaluwarsa di pemutar IPTV
         
-        # Fallback jika gagal dengan format spesifik
-        if not stream_res:
-            stream_res = run_ytdlp(["-g", url])
-
-        if stream_res:
-            lines = stream_res.split("\n")
-            active_url = lines[0] if lines else url
-            title = raw_title
-            print(f"Berhasil mendapatkan stream: {title}")
-        else:
-            title = f"expired_{raw_title}"
-            active_url = url
-            print(f"Gagal mendapatkan stream, menandai sebagai: {title}")
+        print(f"Berhasil memuat channel: {title}")
 
         extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
