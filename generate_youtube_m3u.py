@@ -8,18 +8,19 @@ def run_ytdlp(args):
             "yt-dlp",
             "--no-warnings",
             "--geo-bypass",
-            "--extractor-args", "youtube:player_client=tv,android,web"
+            # Menggunakan client web-creator / android dan melewatkan user-agent browser standar
+            "--extractor-args", "youtube:player_client=android,web",
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         ]
         
         cookie_file = "cookies.txt"
         temp_cookie = "active_cookies.txt"
 
         if os.path.exists(cookie_file):
-            # Debug: Cek apakah file cookie memiliki ukuran & isi yang valid
             with open(cookie_file, "r", encoding="utf-8") as cf:
                 content = cf.read()
                 if "SID=" not in content and "__Secure" not in content:
-                    print("[WARNING] File cookies.txt TIDAK MEMILIKI TOKEN SESI AKUN (SID/__Secure)! Ini penyebab utama error bot.")
+                    print("[WARNING] File cookies.txt TIDAK MEMILIKI TOKEN SESI AKUN!")
                 else:
                     print("[INFO] Token sesi akun terdeteksi di dalam cookies.txt.")
 
