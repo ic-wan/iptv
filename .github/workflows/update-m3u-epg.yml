@@ -43,11 +43,15 @@ jobs:
       - name: 6. Run EPG Generator
         run: python generate_epg.py
 
-      - name: 7. Update README with Program List
+      - name: 7. Update README with Program List (Active Only)
         run: |
           python -c '
           with open("List_program.txt", "r", encoding="utf-8") as f:
               prog_content = f.read()
+
+          # Ambil hanya bagian dari awal sampai sebelum bagian arsip link mati dimulai
+          if "📂 SUMBER FILE: Arsip Link Mati" in prog_content:
+              prog_content = prog_content.split("📂 SUMBER FILE: Arsip Link Mati")[0]
 
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
@@ -55,7 +59,7 @@ jobs:
           start_marker = "<!-- START_PROGRAM_LIST -->"
           end_marker = "<!-- END_PROGRAM_LIST -->"
 
-          new_section = f"{start_marker}\n```text\n{prog_content}\n```\n{end_marker}"
+          new_section = f"{start_marker}\n```text\n{prog_content.strip()}\n```\n{end_marker}"
 
           if start_marker in readme and end_marker in readme:
               parts = readme.split(start_marker)
