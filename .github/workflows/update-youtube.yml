@@ -9,7 +9,6 @@ jobs:
   update:
     runs-on: ubuntu-latest
     
-    # Memberikan izin akses untuk membaca dan menulis repository
     permissions:
       contents: write
 
@@ -29,7 +28,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11' # Diubah ke 3.11
 
       - name: Install dependencies
         run: |
