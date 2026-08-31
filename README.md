@@ -28,19 +28,13 @@ Sistem otomatisasi pembaruan playlist IPTV dan EPG Indonesia yang berjalan secar
 
 ## 📁 Struktur File Repository
 
-- `ich-iptv.m3u` — Playlist utama channel IPTV aktif.
-- `hapus.m3u` — Arsip cadangan untuk link channel yang sedang mati.
-- `epg-ich.xml.gz` — File panduan acara (EPG) terkompresi untuk seluruh channel.
 - `List_program.txt` — Laporan rekapitulasi daftar channel dan grup.
 - `keyword.txt` — Konfigurasi kata kunci pencarian channel.
 - `blacklist_program.txt` — Daftar hitam channel/program yang ingin diabaikan.
 - `m3u_source.txt` — Daftar tautan sumber M3U eksternal.
 - `youtube_source.txt` — Daftar tautan sumber playlist/live stream YouTube.
 - `epg_source.txt` — Daftar tautan atau sumber data EPG eksternal.
-- `generate_epg.py` — Skrip utama untuk mengambil dan menghasilkan data EPG.
-- `generate_youtube_m3u.py` — Skrip untuk mengonversi dan menggabungkan stream YouTube.
-- `.github/workflows/update-m3u-epg.yml` — Konfigurasi otomatisasi GitHub Actions.
-
+- 
 ---
 
 ## 🚀 Cara Penggunaan di Aplikasi IPTV
