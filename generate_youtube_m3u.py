@@ -1,26 +1,40 @@
 import os
+import shutil
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper untuk menjalankan yt-dlp dengan pengecekan cookies yang ketat."""
+    """Fungsi helper yang menggunakan salinan cookies.txt agar file asli tidak tertimpa."""
     try:
         base_args = [
             "yt-dlp",
             "--no-warnings",
-            "--geo-bypass"
+            "--geo-bypass",
+            "--extractor-args", "youtube:player_client=android,web"
         ]
         
-        # Cek apakah file cookies.txt ada di direktori saat ini
-        if os.path.exists("cookies.txt"):
-            base_args += ["--cookies", "cookies.txt"]
-            print("[INFO] Menggunakan file cookies.txt untuk autentikasi.")
+        cookie_file = "cookies.txt"
+        temp_cookie = "active_cookies.txt"
+
+        # Salin cookies.txt ke file temp agar yt-dlp tidak merusak file aslinya
+        if os.path.exists(cookie_file):
+            shutil.copy(cookie_file, temp_cookie)
+            base_args += ["--cookies", temp_cookie]
+            print("[INFO] Menggunakan salinan cookies untuk autentikasi.")
         else:
-            print("[WARNING] File cookies.txt TIDAK DITEMUKAN di direktori! YouTube akan memblokir request.")
+            print("[WARNING] File cookies.txt TIDAK DITEMUKAN!")
             
         cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        
+        # Bersihkan file temp setelah selesai digunakan
+        if os.path.exists(temp_cookie):
+            os.remove(temp_cookie)
+            
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
+        # Bersihkan juga jika terjadi error
+        if os.path.exists("active_cookies.txt"):
+            os.remove("active_cookies.txt")
         print(f"yt-dlp error detail: {e.stderr.strip() if e.stderr else e}")
         return None
 
@@ -68,7 +82,7 @@ def main():
             existing_content = f.readlines()
 
         cleaned_content = []
-        skip = false = False
+        skip = False
         for line in existing_content:
             if 'tvg-group="Youtube Music"' in line:
                 skip = True
