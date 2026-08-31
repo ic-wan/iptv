@@ -2,12 +2,21 @@ import os
 import subprocess
 
 def run_ytdlp(args):
-    """Fungsi helper untuk menjalankan yt-dlp dengan aman dan selalu versi terbaru."""
+    """Fungsi helper untuk menjalankan yt-dlp dengan parameter anti-bot dan player web standar."""
     try:
-        cmd = ["yt-dlp", "--no-warnings"] + args
+        # Menambahkan argumen ekstra untuk menghindari blokir bot di server cloud
+        base_args = [
+            "yt-dlp",
+            "--no-warnings",
+            "--extractor-args", "youtube:player_client=android,web",
+            "--geo-bypass"
+        ]
+        cmd = base_args + args
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
         return result.stdout.strip()
     except subprocess.CalledProcessError as e:
+        # Jika gagal, cetak pesan error kecil untuk debugging di log action
+        print(f"yt-dlp error detail: {e.stderr.strip() if e.stderr else e}")
         return None
 
 def main():
@@ -34,8 +43,8 @@ def main():
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # 2. Ambil direct stream url (format terbaik atau live)
-        stream_res = run_ytdlp(["-g", "-f", "best/bestvideo+bestaudio/best", url])
+        # 2. Ambil direct stream url menggunakan format m4a/mp4 audio/video terbaik
+        stream_res = run_ytdlp(["-g", "-f", "bestaudio/best", url])
         
         if stream_res:
             lines = stream_res.split("\n")
@@ -43,7 +52,7 @@ def main():
             title = raw_title
             print(f"Berhasil mendapatkan stream: {title}")
         else:
-            # Jika gagal/expired, beri tanda dan gunakan URL aslinya sebagai placeholder
+            # Jika masih gagal, beri tanda expired
             title = f"expired_{raw_title}"
             active_url = url
             print(f"Gagal mendapatkan stream, menandai sebagai: {title}")
@@ -64,10 +73,18 @@ def main():
                 skip = True
                 continue
             if skip and (line.startswith("http://") or line.startswith("https://") or "youtube.com" in line or "youtu.be" in line):
-                skip = False
+                skip = True # Lewati baris link lama
                 continue
+            # Matikan skip jika sudah melewati blok youtube music
+            if skip and not (line.startswith("http://") or line.startswith("https://")):
+                skip = False
+
             if not skip:
                 cleaned_content.append(line)
+
+        # Bersihkan baris kosong berlebih di akhir
+        while cleaned_content and cleaned_content[-1].strip() == "":
+            cleaned_content.pop()
 
         if not cleaned_content or not cleaned_content[0].startswith("#EXTM3U"):
             cleaned_content.insert(0, "#EXTM3U\n")
