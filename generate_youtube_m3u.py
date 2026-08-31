@@ -61,16 +61,12 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # 1. Selalu ambil judul asli video terlebih dahulu
+        # Ambil judul asli video
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # 2. Coba ambil tautan stream menggunakan format HLS/m3u8 jika tersedia (lebih stabil untuk IPTV)
-        stream_res = run_ytdlp(["-g", "-f", "hls", url])
-        
-        # 3. Jika gagal, coba ambil format default universal tanpa batasan ketat format tunggal
-        if not stream_res:
-            stream_res = run_ytdlp(["-g", "--format", "b/best/mp4", url])
+        # Ambil tautan stream langsung menggunakan default yt-dlp tanpa pembatasan format ketat
+        stream_res = run_ytdlp(["-g", url])
 
         if stream_res:
             lines = stream_res.split("\n")
