@@ -8,7 +8,6 @@ def run_ytdlp(args):
             "yt-dlp",
             "--no-warnings",
             "--geo-bypass",
-            # Menggunakan client web-creator / android dan melewatkan user-agent browser standar
             "--extractor-args", "youtube:player_client=android,web",
             "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
         ]
@@ -65,8 +64,13 @@ def main():
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        stream_res = run_ytdlp(["-g", "-f", "bestaudio/best", url])
+        # Mengubah parameter format dari bestaudio ke format default terbaik yang didukung langsung tanpa ffmpeg
+        stream_res = run_ytdlp(["-g", "-f", "bv*+ba/b", url])
         
+        if not stream_res:
+            # Fallback jika format pertama gagal, coba ambil format paling universal (biasanya mp4/webm standar)
+            stream_res = run_ytdlp(["-g", "-f", "b", url])
+
         if stream_res:
             lines = stream_res.split("\n")
             active_url = lines[0] if lines else url
