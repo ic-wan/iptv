@@ -2,9 +2,9 @@ name: Update IPTV Playlist & EPG
 
 on:
   schedule:
-    # Dijalankan setiap hari sekali pada jam 02:00 UTC (Jam 09:00 Pagi WIB / UTC+7)
+    # Dijalankan setiap hari sekali pada jam 02:00 UTC (Jam 09:00 Pagi WIB)
     - cron: '0 2 * * *'
-  workflow_dispatch: # Memungkinkan eksekusi manual via tab Actions
+  workflow_dispatch:
 
 jobs:
   update-playlist:
@@ -23,33 +23,28 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-          pip install yt-dlp
 
       - name: 1. Run Grabber Script
         run: python grab_indo_m3u.py
 
-      - name: 2. Run YouTube Grabber & Merge
-        run: python generate_youtube_m3u.py
-
-      - name: 3. Run 2-Level Link Checker
+      - name: 2. Run 2-Level Link Checker
         run: python check_m3u.py
 
-      - name: 4. Run Global Blacklist Filter
+      - name: 3. Run Global Blacklist Filter
         run: python apply_blacklist.py
 
-      - name: 5. Run Program List Generator
+      - name: 4. Run Program List Generator
         run: python generate_program_list.py
 
-      - name: 6. Run EPG Generator
+      - name: 5. Run EPG Generator
         run: python generate_epg.py
 
-      - name: 7. Update README with Program List (Active Only)
+      - name: 6. Update README with Program List (Active Only)
         run: |
           python -c '
           with open("List_program.txt", "r", encoding="utf-8") as f:
               prog_content = f.read()
 
-          # Ambil hanya bagian dari awal sampai sebelum bagian arsip link mati dimulai
           if "📂 SUMBER FILE: Arsip Link Mati" in prog_content:
               prog_content = prog_content.split("📂 SUMBER FILE: Arsip Link Mati")[0]
 
@@ -76,5 +71,5 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update: IPTV pipelines, YouTube streams, and README.md"
-          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt epg_source.txt youtube_source.txt README.md
+          commit_message: "Auto-update: IPTV pipelines, EPG, and README.md"
+          file_pattern: ich-iptv.m3u hapus.m3u epg-ich.xml.gz List_program.txt blacklist_program.txt keyword.txt epg_source.txt README.md
