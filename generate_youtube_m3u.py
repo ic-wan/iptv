@@ -65,8 +65,12 @@ def main():
         title_res = run_ytdlp(["--get-title", url])
         raw_title = title_res.replace(",", " ") if title_res else "YouTube Stream"
 
-        # Ambil tautan stream langsung menggunakan default yt-dlp tanpa pembatasan format ketat
-        stream_res = run_ytdlp(["-g", url])
+        # Gunakan format yang aman dengan dukungan ffmpeg yang baru diinstal
+        stream_res = run_ytdlp(["-g", "-f", "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / best", url])
+        
+        # Fallback jika gagal dengan format spesifik
+        if not stream_res:
+            stream_res = run_ytdlp(["-g", url])
 
         if stream_res:
             lines = stream_res.split("\n")
