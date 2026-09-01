@@ -777,12 +777,8 @@ https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1705215623_b384
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
 #EXTINF:-1,group-title="Lokal (auto)"CNN TV
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVMu.id@SD",TV Mu (720p) [Not 24/7]
-https://e.siar.us/live/tvmu.m3u8
 #EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BanjarTV.id@SD",Banjar TV (720p) [Not 24/7]
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
@@ -861,3 +857,23 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="timor.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Timor TV
 http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="CNN.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",Cnn 1 hd
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1440476333_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="CNN.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",Cnn 2
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1440476333_b280000_sleng.m3u8
+#EXTINF:-1 tvg-id="DhohoTV.id@SD" tvg-logo="https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho tv (720p)
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="KTV.id@SD" tvg-logo="https://i.imgur.com/j3wtaDc.png" group-title="Lokal",Ktv (720p)
+https://flv.intechmedia.net/live/ch118.m3u8
+#EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
+http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="RadarTasikmalayaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar tasikmalaya tv (720p) [not 24/7]
+https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
+https://streaming.yufid.com/hls/radiokitatv.m3u8
+#EXTINF:-1 tvg-id="SriwijayaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/7/75/SriwijayaTV_2014.png" group-title="Lokal",Sriwijaya tv (576p) [not 24/7]
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8
+#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
+https://live-3.otcnet.ru/Balapan/index.m3u8
