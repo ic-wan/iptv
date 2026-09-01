@@ -7,7 +7,9 @@ def run_ytdlp(args):
         base_args = [
             "yt-dlp",
             "--no-warnings",
-            "--geo-bypass"
+            "--geo-bypass",
+            "--extractor-args", "youtube:player_client=android,web",
+            "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ]
         
         cookie_file = "cookies.txt"
@@ -49,14 +51,23 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul asli video dari YouTube
+        # Ambil judul asli video
         title_res = run_ytdlp(["--get-title", url])
-        raw_title = title_res.replace(",", " ") if title_res else "YouTube Channel"
+        raw_title = title_res.replace(",", " ") if title_res and len(title_res) > 0 else f"YouTube Stream ({url.split('v=')[-1]})"
 
-        title = raw_title
-        active_url = url  # Menggunakan URL asli YouTube yang dijamin aman dan tidak kedaluwarsa di pemutar IPTV
-        
-        print(f"Berhasil memuat channel: {title}")
+        # Ekstrak tautan stream langsung (menggunakan -g)
+        stream_res = run_ytdlp(["-g", url])
+
+        if stream_res:
+            lines = stream_res.split("\n")
+            active_url = lines[0] if lines else url
+            title = raw_title
+            print(f"Berhasil mendapatkan stream langsung: {title}")
+        else:
+            # Jika gagal ekstrak, gunakan URL aman atau lewati
+            title = f"expired_{raw_title}"
+            active_url = url
+            print(f"Gagal mendapatkan stream langsung, menandai sebagai: {title}")
 
         extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
