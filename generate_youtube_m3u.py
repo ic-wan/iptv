@@ -71,41 +71,47 @@ def main():
         
         print(f"Berhasil memuat judul: {title}")
 
+        # Pastikan format baris bersih dan diakhiri \n
         extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
 
-    if youtube_entries and os.path.exists(target_playlist):
+    if os.path.exists(target_playlist):
         with open(target_playlist, "r", encoding="utf-8") as f:
-            existing_content = f.readlines()
+            lines = f.readlines()
+    else:
+        lines = ["#EXTM3U\n"]
 
-        cleaned_content = []
-        skip = False
-        for line in existing_content:
-            if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
-                skip = True
-                continue
-            if skip and (line.startswith("http://") or line.startswith("https://") or line.startswith("intent://") or "youtube.com" in line or "youtu.be" in line):
-                skip = True
-                continue
-            if skip and not (line.startswith("http://") or line.startswith("https://") or line.startswith("intent://")):
-                skip = False
+    # Filter bersih: Hanya membuang bagian khusus Youtube Music lama tanpa menyentuh grup lain
+    cleaned_content = []
+    skip = False
+    for line in lines:
+        if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
+            skip = True
+            continue
+        if skip and (line.strip().startswith("http://") or line.strip().startswith("https://") or line.strip().startswith("intent://") or "youtube.com" in line or "youtu.be" in line):
+            continue
+        if skip and line.strip().startswith("#EXTINF"):
+            skip = False
+        
+        if not skip:
+            cleaned_content.append(line if line.endswith('\n') else line + '\n')
 
-            if not skip:
-                cleaned_content.append(line)
+    # Bersihkan spasi kosong berlebih di akhir file
+    while cleaned_content and cleaned_content[-1].strip() == "":
+        cleaned_content.pop()
 
-        while cleaned_content and cleaned_content[-1].strip() == "":
-            cleaned_content.pop()
+    if not cleaned_content or not cleaned_content[0].startswith("#EXTM3U"):
+        cleaned_content.insert(0, "#EXTM3U\n")
 
-        if not cleaned_content or not cleaned_content[0].startswith("#EXTM3U"):
-            cleaned_content.insert(0, "#EXTM3U\n")
+    # Tambahkan separator dan entry YouTube yang baru
+    cleaned_content.append("\n# --- YouTube Streams ---\n")
+    cleaned_content.extend(youtube_entries)
 
-        cleaned_content.append("\n# --- YouTube Streams ---\n")
-        cleaned_content.extend(youtube_entries)
-
-        with open(target_playlist, "w", encoding="utf-8") as f:
-            f.writelines(cleaned_content)
-        print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist}")
+    with open(target_playlist, "w", encoding="utf-8") as f:
+        f.writelines(cleaned_content)
+    
+    print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist} tanpa merusak grup lain.")
 
 if __name__ == "__main__":
     main()
