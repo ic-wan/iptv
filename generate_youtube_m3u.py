@@ -60,6 +60,7 @@ def main():
 
         title = raw_title
         
+        # Fermata Auto memerlukan URL watch standar YouTube agar modul internalnya aktif
         if "v=" in url:
             video_id = url.split("v=")[-1].split("&")[0]
         elif "youtu.be/" in url:
@@ -67,11 +68,11 @@ def main():
         else:
             video_id = url
 
-        active_url = f"intent://www.youtube.com/watch?v={video_id}#Intent;package=com.google.android.youtube;action=android.intent.action.VIEW;end;"
+        active_url = f"https://www.youtube.com/watch?v={video_id}"
         
         print(f"Berhasil memuat judul: {title}")
 
-        # Pastikan format baris bersih dan diakhiri \n
+        # Format tag yang kompatibel dengan pengelompokan folder di Fermata Auto
         extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
@@ -82,14 +83,13 @@ def main():
     else:
         lines = ["#EXTM3U\n"]
 
-    # Filter bersih: Hanya membuang bagian khusus Youtube Music lama tanpa menyentuh grup lain
     cleaned_content = []
     skip = False
     for line in lines:
         if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
             skip = True
             continue
-        if skip and (line.strip().startswith("http://") or line.strip().startswith("https://") or line.strip().startswith("intent://") or "youtube.com" in line or "youtu.be" in line):
+        if skip and (line.strip().startswith("http://") or line.strip().startswith("https://") or "youtube.com" in line or "youtu.be" in line):
             continue
         if skip and line.strip().startswith("#EXTINF"):
             skip = False
@@ -97,21 +97,19 @@ def main():
         if not skip:
             cleaned_content.append(line if line.endswith('\n') else line + '\n')
 
-    # Bersihkan spasi kosong berlebih di akhir file
     while cleaned_content and cleaned_content[-1].strip() == "":
         cleaned_content.pop()
 
     if not cleaned_content or not cleaned_content[0].startswith("#EXTM3U"):
         cleaned_content.insert(0, "#EXTM3U\n")
 
-    # Tambahkan separator dan entry YouTube yang baru
     cleaned_content.append("\n# --- YouTube Streams ---\n")
     cleaned_content.extend(youtube_entries)
 
     with open(target_playlist, "w", encoding="utf-8") as f:
         f.writelines(cleaned_content)
     
-    print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist} tanpa merusak grup lain.")
+    print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist} untuk Fermata Auto.")
 
 if __name__ == "__main__":
     main()
