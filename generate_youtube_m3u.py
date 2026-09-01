@@ -60,7 +60,6 @@ def main():
 
         title = raw_title
         
-        # Fermata Auto memerlukan URL watch standar YouTube agar modul internalnya aktif
         if "v=" in url:
             video_id = url.split("v=")[-1].split("&")[0]
         elif "youtu.be/" in url:
@@ -72,20 +71,20 @@ def main():
         
         print(f"Berhasil memuat judul: {title}")
 
-        # Format tag yang kompatibel dengan pengelompokan folder di Fermata Auto
         extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
 
     if os.path.exists(target_playlist):
         with open(target_playlist, "r", encoding="utf-8") as f:
-            lines = f.readlines()
+            raw_lines = f.readlines()
     else:
-        lines = ["#EXTM3U\n"]
+        raw_lines = ["#EXTM3U\n"]
 
-    cleaned_content = []
+    # 1. Bersihkan dulu seluruh blok lama "Youtube Music" dari file
+    cleaned_lines = []
     skip = False
-    for line in lines:
+    for line in raw_lines:
         if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
             skip = True
             continue
@@ -95,21 +94,40 @@ def main():
             skip = False
         
         if not skip:
-            cleaned_content.append(line if line.endswith('\n') else line + '\n')
+            cleaned_lines.append(line)
 
-    while cleaned_content and cleaned_content[-1].strip() == "":
-        cleaned_content.pop()
+    # 2. Perbaiki baris yang menempel (misal #EXTINF tergabung dengan URL di baris yang sama)
+    fixed_content = []
+    for line in cleaned_lines:
+        line_str = line.strip()
+        if not line_str:
+            continue
+        
+        # Jika ada baris yang memuat #EXTINF sekaligus mengandung URL di baris yang sama
+        if line_str.startswith("#EXTINF") and ("http://" in line_str or "https://" in line_str):
+            # Coba pisahkan berdasarkan protokol http/https
+            parts = line_str.split("http")
+            if len(parts) > 1:
+                meta_part = parts[0].strip()
+                url_part = "http" + parts[1].strip()
+                fixed_content.append(meta_part + "\n")
+                fixed_content.append(url_part + "\n")
+            else:
+                fixed_content.append(line_str + "\n")
+        else:
+            fixed_content.append(line_str + "\n")
 
-    if not cleaned_content or not cleaned_content[0].startswith("#EXTM3U"):
-        cleaned_content.insert(0, "#EXTM3U\n")
+    if not fixed_content or not fixed_content[0].startswith("#EXTM3U"):
+        fixed_content.insert(0, "#EXTM3U\n")
 
-    cleaned_content.append("\n# --- YouTube Streams ---\n")
-    cleaned_content.extend(youtube_entries)
+    # 3. Tambahkan kembali entri YouTube baru di bagian akhir file
+    fixed_content.append("\n# --- YouTube Streams ---\n")
+    fixed_content.extend(youtube_entries)
 
     with open(target_playlist, "w", encoding="utf-8") as f:
-        f.writelines(cleaned_content)
+        f.writelines(fixed_content)
     
-    print(f"\nBerhasil memperbarui channel YouTube ke {target_playlist} untuk Fermata Auto.")
+    print(f"\nBerhasil memperbaiki dan memperbarui playlist {target_playlist} untuk Fermata Auto.")
 
 if __name__ == "__main__":
     main()
