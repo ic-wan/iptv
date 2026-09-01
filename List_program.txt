@@ -5,173 +5,152 @@
 📂 SUMBER FILE: Playlist Utama (ich-iptv.m3u)
 =============================================
 
-  📁 Grup: [Lokal] (2 Channel)
-  ----------------------------------------
-    1. Radar tasikmalaya tv (720p) [not 24/7]
-    2. Tv one
-
-  📁 Grup: [Lokal (auto)] (160 Channel)
+  📁 Grup: [Lokal (auto)] (144 Channel)
   ----------------------------------------
     1. 24 Канал (1080p)
-    2. ABC Big Kids All Aussie
-    3. ANTV HD
-    4. Abadan
-    5. Ahsan TV
-    6. Ajwa TV (1080p)
-    7. Al Qamar TV (1080p)
-    8. Anadolu Net TV (1080p)
-    9. Angel TV Indonesia (720p)
-    10. Ashiil TV (480p)
-    11. Astro Blitar TV (720p)
-    12. Atomic Academy TV (480p)
-    13. Atomic TV (360p)
-    14. Azan TV
-    15. BALI TV
-    16. BBC LIFESTYLE
-    17. BERITASATU
-    18. BN Channel (ChannelFeed)
-    19. BRTV (720p)
-    20. Baan Baan TV 73
-    21. Balapan HD (1080p)
-    22. Balapan International (1080p)
-    23. Balikpapan TV (720p)
-    24. Bandung TV (360p)
-    25. Banjar TV (720p) [Not 24/7]
-    26. Batam TV (480p) [Not 24/7]
-    27. Bungo TV
-    28. CBC (576p)
-    29. CBC Drama (576p)
-    30. CBC Sofra (576p)
-    31. CNBC Indonesia (ChannelFeed)
-    32. CNN
-    33. CNN INDONESIA
-    34. CNN INDONESIA HD
-    35. CNN Indonesia (ChannelFeed)
-    36. Canal 24 Horas (720p)
-    37. Cao Bằng TV (720p)
-    38. Caruban TV (1080p)
-    39. Channel Jowo (DensTV)
-    40. Clan Internacional Americas (1080p) [Geo-blocked]
-    41. DAAI TV
-    42. DAAI TV (Dens)
-    43. DMI TV (576i)
-    44. Dhamma TV (720p) [Not 24/7]
-    45. EmanTv (1080p)
-    46. Fajar TV (720p) [Not 24/7]
-    47. Ficom Channel
-    48. Food Travel (V+)
-    49. Garuda TV (1080p)
-    50. Garuda TV (Flashcon)
-    51. Hmong Star TV (720p) [Not 24/7]
-    52. Hyder TV (720p)
-    53. I Am Channel (576p)
-    54. INEWS
-    55. Indonesiana.TV (720p)
-    56. Indosiar
-    57. Indosiar HD
-    58. Inter TV (1080p)
-    59. Iunior TV (1080p)
-    60. JAKTV
-    61. JTV
-    62. JTV (720p)
-    63. JTV Kediri (1080p) [Not 24/7]
-    64. JTV Madiun
-    65. JTV Malang
-    66. Jawa Pos TV Jakarta (720p)
-    67. Jogja TV (720p) [Not 24/7]
-    68. KOMPAS TV
-    69. Kids TV
-    70. Kompas TV HD
-    71. Kordia TV (1080p)
-    72. La 2
-    73. Libya Al Ahrar TV (1080p)
-    74. Lingkar TV
-    75. Love the Planet (1080p)
-    76. MAGNA Channel (Flashcon)
-    77. MAGNA TV (ChannelFeed)
-    78. MBG TV (1080p)
-    79. MDTV
-    80. MOJI TV (Dens)
-    81. MOJI TV HD (Alt 3 - DensTV flashcon)
-    82. MTV Ridiculousness
-    83. MTV Ridiculousness (720p)
-    84. Madani TV (720p)
-    85. Magna Channel (1080p)
-    86. Matrix TV Yogyakarta (720p)
-    87. Metro TV
-    88. MetroTV (Flashcon)
-    89. Nusantara TV (ChannelFeed)
-    90. Outdoor Channel (1080p)
-    91. PKTV (480p)
-    92. RRI Net (1080p)
-    93. RTV
-    94. RTV (Dens)
-    95. Radar Lampung TV (480p)
-    96. Radio 51 TV
-    97. Rajawali TV
-    98. Riau TV (1080p) [Not 24/7]
-    99. Rinjani TV
-    100. SCTV (DASH/MPD)
-    101. SCTV HD
-    102. SMTV (720p)
-    103. Salam TV (720p)
-    104. Sangaji TV (720p)
-    105. SindoNews
-    106. Sooriyan TV (1080p)
-    107. Sriwijaya TV (720p) [Not 24/7]
-    108. Stara TV Bojonegoro (720p)
-    109. Stara TV Jakarta (1080p)
-    110. Stara TV Parahyangan (720p)
-    111. Surau TV (720p)
-    112. TV Mu (720p) [Not 24/7]
-    113. TV9 Nusantara (720p)
-    114. TVE Star (576p)
-    115. TVE Star HD (1080p)
-    116. TVKU (720p)
-    117. TVOne (DensTV)
-    118. TVRI (1080i)
-    119. TVRI Aceh (720p)
-    120. TVRI Bali (480p)
-    121. TVRI Bangka Belitung (480p)
-    122. TVRI Bengkulu (480p)
-    123. TVRI Gorontalo (480p)
-    124. TVRI Jakarta (576i) [Not 24/7]
-    125. TVRI Jambi (720p) [Not 24/7]
-    126. TVRI Jawa Barat (480p)
-    127. TVRI Jawa Tengah (720p)
-    128. TVRI Jawa Timur (720p)
-    129. TVRI Kalimantan Barat (480p)
-    130. TVRI Kalimantan Selatan (720p)
-    131. TVRI Kalimantan Tengah (480p)
-    132. TVRI Kalimantan Timur (720p)
-    133. TVRI Lampung (720p)
-    134. TVRI Maluku (480p)
-    135. TVRI North Sulawesi (1080p)
-    136. TVRI North Sumatra (1080p)
-    137. TVRI Nusa Tenggara Barat (720p)
-    138. TVRI Nusa Tenggara Timur (480p)
-    139. TVRI Papua (480p)
-    140. TVRI Riau
-    141. TVRI Riau (720p) [Not 24/7]
-    142. TVRI Sulawesi Barat (720p)
-    143. TVRI Sulawesi Selatan (480p)
-    144. TVRI Sulawesi Tengah (720p)
-    145. TVRI Sulawesi Tenggara (480p)
-    146. TVRI Sumatera Barat (720p)
-    147. TVRI Sumatera Selatan (480p)
-    148. TVRI WORLD
-    149. TVRI West Papua (1080p)
-    150. TVRI World (1080p)
-    151. TVRI Yogyakarta (720p)
-    152. The Indonesia Channel (1080p)
-    153. Timor TV
-    154. U Channel
-    155. UCL (720p)
-    156. UGTV (720p)
-    157. VTV (720p)
-    158. VTV HD (1080p)
-    159. group-title="Lokal (auto)"CNN TV
-    160. Хузур ТВ (1080p) [Not 24/7]
+    2. ANTV HD
+    3. Abadan
+    4. Ahsan TV
+    5. Ajwa TV (1080p)
+    6. Al Qamar TV (1080p)
+    7. Anadolu Net TV (1080p)
+    8. Angel TV Indonesia (720p)
+    9. Ashiil TV (480p)
+    10. Astro Blitar TV (720p)
+    11. Atomic Academy TV (480p)
+    12. Atomic TV (360p)
+    13. Azan TV
+    14. BALI TV
+    15. BBC LIFESTYLE
+    16. BERITASATU
+    17. BN Channel (ChannelFeed)
+    18. BRTV (720p)
+    19. Baan Baan TV 73
+    20. Balapan HD (1080p)
+    21. Balapan International (1080p)
+    22. Balikpapan TV (720p)
+    23. Bandung TV (360p)
+    24. Batam TV (480p) [Not 24/7]
+    25. Bungo TV
+    26. CBC (576p)
+    27. CBC Drama (576p)
+    28. CBC Sofra (576p)
+    29. Canal 24 Horas (720p)
+    30. Cao Bằng TV (720p)
+    31. Caruban TV (1080p)
+    32. Channel Jowo (DensTV)
+    33. Clan Internacional Americas (1080p) [Geo-blocked]
+    34. DAAI TV
+    35. DAAI TV (Dens)
+    36. DMI TV (576i)
+    37. Dhamma TV (720p) [Not 24/7]
+    38. EmanTv (1080p)
+    39. Food Travel (V+)
+    40. Garuda TV (1080p)
+    41. Garuda TV (Flashcon)
+    42. Hmong Star TV (720p) [Not 24/7]
+    43. Hyder TV (720p)
+    44. I Am Channel (576p)
+    45. INEWS
+    46. Indonesiana.TV (720p)
+    47. Indosiar
+    48. Indosiar HD
+    49. Inter TV (1080p)
+    50. Iunior TV (1080p)
+    51. JAKTV
+    52. JTV
+    53. JTV (720p)
+    54. JTV Kediri (1080p) [Not 24/7]
+    55. JTV Madiun
+    56. JTV Malang
+    57. Jawa Pos TV Jakarta (720p)
+    58. Jogja TV (720p) [Not 24/7]
+    59. KOMPAS TV
+    60. Kompas TV HD
+    61. Kordia TV (1080p)
+    62. La 2
+    63. Libya Al Ahrar TV (1080p)
+    64. Lingkar TV
+    65. Love the Planet (1080p)
+    66. MAGNA Channel (Flashcon)
+    67. MAGNA TV (ChannelFeed)
+    68. MBG TV (1080p)
+    69. MDTV
+    70. MOJI TV (Dens)
+    71. MOJI TV HD (Alt 3 - DensTV flashcon)
+    72. MTV Ridiculousness
+    73. MTV Ridiculousness (720p)
+    74. Madani TV (720p)
+    75. Magna Channel (1080p)
+    76. Matrix TV Yogyakarta (720p)
+    77. Metro TV
+    78. MetroTV (Flashcon)
+    79. Outdoor Channel (1080p)
+    80. PKTV (480p)
+    81. RRI Net (1080p)
+    82. RTV
+    83. RTV (Dens)
+    84. Radio 51 TV
+    85. Rajawali TV
+    86. Riau TV (1080p) [Not 24/7]
+    87. SCTV (DASH/MPD)
+    88. SCTV HD
+    89. SMTV (720p)
+    90. Salam TV (720p)
+    91. Sangaji TV (720p)
+    92. SindoNews
+    93. Sooriyan TV (1080p)
+    94. Sriwijaya TV (720p) [Not 24/7]
+    95. Stara TV Bojonegoro (720p)
+    96. Stara TV Jakarta (1080p)
+    97. Stara TV Parahyangan (720p)
+    98. Surau TV (720p)
+    99. TV9 Nusantara (720p)
+    100. TVE Star (576p)
+    101. TVE Star HD (1080p)
+    102. TVKU (720p)
+    103. TVOne (DensTV)
+    104. TVRI (1080i)
+    105. TVRI Aceh (720p)
+    106. TVRI Bali (480p)
+    107. TVRI Bangka Belitung (480p)
+    108. TVRI Bengkulu (480p)
+    109. TVRI Gorontalo (480p)
+    110. TVRI Jakarta (576i) [Not 24/7]
+    111. TVRI Jambi (720p) [Not 24/7]
+    112. TVRI Jawa Barat (480p)
+    113. TVRI Jawa Tengah (720p)
+    114. TVRI Jawa Timur (720p)
+    115. TVRI Kalimantan Barat (480p)
+    116. TVRI Kalimantan Selatan (720p)
+    117. TVRI Kalimantan Tengah (480p)
+    118. TVRI Kalimantan Timur (720p)
+    119. TVRI Lampung (720p)
+    120. TVRI Maluku (480p)
+    121. TVRI North Sulawesi (1080p)
+    122. TVRI North Sumatra (1080p)
+    123. TVRI Nusa Tenggara Barat (720p)
+    124. TVRI Nusa Tenggara Timur (480p)
+    125. TVRI Papua (480p)
+    126. TVRI Riau
+    127. TVRI Riau (720p) [Not 24/7]
+    128. TVRI Sulawesi Barat (720p)
+    129. TVRI Sulawesi Selatan (480p)
+    130. TVRI Sulawesi Tengah (720p)
+    131. TVRI Sulawesi Tenggara (480p)
+    132. TVRI Sumatera Barat (720p)
+    133. TVRI Sumatera Selatan (480p)
+    134. TVRI WORLD
+    135. TVRI West Papua (1080p)
+    136. TVRI World (1080p)
+    137. TVRI Yogyakarta (720p)
+    138. The Indonesia Channel (1080p)
+    139. U Channel
+    140. UCL (720p)
+    141. UGTV (720p)
+    142. VTV (720p)
+    143. VTV HD (1080p)
+    144. Хузур ТВ (1080p) [Not 24/7]
 
   📁 Grup: [Uncategorized] (1 Channel)
   ----------------------------------------
@@ -205,7 +184,7 @@
     6. Tatv (720p) [not 24/7]
     7. Tvr parlemen (720p) [not 24/7]
 
-  📁 Grup: [Lokal (auto)] (210 Channel)
+  📁 Grup: [Lokal (auto)] (223 Channel)
   ----------------------------------------
     1. (ID) TVRI ACEH
     2. (ID) TVRI BALI
@@ -272,151 +251,164 @@
     63. BTV [Geo-blocked]
     64. Bali TV
     65. Bandung TV
-    66. Batam TV
-    67. Berita Satu (DensTV)
-    68. BeritaSatu (1080p)
-    69. Bioskop Indonesia
-    70. CITRA ENTERTAINMENT
-    71. CNBC INDONESIA
-    72. CNBC Indonesia
-    73. CNN INDONESIA
-    74. CelebritiesTV (V+)
-    75. DAAI TV - LOCAL
-    76. DAAI TV HD
-    77. DAAI TV HD (Alt 2)
-    78. DAAI TV http://210.210.155.35/qwr9ew/s/s13/01.m3u8
-    79. Dens Life Style
-    80. Entertainment (V+)
-    81. Fajar TV (240p) [Not 24/7]
-    82. First Lifestyle
-    83. GLOBAL TV+ https://live.rctiplus.id/rctiplus/gtv_720p.m3u8
-    84. GTV
-    85. GTV HD
-    86. Groovia Kanal
-    87. Hanacaraka TV (V+)
-    88. Hispan TV
-    89. Hunan TV
-    90. IDTV (720p) [Not 24/7]
-    91. IDX (V+)
-    92. INDOSIAR - LOCAL
-    93. INDOSIAR BRI Super LIG
-    94. INDOSIAR HD http://id1.indostreamingtv.com/live/indosiar/index.m3u8
-    95. INDOSIAR http://id1.indostreamingtv.com/live/indosiar/index.m3u
-    96. INEWS+ https://live.rctiplus.id/rctiplus/inews_720p.m3u8
-    97. Iman TV (480p)
-    98. Indonesia Movie Channel (V+)
-    99. Indosiar
-    100. Indosiar HD
-    101. Indosiar HD (Alt 2)
-    102. JAKTV - LOCAL
-    103. JTV
-    104. JTV (V+)
-    105. JTV Madura (480p) [Not 24/7]
-    106. Jak TV [Geo-blocked]
-    107. Jambi TV
-    108. KOMPAS TV
-    109. KOMPASTV
-    110. Kanal 10 Asia (540p)
-    111. Kompas TV HD
-    112. Kompas TV HD (Alt 2)
-    113. KompasTV
-    114. Love The Planet DE (1080p) [Geo-blocked]
-    115. MAGNA Channel
-    116. MAX KIDS
-    117. MDTV
-    118. MDTV HD
-    119. MDTV HD (Alt 2)
-    120. MENTARI TV HD
-    121. METRO TV - LOCAL
-    122. METRO TV HD http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w2006790992_b1492000_sleng.m3u8
-    123. METROTV
-    124. MNC TV
-    125. MNC TV HD
-    126. MNCTV
-    127. MNCTV HD (720p)
-    128. MOJI TV (Video)
-    129. MOJI TV HD
-    130. MOJI TV HD (Alt 2)
-    131. MUSIC TOP
-    132. Max Reels
-    133. Mentari TV FHD
-    134. Metro TV HD (Alt 2)
-    135. MetroTV
-    136. Music JapanTV
-    137. NET TV
-    138. NET TV HD http://id2.indostreamingtv.com/live/nettv/index.m3u8
-    139. Naajiya TV (720p)
-    140. PLANET FUN
-    141. RCTI
-    142. RCTI HD
-    143. RCTI HD (720p)
-    144. RCTI HD (Alt 2)
-    145. RCTI SPORTS
-    146. RTV
-    147. RTV (V+)
-    148. RTV (Vidio)
-    149. RTV http://210.210.155.35/qwr9ew/s/s12/index1.m3u8
-    150. Riau TV
-    151. SCTV
-    152. SCTV (DASH/MPD)
-    153. SCTV - LOCAL
-    154. SCTV HD
-    155. SCTV HD (Alt 2)
-    156. SCTV HD http://id1.indostreamingtv.com/live/sctv/index.m3u8
-    157. SCTV [Geo-blocked]
-    158. SIN PO TV
-    159. SIN PO TV HD
-    160. SKY SPORT F1
-    161. TLC HD
-    162. TRANS 7 TV
-    163. TRANS 7 http://video.detik.com/trans7/smil:trans7.smil/chunklist_w1925750281_b384000_sleng.m3u8
-    164. TRANS TV + http://id2.indostreamingtv.com/live/tv33/index.m3u8
-    165. TRANS TV - LOCAL
-    166. TRANS TV http://video.detik.com/transtv/smil:transtv.smil/chunklist_w1982763047_b384000_sleng.m3u8
-    167. TRANS7 - LOCAL
-    168. TV ONE - LOCAL
-    169. TV ONE http://id1.indostreamingtv.com/live/tv444/index.m3u8
-    170. TVKU
-    171. TVOne
-    172. TVOne (V+)
-    173. TVOne (V+) (Alt 2)
-    174. TVOne HD
-    175. TVOne HD (Alt 2)
-    176. TVR Parlemen (720p) [Not 24/7]
-    177. TVRI
-    178. TVRI (480p) [Geo-blocked]
-    179. TVRI + http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/Stream(02)/index.m3u8
-    180. TVRI - LOCAL
-    181. TVRI NASIONAL
-    182. TVRI Sport HD
-    183. TVRI Sport [Geo-blocked]
-    184. Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]
-    185. Trans TV cad
-    186. Trans7 HD
-    187. Trans7 HD (Alt 2)
-    188. TransTV HD
-    189. TransTV HD (Alt 2)
-    190. Unknown
-    191. Unknown 4
-    192. Vision Prime (V+)
-    193. dTVi
-    194. group-title="Lokal (auto)"INDOSIAR http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
-    195. group-title="Lokal (auto)"INEWSTV https://cdn-livetv5.metube.id/hls/inewstv_240/index.m3u8
-    196. group-title="Lokal (auto)"JAKTV https://cdn-livetv1.metube.id/hls/jaktv_480/536549.ts
-    197. group-title="Lokal (auto)"JTV https://cdn-livetv1.metube.id/hls/jtv_240/index.m3u8
-    198. group-title="Lokal (auto)"METROTV http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w391596422_b1492000_sleng.m3u8
-    199. group-title="Lokal (auto)"MNCTV http://id6.indostreamingtv.com/live/mnctv/index.m3u8
-    200. group-title="Lokal (auto)"RCTI http://id6.indostreamingtv.com/live/rcti/index.m3u8
-    201. group-title="Lokal (auto)"RTV http://210.210.155.35/session/0c55f20a-0998-11ea-875c-b82a72d63267/qwr9ew/s/s12/01.m3u8
-    202. group-title="Lokal (auto)"SCTV https://cdn-livetv1.metube.id/hls/sctv_480/index.m3u8
-    203. group-title="Lokal (auto)"TRANS7 http://id2.indostreamingtv.com/live/trans7/index.m3u8
-    204. group-title="Lokal (auto)"TVONE https://cdn-livetv1.metube.id/hls/tvone_240/index.m3u8
-    205. group-title="Lokal (auto)"TVRI https://cdn-livetv1.metube.id/hls/tvri_480/index.m3u8
-    206. http://oromartv.com/wp-content/uploads/2016/05/oromartv-logo.png"
-    207. iNews
-    208. iNews HD
-    209. iNews HD (720p)
-    210. tvOne [Geo-blocked]
+    66. Banjar TV (720p) [Not 24/7]
+    67. Batam TV
+    68. Berita Satu (DensTV)
+    69. BeritaSatu (1080p)
+    70. Bioskop Indonesia
+    71. CITRA ENTERTAINMENT
+    72. CNBC INDONESIA
+    73. CNBC Indonesia
+    74. CNBC Indonesia (ChannelFeed)
+    75. CNN
+    76. CNN INDONESIA
+    77. CNN INDONESIA HD
+    78. CNN Indonesia (ChannelFeed)
+    79. CelebritiesTV (V+)
+    80. DAAI TV - LOCAL
+    81. DAAI TV HD
+    82. DAAI TV HD (Alt 2)
+    83. DAAI TV http://210.210.155.35/qwr9ew/s/s13/01.m3u8
+    84. Dens Life Style
+    85. Entertainment (V+)
+    86. Fajar TV (240p) [Not 24/7]
+    87. Fajar TV (720p) [Not 24/7]
+    88. Ficom Channel
+    89. First Lifestyle
+    90. GLOBAL TV+ https://live.rctiplus.id/rctiplus/gtv_720p.m3u8
+    91. GTV
+    92. GTV HD
+    93. Groovia Kanal
+    94. Hanacaraka TV (V+)
+    95. Hispan TV
+    96. Hunan TV
+    97. IDTV (720p) [Not 24/7]
+    98. IDX (V+)
+    99. INDOSIAR - LOCAL
+    100. INDOSIAR BRI Super LIG
+    101. INDOSIAR HD http://id1.indostreamingtv.com/live/indosiar/index.m3u8
+    102. INDOSIAR http://id1.indostreamingtv.com/live/indosiar/index.m3u
+    103. INEWS+ https://live.rctiplus.id/rctiplus/inews_720p.m3u8
+    104. Iman TV (480p)
+    105. Indonesia Movie Channel (V+)
+    106. Indosiar
+    107. Indosiar HD
+    108. Indosiar HD (Alt 2)
+    109. JAKTV - LOCAL
+    110. JTV
+    111. JTV (V+)
+    112. JTV Madura (480p) [Not 24/7]
+    113. Jak TV [Geo-blocked]
+    114. Jambi TV
+    115. KOMPAS TV
+    116. KOMPASTV
+    117. Kanal 10 Asia (540p)
+    118. Kompas TV HD
+    119. Kompas TV HD (Alt 2)
+    120. KompasTV
+    121. Love The Planet DE (1080p) [Geo-blocked]
+    122. MAGNA Channel
+    123. MAX KIDS
+    124. MDTV
+    125. MDTV HD
+    126. MDTV HD (Alt 2)
+    127. MENTARI TV HD
+    128. METRO TV - LOCAL
+    129. METRO TV HD http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w2006790992_b1492000_sleng.m3u8
+    130. METROTV
+    131. MNC TV
+    132. MNC TV HD
+    133. MNCTV
+    134. MNCTV HD (720p)
+    135. MOJI TV (Video)
+    136. MOJI TV HD
+    137. MOJI TV HD (Alt 2)
+    138. MUSIC TOP
+    139. Max Reels
+    140. Mentari TV FHD
+    141. Metro TV HD (Alt 2)
+    142. MetroTV
+    143. Music JapanTV
+    144. NET TV
+    145. NET TV HD http://id2.indostreamingtv.com/live/nettv/index.m3u8
+    146. Naajiya TV (720p)
+    147. Nusantara TV (ChannelFeed)
+    148. PLANET FUN
+    149. RCTI
+    150. RCTI HD
+    151. RCTI HD (720p)
+    152. RCTI HD (Alt 2)
+    153. RCTI SPORTS
+    154. RTV
+    155. RTV (V+)
+    156. RTV (Vidio)
+    157. RTV http://210.210.155.35/qwr9ew/s/s12/index1.m3u8
+    158. Radar Lampung TV (480p)
+    159. Riau TV
+    160. Rinjani TV
+    161. SCTV
+    162. SCTV (DASH/MPD)
+    163. SCTV - LOCAL
+    164. SCTV HD
+    165. SCTV HD (Alt 2)
+    166. SCTV HD http://id1.indostreamingtv.com/live/sctv/index.m3u8
+    167. SCTV [Geo-blocked]
+    168. SIN PO TV
+    169. SIN PO TV HD
+    170. SKY SPORT F1
+    171. TLC HD
+    172. TRANS 7 TV
+    173. TRANS 7 http://video.detik.com/trans7/smil:trans7.smil/chunklist_w1925750281_b384000_sleng.m3u8
+    174. TRANS TV + http://id2.indostreamingtv.com/live/tv33/index.m3u8
+    175. TRANS TV - LOCAL
+    176. TRANS TV http://video.detik.com/transtv/smil:transtv.smil/chunklist_w1982763047_b384000_sleng.m3u8
+    177. TRANS7 - LOCAL
+    178. TV Mu (720p) [Not 24/7]
+    179. TV ONE - LOCAL
+    180. TV ONE http://id1.indostreamingtv.com/live/tv444/index.m3u8
+    181. TVKU
+    182. TVOne
+    183. TVOne (V+)
+    184. TVOne (V+) (Alt 2)
+    185. TVOne HD
+    186. TVOne HD (Alt 2)
+    187. TVR Parlemen (720p) [Not 24/7]
+    188. TVRI
+    189. TVRI (480p) [Geo-blocked]
+    190. TVRI + http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINasional)/Stream(02)/index.m3u8
+    191. TVRI - LOCAL
+    192. TVRI NASIONAL
+    193. TVRI Sport HD
+    194. TVRI Sport [Geo-blocked]
+    195. Tegar TV Lampung (480p) [Not 24/7] [Geo-blocked]
+    196. Timor TV
+    197. Trans TV cad
+    198. Trans7 HD
+    199. Trans7 HD (Alt 2)
+    200. TransTV HD
+    201. TransTV HD (Alt 2)
+    202. Unknown
+    203. Unknown 4
+    204. Vision Prime (V+)
+    205. dTVi
+    206. group-title="Lokal (auto)"CNN TV
+    207. group-title="Lokal (auto)"INDOSIAR http://210.210.155.35/session/9ec7c73c-099b-11ea-aff4-b82a72d63267/qwr9ew/s/s04/01.m3u8
+    208. group-title="Lokal (auto)"INEWSTV https://cdn-livetv5.metube.id/hls/inewstv_240/index.m3u8
+    209. group-title="Lokal (auto)"JAKTV https://cdn-livetv1.metube.id/hls/jaktv_480/536549.ts
+    210. group-title="Lokal (auto)"JTV https://cdn-livetv1.metube.id/hls/jtv_240/index.m3u8
+    211. group-title="Lokal (auto)"METROTV http://edge.metrotvnews.com:1935/live-edge/smil:metro.smil/chunklist_w391596422_b1492000_sleng.m3u8
+    212. group-title="Lokal (auto)"MNCTV http://id6.indostreamingtv.com/live/mnctv/index.m3u8
+    213. group-title="Lokal (auto)"RCTI http://id6.indostreamingtv.com/live/rcti/index.m3u8
+    214. group-title="Lokal (auto)"RTV http://210.210.155.35/session/0c55f20a-0998-11ea-875c-b82a72d63267/qwr9ew/s/s12/01.m3u8
+    215. group-title="Lokal (auto)"SCTV https://cdn-livetv1.metube.id/hls/sctv_480/index.m3u8
+    216. group-title="Lokal (auto)"TRANS7 http://id2.indostreamingtv.com/live/trans7/index.m3u8
+    217. group-title="Lokal (auto)"TVONE https://cdn-livetv1.metube.id/hls/tvone_240/index.m3u8
+    218. group-title="Lokal (auto)"TVRI https://cdn-livetv1.metube.id/hls/tvri_480/index.m3u8
+    219. http://oromartv.com/wp-content/uploads/2016/05/oromartv-logo.png"
+    220. iNews
+    221. iNews HD
+    222. iNews HD (720p)
+    223. tvOne [Geo-blocked]
 
   📁 Grup: [Uncategorized] (1 Channel)
   ----------------------------------------

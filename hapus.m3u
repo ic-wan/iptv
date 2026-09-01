@@ -769,3 +769,95 @@ http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w2069650134_b280000_sleng.m3u8
 #EXTINF:0 tvg-country="ID" tvg-logo="" group-title="Lokal (auto)" tvg-logo="https://cdn.cnbcindonesia.com/cnbc/images/logo_hitam.png?w=650",CNBC Indonesia
 http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
+#EXTINF:-1 group-title="Lokal (auto)",CNN
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)",CNN INDONESIA HD
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1705215623_b384000_sleng.m3u8
+#EXTINF:-1 group-title="Lokal (auto)",CNN INDONESIA
+http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
+#EXTINF:-1,group-title="Lokal (auto)"CNN TV
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVMu.id@SD",TV Mu (720p) [Not 24/7]
+https://e.siar.us/live/tvmu.m3u8
+#EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
+https://v3.siar.us/ficomchannel/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BanjarTV.id@SD",Banjar TV (720p) [Not 24/7]
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV HD
+#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD
+#EXTINF:-1 tvg-id="Moji.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV HD (Alt 3 - DensTV flashcon)
+#EXTINF:-1 tvg-id="JawaPosTV.id@Jakarta" tvg-logo="
+https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Lokal (auto)",Jawa Pos TV Jakarta (720p)
+#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="
+https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
+#EXTINF:-1 tvg-id="MadaniTV.id@SD" tvg-logo="
+https://i.imgur.com/8aonQ0v.png" group-title="Lokal (auto)",Madani TV (720p)
+#EXTINF:-1 tvg-id="TV9Nusantara.id@SD" tvg-logo="
+https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal (auto)",TV9 Nusantara (720p)
+#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="
+https://i.imgur.com/BAklJGy.png" group-title="Lokal (auto)",TVKU (720p)
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="
+https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV (720p)
+#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="
+https://i.imgur.com/iEKDH26.png" group-title="Lokal (auto)",UGTV (720p)
+#EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal (auto)",Kompas TV HD
+#EXTINF:-1 tvg-id="tvOne.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Lokal (auto)",TVOne (DensTV)
+#EXTINF:-1 tvg-id="Moji" tvg-logo="
+https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV (Dens)
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
+#EXTINF:-1 tvg-id="RTV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" group-title="Lokal (auto)",RTV (Dens)
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="
+https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+#EXTINF:-1 tvg-id="timor.tv" tvg-logo="
+https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Timor TV
+#EXTINF:-1 tvg-id="Channel Jowo" tvg-logo="
+https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png" group-title="Lokal (auto)",Channel Jowo (DensTV)
+#EXTINF:-1 tvg-id="auto.beritasatu" group-title="Lokal (auto)" tvg-logo="
+https://mimipipi22.github.io/logo/nasional/beritasatu.jpg",BERITASATU
+#EXTINF:-1 tvg-id="auto.inews" group-title="Lokal (auto)" tvg-logo="
+https://mimipipi22.github.io/logo/nasional/inews.jpg",INEWS
+#EXTINF:-1 tvg-id="auto.jtv" group-title="Lokal (auto)" tvg-logo="
+https://mimipipi22.github.io/logo/nasional/jtv.jpg",JTV
+#EXTINF:-1 tvg-id="auto.kompas.tv" group-title="Lokal (auto)" tvg-logo="
+https://github.com/Bluestraveller13/LOGO/blob/main/KompasTV.png?raw=true",KOMPAS TV
+#EXTINF:-1 tvg-id="auto.rtv" group-title="Lokal (auto)" tvg-logo="
+https://mimipipi22.github.io/logo/nasional/rtv.jpg",RTV
+#EXTINF:-1 tvg-id="auto.sctv" group-title="Lokal (auto)" tvg-logo="
+https://mimipipi22.github.io/logo/nasional/sctv.jpg",SCTV (DASH/MPD)
+#EXTINF:-1 tvg-id="MagnaChannel.id" tvg-name="Magna Channel" tvg-logo="
+https://i.imgur.com/tfJo0SO.png" tvg-country="ID" group-title="Lokal (auto)",Magna Channel (1080p)
+#EXTINF:-1 tvg-id="auto.abc.big.kids.all.aussie" tvg-logo="
+https://cdn.iview.abc.net.au/thumbs/i/Logo-URL-Wide-1020x574_BigKids_new.png" group-title="Lokal (auto)",ABC Big Kids All Aussie
+#EXTINF:-1 tvg-id="RadarTasikmalayaTV.id@SD" tvg-logo="
+https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar tasikmalaya tv (720p) [not 24/7]
+#EXTINF:-1 tvg-id="tvone.id" tvg-logo="
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4Y_baYWVbj91xIGOXwL4AOZqn6aaCVVNe_PN7mswwQ&s=10" group-title="Lokal",Tv one
+#EXTINF:-1 tvg-id="balapan.international" tvg-logo="
+https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
+#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-logo="
+https://i.imgur.com/B5YiUIP.png" group-title="Lokal (auto)",Kids TV
+#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
+https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 tvg-id="cnn.indonesia" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="cnbc.indonesia" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1242192746_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w766556031_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="timor.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Timor TV
+http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
