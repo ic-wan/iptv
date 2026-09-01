@@ -51,7 +51,7 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul video
+        # Ambil judul video asli
         title_res = run_ytdlp(["--get-title", url])
         if title_res and len(title_res) > 0:
             raw_title = title_res.replace(",", " ")
@@ -60,21 +60,18 @@ def main():
 
         title = raw_title
         
-        # Ambil tautan direct stream (audio/video langsung) agar Fermata Auto bisa memutar tanpa kedip-kedip webview
-        stream_res = run_ytdlp(["-g", "-f", "best[ext=mp4]/best", url])
-        
-        if stream_res and stream_res.startswith("http"):
-            # Ambil baris pertama jika ada banyak pilihan stream
-            active_url = stream_res.splitlines()[0]
-            print(f"Berhasil mendapatkan direct stream untuk: {title}")
+        # Ekstrak Video ID dengan bersih
+        if "v=" in url:
+            video_id = url.split("v=")[-1].split("&")[0]
+        elif "youtu.be/" in url:
+            video_id = url.split("youtu.be/")[-1].split("?")[0]
         else:
-            # Fallback jika gagal ekstrak, gunakan watch standar
-            if "v=" in url:
-                vid = url.split("v=")[-1].split("&")[0]
-            else:
-                vid = url
-            active_url = f"https://www.youtube.com/watch?v={vid}"
-            print(f"Gagal direct stream, menggunakan URL standar untuk: {title}")
+            video_id = url
+
+        # Menggunakan format Intent Android yang memaksa Head Unit/Fermata memicu pemutar eksternal (VLC/Media player mobil)
+        active_url = f"intent://www.youtube.com/watch?v={video_id}#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;"
+        
+        print(f"Berhasil menyiapkan Intent URI untuk: {title}")
 
         extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
@@ -93,7 +90,7 @@ def main():
         if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
             skip = True
             continue
-        if skip and (line.strip().startswith("http://") or line.strip().startswith("https://") or "youtube.com" in line or "youtu.be" in line):
+        if skip and (line.strip().startswith("http://") or line.strip().startswith("https://") or line.strip().startswith("intent://") or "youtube.com" in line or "youtu.be" in line):
             continue
         if skip and line.strip().startswith("#EXTINF"):
             skip = False
@@ -108,11 +105,12 @@ def main():
         if not line_str:
             continue
         
-        if line_str.startswith("#EXTINF") and ("http://" in line_str or "https://" in line_str):
-            parts = line_str.split("http")
+        if line_str.startswith("#EXTINF") and ("http://" in line_str or "https://" in line_str or "intent://" in line_str):
+            parts = line_str.split("intent://") if "intent://" in line_str else line_str.split("http")
+            separator = "intent://" if "intent://" in line_str else "http"
             if len(parts) > 1:
                 meta_part = parts[0].strip()
-                url_part = "http" + parts[1].strip()
+                url_part = separator + parts[1].strip()
                 fixed_content.append(meta_part + "\n")
                 fixed_content.append(url_part + "\n")
             else:
@@ -130,7 +128,7 @@ def main():
     with open(target_playlist, "w", encoding="utf-8") as f:
         f.writelines(fixed_content)
     
-    print(f"\nBerhasil memperbarui playlist {target_playlist} dengan direct stream untuk Fermata Auto.")
+    print(f"\nBerhasil memperbarui playlist {target_playlist} dengan format Intent Fermata Auto.")
 
 if __name__ == "__main__":
     main()
