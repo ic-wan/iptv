@@ -51,8 +51,8 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
+        # Ambil judul video
         title_res = run_ytdlp(["--get-title", url])
-        
         if title_res and len(title_res) > 0:
             raw_title = title_res.replace(",", " ")
         else:
@@ -60,16 +60,21 @@ def main():
 
         title = raw_title
         
-        if "v=" in url:
-            video_id = url.split("v=")[-1].split("&")[0]
-        elif "youtu.be/" in url:
-            video_id = url.split("youtu.be/")[-1].split("?")[0]
-        else:
-            video_id = url
-
-        active_url = f"https://www.youtube.com/watch?v={video_id}"
+        # Ambil tautan direct stream (audio/video langsung) agar Fermata Auto bisa memutar tanpa kedip-kedip webview
+        stream_res = run_ytdlp(["-g", "-f", "best[ext=mp4]/best", url])
         
-        print(f"Berhasil memuat judul: {title}")
+        if stream_res and stream_res.startswith("http"):
+            # Ambil baris pertama jika ada banyak pilihan stream
+            active_url = stream_res.splitlines()[0]
+            print(f"Berhasil mendapatkan direct stream untuk: {title}")
+        else:
+            # Fallback jika gagal ekstrak, gunakan watch standar
+            if "v=" in url:
+                vid = url.split("v=")[-1].split("&")[0]
+            else:
+                vid = url
+            active_url = f"https://www.youtube.com/watch?v={vid}"
+            print(f"Gagal direct stream, menggunakan URL standar untuk: {title}")
 
         extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
@@ -81,7 +86,7 @@ def main():
     else:
         raw_lines = ["#EXTM3U\n"]
 
-    # 1. Bersihkan dulu seluruh blok lama "Youtube Music" dari file
+    # 1. Bersihkan blok lama "Youtube Music"
     cleaned_lines = []
     skip = False
     for line in raw_lines:
@@ -96,16 +101,14 @@ def main():
         if not skip:
             cleaned_lines.append(line)
 
-    # 2. Perbaiki baris yang menempel (misal #EXTINF tergabung dengan URL di baris yang sama)
+    # 2. Perbaiki baris yang menempel antar tag
     fixed_content = []
     for line in cleaned_lines:
         line_str = line.strip()
         if not line_str:
             continue
         
-        # Jika ada baris yang memuat #EXTINF sekaligus mengandung URL di baris yang sama
         if line_str.startswith("#EXTINF") and ("http://" in line_str or "https://" in line_str):
-            # Coba pisahkan berdasarkan protokol http/https
             parts = line_str.split("http")
             if len(parts) > 1:
                 meta_part = parts[0].strip()
@@ -120,14 +123,14 @@ def main():
     if not fixed_content or not fixed_content[0].startswith("#EXTM3U"):
         fixed_content.insert(0, "#EXTM3U\n")
 
-    # 3. Tambahkan kembali entri YouTube baru di bagian akhir file
+    # 3. Tambahkan entri baru
     fixed_content.append("\n# --- YouTube Streams ---\n")
     fixed_content.extend(youtube_entries)
 
     with open(target_playlist, "w", encoding="utf-8") as f:
         f.writelines(fixed_content)
     
-    print(f"\nBerhasil memperbaiki dan memperbarui playlist {target_playlist} untuk Fermata Auto.")
+    print(f"\nBerhasil memperbarui playlist {target_playlist} dengan direct stream untuk Fermata Auto.")
 
 if __name__ == "__main__":
     main()
