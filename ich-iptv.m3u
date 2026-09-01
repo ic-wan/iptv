@@ -1,241 +1,4 @@
 #EXTM3U url-tvg="https://raw.githubusercontent.com/ic-wan/iptv/main/epg-ich.xml.gz"
-#EXTINF:-1 tvg-id="ADHIMIX.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8zuLkDjVqgI6juy9gKq32a8ak62dchGZ-Q&s" group-title="INDONESIA",Indonesia raya
-https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
-#EXTINF:-1 tvg-id="prambors.id" tvg-logo="
-https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
-https://n03-us.rcs.revma.com/h77wwp48kxcwv?rj-ttl=5&rj-tok=AAABnrc_4EoAs27N82x_rDtjUQ
-#EXTINF:-1 tvg-id="rodja.id" tvg-logo="
-https://cdn.instant.audio/images/logos/radioonline-co-id/rodja.png" group-title="Radio",Rodja fm
-https://radioislamindonesia.com/rodja.mp3
-#EXTINF:-1 tvg-id="The Rockin Life2" tvg-logo="
-https://assets-static.therockinlife.com/wp-content/uploads/2024/12/TRL-MUSIC-STREAM-PLAYER-JKT.jpg" group-title="Radio",The rockin life
-https://stream.radiojar.com/7csmg90fuqruv
-#EXTINF:-1 tvg-id="The Rockin Life.id" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/thumb/e/e7/Logo_The_Rockin_Life.png/330px-Logo_The_Rockin_Life.png" group-title="Radio",The rockin life (indirect)
-https://stream-ssl.arenastreaming.com:8004/hardrock
-#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="
-https://pbs.twimg.com/profile_images/1567391888617111552/vzO7QNcc_400x400.jpg" group-title="Lokal",Bn channel (720p)
-https://flv.intechmedia.net/live/ch112.m3u8
-#EXTINF:-1 tvg-id="BRTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/1/1f/Logo_BRTV.png" group-title="Lokal",Brtv (720p)
-https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
-#EXTINF:-1 tvg-id="BandungTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/thumb/1/13/Bandungtv_2011.png/250px-Bandungtv_2011.png?utm_source=id.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Lokal",Bandung tv (360p)
-http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
-#EXTINF:-1 tvg-id="BMSTV.id@SD" tvg-logo="
-https://i.imgur.com/snMxng5.png" group-title="Lokal",Banyumas tv (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/bmstv/bmstv/playlist.m3u8
-#EXTINF:-1 tvg-id="BiznetAdventure.id@SD" tvg-logo="
-https://i.imgur.com/ZREy4zM.png" group-title="Lokal",Biznet adventure (1080p)
-http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BiznetLifestyle.id@SD" tvg-logo="
-https://i.imgur.com/XqUfQKA.png" group-title="Lokal",Biznet lifestyle (1080p)
-http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
-#EXTINF:-1 tvg-id="BungoTV.id@SD" tvg-logo="
-https://i.imgur.com/OrCrtDA.png" group-title="Lokal",Bungo tv (480p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
-#EXTINF:-1 tvg-id="CNBC Indonesia.id" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal",Cnbc hd
-http://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w528900641_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="CNN.id" tvg-logo="
-https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",Cnn 1 hd
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1440476333_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="CarubanTV.id@HD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/3/3a/CarubanTV%28Low-res%29.png" group-title="Lokal",Caruban tv (1080p)
-https://stream.carubantv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="DAAITV.id@SD" tvg-logo="
-https://i.imgur.com/YC7JCHo.png" group-title="Lokal",Daai tv
-https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
-#EXTINF:-1 tvg-id="DhammaTV.id@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIwuLAjY2xQrH3E0O5msXFQ4B-tC2zBVGn8RgkfH_EVC8v0JKRE5uQFeU&s=10" group-title="Lokal",Dhamma tv (720p) [not 24/7]
-https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id@SD" tvg-logo="
-https://i.imgur.com/sXsAcZ3.png" group-title="Lokal",Garuda tv (1080p)
-https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-#EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="
-https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
-https://streaming.radiosalamjambi.com/izzahtv.m3u8
-#EXTINF:-1 tvg-id="JTV.id@SD" tvg-logo="
-https://i.imgur.com/mIDWIQk.png" group-title="Lokal",Jtv (480p)
-http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="JawaPosTV.id@Jakarta" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsX3irCjKhc-JkQvQVvrSydaFUF5LfbN06NnGzNAjGpA&s=10" group-title="Lokal",Jawa pos tv jakarta (720p)
-http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="JogjaIstimewaTV.id@SD" tvg-logo="
-https://i.imgur.com/VEqQfTu.png" group-title="Lokal",Jogja istimewa tv (720p)
-http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="KTV.id@SD" tvg-logo="
-https://i.imgur.com/j3wtaDc.png" group-title="Lokal",Ktv (720p)
-https://flv.intechmedia.net/live/ch118.m3u8
-#EXTINF:-1 tvg-id="KawanuaTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua tv (720p)
-http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="LingkarTV.id@SD" tvg-logo="
-https://lingkartv.com/assets/img/logo-square.png" group-title="Lokal",Lingkar tv
-https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:-1 tvg-id="MQTV.id@SD" tvg-logo="
-https://i.imgur.com/d8dQo6E.png" group-title="Lokal",Mqtv (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8
-#EXTINF:-1 tvg-id="MadaniTV.id@SD" tvg-logo="
-https://i.imgur.com/8aonQ0v.png" group-title="Lokal",Madani tv (720p)
-https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MagnaChannel.id@SD" tvg-logo="
-https://i.imgur.com/tfJo0SO.png" group-title="Lokal",Magna channel (1080p) [not 24/7]
-https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="metrotv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTANSe1A8KoXIlpw-JG9ke_QYoAqZ4q9GWVfUvGMPdO6w&s=10" group-title="Lokal",Metro tv
-https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PONTV.id@SD" tvg-logo="
-https://i.imgur.com/P5erWzm.png" group-title="Lokal",Pontv (720p)
-http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="rtv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRikV_Z_AmHvqeldMc5aboPloZaAbs92LVJadwk0-2S9g&s" group-title="Lokal",R tv
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
-#EXTINF:-1 tvg-id="RRINet.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHxynm-TiJQLSD0iQRbzRTVvtTdUZHlacYNDSlnofD3g&s" group-title="Lokal",Rri net (1080p)
-https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
-#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",Smtv (720p) [not 24/7]
-http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="SaliraTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Salira_TV.png" group-title="Lokal",Salira tv (720p)
-https://live.salira.tv/p/3870/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@SumedangMajalengka" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv (720p)
-https://stream.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Bandung" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv bandung (1080p)
-https://bandung.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Cianjur" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv cianjur (720p)
-https://cianjur.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Malang" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal",Stara tv malang (1080p)
-https://malang.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="TVTabalong.id@SD" tvg-logo="
-https://i.imgur.com/2YhDH98.png" group-title="Lokal",Tv tabalong (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:-1 tvg-id="TV9Nusantara.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal",Tv9 nusantara (720p)
-https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@WestJava" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8S3p8dGa7_u3LEhdIZAJ9RfhqIo7d5N43N72ay-f1A&s=10" group-title="Lokal",Tvri jawa barat (480p)
-https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
-#EXTINF:-1 tvg-id="TVRI.id@EastJava" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8S3p8dGa7_u3LEhdIZAJ9RfhqIo7d5N43N72ay-f1A&s=10" group-title="Lokal",Tvri jawa timur (720p)
-https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
-#EXTINF:-1 tvg-id="TVRIWorld.id@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-8S3p8dGa7_u3LEhdIZAJ9RfhqIo7d5N43N72ay-f1A&s=10" group-title="Lokal",Tvri world
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
-#EXTINF:-1 tvg-id="TimorTV.id@HD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/8/83/Logo_Timor_TV.png" group-title="Lokal",Timor tv (1080p)
-http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="
-https://i.imgur.com/iEKDH26.png" group-title="Lokal",Ugtv (720p)
-https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1 tvg-id="denstv.id@learning" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIwG4_cGayft-P28Xa0AbdpZv3dcCWw0lJqC9-BOmNw&s=10" group-title="Lokal",Dens tv learning
-https://op-flashcon-digdayahd-1.dens.tv/h/h236/02.m3u8
-#EXTINF:-1 tvg-id="indonesiana.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhI5EheZFa-udrTLfcj9dhjFbed1CrOw5CeTS-yoPgQ&s=10" group-title="Lokal",Indonesiana tv
-https://tvstreamcast.com/indonesiana.m3u8
-#EXTINF:-1 tvg-id="auto.jowo" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQObCWWVNrR7kjEtiE6iS4x5kvrQkHOYALSCwHzDxLFyA&s" group-title="Lokal",Jowo
-https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8
-#EXTINF:-1 tvg-id="kompas.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcm_S8Cr6P_EwtqFG7vFGKfwUtpiCZFQttQz8SQBjcw&s=10" group-title="Lokal",Kompas tv
-https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
-#EXTINF:-1 tvg-id="moji.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ZInVi0Do4-LgZxRLpAH79XIRrCOKJnmrJjlKQmMg_w&s=10" group-title="Lokal",Moji tv
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
-#EXTINF:-1 tvg-id="nhkworld.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPOhkWJfkm-FcT4agmxooYSDpQbvXjMkbygX7ELFiIag&s=10" group-title="Lokal",Nhk world japan
-https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8
-#EXTINF:-1 tvg-id="3ABNKids.us@SD" tvg-logo="
-https://i.imgur.com/z3npqO1.png" group-title="Kids",3abn kids network
-https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BabySharkTV.us@SD" tvg-logo="
-https://i.imgur.com/SbBKr8L.png" group-title="Kids",Baby shark tv (720p)
-https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="BiznetKids.id@SD" tvg-logo="
-https://i.imgur.com/J5QNqJ0.png" group-title="Kids",Biznet kids (1080p)
-http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8
-#EXTINF:-1 tvg-id="ForeverKids.us@SD" tvg-logo="
-https://i.imgur.com/deeQqYZ.png" group-title="Kids",Forever kids
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/56171fafada51f8004c4b40f/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28f171-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=1acb41ce-ae24-4bbc-bf7d-831de72589e8
-#EXTINF:-1 tvg-id="KidsFlix.us@SD" tvg-logo="
-https://i.imgur.com/4Pn0ADQ.png" group-title="Kids",Kidsflix (1080p) [not 24/7]
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=50
-#EXTINF:-1 tvg-id="LEGOKidsTV.us@SD" tvg-logo="
-https://i.imgur.com/tMfEsVr.png" group-title="Kids",Lego kids tv
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb01a24795a6000762fe83/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2966a8-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=65f7a3a9-1736-46bc-aaa5-7e4778774536
-#EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-logo="
-https://i.imgur.com/vZHtxQb.png" group-title="Kids",Moonbug kids (1080p)
-https://moonbug-rokuus.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NickJrPlutoTV.us@US" tvg-logo="
-https://i.imgur.com/8DAe8wr.png" group-title="Kids",Nick jr. pluto tv
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a5106-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=d95e31ff-c65d-438c-9466-ddbbd097b4cf
-#EXTINF:-1 tvg-id="Nickelodeon.us@East" tvg-logo="
-https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-logo="
-https://i.imgur.com/q4cUQKW.png" group-title="Kids",Pbs kids
-https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
-#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7eRQfhCxVl6xcekwFnLNs5fYP7qwtDGgFqeT_z6Wc-A&s=10" group-title="Kids",Vtv (720p)
-https://flv.intechmedia.net/live/ch107.m3u8
-#EXTINF:-1 tvg-id="JustforLaughsGags.us@SD" tvg-logo="
-https://i.imgur.com/HjVEVMJ.png" group-title="Entertainment",Just for laughs gags (720p)
-https://distributionsjustepourrire-justforlaughsgags-1-be.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlutoTVScience.us@US" tvg-logo="
-https://i.imgur.com/uhunRoU.png" group-title="Entertainment",Pluto tv science
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/563a970aa1a1f7fe7c9daad7/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2b3b61-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=31adb772-adc8-4202-ad66-25e3c1a49df7
-#EXTINF:-1 tvg-id="TopGear.uk@SD" tvg-logo="
-https://i.imgur.com/S6Su6QH.png" group-title="Entertainment",Top gear
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64c109735dc1660008a4a2dc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b215b51-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=55fb26fd-5dba-40cd-a0b1-8de7d0f78acb
-#EXTINF:-1 tvg-id="ChinaTravel.cn@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHhGHjHkqFSV1sj37f81iqBOvPEDfYVTYID9GKQlvWKvb_w8mB_K6jBU8M&s=10" group-title="Travels",China travel (1080p)
-https://amg01314-amg01314c7-distrotv-us-10219.playouts.now.amagi.tv/playlist/amg01314-cgtn-cgtnchinatravel-distrotvus/playlist.m3u8
-#EXTINF:-1 tvg-id="DroneTV.us@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOynwipk56QYdYUp17Z7Yn5w92ingJgo4hFKxii2fchA&s=10" group-title="Travels",Dronetv (1080p)
-https://airvuz-dronetv-1-us.ohlscdn.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="INTRAVEL.nl@Philippines" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWGDWpnWtWCGQau4sQZDAg47CaNTVL54AXu0TTXfn4g&s=10" group-title="Travels",Intravel (1080p)
-https://amg00861-amg00861c22-stirr-us-8773.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiPFmTjhx4NipuAhpY1tEzBcXf31oLjUx0B2l510QkOQ&s=10" group-title="Travels",Travel escapes (1080p)
-https://videoelephantlimited-travelescapes-1-us.ohlscdn.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TravelTV.bg@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfa9_ShcHf9w35fNpdVYIv9BScuWzpqBEQPt0xvut5Aw&s=10" group-title="Travels",Travel tv (576p)
-https://streamer103.neterra.tv/travel/live.m3u8
-#EXTINF:-1 tvg-id="auto.beritasatu" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa41GMti1kTMXdTv2ywDvMb2QOhsos2dPgH1sFlxZehw&s=10" group-title="Indihome",Berita satu
-https://cdnbal1.indihometv.com/atm/DASH/beritasatu/master.mpd
-#EXTINF:-1 tvg-id="inews.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6KG6iLwin1LuitRDjUTWgrocrzhARBm1OV8wbXW-Pjw&s=10" group-title="Indihome",I news
-https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
-#EXTINF:-1 tvg-id="JTV.id@SD" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2w6Z04xVsVuHv1U7CLUxhXz8-I7HqCrjbu8UTD9YilA&s=10" group-title="Indihome",Jtv
-https://cdnbal1.indihometv.com/atm/DASH/jtv/master.mpd
-#EXTINF:-1 tvg-id="kompastv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdcm_S8Cr6P_EwtqFG7vFGKfwUtpiCZFQttQz8SQBjcw&s=10" group-title="Indihome",Kompas tv
-https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/master.mpd
-#EXTINF:-1 tvg-id="max sport.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5tTIj7p3bLrG4He0WWyJHf_sp4ksKY2PAzpt4E8IEfQ&s=10" group-title="Indihome",Max sport
-https://cdnbal1.indihometv.com/atm/DASH/useesport/master.mpd
-#EXTINF:-1 tvg-id="prambors tv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1D9lcxkTEeZ0CU_5flPM_3ld1yzDIs_KIRenb10j6RA&s=10" group-title="Indihome",Prambors tv
-https://cdnbal1.indihometv.com/atm/DASH/pramborstv/master.mpd
-#EXTINF:-1 tvg-id="rtv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbEOWSiHFO_a6f0DUBaG8cA__MJHuU1OonFhlE3wks8w&s=10" group-title="Indihome",Rtv
-https://cdnbal1.indihometv.com/atm/DASH/RAJAWALI_TV/master.mpd
-#EXTINF:-1 tvg-id="sctv.id" tvg-logo="
-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUWJc9Wq-MSsKNWlO8TcgY-YoklRfpxxRZW0Zcsjdukg&s" group-title="Indihome",Sctv
-https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
-#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="
-https://i.imgur.com/BAklJGy.png" group-title="Lokal",Tvku (720p)
-https://tvku.tv/hlsstream/hls/live.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="AhsanTV.id@SD",Ahsan TV
 https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BalikpapanTV.id@SD",Balikpapan TV (720p)
@@ -304,700 +67,289 @@ https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
 https://ott-balancer.tvri.go.id/live/eds/Pabar/hls/Pabar.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@Yogyakarta",TVRI Yogyakarta (720p)
 https://ott-balancer.tvri.go.id/live/eds/Jogjakarta/hls/Jogjakarta.m3u8
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV HD
-https://20.detik.com/watch/livestreaming-transtv
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD
-https://20.detik.com/watch/livestreaming-trans7
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Lokal (auto)",MDTV
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
-#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Lokal (auto)",Metro TV
-https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
-#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="
-https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w766556031_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="
-https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews
-https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCGfXjFgIUUTUUlzdG6BenXA
-#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
-https://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/qtIYvE-mjwMPwd-VUxilo2gFiAI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/18162/b4bea2.png" group-title="Lokal (auto)",Garuda TV (ChannelFeed)
-https://hgmtv.com:19360/garudatvlivestreaming/480p.m3u8
-#EXTINF:-1 tvg-id="auto.bbc.lifestyle" tvg-name="" tvg-logo="
-https://mimipipi22.github.io/logo/lifestyle/bbclifestyle.jpg" group-title="Lokal (auto)",BBC LIFESTYLE
-https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
-#EXTINF:-1 tvg-id="FoodTravel.id" tvg-logo="
-https://www.visionplus.id/images/repository/534/172534-LOGO-m.png" group-title="Lokal (auto)",Food Travel (V+)
-https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
-#EXTINF:-1 tvg-id="auto.bali.tv" group-title="Lokal (auto)" tvg-logo="
-https://mimipipi22.github.io/logo/nasional/balitv.jpg",BALI TV
-https://cdnbal1.indihometv.com/atm/DASH/balitv/master.mpd
-#EXTINF:-1 tvg-id="auto.jaktv" group-title="Lokal (auto)" tvg-logo="
-https://mimipipi22.github.io/logo/nasional/jaktv.jpg",JAKTV
-https://cdnbal1.indihometv.com/atm/DASH/JAK_TV/master.mpd
-#EXTINF:-1 tvg-id="auto.tvri.world" group-title="Lokal (auto)" tvg-logo="
-https://mimipipi22.github.io/logo/nasional/tvriworld.jpg",TVRI WORLD
-https://cdnbal1.indihometv.com/atm/DASH/tvriworld/master.mpd
-#EXTINF:-1 tvg-id="auto.garuda.tv" tvg-logo="
-https://i.ibb.co.com/nqmdRKkn/Garudatv-removebg-preview.png" group-title="Lokal (auto)",Garuda TV HD
-https://hgmtv.com:19360/garudatvlivestreaming/1080p.m3u8
-#EXTINF:-1 tvg-id="BaanBaanTV73.th@SD" tvg-logo="
-https://i.imgur.com/JGLy1Pm.png" group-title="Lokal (auto)",Baan Baan TV 73
-https://vdo.plathong.net/live8794/live8794/playlist.m3u8
-#EXTINF:-1 tvg-id="CaoBangTV.vn@SD" tvg-logo="
-https://i.imgur.com/dGonewm.png" group-title="Lokal (auto)",Cao Bằng TV (720p)
-https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="AbadanTV.ir@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png" group-title="Lokal (auto)",Abadan
-https://ncdn.telewebion.ir/abadan/live/playlist.m3u8
-#EXTINF:-1 tvg-id="CBC.eg@SD" tvg-logo="
-https://i.imgur.com/8apNaLP.png" group-title="Lokal (auto)",CBC (576p)
-https://flu.systemnet.tv/CBC/index.m3u8
-#EXTINF:-1 tvg-id="CBCDrama.eg@SD" tvg-logo="
-https://i.imgur.com/I8YdakH.png" group-title="Lokal (auto)",CBC Drama (576p)
-https://flu.systemnet.tv/CBCDrama/index.m3u8
-#EXTINF:-1 tvg-id="CBCSofra.eg@SD" tvg-logo="
-https://i.imgur.com/YAdk2WR.png" group-title="Lokal (auto)",CBC Sofra (576p)
-https://flu.systemnet.tv/CBCSofra/index.m3u8
-#EXTINF:-1 tvg-id="AupurTelevision.co@SD" tvg-logo="
-https://i.imgur.com/FTv7zpJ.jpeg" group-title="Lokal (auto)",Aupur Television (1080p)
-https://canal.aupurtv.co/live/stream/index.m3u8
 #EXTINF:-1 group-title="Lokal (auto)",CNN
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8
 #EXTINF:0 tvg-country="ID" tvg-logo="Logo N/A" group-title="Lokal (auto)",Radio 51 TV
 http://59d7d6f47d7fc.streamlock.net/canale51/canale51/playlist.m3u8
-#EXTINF:-1 tvg-id="AlQamarTV.ae@SD" tvg-logo="
-https://i.imgur.com/zkBT0C8.png" group-title="Lokal (auto)",Al Qamar TV (1080p)
-https://streamer3.premio.link/alqamar/playlist.m3u8
-#EXTINF:-1 tvg-id="AzanTV.ca@SD" tvg-logo="
-https://i.imgur.com/JlqS6I4.jpeg" group-title="Lokal (auto)",Azan TV
-https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
-#EXTINF:-1 tvg-id="24Horas.es@SD" tvg-logo="
-https://i.ibb.co/21sXZ3GT/24h.png" group-title="Lokal (auto)",Canal 24 Horas (720p)
-https://ztnr.rtve.es/ztnr/1694255.m3u8
-#EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-logo="
-https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Lokal (auto)",Clan Internacional Americas (1080p) [Geo-blocked]
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
-#EXTINF:-1 tvg-id="HmongStarTV.us@SD" tvg-logo="
-https://i.imgur.com/dRsacao.png" group-title="Lokal (auto)",Hmong Star TV (720p) [Not 24/7]
-https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="HyderTV.ca@SD" tvg-logo="
-https://i.imgur.com/reHjjRZ.png" group-title="Lokal (auto)",Hyder TV (720p)
-https://cdn.live247stream.com/hyder/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="KordiaTV.nz@SD" tvg-logo="
-https://i.imgur.com/BQ0qWzX.png" group-title="Lokal (auto)",Kordia TV (1080p)
-https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
-#EXTINF:-1 tvg-id="La2.es@SD" tvg-logo="
-https://i.ibb.co/rfsr9PSh/La-2.png" group-title="Lokal (auto)",La 2
-https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
 #EXTINF:-1 tvg-id="LibyaAlAhrarTV.qa@SD" tvg-logo="
 https://i.imgur.com/xkQKVGi.png"
-https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="LoveThePlanet.es@EN" tvg-logo="
-https://i.imgur.com/RBcD49X.png" group-title="Lokal (auto)",Love the Planet (1080p)
-https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8
-#EXTINF:-1 tvg-id="MTVRidiculousness.de@DACH" tvg-logo="
-https://images.pluto.tv/channels/5f9847fd513250000728a9a5/colorLogoPNG.png" group-title="Lokal (auto)",MTV Ridiculousness
-https://jmp2.uk/plu-5f9847fd513250000728a9a5.m3u8
-#EXTINF:-1 tvg-id="MTVRidiculousness.us@LatAm" tvg-logo="
-https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png" group-title="Lokal (auto)",MTV Ridiculousness (720p)
-https://jmp2.uk/plu-5e98a911c881310007d7aae2.m3u8
-#EXTINF:-1 tvg-id="OutdoorChannel.us@SD" tvg-logo="
-https://i.imgur.com/Kh4MWaY.png" group-title="Lokal (auto)",Outdoor Channel (1080p)
-https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="TVEStar.es@SD" tvg-logo="
-https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Lokal (auto)",TVE Star (576p)
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
-#EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="
-https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Lokal (auto)",TVE Star HD (1080p)
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
-#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="
-https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (720p)
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
-#EXTINF:-1 tvg-id="HuzurTV.ru@SD" tvg-logo="
-https://i.imgur.com/Abg1fct.png" group-title="Lokal (auto)",Хузур ТВ (1080p) [Not 24/7]
-https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
-#EXTINF:-1 tvg-id="Bioskop.Indonesia.id" tvg-name="Bioskop Indonesia" tvg-logo="
-https://www.transvision.co.id/img/channel/bioskop_ind.png" group-title="Lokal (auto)",BIOSKOP INDONESIA
-http://202.150.161.212:5000/live/channel35/playlist.m3u8
-#EXTINF:-1 tvg-id="auto.music.japantv" tvg-logo="
-https://www.lyngsat-logo.com/logo/tv/mm/music_japan_tv.png" group-title="Lokal (auto)",Music JapanTV
-http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs06&isp=10&bind=0&uin=159413&playseek=0
 #EXTINF:-1 group-title="Lokal (auto)",CNN INDONESIA HD
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1705215623_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar HD
-https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Lokal (auto)",MDTV HD
-https://op-flashcon-digdayahd-1.dens.tv/h/h223/01.m3u8
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV HD (Alt 3 - DensTV flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h217/01.m3u8?app_type=web&userid=lite&chname=SCTV
-#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD (Alt 3 - DensTV flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h235/01.m3u8
 #EXTINF:-1 group-title="Lokal (auto)",CNN INDONESIA
 http://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="auto.cnn.indonesia" tvg-logo="
-https://download.logo.wine/logo/CNN/CNN-Logo.wine.png" group-title="Lokal (auto)",CNN INDONESIA
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w2069650134_b280000_sleng.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-logo="
-https://www.anadolunettv.com/d/r/logo.png" group-title="Lokal (auto)",Anadolu Net TV (1080p)
-https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
 #EXTINF:-1,group-title="Lokal (auto)"CNN TV
 https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1299546647_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="CNN.id" tvg-logo="
-https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png" group-title="Lokal",Cnn 2
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w1440476333_b280000_sleng.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@Aceh",TVRI Aceh (720p)
 https://ott-balancer.tvri.go.id/live/eds/Aceh/hls/Aceh.m3u8
-#EXTINF:-1 tvg-id="cnn.indonesia" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
-https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="tvri.world" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",TVRI World
-https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld-avc1_900000=10002-mp4a_96000=20002.m3u8
-#EXTINF:-1 tvg-id="cnbc.indonesia" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
-https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1242192746_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="bn.channel" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
-http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
-#EXTINF:-1 tvg-id="magna.tv" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",MAGNA TV (ChannelFeed)
-https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8
-#EXTINF:-1 tvg-id="garuda.tv" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Garuda TV (ChannelFeed)
-https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 #EXTINF:-1 tvg-id="MetroTV.id" group-title="Lokal (auto)",MetroTV (Flashcon)
 http://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
-#EXTINF:-1 tvg-id="AshiilTV.id@SD" tvg-logo="
-https://i.imgur.com/bTktkcr.png" group-title="Lokal (auto)",Ashiil TV (480p)
-https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
-#EXTINF:-1 tvg-id="AjwaTV.id@SD" tvg-logo="
-https://i.imgur.com/JXjbUhB.png" group-title="Lokal (auto)",Ajwa TV (1080p)
-http://ikitv.sqn.at:8000/play/a00j/index.m3u8
-#EXTINF:-1 tvg-id="IAmChannel.id@SD" tvg-logo="
-https://i.imgur.com/Gg6OcGT.png" group-title="Lokal (auto)",I Am Channel (576p)
-https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
-#EXTINF:-1 tvg-id="DMITV.id@SD" tvg-logo="
-https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal (auto)",DMI TV (576i)
-https://tvstreamcast.com/tawaftv.m3u8
-#EXTINF:-1 tvg-id="MatrixTVYogyakarta.id@HD" tvg-logo="
-https://stream.matrixtv.id/logo" group-title="Lokal (auto)",Matrix TV Yogyakarta (720p)
-https://stream.matrixtv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="PKTV.id@SD" tvg-logo="
-https://i.imgur.com/mldv8Sf.png" group-title="Lokal (auto)",PKTV (480p)
-https://streaming.id18.tunnel.my.id/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MBGTV.id@FHD" tvg-logo="
-https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal (auto)",MBG TV (1080p)
-https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-logo="
-https://i.imgur.com/00Ifzgo.png" group-title="Lokal (auto)",Salam TV (720p)
-https://live.salamtelevisi.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="SangajiTV.id@SD" tvg-logo="
-https://i.imgur.com/4rTNT8F.png" group-title="Lokal (auto)",Sangaji TV (720p)
-https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Jakarta" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Jakarta (1080p)
-https://jakarta.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Bojonegoro" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Bojonegoro (720p)
-https://bojonegoro.staratv.id/hls/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Parahyangan" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Parahyangan (720p)
-https://parahyangan.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="SurauTV.id@SD" tvg-logo="
-https://i.imgur.com/CKoxcWL.png" group-title="Lokal (auto)",Surau TV (720p)
-http://ikitv.sqn.at:8000/play/a00l/index.m3u8
-#EXTINF:-1 tvg-id="VTV.id@HD" tvg-logo="
-https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV HD (1080p)
-http://ikitv.sqn.at:8000/play/a023/index.m3u8
-#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="
-https://i.imgur.com/qxkb0cy.png" group-title="Lokal (auto)",U Channel
-https://srs.u-channel.tv/live/uchannel-tv.m3u8
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
-https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="InterTV.it@SD" tvg-logo="
-https://i.imgur.com/FUTqh2L.png" group-title="Lokal (auto)",Inter TV (1080p)
-https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
-#EXTINF:-1 tvg-id="IuniorTV.it@SD" tvg-logo="
-https://i.imgur.com/FBOJnfT.png" group-title="Lokal (auto)",Iunior TV (1080p)
-https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
-#EXTINF:-1 tvg-id="atomic.academy.tv" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Atomic Academy TV (480p)
-https://atomic.streamnet.ro/academia.m3u8
-#EXTINF:-1 tvg-id="atomic.tv" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Atomic TV (360p)
-https://atomic.streamnet.ro/atomictv.m3u8
-#EXTINF:-1 tvg-id="24" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",24 Канал (1080p)
-https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="balapan.hd" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan HD (1080p)
-https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
-#EXTINF:-1 tvg-id="emantv" tvg-logo="
-https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",EmanTv (1080p)
-https://avr.host247.net/live/emantv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRI.id" tvg-logo="
-https://iili.io/JmF1S7S.png" group-title="Lokal (auto)"
-https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
-#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="
-https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
-https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
-#EXTINF:-1 tvg-id="AlQuranAlKareemTV.sa@SD" tvg-logo="
-https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png" group-title="Lokal (auto)",Al Quran Al Kareem TV (720p)
-http://m.live.net.sa:1935/live/quran/gmswf.m3u8
-#EXTINF:-1 tvg-id="EfarinaTV.id@SD" tvg-logo="
-https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina tv (720p)
-https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
-#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="
-https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
-https://streaming.yufid.com/hls/radiokitatv.m3u8
-#EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-logo="
-https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja tv (720p)
-https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal (auto)",Kompas TV HD (Alt 3 - DensTV flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/s/s104/01.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BatamTV.id@SD",Batam TV (480p) [Not 24/7]
 http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
-#EXTINF:-1 tvg-id="AngelTV.in@Indonesia" tvg-logo="
-https://i.imgur.com/qKLEGU7.png" group-title="Lokal (auto)",Angel TV Indonesia (720p)
-https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="BantenTV.id@SD" tvg-logo="
-https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten tv (720p) [not 24/7]
-https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="SriwijayaTV.id@SD",Sriwijaya TV (720p) [Not 24/7]
 https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVMu.id@SD",TV Mu (720p) [Not 24/7]
 https://e.siar.us/live/tvmu.m3u8
 #EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
 https://v3.siar.us/ficomchannel/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
-http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
-#EXTINF:-1 tvg-id="DhohoTV.id@SD" tvg-logo="
-https://i.imgur.com/4Khyyfh.png" group-title="Lokal",Dhoho tv (720p)
-https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="DutaTV.id@SD" tvg-logo="
-https://i.imgur.com/B4JW54M.png" group-title="Lokal",Duta tv (360p) [not 24/7]
-https://dutatv.siar.us/dutatv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="
-https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
-http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
 https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="
-https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal (auto)",SMTV (720p)
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BandungTV.id@SD",Bandung TV (360p)
+http://202.150.153.254:65500/bandungtvWEBSITE.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BanjarTV.id@SD",Banjar TV (720p) [Not 24/7]
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BRTV.id@SD",BRTV (720p)
+https://5bf7b725107e5.streamlock.net/brtv/brtv/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CarubanTV.id@HD",Caruban TV (1080p)
+https://stream.carubantv.id/hls/0/stream.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="DAAITV.id@SD",DAAI TV
+https://pull.daaiplus.com/live-DAAIPLUS/live-DAAIPLUS_HD.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="DhammaTV.id@SD",Dhamma TV (720p) [Not 24/7]
+https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="GarudaTV.id@SD",Garuda TV (1080p)
+https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="IndonesianaTV.id@SD",Indonesiana.TV (720p)
+https://tvstreamcast.com/indonesiana.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@SD",JTV (720p)
+http://122.248.43.242:1935/JTVSURABAYA/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="MetroTV.id@SD",Metro TV
+https://edge.medcom.id/live-edge/smil:metro.smil/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RiauTV.id@SD",Riau TV (1080p) [Not 24/7]
+http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RRINet.id@SD",RRI Net (1080p)
+https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@WestJava",TVRI Jawa Barat (480p)
+https://ott-balancer.tvri.go.id/live/eds/Jabar/hls/Jabar.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@EastJava",TVRI Jawa Timur (720p)
+https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRIWorld.id@SD",TVRI World (1080p)
+https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV HD
+https://op-flashcon-digdayahd-1.dens.tv/h/h217/01.m3u8?app_type=web&userid=lite&chname=SCTV
+#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD
+https://op-flashcon-digdayahd-1.dens.tv/h/h235/01.m3u8
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar HD
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8
+#EXTINF:-1 tvg-id="Moji.id" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV HD (Alt 3 - DensTV flashcon)
+https://op-flashcon-digdayahd-1.dens.tv/h/h210/01.m3u8
+#EXTINF:-1 tvg-id="auto.bungo.tv" group-title="Lokal (auto)",Bungo TV
+https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
+#EXTINF:-1 tvg-id="GarudaTV.id" group-title="Lokal (auto)",Garuda TV (Flashcon)
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
+#EXTINF:-1 tvg-id="AshiilTV.id@SD" tvg-logo="https://i.imgur.com/bTktkcr.png" group-title="Lokal (auto)",Ashiil TV (480p)
+https://wahyu1ptv.pages.dev/AshiilTV-HD.m3u8
+#EXTINF:-1 tvg-id="AjwaTV.id@SD" tvg-logo="https://i.imgur.com/JXjbUhB.png" group-title="Lokal (auto)",Ajwa TV (1080p)
+http://ikitv.sqn.at:8000/play/a00j/index.m3u8
+#EXTINF:-1 tvg-id="JawaPosTV.id@Jakarta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Jawa_Pos_TV_2024.svg/960px-Jawa_Pos_TV_2024.svg.png" group-title="Lokal (auto)",Jawa Pos TV Jakarta (720p)
+http://122.248.43.242:1935/JAWAPOSTVJKT/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="IAmChannel.id@SD" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal (auto)",I Am Channel (576p)
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
+#EXTINF:-1 tvg-id="DMITV.id@SD" tvg-logo="https://static.promediateknologi.id/promedia/network/1167/desktop/images/logo.png" group-title="Lokal (auto)",DMI TV (576i)
+https://tvstreamcast.com/tawaftv.m3u8
+#EXTINF:-1 tvg-id="MatrixTVYogyakarta.id@HD" tvg-logo="https://stream.matrixtv.id/logo" group-title="Lokal (auto)",Matrix TV Yogyakarta (720p)
+https://stream.matrixtv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="PKTV.id@SD" tvg-logo="https://i.imgur.com/mldv8Sf.png" group-title="Lokal (auto)",PKTV (480p)
+https://streaming.id18.tunnel.my.id/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MBGTV.id@FHD" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Lokal (auto)",MBG TV (1080p)
+https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="Lokal (auto)",Salam TV (720p)
+https://live.salamtelevisi.com/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
+https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 tvg-id="MadaniTV.id@SD" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal (auto)",Madani TV (720p)
+https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="SangajiTV.id@SD" tvg-logo="https://i.imgur.com/4rTNT8F.png" group-title="Lokal (auto)",Sangaji TV (720p)
+https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
+#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal (auto)",SMTV (720p)
 https://e.siar.us/live/smtv.m3u8
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
-https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
-#EXTINF:-1 tvg-id="RCTI.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Lokal (auto)",RCTI
-https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=rcti
-#EXTINF:-1 tvg-id="GTV.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Lokal (auto)",GTV
-https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=gtv
-#EXTINF:-1 tvg-id="iNews.id" tvg-logo="
-https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="Lokal (auto)",iNews
-https://beetv.my.id/xstreamx/rctiplus.m3u8?ch=inews
-#EXTINF:-1 tvg-id="MaduTV.id@SD" tvg-logo="
-https://i.imgur.com/cKpgbgW.png" group-title="Lokal",Madu tv (576p)
-https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-# --- YouTube Streams ---
-
-# --- YouTube Streams ---
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (DNL6Wy6IstE)",YouTube Stream (DNL6Wy6IstE)
-intent://www.youtube.com/watch?v=DNL6Wy6IstE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (BzOOF_BDtho)",YouTube Stream (BzOOF_BDtho)
-intent://www.youtube.com/watch?v=BzOOF_BDtho#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (s22oOdx9mtQ)",YouTube Stream (s22oOdx9mtQ)
-intent://www.youtube.com/watch?v=s22oOdx9mtQ#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (H2ZASCOFRtg)",YouTube Stream (H2ZASCOFRtg)
-intent://www.youtube.com/watch?v=H2ZASCOFRtg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (82-jTNka3uc)",YouTube Stream (82-jTNka3uc)
-intent://www.youtube.com/watch?v=82-jTNka3uc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (TikiAOuYncM)",YouTube Stream (TikiAOuYncM)
-intent://www.youtube.com/watch?v=TikiAOuYncM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (zyLmavBAY7k)",YouTube Stream (zyLmavBAY7k)
-intent://www.youtube.com/watch?v=zyLmavBAY7k#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (WhEUZrB2Osc)",YouTube Stream (WhEUZrB2Osc)
-intent://www.youtube.com/watch?v=WhEUZrB2Osc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (vZYbEL06lEU)",YouTube Stream (vZYbEL06lEU)
-intent://www.youtube.com/watch?v=vZYbEL06lEU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (WqbJT_vC0rs)",YouTube Stream (WqbJT_vC0rs)
-intent://www.youtube.com/watch?v=WqbJT_vC0rs#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (78wrful9cVU)",YouTube Stream (78wrful9cVU)
-intent://www.youtube.com/watch?v=78wrful9cVU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ko70cExuzZM)",YouTube Stream (ko70cExuzZM)
-intent://www.youtube.com/watch?v=ko70cExuzZM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (XoYu7K6Ywkg)",YouTube Stream (XoYu7K6Ywkg)
-intent://www.youtube.com/watch?v=XoYu7K6Ywkg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (3sur4BmjQt8)",YouTube Stream (3sur4BmjQt8)
-intent://www.youtube.com/watch?v=3sur4BmjQt8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (OqEc_169ywY)",YouTube Stream (OqEc_169ywY)
-intent://www.youtube.com/watch?v=OqEc_169ywY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (QWrafQg2zNY)",YouTube Stream (QWrafQg2zNY)
-intent://www.youtube.com/watch?v=QWrafQg2zNY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (c8zq4kAn_O0)",YouTube Stream (c8zq4kAn_O0)
-intent://www.youtube.com/watch?v=c8zq4kAn_O0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (y0So162UPKE)",YouTube Stream (y0So162UPKE)
-intent://www.youtube.com/watch?v=y0So162UPKE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (hG4lT4fxj8M)",YouTube Stream (hG4lT4fxj8M)
-intent://www.youtube.com/watch?v=hG4lT4fxj8M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (30LxaF4fd3A)",YouTube Stream (30LxaF4fd3A)
-intent://www.youtube.com/watch?v=30LxaF4fd3A#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (UsR08cY8k0A)",YouTube Stream (UsR08cY8k0A)
-intent://www.youtube.com/watch?v=UsR08cY8k0A#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (3O1_3zBUKM8)",YouTube Stream (3O1_3zBUKM8)
-intent://www.youtube.com/watch?v=3O1_3zBUKM8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (MWASeaYuHZo)",YouTube Stream (MWASeaYuHZo)
-intent://www.youtube.com/watch?v=MWASeaYuHZo#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (KNtJGQkC-WI)",YouTube Stream (KNtJGQkC-WI)
-intent://www.youtube.com/watch?v=KNtJGQkC-WI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kbEC-AGr9n0)",YouTube Stream (kbEC-AGr9n0)
-intent://www.youtube.com/watch?v=kbEC-AGr9n0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (jn40gqhxoSY)",YouTube Stream (jn40gqhxoSY)
-intent://www.youtube.com/watch?v=jn40gqhxoSY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Ch6xdV_ZjdU)",YouTube Stream (Ch6xdV_ZjdU)
-intent://www.youtube.com/watch?v=Ch6xdV_ZjdU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (JEFZpasFjvE)",YouTube Stream (JEFZpasFjvE)
-intent://www.youtube.com/watch?v=JEFZpasFjvE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (WKZO-CWeOVA)",YouTube Stream (WKZO-CWeOVA)
-intent://www.youtube.com/watch?v=WKZO-CWeOVA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (4D7u5KF7SP8)",YouTube Stream (4D7u5KF7SP8)
-intent://www.youtube.com/watch?v=4D7u5KF7SP8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kPa7bsKwL-c)",YouTube Stream (kPa7bsKwL-c)
-intent://www.youtube.com/watch?v=kPa7bsKwL-c#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ZjBZ8MUnB0E)",YouTube Stream (ZjBZ8MUnB0E)
-intent://www.youtube.com/watch?v=ZjBZ8MUnB0E#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (XoiOOiuH8iI)",YouTube Stream (XoiOOiuH8iI)
-intent://www.youtube.com/watch?v=XoiOOiuH8iI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (RlPNh_PBZb4)",YouTube Stream (RlPNh_PBZb4)
-intent://www.youtube.com/watch?v=RlPNh_PBZb4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (qWJU_eANW4M)",YouTube Stream (qWJU_eANW4M)
-intent://www.youtube.com/watch?v=qWJU_eANW4M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (M9z7qB80UYM)",YouTube Stream (M9z7qB80UYM)
-intent://www.youtube.com/watch?v=M9z7qB80UYM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (oet5L-gqctk)",YouTube Stream (oet5L-gqctk)
-intent://www.youtube.com/watch?v=oet5L-gqctk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (b1kbLwvqugk)",YouTube Stream (b1kbLwvqugk)
-intent://www.youtube.com/watch?v=b1kbLwvqugk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (zWxuc8L0W_Y)",YouTube Stream (zWxuc8L0W_Y)
-intent://www.youtube.com/watch?v=zWxuc8L0W_Y#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (WcIcVapfqXw)",YouTube Stream (WcIcVapfqXw)
-intent://www.youtube.com/watch?v=WcIcVapfqXw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (4VaqA-5aQTM)",YouTube Stream (4VaqA-5aQTM)
-intent://www.youtube.com/watch?v=4VaqA-5aQTM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (mNEUkkoUoIA)",YouTube Stream (mNEUkkoUoIA)
-intent://www.youtube.com/watch?v=mNEUkkoUoIA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (H5v3kku4y6Q)",YouTube Stream (H5v3kku4y6Q)
-intent://www.youtube.com/watch?v=H5v3kku4y6Q#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (dtJLA0N5EAA)",YouTube Stream (dtJLA0N5EAA)
-intent://www.youtube.com/watch?v=dtJLA0N5EAA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Osq0RgGVwK8)",YouTube Stream (Osq0RgGVwK8)
-intent://www.youtube.com/watch?v=Osq0RgGVwK8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (1uwVvgNeI6Q)",YouTube Stream (1uwVvgNeI6Q)
-intent://www.youtube.com/watch?v=1uwVvgNeI6Q#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (k6ZoE4RrcDs)",YouTube Stream (k6ZoE4RrcDs)
-intent://www.youtube.com/watch?v=k6ZoE4RrcDs#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (3YqPKLZF_WU)",YouTube Stream (3YqPKLZF_WU)
-intent://www.youtube.com/watch?v=3YqPKLZF_WU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (YaEG2aWJnZ8)",YouTube Stream (YaEG2aWJnZ8)
-intent://www.youtube.com/watch?v=YaEG2aWJnZ8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (cUy-lZVN22A)",YouTube Stream (cUy-lZVN22A)
-intent://www.youtube.com/watch?v=cUy-lZVN22A#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (qod03PVTLqk)",YouTube Stream (qod03PVTLqk)
-intent://www.youtube.com/watch?v=qod03PVTLqk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ySQzH0WoHW0)",YouTube Stream (ySQzH0WoHW0)
-intent://www.youtube.com/watch?v=ySQzH0WoHW0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (LTojkGxyk_M)",YouTube Stream (LTojkGxyk_M)
-intent://www.youtube.com/watch?v=LTojkGxyk_M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kcXGgMhHr5Q)",YouTube Stream (kcXGgMhHr5Q)
-intent://www.youtube.com/watch?v=kcXGgMhHr5Q#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (orJSJGHjBLI)",YouTube Stream (orJSJGHjBLI)
-intent://www.youtube.com/watch?v=orJSJGHjBLI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (JXgV1rXUoME)",YouTube Stream (JXgV1rXUoME)
-intent://www.youtube.com/watch?v=JXgV1rXUoME#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (fdrjPRnTYC0)",YouTube Stream (fdrjPRnTYC0)
-intent://www.youtube.com/watch?v=fdrjPRnTYC0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (qFX2cXJyxuI)",YouTube Stream (qFX2cXJyxuI)
-intent://www.youtube.com/watch?v=qFX2cXJyxuI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (hmUyEDG7Jy0)",YouTube Stream (hmUyEDG7Jy0)
-intent://www.youtube.com/watch?v=hmUyEDG7Jy0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ZQFmRXgeR-s)",YouTube Stream (ZQFmRXgeR-s)
-intent://www.youtube.com/watch?v=ZQFmRXgeR-s#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (dvAJMANtDoc)",YouTube Stream (dvAJMANtDoc)
-intent://www.youtube.com/watch?v=dvAJMANtDoc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (LIIDh-qI9oI)",YouTube Stream (LIIDh-qI9oI)
-intent://www.youtube.com/watch?v=LIIDh-qI9oI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ThYGrYiyvA8)",YouTube Stream (ThYGrYiyvA8)
-intent://www.youtube.com/watch?v=ThYGrYiyvA8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (XXYlFuWEuKI)",YouTube Stream (XXYlFuWEuKI)
-intent://www.youtube.com/watch?v=XXYlFuWEuKI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ighBYeE40BI)",YouTube Stream (ighBYeE40BI)
-intent://www.youtube.com/watch?v=ighBYeE40BI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (TUVcZfQe-Kw)",YouTube Stream (TUVcZfQe-Kw)
-intent://www.youtube.com/watch?v=TUVcZfQe-Kw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (8CEJoCr_9UI)",YouTube Stream (8CEJoCr_9UI)
-intent://www.youtube.com/watch?v=8CEJoCr_9UI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (s0-f5RncxcA)",YouTube Stream (s0-f5RncxcA)
-intent://www.youtube.com/watch?v=s0-f5RncxcA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (E07s5ZYygMg)",YouTube Stream (E07s5ZYygMg)
-intent://www.youtube.com/watch?v=E07s5ZYygMg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (afRFR2UNYzI)",YouTube Stream (afRFR2UNYzI)
-intent://www.youtube.com/watch?v=afRFR2UNYzI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Nj2U6rhnucI)",YouTube Stream (Nj2U6rhnucI)
-intent://www.youtube.com/watch?v=Nj2U6rhnucI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (9HDEHj2yzew)",YouTube Stream (9HDEHj2yzew)
-intent://www.youtube.com/watch?v=9HDEHj2yzew#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (4NRXx6U8ABQ)",YouTube Stream (4NRXx6U8ABQ)
-intent://www.youtube.com/watch?v=4NRXx6U8ABQ#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (yezDEWako8U)",YouTube Stream (yezDEWako8U)
-intent://www.youtube.com/watch?v=yezDEWako8U#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (oygrmJFKYZY)",YouTube Stream (oygrmJFKYZY)
-intent://www.youtube.com/watch?v=oygrmJFKYZY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (okY_x8HDkX0)",YouTube Stream (okY_x8HDkX0)
-intent://www.youtube.com/watch?v=okY_x8HDkX0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (GftZ601-pXs)",YouTube Stream (GftZ601-pXs)
-intent://www.youtube.com/watch?v=GftZ601-pXs#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (XZ868t23Pb4)",YouTube Stream (XZ868t23Pb4)
-intent://www.youtube.com/watch?v=XZ868t23Pb4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (a909uxd3GWg)",YouTube Stream (a909uxd3GWg)
-intent://www.youtube.com/watch?v=a909uxd3GWg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (hlznpxNGFGQ)",YouTube Stream (hlznpxNGFGQ)
-intent://www.youtube.com/watch?v=hlznpxNGFGQ#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Q4-jOuHO-z4)",YouTube Stream (Q4-jOuHO-z4)
-intent://www.youtube.com/watch?v=Q4-jOuHO-z4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kg1BljLu9YY)",YouTube Stream (kg1BljLu9YY)
-intent://www.youtube.com/watch?v=kg1BljLu9YY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (KfXvjxbRhZk)",YouTube Stream (KfXvjxbRhZk)
-intent://www.youtube.com/watch?v=KfXvjxbRhZk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (S5VeT4sBLtI)",YouTube Stream (S5VeT4sBLtI)
-intent://www.youtube.com/watch?v=S5VeT4sBLtI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (jxTmLVLK304)",YouTube Stream (jxTmLVLK304)
-intent://www.youtube.com/watch?v=jxTmLVLK304#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (t_e_45Szprk)",YouTube Stream (t_e_45Szprk)
-intent://www.youtube.com/watch?v=t_e_45Szprk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (bpUgcEc3iLw)",YouTube Stream (bpUgcEc3iLw)
-intent://www.youtube.com/watch?v=bpUgcEc3iLw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (nZm3EZVYh4U)",YouTube Stream (nZm3EZVYh4U)
-intent://www.youtube.com/watch?v=nZm3EZVYh4U#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Ixk87pq0JE4)",YouTube Stream (Ixk87pq0JE4)
-intent://www.youtube.com/watch?v=Ixk87pq0JE4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (VY1eFxgRR-k)",YouTube Stream (VY1eFxgRR-k)
-intent://www.youtube.com/watch?v=VY1eFxgRR-k#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (mQ055hHdxbE)",YouTube Stream (mQ055hHdxbE)
-intent://www.youtube.com/watch?v=mQ055hHdxbE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ffxKSjUwKdU)",YouTube Stream (ffxKSjUwKdU)
-intent://www.youtube.com/watch?v=ffxKSjUwKdU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (jzD_yyEcp0M)",YouTube Stream (jzD_yyEcp0M)
-intent://www.youtube.com/watch?v=jzD_yyEcp0M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (pj6k-EFxqAI)",YouTube Stream (pj6k-EFxqAI)
-intent://www.youtube.com/watch?v=pj6k-EFxqAI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (M3mJkSqZbX4)",YouTube Stream (M3mJkSqZbX4)
-intent://www.youtube.com/watch?v=M3mJkSqZbX4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (lY_0mkYDZDU)",YouTube Stream (lY_0mkYDZDU)
-intent://www.youtube.com/watch?v=lY_0mkYDZDU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (6cmMYouVsXg)",YouTube Stream (6cmMYouVsXg)
-intent://www.youtube.com/watch?v=6cmMYouVsXg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (vQ3XgMKAgxc)",YouTube Stream (vQ3XgMKAgxc)
-intent://www.youtube.com/watch?v=vQ3XgMKAgxc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ClU3fctbGls)",YouTube Stream (ClU3fctbGls)
-intent://www.youtube.com/watch?v=ClU3fctbGls#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (K_lhBNtXwBY)",YouTube Stream (K_lhBNtXwBY)
-intent://www.youtube.com/watch?v=K_lhBNtXwBY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (OK848_DSj6k)",YouTube Stream (OK848_DSj6k)
-intent://www.youtube.com/watch?v=OK848_DSj6k#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (GsF05B8TFWg)",YouTube Stream (GsF05B8TFWg)
-intent://www.youtube.com/watch?v=GsF05B8TFWg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (qFLhGq0060w)",YouTube Stream (qFLhGq0060w)
-intent://www.youtube.com/watch?v=qFLhGq0060w#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (m-YcRkOQh2s)",YouTube Stream (m-YcRkOQh2s)
-intent://www.youtube.com/watch?v=m-YcRkOQh2s#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (543QxjYuYxU)",YouTube Stream (543QxjYuYxU)
-intent://www.youtube.com/watch?v=543QxjYuYxU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (e2vBLd5Egnk)",YouTube Stream (e2vBLd5Egnk)
-intent://www.youtube.com/watch?v=e2vBLd5Egnk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ginBV6aeVlc)",YouTube Stream (ginBV6aeVlc)
-intent://www.youtube.com/watch?v=ginBV6aeVlc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (K0ibBPhiaG0)",YouTube Stream (K0ibBPhiaG0)
-intent://www.youtube.com/watch?v=K0ibBPhiaG0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (O6plFAX3qRY)",YouTube Stream (O6plFAX3qRY)
-intent://www.youtube.com/watch?v=O6plFAX3qRY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (b4Bj7Zb-YD4)",YouTube Stream (b4Bj7Zb-YD4)
-intent://www.youtube.com/watch?v=b4Bj7Zb-YD4#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (34Na4j8AVgA)",YouTube Stream (34Na4j8AVgA)
-intent://www.youtube.com/watch?v=34Na4j8AVgA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (RnBT9uUYb1w)",YouTube Stream (RnBT9uUYb1w)
-intent://www.youtube.com/watch?v=RnBT9uUYb1w#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (dc-nyGo0aC8)",YouTube Stream (dc-nyGo0aC8)
-intent://www.youtube.com/watch?v=dc-nyGo0aC8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kOkQ4T5WO9E)",YouTube Stream (kOkQ4T5WO9E)
-intent://www.youtube.com/watch?v=kOkQ4T5WO9E#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Io0fBr1XBUA)",YouTube Stream (Io0fBr1XBUA)
-intent://www.youtube.com/watch?v=Io0fBr1XBUA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (2Y6Nne8RvaA)",YouTube Stream (2Y6Nne8RvaA)
-intent://www.youtube.com/watch?v=2Y6Nne8RvaA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (OEiva3cMv6k)",YouTube Stream (OEiva3cMv6k)
-intent://www.youtube.com/watch?v=OEiva3cMv6k#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (QtXby3twMmI)",YouTube Stream (QtXby3twMmI)
-intent://www.youtube.com/watch?v=QtXby3twMmI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (BMaT2nGaEVg)",YouTube Stream (BMaT2nGaEVg)
-intent://www.youtube.com/watch?v=BMaT2nGaEVg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (-XY6alp2SdI)",YouTube Stream (-XY6alp2SdI)
-intent://www.youtube.com/watch?v=-XY6alp2SdI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (bMpFmHSgC4Q)",YouTube Stream (bMpFmHSgC4Q)
-intent://www.youtube.com/watch?v=bMpFmHSgC4Q#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (s5K1PtwJ9Wo)",YouTube Stream (s5K1PtwJ9Wo)
-intent://www.youtube.com/watch?v=s5K1PtwJ9Wo#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (EgqUJOudrcM)",YouTube Stream (EgqUJOudrcM)
-intent://www.youtube.com/watch?v=EgqUJOudrcM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (KEI4qSrkPAs)",YouTube Stream (KEI4qSrkPAs)
-intent://www.youtube.com/watch?v=KEI4qSrkPAs#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (TObtwHlfLFk)",YouTube Stream (TObtwHlfLFk)
-intent://www.youtube.com/watch?v=TObtwHlfLFk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (il9nqWw9W3Y)",YouTube Stream (il9nqWw9W3Y)
-intent://www.youtube.com/watch?v=il9nqWw9W3Y#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (5j1RCys4R0g)",YouTube Stream (5j1RCys4R0g)
-intent://www.youtube.com/watch?v=5j1RCys4R0g#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (BPgEgaPk62M)",YouTube Stream (BPgEgaPk62M)
-intent://www.youtube.com/watch?v=BPgEgaPk62M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (-CmadmM5cOk)",YouTube Stream (-CmadmM5cOk)
-intent://www.youtube.com/watch?v=-CmadmM5cOk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (kMAzstG5O7E)",YouTube Stream (kMAzstG5O7E)
-intent://www.youtube.com/watch?v=kMAzstG5O7E#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (5XR7naZ_zZA)",YouTube Stream (5XR7naZ_zZA)
-intent://www.youtube.com/watch?v=5XR7naZ_zZA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (J9NQFACZYEU)",YouTube Stream (J9NQFACZYEU)
-intent://www.youtube.com/watch?v=J9NQFACZYEU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (a7SouU3ECpU)",YouTube Stream (a7SouU3ECpU)
-intent://www.youtube.com/watch?v=a7SouU3ECpU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (SSCzDykng4g)",YouTube Stream (SSCzDykng4g)
-intent://www.youtube.com/watch?v=SSCzDykng4g#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (tCxAmfUeWpk)",YouTube Stream (tCxAmfUeWpk)
-intent://www.youtube.com/watch?v=tCxAmfUeWpk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (fiore9Z5iUg)",YouTube Stream (fiore9Z5iUg)
-intent://www.youtube.com/watch?v=fiore9Z5iUg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (IgGjUjQRAxw)",YouTube Stream (IgGjUjQRAxw)
-intent://www.youtube.com/watch?v=IgGjUjQRAxw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (m-M1AtrxztU)",YouTube Stream (m-M1AtrxztU)
-intent://www.youtube.com/watch?v=m-M1AtrxztU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (i-gyZ35074k)",YouTube Stream (i-gyZ35074k)
-intent://www.youtube.com/watch?v=i-gyZ35074k#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (EWwrELSYpgw)",YouTube Stream (EWwrELSYpgw)
-intent://www.youtube.com/watch?v=EWwrELSYpgw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (F90Cw4l-8NY)",YouTube Stream (F90Cw4l-8NY)
-intent://www.youtube.com/watch?v=F90Cw4l-8NY#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (IxxstCcJlsc)",YouTube Stream (IxxstCcJlsc)
-intent://www.youtube.com/watch?v=IxxstCcJlsc#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (D-NvQ6VJYtE)",YouTube Stream (D-NvQ6VJYtE)
-intent://www.youtube.com/watch?v=D-NvQ6VJYtE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (yTCDVfMz15M)",YouTube Stream (yTCDVfMz15M)
-intent://www.youtube.com/watch?v=yTCDVfMz15M#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (YA2Nw3SoJx0)",YouTube Stream (YA2Nw3SoJx0)
-intent://www.youtube.com/watch?v=YA2Nw3SoJx0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ivPEKaBHjYA)",YouTube Stream (ivPEKaBHjYA)
-intent://www.youtube.com/watch?v=ivPEKaBHjYA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (r1MN4pR5wXM)",YouTube Stream (r1MN4pR5wXM)
-intent://www.youtube.com/watch?v=r1MN4pR5wXM#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (mr_ASUwp0rw)",YouTube Stream (mr_ASUwp0rw)
-intent://www.youtube.com/watch?v=mr_ASUwp0rw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (JRfuAukYTKg)",YouTube Stream (JRfuAukYTKg)
-intent://www.youtube.com/watch?v=JRfuAukYTKg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (rtOvBOTyX00)",YouTube Stream (rtOvBOTyX00)
-intent://www.youtube.com/watch?v=rtOvBOTyX00#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (1G4isv_Fylg)",YouTube Stream (1G4isv_Fylg)
-intent://www.youtube.com/watch?v=1G4isv_Fylg#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (fyMhvkC3A84)",YouTube Stream (fyMhvkC3A84)
-intent://www.youtube.com/watch?v=fyMhvkC3A84#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (KlyXNRrsk4A)",YouTube Stream (KlyXNRrsk4A)
-intent://www.youtube.com/watch?v=KlyXNRrsk4A#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (LndySwcNzpw)",YouTube Stream (LndySwcNzpw)
-intent://www.youtube.com/watch?v=LndySwcNzpw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (yMuuc_pqx2s)",YouTube Stream (yMuuc_pqx2s)
-intent://www.youtube.com/watch?v=yMuuc_pqx2s#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (uWqo0fy0-b0)",YouTube Stream (uWqo0fy0-b0)
-intent://www.youtube.com/watch?v=uWqo0fy0-b0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (lAhHNCfA7NI)",YouTube Stream (lAhHNCfA7NI)
-intent://www.youtube.com/watch?v=lAhHNCfA7NI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (LjhCEhWiKXk)",YouTube Stream (LjhCEhWiKXk)
-intent://www.youtube.com/watch?v=LjhCEhWiKXk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (2q9_ZEtuTR8)",YouTube Stream (2q9_ZEtuTR8)
-intent://www.youtube.com/watch?v=2q9_ZEtuTR8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (_OLUSELxFok)",YouTube Stream (_OLUSELxFok)
-intent://www.youtube.com/watch?v=_OLUSELxFok#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (jxKjOOR9sPU)",YouTube Stream (jxKjOOR9sPU)
-intent://www.youtube.com/watch?v=jxKjOOR9sPU#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (vW1hv37imjw)",YouTube Stream (vW1hv37imjw)
-intent://www.youtube.com/watch?v=vW1hv37imjw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (FRSH-egVyzk)",YouTube Stream (FRSH-egVyzk)
-intent://www.youtube.com/watch?v=FRSH-egVyzk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (cjVQ36NhbMk)",YouTube Stream (cjVQ36NhbMk)
-intent://www.youtube.com/watch?v=cjVQ36NhbMk#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (0S7Qu5HMiCA)",YouTube Stream (0S7Qu5HMiCA)
-intent://www.youtube.com/watch?v=0S7Qu5HMiCA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (WIUAC03YMlA)",YouTube Stream (WIUAC03YMlA)
-intent://www.youtube.com/watch?v=WIUAC03YMlA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (u86VdOc3asA)",YouTube Stream (u86VdOc3asA)
-intent://www.youtube.com/watch?v=u86VdOc3asA#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (H1W2UddURXI)",YouTube Stream (H1W2UddURXI)
-intent://www.youtube.com/watch?v=H1W2UddURXI#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (LQ5wTHM1zkw)",YouTube Stream (LQ5wTHM1zkw)
-intent://www.youtube.com/watch?v=LQ5wTHM1zkw#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (Cwkej79U3ek)",YouTube Stream (Cwkej79U3ek)
-intent://www.youtube.com/watch?v=Cwkej79U3ek#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (ub36ffWAqgQ)",YouTube Stream (ub36ffWAqgQ)
-intent://www.youtube.com/watch?v=ub36ffWAqgQ#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (TMy6X5cQul8)",YouTube Stream (TMy6X5cQul8)
-intent://www.youtube.com/watch?v=TMy6X5cQul8#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (-wc0qMerzz0)",YouTube Stream (-wc0qMerzz0)
-intent://www.youtube.com/watch?v=-wc0qMerzz0#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
-#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (dvgZkm1xWPE)",YouTube Stream (dvgZkm1xWPE)
-intent://www.youtube.com/watch?v=dvgZkm1xWPE#Intent;package=me.aap.fermata;action=android.intent.action.VIEW;end;
+#EXTINF:-1 tvg-id="StaraTV.id@Jakarta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Jakarta (1080p)
+https://jakarta.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="StaraTV.id@Bojonegoro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Bojonegoro (720p)
+https://bojonegoro.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-id="StaraTV.id@Parahyangan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Parahyangan (720p)
+https://parahyangan.staratv.id/hls/0/stream.m3u8
+#EXTINF:-1 tvg-id="TV9Nusantara.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/e/ed/TV9_Nusantara.png" group-title="Lokal (auto)",TV9 Nusantara (720p)
+https://5bf7b725107e5.streamlock.net/tv9/tv9/playlist.m3u8
+#EXTINF:-1 tvg-id="SurauTV.id@SD" tvg-logo="https://i.imgur.com/CKoxcWL.png" group-title="Lokal (auto)",Surau TV (720p)
+http://ikitv.sqn.at:8000/play/a00l/index.m3u8
+#EXTINF:-1 tvg-id="TVKU.id@SD" tvg-logo="https://i.imgur.com/BAklJGy.png" group-title="Lokal (auto)",TVKU (720p)
+https://tvku.tv/hlsstream/hls/live.m3u8
+#EXTINF:-1 tvg-id="VTV.id@SD" tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV (720p)
+https://flv.intechmedia.net/live/ch107.m3u8
+#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal (auto)",UGTV (720p)
+https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
+#EXTINF:-1 tvg-id="VTV.id@HD" tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV HD (1080p)
+http://ikitv.sqn.at:8000/play/a023/index.m3u8
+#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal (auto)",U Channel
+https://srs.u-channel.tv/live/uchannel-tv.m3u8
+#EXTINF:-1 tvg-id="cnn.indonesia" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w909769083_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="cnbc.indonesia" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/chunklist_w1242192746_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="bn.channel" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
+http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
+#EXTINF:-1 tvg-id="magna.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",MAGNA TV (ChannelFeed)
+https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8
+#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
+https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar
+https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
+#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Lokal (auto)",MDTV
+https://op-flashcon-digdayahd-1.dens.tv/h/h223/02.m3u8
+#EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal (auto)",Kompas TV HD
+https://op-flashcon-digdayahd-1.dens.tv/s/s104/index.m3u8
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Lokal (auto)",Metro TV
+https://op-flashcon-digdayahd-1.dens.tv/h/h12/01.m3u8
+#EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Lokal (auto)",TVOne (DensTV)
+https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/chunklist_w766556031_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews
+https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCGfXjFgIUUTUUlzdG6BenXA
+#EXTINF:-1 tvg-id="Moji" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV (Dens)
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/index.m3u8
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8
+#EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" group-title="Lokal (auto)",RTV (Dens)
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/index.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
+https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
+https://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
+#EXTINF:-1 tvg-id="timor.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Timor TV
+http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="InterTV.it@SD" tvg-logo="https://i.imgur.com/FUTqh2L.png" group-title="Lokal (auto)",Inter TV (1080p)
+https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
+#EXTINF:-1 tvg-id="IuniorTV.it@SD" tvg-logo="https://i.imgur.com/FBOJnfT.png" group-title="Lokal (auto)",Iunior TV (1080p)
+https://5f22d76e220e1.streamlock.net/iuniortv/iuniortv/chunklist_w774879328.m3u8
+#EXTINF:-1 tvg-id="atomic.academy.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Atomic Academy TV (480p)
+https://atomic.streamnet.ro/academia.m3u8
+#EXTINF:-1 tvg-id="atomic.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Atomic TV (360p)
+https://atomic.streamnet.ro/atomictv.m3u8
+#EXTINF:-1 tvg-id="24" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",24 Канал (1080p)
+https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="balapan.hd" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan HD (1080p)
+https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+#EXTINF:-1 tvg-id="emantv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",EmanTv (1080p)
+https://avr.host247.net/live/emantv/playlist.m3u8
+#EXTINF:-1 tvg-id="auto.bbc.lifestyle" tvg-name="" tvg-logo="https://mimipipi22.github.io/logo/lifestyle/bbclifestyle.jpg" group-title="Lokal (auto)",BBC LIFESTYLE
+https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/bbclifestyle.smil/manifest.mpd
+#EXTINF:-1 tvg-id="FoodTravel.id" tvg-logo="https://www.visionplus.id/images/repository/534/172534-LOGO-m.png" group-title="Lokal (auto)",Food Travel (V+)
+https://d2gr3zenqo3tg4.cloudfront.net/out/v1/77d7eac1b90247ac9aa745bd2eb47fa8/index.mpd
+#EXTINF:-1 tvg-id="Channel Jowo" tvg-logo="https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png" group-title="Lokal (auto)",Channel Jowo (DensTV)
+https://op-flashcon-digdayasd-1.dens.tv/h/h215/S1/mnf.m3u8
+#EXTINF:-1 tvg-id="auto.bali.tv" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/balitv.jpg",BALI TV
+https://cdnbal1.indihometv.com/atm/DASH/balitv/master.mpd
+#EXTINF:-1 tvg-id="auto.beritasatu" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/beritasatu.jpg",BERITASATU
+https://cdnbal1.indihometv.com/atm/DASH/beritasatu/master.mpd
+#EXTINF:-1 tvg-id="auto.inews" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/inews.jpg",INEWS
+https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
+#EXTINF:-1 tvg-id="auto.jaktv" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/jaktv.jpg",JAKTV
+https://cdnbal1.indihometv.com/atm/DASH/JAK_TV/master.mpd
+#EXTINF:-1 tvg-id="auto.jtv" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/jtv.jpg",JTV
+https://cdnbal1.indihometv.com/atm/DASH/jtv/master.mpd
+#EXTINF:-1 tvg-id="auto.kompas.tv" group-title="Lokal (auto)" tvg-logo="https://github.com/Bluestraveller13/LOGO/blob/main/KompasTV.png?raw=true",KOMPAS TV
+https://cdnbal1.indihometv.com/atm/DASH/KOMPAS_TV/master.mpd
+#EXTINF:-1 tvg-id="auto.rtv" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/rtv.jpg",RTV
+https://cdnbal1.indihometv.com/atm/DASH/RAJAWALI_TV/master.mpd
+#EXTINF:-1 tvg-id="auto.sctv" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/sctv.jpg",SCTV (DASH/MPD)
+https://cdnbal1.indihometv.com/atm/DASH/sctv/master.mpd
+#EXTINF:-1 tvg-id="auto.tvri.world" group-title="Lokal (auto)" tvg-logo="https://mimipipi22.github.io/logo/nasional/tvriworld.jpg",TVRI WORLD
+https://cdnbal1.indihometv.com/atm/DASH/tvriworld/master.mpd
+#EXTINF:-1 tvg-id="TVRI.id" tvg-logo="https://iili.io/JmF1S7S.png" group-title="Lokal (auto)" http-referrer="" http-user-agent="",TVRI Riau
+https://ott-balancer.tvri.go.id/live/eds/Riau/hlstl/Riau.m3u8
+#EXTINF:-1 tvg-id="BaanBaanTV73.th@SD" tvg-logo="https://i.imgur.com/JGLy1Pm.png" group-title="Lokal (auto)",Baan Baan TV 73
+https://vdo.plathong.net/live8794/live8794/playlist.m3u8
+#EXTINF:-1 tvg-id="CaoBangTV.vn@SD" tvg-logo="https://i.imgur.com/dGonewm.png" group-title="Lokal (auto)",Cao Bằng TV (720p)
+https://stream.thingnet.vn/live/smil:CRTV.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="AnadoluNetTV.tr@SD" tvg-logo="https://www.anadolunettv.com/d/r/logo.png" group-title="Lokal (auto)",Anadolu Net TV (1080p)
+https://live.artidijitalmedya.com/artidijital_anadolunet/anadolunet/playlist.m3u8
+#EXTINF:-1 tvg-id="AbadanTV.ir@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png" group-title="Lokal (auto)",Abadan
+https://ncdn.telewebion.ir/abadan/live/playlist.m3u8
+#EXTINF:-1 tvg-id="CBC.eg@SD" tvg-logo="https://i.imgur.com/8apNaLP.png" group-title="Lokal (auto)",CBC (576p)
+https://flu.systemnet.tv/CBC/index.m3u8
+#EXTINF:-1 tvg-id="CBCDrama.eg@SD" tvg-logo="https://i.imgur.com/I8YdakH.png" group-title="Lokal (auto)",CBC Drama (576p)
+https://flu.systemnet.tv/CBCDrama/index.m3u8
+#EXTINF:-1 tvg-id="CBCSofra.eg@SD" tvg-logo="https://i.imgur.com/YAdk2WR.png" group-title="Lokal (auto)",CBC Sofra (576p)
+https://flu.systemnet.tv/CBCSofra/index.m3u8
+#EXTINF:-1 tvg-id="AngelTV.in@Indonesia" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Lokal (auto)",Angel TV Indonesia (720p)
+https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
+#EXTINF:-1 tvg-id="AlQamarTV.ae@SD" tvg-logo="https://i.imgur.com/zkBT0C8.png" group-title="Lokal (auto)",Al Qamar TV (1080p)
+https://streamer3.premio.link/alqamar/playlist.m3u8
+#EXTINF:-1 tvg-id="AzanTV.ca@SD" tvg-logo="https://i.imgur.com/JlqS6I4.jpeg" group-title="Lokal (auto)",Azan TV
+https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
+#EXTINF:-1 tvg-id="24Horas.es@SD" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="Lokal (auto)",Canal 24 Horas (720p)
+https://ztnr.rtve.es/ztnr/1694255.m3u8
+#EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-logo="https://i.ibb.co/vv3FC2Nv/clan.png" group-title="Lokal (auto)",Clan Internacional Americas (1080p) [Geo-blocked]
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/clan_int_main_1080.m3u8
+#EXTINF:-1 tvg-id="HmongStarTV.us@SD" tvg-logo="https://i.imgur.com/dRsacao.png" group-title="Lokal (auto)",Hmong Star TV (720p) [Not 24/7]
+https://livefta.malimarcdn.com/ftaedge00/hmongstartv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="HyderTV.ca@SD" tvg-logo="https://i.imgur.com/reHjjRZ.png" group-title="Lokal (auto)",Hyder TV (720p)
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8
+#EXTINF:-1 tvg-id="KordiaTV.nz@SD" tvg-logo="https://i.imgur.com/BQ0qWzX.png" group-title="Lokal (auto)",Kordia TV (1080p)
+https://ptvlive.kordia.net.nz/out/v1/3fc2254c865a457c8d7fbbce227a2aae/index.m3u8
+#EXTINF:-1 tvg-id="La2.es@SD" tvg-logo="https://i.ibb.co/rfsr9PSh/La-2.png" group-title="Lokal (auto)",La 2
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
+#EXTINF:-1 tvg-id="LibyaAlAhrarTV.qa@SD" tvg-logo="https://i.imgur.com/xkQKVGi.png" http-referrer="https://player.castr.com" group-title="Lokal (auto)",Libya Al Ahrar TV (1080p)
+https://stream-hls.castr.net/64490fcefe045f1b63012886/live_22d9a1f0c69c11ee9441219c2cc6d61f/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="LoveThePlanet.es@EN" tvg-logo="https://i.imgur.com/RBcD49X.png" group-title="Lokal (auto)",Love the Planet (1080p)
+https://amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk-apopw.amagi.tv/playlist/amg01821-lovetvchannels-lovetheplanetuksamsung-samsunguk/playlist.m3u8
+#EXTINF:-1 tvg-id="MTVRidiculousness.de@DACH" tvg-logo="https://images.pluto.tv/channels/5f9847fd513250000728a9a5/colorLogoPNG.png" group-title="Lokal (auto)",MTV Ridiculousness
+https://jmp2.uk/plu-5f9847fd513250000728a9a5.m3u8
+#EXTINF:-1 tvg-id="MTVRidiculousness.us@LatAm" tvg-logo="https://images.pluto.tv/channels/68641eb4852dfe78698c3390/colorLogoPNG_1751392300412.png" group-title="Lokal (auto)",MTV Ridiculousness (720p)
+https://jmp2.uk/plu-5e98a911c881310007d7aae2.m3u8
+#EXTINF:-1 tvg-id="OutdoorChannel.us@SD" tvg-logo="https://i.imgur.com/Kh4MWaY.png" group-title="Lokal (auto)",Outdoor Channel (1080p)
+https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg00718-outdoorchannela-outdoortv-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
+https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id="TVEStar.es@SD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Lokal (auto)",TVE Star (576p)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
+#EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Lokal (auto)",TVE Star HD (1080p)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
+#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (720p)
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 tvg-id="HuzurTV.ru@SD" tvg-logo="https://i.imgur.com/Abg1fct.png" group-title="Lokal (auto)",Хузур ТВ (1080p) [Not 24/7]
+https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="MagnaChannel.id" tvg-name="Magna Channel" tvg-logo="https://i.imgur.com/tfJo0SO.png" tvg-country="ID" group-title="Lokal (auto)",Magna Channel (1080p)
+https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="auto.abc.big.kids.all.aussie" tvg-logo="https://cdn.iview.abc.net.au/thumbs/i/Logo-URL-Wide-1020x574_BigKids_new.png" group-title="Lokal (auto)",ABC Big Kids All Aussie
+https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/94adcb14be98408cbda4b7b404e94fb4/index.mpd
+#EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal (auto)",SMTV (720p)
+https://e.siar.us/live/smtv.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RiauTV.id@SD",Riau TV (1080p) [Not 24/7]
+http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="RadarTasikmalayaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar tasikmalaya tv (720p) [not 24/7]
+https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
+#EXTINF:-1 tvg-id="tvone.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4Y_baYWVbj91xIGOXwL4AOZqn6aaCVVNe_PN7mswwQ&s=10" group-title="Lokal",Tv one
+https://op-group1-densxvisionhd-1.dens.tv/h/h40/01.m3u8
+#EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
+https://op-flashcon-digdayahd-1.dens.tv/h/h16/01.m3u8
+#EXTINF:-1 tvg-id="Moji.id" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",MOJI TV HD (Alt 3 - DensTV flashcon)
+https://op-flashcon-digdayahd-1.dens.tv/h/h210/01.m3u8
+#EXTINF:-1 tvg-id="MagnaChannel.id" group-title="Lokal (auto)",MAGNA Channel (Flashcon)
+https://op-flashcon-digdayahd-1.dens.tv/h/h24/01.m3u8
+#EXTINF:-1 tvg-id="GarudaTV.id" group-title="Lokal (auto)",Garuda TV (Flashcon)
+https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
+#EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
+https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BanjarTV.id@SD",Banjar TV (720p) [Not 24/7]
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
+https://live-3.otcnet.ru/Balapan/index.m3u8
+#EXTINF:-1 tvg-id="KidsTV.id@SD" tvg-logo="https://i.imgur.com/B5YiUIP.png" group-title="Lokal (auto)",Kids TV
+http://origin5.mediacdn.ru/live/kidstv/index.m3u8
