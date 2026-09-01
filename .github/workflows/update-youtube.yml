@@ -2,7 +2,7 @@ name: Update YouTube IPTV
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */3 * * *' # Berjalan setiap 3 jam
   workflow_dispatch:
 
 jobs:
@@ -21,9 +21,10 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Pull latest changes
+      - name: Pull latest changes safely
         run: |
-          git pull origin main --rebase || true
+          git fetch origin main
+          git pull origin main --rebase -Xours || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,5 +41,5 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-update: Refresh YouTube titles (every 3 hours)"
+          commit_message: "Auto-update: Refresh YouTube streams (every 3 hours)"
           file_pattern: ich-iptv.m3u youtube_source.txt cookies.txt
