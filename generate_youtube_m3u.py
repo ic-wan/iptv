@@ -51,23 +51,18 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul asli video
+        # Ambil judul asli video dari YouTube
         title_res = run_ytdlp(["--get-title", url])
-        raw_title = title_res.replace(",", " ") if title_res and len(title_res) > 0 else f"YouTube Stream ({url.split('v=')[-1]})"
-
-        # Ekstrak tautan stream langsung (menggunakan -g)
-        stream_res = run_ytdlp(["-g", url])
-
-        if stream_res:
-            lines = stream_res.split("\n")
-            active_url = lines[0] if lines else url
-            title = raw_title
-            print(f"Berhasil mendapatkan stream langsung: {title}")
+        
+        if title_res and len(title_res) > 0:
+            raw_title = title_res.replace(",", " ")
         else:
-            # Jika gagal ekstrak, gunakan URL aman atau lewati
-            title = f"expired_{raw_title}"
-            active_url = url
-            print(f"Gagal mendapatkan stream langsung, menandai sebagai: {title}")
+            raw_title = f"YouTube Stream ({url.split('v=')[-1]})"
+
+        title = raw_title
+        active_url = url  # Menggunakan URL Watch standar yang stabil dan tidak pernah kedaluwarsa
+        
+        print(f"Berhasil memuat judul: {title}")
 
         extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
