@@ -51,7 +51,7 @@ def main():
     for url in urls:
         print(f"\nMemproses YouTube URL: {url}")
         
-        # Ambil judul asli video dari YouTube
+        # Ambil judul asli video jika memungkinkan
         title_res = run_ytdlp(["--get-title", url])
         
         if title_res and len(title_res) > 0:
@@ -60,11 +60,12 @@ def main():
             raw_title = f"YouTube Stream ({url.split('v=')[-1]})"
 
         title = raw_title
-        active_url = url  # Menggunakan URL Watch standar yang stabil dan tidak pernah kedaluwarsa
+        active_url = url
         
         print(f"Berhasil memuat judul: {title}")
 
-        extinf = f'#EXTINF:-1 tvg-group="Youtube Music" tvg-name="{raw_title}",{title}\n'
+        # Menggunakan group-title agar terbaca sebagai kategori/grup di aplikasi IPTV
+        extinf = f'#EXTINF:-1 group-title="Youtube Music" tvg-name="{raw_title}",{title}\n'
         youtube_entries.append(extinf)
         youtube_entries.append(f"{active_url}\n")
 
@@ -75,7 +76,8 @@ def main():
         cleaned_content = []
         skip = False
         for line in existing_content:
-            if 'tvg-group="Youtube Music"' in line:
+            # Membersihkan blok lama baik yang menggunakan group-title maupun tvg-group
+            if 'group-title="Youtube Music"' in line or 'tvg-group="Youtube Music"' in line:
                 skip = True
                 continue
             if skip and (line.startswith("http://") or line.startswith("https://") or "youtube.com" in line or "youtu.be" in line):
