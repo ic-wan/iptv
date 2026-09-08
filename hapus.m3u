@@ -845,13 +845,19 @@ http://ikitv.sqn.at:8000/play/a00l/index.m3u8
 http://ikitv.sqn.at:8000/play/a023/index.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
 https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja tv (720p)
-https://rodjatv.com/rodjatv/live.m3u8
-#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
-https://live-3.otcnet.ru/Balapan/index.m3u8
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
-#EXTINF:-1 tvg-id="auto.dtvi" group-title="Lokal (auto)",dTVi
-https://e.siar.us/live/dtvi.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="BalikpapanTV.id@SD",Balikpapan TV (720p)
+http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="SriwijayaTV.id@SD",Sriwijaya TV (720p) [Not 24/7]
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
+#EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
+http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="DavikaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" group-title="Lokal (auto)",Davika TV (480p)
+https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
+#EXTINF:-1 tvg-id="auto.bungo.tv" group-title="Lokal (auto)",Bungo TV
+https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
