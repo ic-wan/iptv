@@ -95,64 +95,63 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     7. Pbs kids
     8. Vtv (720p)
 
-  📁 Grup: [Lokal] (54 Channel)
+  📁 Grup: [Lokal] (53 Channel)
   ----------------------------------------
     1. Bandung tv (360p)
-    2. Banten tv (720p) [not 24/7]
-    3. Banyumas tv (720p) [not 24/7]
-    4. Biznet adventure (1080p)
-    5. Biznet lifestyle (1080p)
-    6. Bn channel (720p)
-    7. Brtv (720p)
-    8. Caruban tv (1080p)
-    9. Daai tv
-    10. Dens tv learning
-    11. Dhamma tv (720p) [not 24/7]
-    12. Dhoho tv (720p)
-    13. Duta tv (360p) [not 24/7]
-    14. Efarina tv (720p)
-    15. Garuda tv (1080p)
-    16. Indonesiana tv
-    17. Izzah tv (480p)
-    18. Jawa pos tv jakarta (720p)
-    19. Jogja istimewa tv (720p)
-    20. Jogja tv (720p) [not 24/7]
-    21. Jowo
-    22. Jtv (480p)
-    23. Kawanua tv (720p)
-    24. Kompas tv
-    25. Lingkar tv
-    26. Madani tv (720p)
-    27. Madu tv (576p)
-    28. Magna channel (1080p) [not 24/7]
-    29. Metro tv
-    30. Moji tv
-    31. Mqtv (720p) [not 24/7]
-    32. Nhk world japan
-    33. Padang tv (720p) [not 24/7]
-    34. Pontv (720p)
-    35. R tv
-    36. Radar tasikmalaya tv (720p) [not 24/7]
-    37. Radio kita tv (1080p)
-    38. Rodja tv (720p)
-    39. Rri net (1080p)
-    40. Salira tv (720p)
-    41. Smtv (720p) [not 24/7]
-    42. Stara tv (720p)
-    43. Stara tv bandung (1080p)
-    44. Stara tv cianjur (720p)
-    45. Stara tv malang (1080p)
-    46. Tatv (720p) [not 24/7]
-    47. Tv one
-    48. Tv tabalong (720p) [not 24/7]
-    49. Tv9 nusantara (720p)
-    50. Tvku (720p)
-    51. Tvri jawa barat (480p)
-    52. Tvri jawa timur (720p)
-    53. Tvri world
-    54. Ugtv (720p)
+    2. Banyumas tv (720p) [not 24/7]
+    3. Biznet adventure (1080p)
+    4. Biznet lifestyle (1080p)
+    5. Bn channel (720p)
+    6. Brtv (720p)
+    7. Caruban tv (1080p)
+    8. Daai tv
+    9. Dens tv learning
+    10. Dhamma tv (720p) [not 24/7]
+    11. Dhoho tv (720p)
+    12. Duta tv (360p) [not 24/7]
+    13. Efarina tv (720p)
+    14. Garuda tv (1080p)
+    15. Indonesiana tv
+    16. Izzah tv (480p)
+    17. Jawa pos tv jakarta (720p)
+    18. Jogja istimewa tv (720p)
+    19. Jogja tv (720p) [not 24/7]
+    20. Jowo
+    21. Jtv (480p)
+    22. Kawanua tv (720p)
+    23. Kompas tv
+    24. Lingkar tv
+    25. Madani tv (720p)
+    26. Madu tv (576p)
+    27. Magna channel (1080p) [not 24/7]
+    28. Metro tv
+    29. Moji tv
+    30. Mqtv (720p) [not 24/7]
+    31. Nhk world japan
+    32. Padang tv (720p) [not 24/7]
+    33. Pontv (720p)
+    34. R tv
+    35. Radar tasikmalaya tv (720p) [not 24/7]
+    36. Radio kita tv (1080p)
+    37. Rodja tv (720p)
+    38. Rri net (1080p)
+    39. Salira tv (720p)
+    40. Smtv (720p) [not 24/7]
+    41. Stara tv (720p)
+    42. Stara tv bandung (1080p)
+    43. Stara tv cianjur (720p)
+    44. Stara tv malang (1080p)
+    45. Tatv (720p) [not 24/7]
+    46. Tv one
+    47. Tv tabalong (720p) [not 24/7]
+    48. Tv9 nusantara (720p)
+    49. Tvku (720p)
+    50. Tvri jawa barat (480p)
+    51. Tvri jawa timur (720p)
+    52. Tvri world
+    53. Ugtv (720p)
 
-  📁 Grup: [Lokal (auto)] (117 Channel)
+  📁 Grup: [Lokal (auto)] (120 Channel)
   ----------------------------------------
     1. 24 Канал (1080p)
     2. ANTV HD
@@ -164,113 +163,116 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     8. Angel TV Indonesia (720p)
     9. Ashiil TV (480p)
     10. Astro Blitar TV (720p)
-    11. Atomic Academy TV (480p)
-    12. Atomic TV (360p)
-    13. Azan TV
-    14. BALI TV
-    15. BBC LIFESTYLE
-    16. BN Channel (ChannelFeed)
-    17. Baan Baan TV 73
-    18. Balapan HD (1080p)
-    19. Balapan International (1080p)
-    20. Banjar TV (720p) [Not 24/7]
-    21. Batam TV (480p) [Not 24/7]
-    22. CBC (576p)
-    23. CBC Drama (576p)
-    24. CBC Sofra (576p)
-    25. Canal 24 Horas (720p)
-    26. Cao Bằng TV (720p)
-    27. Clan Internacional Americas (1080p) [Geo-blocked]
-    28. DAAI TV (Dens)
-    29. DMI TV (576i)
-    30. EmanTv (1080p)
-    31. Fajar TV (720p) [Not 24/7]
-    32. Ficom Channel
-    33. Food Travel (V+)
-    34. Garuda TV (Flashcon)
-    35. Hmong Star TV (720p) [Not 24/7]
-    36. Hyder TV (720p)
-    37. I Am Channel (576p)
-    38. Indosiar
-    39. Indosiar HD
-    40. Inter TV (1080p)
-    41. Iunior TV (1080p)
-    42. JAKTV
-    43. JTV Kediri (1080p) [Not 24/7]
-    44. JTV Madiun
-    45. JTV Malang
-    46. Kordia TV (1080p)
-    47. La 2
-    48. Libya Al Ahrar TV (1080p)
-    49. Love the Planet (1080p)
-    50. MAGNA Channel (Flashcon)
-    51. MAGNA TV (ChannelFeed)
-    52. MBG TV (1080p)
-    53. MDTV
-    54. MOJI TV HD (Alt 3 - DensTV flashcon)
-    55. MTV Ridiculousness
-    56. MTV Ridiculousness (720p)
-    57. Matrix TV Yogyakarta (720p)
-    58. Metro TV
-    59. MetroTV (Flashcon)
-    60. Outdoor Channel (1080p)
-    61. PKTV (480p)
-    62. Radio 51 TV
-    63. Rajawali TV
-    64. Riau TV (1080p) [Not 24/7]
-    65. Rinjani TV
-    66. SCTV (DASH/MPD)
-    67. SCTV HD
-    68. SMTV (720p)
-    69. Salam TV (720p)
-    70. Sangaji TV (720p)
-    71. SindoNews
-    72. Sooriyan TV (1080p)
-    73. Stara TV Bojonegoro (720p)
-    74. Stara TV Jakarta (1080p)
-    75. Stara TV Parahyangan (720p)
-    76. TV Mu (720p) [Not 24/7]
-    77. TVE Star (576p)
-    78. TVE Star HD (1080p)
-    79. TVRI (1080i)
-    80. TVRI Aceh (720p)
-    81. TVRI Bali (480p)
-    82. TVRI Bangka Belitung (480p)
-    83. TVRI Bengkulu (480p)
-    84. TVRI Gorontalo (480p)
-    85. TVRI Jakarta (576i) [Not 24/7]
-    86. TVRI Jambi (720p) [Not 24/7]
-    87. TVRI Jawa Tengah (720p)
-    88. TVRI Kalimantan Barat (480p)
-    89. TVRI Kalimantan Selatan (720p)
-    90. TVRI Kalimantan Tengah (480p)
-    91. TVRI Kalimantan Timur (720p)
-    92. TVRI Lampung (720p)
-    93. TVRI Maluku (480p)
-    94. TVRI North Sulawesi (1080p)
-    95. TVRI North Sumatra (1080p)
-    96. TVRI Nusa Tenggara Barat (720p)
-    97. TVRI Nusa Tenggara Timur (480p)
-    98. TVRI Papua (480p)
-    99. TVRI Riau
-    100. TVRI Riau (720p) [Not 24/7]
-    101. TVRI Sulawesi Barat (720p)
-    102. TVRI Sulawesi Selatan (480p)
-    103. TVRI Sulawesi Tengah (720p)
-    104. TVRI Sulawesi Tenggara (480p)
-    105. TVRI Sumatera Barat (720p)
-    106. TVRI Sumatera Selatan (480p)
-    107. TVRI WORLD
-    108. TVRI West Papua (1080p)
-    109. TVRI Yogyakarta (720p)
-    110. The Indonesia Channel (1080p)
-    111. Timor TV
-    112. U Channel
-    113. UCL (720p)
-    114. Viasat Kino Action (576p)
-    115. dTVi
-    116. iNews HD
-    117. Хузур ТВ (1080p) [Not 24/7]
+    11. Atambua TV (720p)
+    12. Atomic Academy TV (480p)
+    13. Atomic TV (360p)
+    14. Azan TV
+    15. BALI TV
+    16. BBC LIFESTYLE
+    17. BN Channel (ChannelFeed)
+    18. BTV (Channel Feed)
+    19. BTV (V+)
+    20. Baan Baan TV 73
+    21. Balapan HD (1080p)
+    22. Balikpapan TV (720p)
+    23. Banjar TV (720p) [Not 24/7]
+    24. Batam TV (480p) [Not 24/7]
+    25. Berita Satu
+    26. CBC (576p)
+    27. CBC Drama (576p)
+    28. CBC Sofra (576p)
+    29. Canal 24 Horas (720p)
+    30. Cao Bằng TV (720p)
+    31. Clan Internacional Americas (1080p) [Geo-blocked]
+    32. DAAI TV (Dens)
+    33. DMI TV (576i)
+    34. EmanTv (1080p)
+    35. Fajar TV (720p) [Not 24/7]
+    36. Ficom Channel
+    37. Food Travel (V+)
+    38. Garuda TV (Flashcon)
+    39. Hmong Star TV (720p) [Not 24/7]
+    40. Hyder TV (720p)
+    41. I Am Channel (576p)
+    42. Indosiar
+    43. Indosiar HD
+    44. Inter TV (1080p)
+    45. Iunior TV (1080p)
+    46. JAKTV
+    47. JTV Kediri (1080p) [Not 24/7]
+    48. JTV Madiun
+    49. JTV Malang
+    50. Jagantara TV
+    51. Kordia TV (1080p)
+    52. La 2
+    53. Libya Al Ahrar TV (1080p)
+    54. Love the Planet (1080p)
+    55. MAGNA Channel (Flashcon)
+    56. MAGNA TV (ChannelFeed)
+    57. MBG TV (1080p)
+    58. MOJI TV HD (Alt 3 - DensTV flashcon)
+    59. MTV Ridiculousness
+    60. MTV Ridiculousness (720p)
+    61. Matrix TV Yogyakarta (720p)
+    62. Metro TV
+    63. MetroTV (Flashcon)
+    64. Nusantara TV (ChannelFeed)
+    65. Outdoor Channel (1080p)
+    66. PKTV (480p)
+    67. Radio 51 TV
+    68. Rajawali TV
+    69. Riau TV (1080p) [Not 24/7]
+    70. Rinjani TV
+    71. SCTV (DASH/MPD)
+    72. SCTV HD
+    73. SMTV (720p)
+    74. Salam TV (720p)
+    75. Sangaji TV (720p)
+    76. SindoNews
+    77. Sooriyan TV (1080p)
+    78. Sriwijaya TV (720p) [Not 24/7]
+    79. Stara TV Bojonegoro (720p)
+    80. Stara TV Jakarta (1080p)
+    81. Stara TV Parahyangan (720p)
+    82. TV Mu (720p) [Not 24/7]
+    83. TVE Star (576p)
+    84. TVE Star HD (1080p)
+    85. TVRI Aceh (720p)
+    86. TVRI Bali (480p)
+    87. TVRI Bangka Belitung (480p)
+    88. TVRI Bengkulu (480p)
+    89. TVRI Gorontalo (480p)
+    90. TVRI Jakarta (576i) [Not 24/7]
+    91. TVRI Jambi (720p) [Not 24/7]
+    92. TVRI Kalimantan Barat (480p)
+    93. TVRI Kalimantan Selatan (720p)
+    94. TVRI Kalimantan Tengah (480p)
+    95. TVRI Kalimantan Timur (720p)
+    96. TVRI Lampung (720p)
+    97. TVRI Maluku (480p)
+    98. TVRI North Sulawesi (1080p)
+    99. TVRI North Sumatra (1080p)
+    100. TVRI Nusa Tenggara Barat (720p)
+    101. TVRI Nusa Tenggara Timur (480p)
+    102. TVRI Papua (480p)
+    103. TVRI Riau
+    104. TVRI Riau (720p) [Not 24/7]
+    105. TVRI Sulawesi Barat (720p)
+    106. TVRI Sulawesi Selatan (480p)
+    107. TVRI Sulawesi Tengah (720p)
+    108. TVRI Sulawesi Tenggara (480p)
+    109. TVRI Sumatera Barat (720p)
+    110. TVRI Sumatera Selatan (480p)
+    111. TVRI WORLD
+    112. TVRI West Papua (1080p)
+    113. TVRI Yogyakarta (720p)
+    114. The Indonesia Channel (1080p)
+    115. Timor TV
+    116. U Channel
+    117. UCL (720p)
+    118. Viasat Kino Action (576p)
+    119. iNews HD
+    120. Хузур ТВ (1080p) [Not 24/7]
 
   📁 Grup: [Radio] (4 Channel)
   ----------------------------------------
