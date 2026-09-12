@@ -845,8 +845,6 @@ http://ikitv.sqn.at:8000/play/a00l/index.m3u8
 http://ikitv.sqn.at:8000/play/a023/index.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
 https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 #EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews
@@ -859,9 +857,15 @@ https://visionplus.fazznet.my.id/out/v1/ccc51c0317284496b6cde9f7bd670b80/index.m
 http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
 #EXTINF:-1 tvg-id="ViasatKinoAction.ua@SD" tvg-logo="https://i.imgur.com/HwsNIDK.png" group-title="Lokal (auto)",Viasat Kino Action (576p)
 http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="SriwijayaTV.id@SD",Sriwijaya TV (720p) [Not 24/7]
-https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
 #EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
 https://live-3.otcnet.ru/Balapan/index.m3u8
+#EXTINF:-1 tvg-id="rodja.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/rodja.png" group-title="Radio",Rodja fm
+https://radioislamindonesia.com/rodja.mp3
+#EXTINF:-1 tvg-id="denstv.id@learning" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIwG4_cGayft-P28Xa0AbdpZv3dcCWw0lJqC9-BOmNw&s=10" group-title="Lokal",Dens tv learning
+https://op-flashcon-digdayahd-1.dens.tv/h/h236/02.m3u8
+#EXTINF:-1 tvg-id="StaraTV.id@Bojonegoro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Bojonegoro (720p)
+https://bojonegoro.staratv.id/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
+https://mrtvott.com/cache/MITV/master.m3u8

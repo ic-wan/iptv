@@ -7,8 +7,6 @@ https://www.dropbox.com/scl/fi/jughhef87nkbdddvwrx3k/Mars-and-Hymne-Adhimix-Prec
 https://www.dropbox.com/scl/fi/tyxpbp1lxosyy9gtn145q/Indonesia-Raya-Ciptaan-W.R.-Supratman-Lirik-Lagu-Lagu-Kebangsaan-Indonesia-1.mp4?rlkey=8ww2hl1ta2r11vd8pdyftbywi&st=ep9yprs0&dl=1
 #EXTINF:-1 tvg-id="prambors.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/prambors.png" group-title="Radio",Prambors fm
 https://n03-us.rcs.revma.com/h77wwp48kxcwv?rj-ttl=5&rj-tok=AAABnrc_4EoAs27N82x_rDtjUQ
-#EXTINF:-1 tvg-id="rodja.id" tvg-logo="https://cdn.instant.audio/images/logos/radioonline-co-id/rodja.png" group-title="Radio",Rodja fm
-https://radioislamindonesia.com/rodja.mp3
 #EXTINF:-1 tvg-id="The Rockin Life2" tvg-logo="https://assets-static.therockinlife.com/wp-content/uploads/2024/12/TRL-MUSIC-STREAM-PLAYER-JKT.jpg" group-title="Radio",The rockin life
 https://stream.radiojar.com/7csmg90fuqruv
 #EXTINF:-1 tvg-id="The Rockin Life.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/thumb/e/e7/Logo_The_Rockin_Life.png/330px-Logo_The_Rockin_Life.png" group-title="Radio",The rockin life (indirect)
@@ -89,8 +87,6 @@ https://ott-balancer.tvri.go.id/live/eds/Jatim/hls/Jatim.m3u8
 https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 #EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal",Ugtv (720p)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1 tvg-id="denstv.id@learning" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnIwG4_cGayft-P28Xa0AbdpZv3dcCWw0lJqC9-BOmNw&s=10" group-title="Lokal",Dens tv learning
-https://op-flashcon-digdayahd-1.dens.tv/h/h236/02.m3u8
 #EXTINF:-1 tvg-id="indonesiana.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhI5EheZFa-udrTLfcj9dhjFbed1CrOw5CeTS-yoPgQ&s=10" group-title="Lokal",Indonesiana tv
 https://tvstreamcast.com/indonesiana.m3u8
 #EXTINF:-1 tvg-id="auto.jowo" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQObCWWVNrR7kjEtiE6iS4x5kvrQkHOYALSCwHzDxLFyA&s" group-title="Lokal",Jowo
@@ -243,8 +239,6 @@ https://live.salamtelevisi.com/hls/0/stream.m3u8
 https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
 #EXTINF:-1 tvg-id="StaraTV.id@Jakarta" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Jakarta (1080p)
 https://jakarta.staratv.id/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="StaraTV.id@Bojonegoro" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Bojonegoro (720p)
-https://bojonegoro.staratv.id/hls/stream.m3u8
 #EXTINF:-1 tvg-id="StaraTV.id@Parahyangan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/Stara_TV_Sumedang_fix.png" group-title="Lokal (auto)",Stara TV Parahyangan (720p)
 https://parahyangan.staratv.id/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal (auto)",U Channel
@@ -413,11 +407,13 @@ https://e.siar.us/live/dtvi.m3u8
 https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
 #EXTINF:-1 tvg-id="MadaniTV.id@SD" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal (auto)",Madani TV (720p)
 https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
-https://mrtvott.com/cache/MITV/master.m3u8
-#EXTINF:-1 tvg-id="auto.bungo.tv" group-title="Lokal (auto)",Bungo TV
-https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
-#EXTINF:-1 tvg-id="MadaniTV.id@SD" tvg-logo="https://i.imgur.com/8aonQ0v.png" group-title="Lokal",Madani tv (720p)
-https://stream.asianastream.com/madani/madanitv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
-https://mrtvott.com/cache/MITV/master.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="SriwijayaTV.id@SD",Sriwijaya TV (720p) [Not 24/7]
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
+#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
+https://live-3.otcnet.ru/Balapan/index.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="SriwijayaTV.id@SD",Sriwijaya TV (720p) [Not 24/7]
+https://sriwijayatv.siar.us/live/sriwijayatv.m3u8
