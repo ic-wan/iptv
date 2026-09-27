@@ -205,8 +205,6 @@ https://srs.u-channel.tv/live/uchannel-tv.m3u8
 http://cdn.nng.cloudns.us/live/m3u8/id/6183ec225226ccf.m3u8
 #EXTINF:-1 tvg-id="magna.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",MAGNA TV (ChannelFeed)
 https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar
-https://cdnbal1.indihometv.com/atm/DASH/indosiar/indosiar-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews
 https://cilok99.serv00.net/ythls/xxxx.py/play.m3u8?id=UCGfXjFgIUUTUUlzdG6BenXA
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
@@ -277,8 +275,6 @@ https://live.i-news.tv/hls/stream.m3u8
 https://banjartv.siar.us/banjartv/live/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BatamTV.id@SD",Batam TV (480p) [Not 24/7]
 http://122.248.43.242:1935/BATAMTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id" group-title="Lokal (auto)",Garuda TV (Flashcon)
-https://op-flashcon-digdayahd-1.dens.tv/h/h10/01.m3u8
 #EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Lokal (auto)",Ajman TV (1080p)
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="InterTV.it@SD" tvg-logo="https://i.imgur.com/FUTqh2L.png" group-title="Lokal (auto)",Inter TV (1080p)
@@ -291,8 +287,6 @@ https://jmp2.uk/plu-5e98a911c881310007d7aae2.m3u8
 http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="BTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/DoRk_b8tcmbwDHroNxP2-o6QRKU=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6165/8c950f.png" group-title="Lokal (auto)",BTV (V+)
-https://op-flashcon-digdayahd-1.dens.tv/h/h313/S1/mnf.m3u8
 #EXTINF:-1 tvg-id="BTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/DoRk_b8tcmbwDHroNxP2-o6QRKU=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6165/8c950f.png" group-title="Lokal (auto)",BTV (Channel Feed)
 https://lnd0t3b922.tenbytecdn.com/ta-sg1/90369cf5-6ac2-411d-b3d0-15fae10a2e2c/master.m3u8
 #EXTINF:-1 tvg-id="auto.berita.satu" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Lokal (auto)",Berita Satu
@@ -361,8 +355,6 @@ https://oitnhls.wns.live/hls/stream.m3u8
 https://iptv.peer.biz/live/peertv.m3u8
 #EXTINF:-1 tvg-id="RegioTV.sk@SD" tvg-logo="https://i.imgur.com/WlF6tlZ.png" group-title="Lokal (auto)",Regio TV (406p)
 http://tv.geniusnet.sk:8081/regiotv/pl.m3u8
-#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
-https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://cdnbal1.indihometv.com/atm/DASH/sctv/sctv-avc1_2500000=7-3277707030000000.mpd
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RRINet.id@SD",RRI Net (1080p)
@@ -421,8 +413,6 @@ https://green-night-d2b4.iontv.workers.dev/trans7.m3u8
 https://e.siar.us/live/smtv.m3u8
 #EXTINF:-1 tvg-id="inews.id" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6KG6iLwin1LuitRDjUTWgrocrzhARBm1OV8wbXW-Pjw&s=10" group-title="Indihome",I news
 https://cdnbal1.indihometv.com/atm/DASH/inews/master.mpd
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@EastKalimantan",TVRI Kalimantan Timur (720p)
 https://ott-balancer.tvri.go.id/live/eds/Kaltim/hls/Kaltim.m3u8
 #EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Lokal (auto)",MDTV (Transcorp)
@@ -469,8 +459,6 @@ http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
 https://streaming.yufid.com/hls/radiokitatv.m3u8
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 tvg-id="auto.dtvi" group-title="Lokal (auto)",dTVi
 https://e.siar.us/live/dtvi.m3u8
 #EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja tv (720p)
@@ -481,3 +469,19 @@ http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
 https://streaming.radiosalamjambi.com/izzahtv.m3u8
 #EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
 https://rinjanitv.cloud/hls/tvkabel.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
+https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD (Transcorp)
+https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/QU5UVg/manifest.mpd
+#EXTINF:-1 group-title="Lokal (auto)" tvg-logo="https://warningfm.github.io/v3/img/XQvrxhl.png?v=1.1.1.1" tvg-id="Flik.id" tvg-name="Flik", Flik
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZy9CTmYrVG13Z0pQVjFaRjhoMzNzRmc5clJBTG9XQ2huYTFZZVpTVVBDVA
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
+https://lingkartv.my.id/hls/lingkartv.m3u8
+#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD (Transcorp)
+https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/QU5UVg/manifest.mpd
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
+https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-logo="https://warningfm.github.io/v3/img/XQvrxhl.png?v=1.1.1.1" tvg-id="Flik.id" tvg-name="Flik", Flik
+http://filex.me:8080/akkvdGtMUWkvVnMvaWx3V2hXa2NaZy9CTmYrVG13Z0pQVjFaRjhoMzNzRmc5clJBTG9XQ2huYTFZZVpTVVBDVA
