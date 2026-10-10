@@ -125,58 +125,58 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     40. Tvri world
     41. Ugtv (720p)
 
-  📁 Grup: [Lokal (auto)] (159 Channel)
+  📁 Grup: [Lokal (auto)] (157 Channel)
   ----------------------------------------
     1. 24 Канал (1080p)
     2. A Spor SD (1080p)
     3. ABC Australia
     4. ANTV HD
-    5. ATV (Turkiye) (1080p)
-    6. Abadan
-    7. Ahsan TV
-    8. Ajman TV (1080p)
-    9. Al Qamar TV (1080p)
-    10. Anadolu Net TV (1080p)
-    11. Angel TV Indonesia (720p)
-    12. Ashiil TV (480p)
-    13. Astro Blitar TV (720p)
-    14. Atomic Academy TV (480p)
-    15. Atomic TV (360p)
-    16. BBC LIFESTYLE
-    17. BN Channel (ChannelFeed)
-    18. BRTV (720p)
-    19. BTV (Channel Feed)
-    20. BTV (V+)
-    21. Baan Baan TV 73
-    22. Bali TV
-    23. Balikpapan TV (720p)
-    24. Bandung TV
-    25. Banjar TV (720p) [Not 24/7]
-    26. Batam TV (480p) [Not 24/7]
-    27. Berita Satu
-    28. Bungo TV
-    29. CNBC Indonesia (ChannelFeed)
-    30. CNN Indonesia (ChannelFeed)
-    31. Canal 24 Horas (720p)
-    32. Cao Bằng TV (720p)
-    33. CelebritiesTV (V+)
-    34. Clan Internacional Americas (1080p) [Geo-blocked]
-    35. DAAI TV
-    36. DAAI TV (Dens)
-    37. DMI TV (576i)
-    38. EmanTv (1080p)
-    39. Entertainment (V+)
-    40. Fashion TV
-    41. Ficom Channel
-    42. Food Travel (V+)
-    43. GTV
-    44. GTV (Indonesia) HD (1080p)
-    45. Garuda TV (1080p)
-    46. Garuda TV (Flashcon)
-    47. Hanacaraka TV (V+)
-    48. Hmong Star TV (720p) [Not 24/7]
-    49. Hyder TV (720p)
-    50. I Am Channel (576p)
+    5. Abadan
+    6. Ahsan TV
+    7. Ajman TV (1080p)
+    8. Al Qamar TV (1080p)
+    9. Anadolu Net TV (1080p)
+    10. Angel TV Indonesia (720p)
+    11. Ashiil TV (480p)
+    12. Astro Blitar TV (720p)
+    13. Atomic Academy TV (480p)
+    14. Atomic TV (360p)
+    15. BBC LIFESTYLE
+    16. BN Channel (ChannelFeed)
+    17. BRTV (720p)
+    18. BTV (Channel Feed)
+    19. BTV (V+)
+    20. Baan Baan TV 73
+    21. Balapan HD (1080p)
+    22. Balapan International (1080p)
+    23. Bali TV
+    24. Balikpapan TV (720p)
+    25. Bandung TV
+    26. Banjar TV (720p) [Not 24/7]
+    27. Batam TV (480p) [Not 24/7]
+    28. Berita Satu
+    29. Bungo TV
+    30. CNBC Indonesia (ChannelFeed)
+    31. CNN Indonesia (ChannelFeed)
+    32. Canal 24 Horas (720p)
+    33. Cao Bằng TV (720p)
+    34. CelebritiesTV (V+)
+    35. Clan Internacional Americas (1080p) [Geo-blocked]
+    36. DAAI TV
+    37. DAAI TV (Dens)
+    38. DMI TV (576i)
+    39. EmanTv (1080p)
+    40. Entertainment (V+)
+    41. Fashion TV
+    42. Ficom Channel
+    43. Food Travel (V+)
+    44. GTV
+    45. GTV (Indonesia) HD (1080p)
+    46. Garuda TV (1080p)
+    47. Garuda TV (Flashcon)
+    48. Hanacaraka TV (V+)
+    49. Hmong Star TV (720p) [Not 24/7]
+    50. Hyder TV (720p)
     51. IDX (V+)
     52. Indonesia Movie Channel (V+)
     53. Indosiar HD
@@ -192,16 +192,16 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     63. Jagantara TV
     64. Kordia TV (1080p)
     65. La 2
-    66. Love the Planet (1080p)
-    67. MAGNA Channel (DensTV)
-    68. MAGNA TV (ChannelFeed)
-    69. MBG TV (1080p)
-    70. MDTV
-    71. MDTV (DensTV)
-    72. MNCTV HD
-    73. MOJI TV HD (Alt 3 - DensTV flashcon)
-    74. Madani TV (720p)
-    75. Matrix TV Yogyakarta (720p)
+    66. Lingkar TV
+    67. Love the Planet (1080p)
+    68. MAGNA Channel (DensTV)
+    69. MAGNA TV (ChannelFeed)
+    70. MBG TV (1080p)
+    71. MDTV
+    72. MDTV (DensTV)
+    73. MNCTV HD
+    74. MOJI TV HD (Alt 3 - DensTV flashcon)
+    75. Madani TV (720p)
     76. MetroTV (DensTV)
     77. MetroTV (Flashcon)
     78. Nusantara TV (ChannelFeed)
@@ -216,76 +216,74 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     87. Rajawali TV
     88. Regio TV (406p)
     89. Riau TV (1080p) [Not 24/7]
-    90. Rinjani TV
-    91. SCTV
-    92. SCTV (DASH/MPD)
-    93. SCTV HD
-    94. SMTV (720p)
-    95. STV (Indonesia) (720p) [Not 24/7]
-    96. Salam TV (720p)
-    97. Sangaji TV (720p)
-    98. SindoNews
-    99. SindoNews (V+)
-    100. Sooriyan TV (1080p)
-    101. Sriwijaya TV (720p) [Not 24/7]
-    102. Stara TV Bojonegoro (720p)
-    103. Stara TV Jakarta (1080p)
-    104. Stara TV Parahyangan (720p)
-    105. Szlagier TV
-    106. TLC HD
-    107. TV Mu (720p) [Not 24/7]
-    108. TVE Internacional America (576p) [Geo-blocked]
-    109. TVE Star (576p)
-    110. TVE Star HD (1080p)
-    111. TVOne (V+)
-    112. TVRI
-    113. TVRI (1080i)
-    114. TVRI (1080p)
-    115. TVRI Aceh (720p)
-    116. TVRI Bali (480p)
-    117. TVRI Bangka Belitung (480p)
-    118. TVRI Bengkulu (480p)
-    119. TVRI Gorontalo (480p)
-    120. TVRI Jakarta (576i) [Not 24/7]
-    121. TVRI Jambi (720p) [Not 24/7]
-    122. TVRI Jawa Tengah (720p)
-    123. TVRI Jawa Timur (720p)
-    124. TVRI Kalimantan Barat (480p)
-    125. TVRI Kalimantan Selatan (720p)
-    126. TVRI Kalimantan Tengah (480p)
-    127. TVRI Kalimantan Timur (720p)
-    128. TVRI Lampung (720p)
-    129. TVRI Maluku (480p)
-    130. TVRI North Sulawesi (1080p)
-    131. TVRI North Sumatra (1080p)
-    132. TVRI Nusa Tenggara Barat (720p)
-    133. TVRI Nusa Tenggara Timur (480p)
-    134. TVRI Papua (480p)
-    135. TVRI Riau
-    136. TVRI Riau (720p) [Not 24/7]
-    137. TVRI Sport (1080p)
-    138. TVRI Sulawesi Barat (720p)
-    139. TVRI Sulawesi Selatan (480p)
-    140. TVRI Sulawesi Tengah (720p)
-    141. TVRI Sulawesi Tenggara (480p)
-    142. TVRI Sumatera Barat (720p)
-    143. TVRI Sumatera Selatan (480p)
-    144. TVRI West Papua (1080p)
-    145. TVRI Yogyakarta (720p)
-    146. The Indonesia Channel (1080p)
-    147. Timor TV
-    148. Trans7 (Transcorp)
-    149. Trans7 HD
-    150. TransTV (Transcorp)
-    151. TransTV HD
-    152. U Channel
-    153. UCL (1080p)
-    154. UCL (720p)
-    155. VTV
-    156. Vision Prime (V+)
-    157. iNews HD
-    158. iNews HD (1080p)
-    159. Хузур ТВ (1080p) [Not 24/7]
+    90. SCTV
+    91. SCTV (DASH/MPD)
+    92. SCTV HD
+    93. SMTV (720p)
+    94. STV (Indonesia) (720p) [Not 24/7]
+    95. Salam TV (720p)
+    96. Sangaji TV (720p)
+    97. SindoNews
+    98. SindoNews (V+)
+    99. Sooriyan TV (1080p)
+    100. Sriwijaya TV (720p) [Not 24/7]
+    101. Stara TV Bojonegoro (720p)
+    102. Stara TV Jakarta (1080p)
+    103. Stara TV Parahyangan (720p)
+    104. Szlagier TV
+    105. TLC HD
+    106. TV Mu (720p) [Not 24/7]
+    107. TVE Internacional America (576p) [Geo-blocked]
+    108. TVE Star (576p)
+    109. TVE Star HD (1080p)
+    110. TVOne (V+)
+    111. TVRI
+    112. TVRI (1080i)
+    113. TVRI (1080p)
+    114. TVRI Aceh (720p)
+    115. TVRI Bali (480p)
+    116. TVRI Bangka Belitung (480p)
+    117. TVRI Bengkulu (480p)
+    118. TVRI Gorontalo (480p)
+    119. TVRI Jakarta (576i) [Not 24/7]
+    120. TVRI Jambi (720p) [Not 24/7]
+    121. TVRI Jawa Tengah (720p)
+    122. TVRI Jawa Timur (720p)
+    123. TVRI Kalimantan Barat (480p)
+    124. TVRI Kalimantan Selatan (720p)
+    125. TVRI Kalimantan Tengah (480p)
+    126. TVRI Kalimantan Timur (720p)
+    127. TVRI Lampung (720p)
+    128. TVRI Maluku (480p)
+    129. TVRI North Sulawesi (1080p)
+    130. TVRI North Sumatra (1080p)
+    131. TVRI Nusa Tenggara Barat (720p)
+    132. TVRI Nusa Tenggara Timur (480p)
+    133. TVRI Papua (480p)
+    134. TVRI Riau
+    135. TVRI Riau (720p) [Not 24/7]
+    136. TVRI Sport (1080p)
+    137. TVRI Sulawesi Barat (720p)
+    138. TVRI Sulawesi Selatan (480p)
+    139. TVRI Sulawesi Tengah (720p)
+    140. TVRI Sulawesi Tenggara (480p)
+    141. TVRI Sumatera Barat (720p)
+    142. TVRI Sumatera Selatan (480p)
+    143. TVRI West Papua (1080p)
+    144. TVRI Yogyakarta (720p)
+    145. The Indonesia Channel (1080p)
+    146. Trans7 (Transcorp)
+    147. Trans7 HD
+    148. TransTV (Transcorp)
+    149. TransTV HD
+    150. U Channel
+    151. UCL (1080p)
+    152. UCL (720p)
+    153. VTV
+    154. Vision Prime (V+)
+    155. iNews HD
+    156. iNews HD (1080p)
+    157. Хузур ТВ (1080p) [Not 24/7]
 
   📁 Grup: [Radio] (4 Channel)
   ----------------------------------------
