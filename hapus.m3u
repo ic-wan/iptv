@@ -971,10 +971,6 @@ https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508
 https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/TURUVg/manifest.mpd
 #EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD (Transcorp)
 https://cdnjktcyber05.transvision.co.id/riutx01-439abf566997b187117993103dfd8508/dash/QU5UVg/manifest.mpd
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="DavikaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" group-title="Lokal (auto)",Davika TV (480p)
-https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
 #EXTINF:-1 tvg-id="BeritaSatu.id@SD" group-title="Lokal (auto)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_BERITA_SATU_(Color)_2025_10_24_11_52_17.jpg",Berita Satu
 https://cdnjktcyber05.transvision.co.id/riutx01-437ec38cc692ca43976ff80c7af30565/dash/QmVyaXRhIFNhdHU/manifest.mpd?signature=ZmFlM2FmNDhiYmI3YzA3NmJmYWZlMDUyNDA1ZjBmZTE=&time=&device_id=6SAxtWNrChRLII0CwmAxnMEBHbM0tDz0hwuFGkP8CVWk6I-jPg (Transcorp)
 #EXTINF:-1 group-title="Lokal (auto)" tvg-logo="https://warningfm.github.io/v3/img/XQvrxhl.png?v=1.1.1.1" tvg-id="Flik.id" tvg-name="Flik", Flik
@@ -1167,8 +1163,6 @@ https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/VHJhbnNUVg/manifest.mpd?signature=ZGQ2YmE4NGVhMmJiOGIzODQ4NGZkZmJhZDcyN2I4NDE=&time=77777777777&device_id=7IXVvzSbNJ39Hp_b0mAgbbOBp5XFfn0vNSN6RhA_ZEuaryTJog
 #EXTINF:-1 tvg-id="RegioTV.sk@SD" tvg-logo="https://i.imgur.com/WlF6tlZ.png" group-title="Lokal (auto)",Regio TV (406p)
 http://tv.geniusnet.sk:8081/regiotv/pl.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RiauTV.id@SD",Riau TV (1080p) [Not 24/7]
-http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="RCTV.id@SD" tvg-logo="https://i.imgur.com/CyIlt0y.png" http-referrer="https://www.radarcirebon.tv/livestreaming/" group-title="Lokal (auto)",RCTV (Indonesia) (720p) [Not 24/7]
 https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="MNCTV.id@HD",MNCTV HD
@@ -1215,7 +1209,13 @@ https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=NGYzMTczZWZlM2RmZDk2YjBiNzgzZTY0MTViY2NmODk=&time=77777777777&device_id=AY6jRPCj-4G7-FyBTzdTQOtlgKJZUlBSKOwz6RX9v2OCe7nVog
 #EXTINF:-1 tvg-id="auto.tvri.sport" group-title="Lokal (auto)" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/9e14b89e-d803-454f-a35a-752163f30803.png",TVRI Sport
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/VFZSSSBTcG9ydA/manifest.mpd?signature=NmNkMGM1NmE5NWZjNDRhNjNiMjViNGFjNzZjZGNjZWY=&time=77777777777&device_id=9f0JFmH3a7e7j_1oU9YVaE3Wy3btHmVqIfgIxtAXf9iLrNJS7w
-#EXTINF:-1 tvg-id="KawanuaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/Logo_kawanua_tv.png" group-title="Lokal",Kawanua tv (720p)
-http://122.248.43.242:1935/KAWANUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
-https://streaming.yufid.com/hls/radiokitatv.m3u8
+#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (DNL6Wy6IstE)",YouTube Stream (DNL6Wy6IstE)
+https://www.youtube.com/watch?v=DNL6Wy6IstE
+#EXTINF:-1 tvg-id="TVRI.id" group-title="Lokal (auto)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_tvri.png",TVRI
+https://op-flashcon-digdayahd-1.dens.tv/h/h17/index.m3u8?app_type=web&userid=lite&chname=TVRI
+#EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
+https://streaming.radiosalamjambi.com/izzahtv.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
+https://mrtvott.com/cache/MITV/master.m3u8
