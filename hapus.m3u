@@ -1207,10 +1207,6 @@ https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/Qmlvc2tvcCBJbmRvbmVzaWE/manifest.mpd?signature=NGYzMTczZWZlM2RmZDk2YjBiNzgzZTY0MTViY2NmODk=&time=77777777777&device_id=AY6jRPCj-4G7-FyBTzdTQOtlgKJZUlBSKOwz6RX9v2OCe7nVog
 #EXTINF:-1 tvg-id="auto.tvri.sport" group-title="Lokal (auto)" tvg-logo="https://servicebuss.transvision.co.id/hospitality/v1/files/channel_image/9e14b89e-d803-454f-a35a-752163f30803.png",TVRI Sport
 https://cdnjktcyber05.transvision.co.id/riutx01-26da9f0c09ef5b1a204f368aa2cb3e30/dash/VFZSSSBTcG9ydA/manifest.mpd?signature=NmNkMGM1NmE5NWZjNDRhNjNiMjViNGFjNzZjZGNjZWY=&time=77777777777&device_id=9f0JFmH3a7e7j_1oU9YVaE3Wy3btHmVqIfgIxtAXf9iLrNJS7w
-#EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
-https://streaming.radiosalamjambi.com/izzahtv.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
 #EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
 https://mrtvott.com/cache/MITV/master.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Madura",JTV Madura (480p) [Not 24/7]
@@ -1273,3 +1269,13 @@ https://cdnjktcyber05.transvision.co.id/riutx01-7472893f4841818e2a59348212e5278f
 https://cdnjktcyber05.transvision.co.id/riutx01-7472893f4841818e2a59348212e5278f/dash/VFZSSSBTcG9ydA/manifest.mpd?signature=NmNkMGM1NmE5NWZjNDRhNjNiMjViNGFjNzZjZGNjZWY=&time=77777777777&device_id=9f0JFmH3a7e7j_1oU9YVaE3Wy3btHmVqIfgIxtAXf9iLrNJS7w
 #EXTINF:-1 tvg-id="BinhThuanTV.vn@SD" tvg-logo="" group-title="Lokal (auto)",Binh Thuan TV (1080p) [Geo-blocked]
 https://1011154949.vnns.net/CDN-FPT02/BINHTHUAN-SD-720p/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
+https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
+#EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
+http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
+http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (DNL6Wy6IstE)",YouTube Stream (DNL6Wy6IstE)
+https://www.youtube.com/watch?v=DNL6Wy6IstE
