@@ -81,7 +81,7 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     4. Moonbug kids (1080p)
     5. Pbs kids
 
-  📁 Grup: [Lokal] (41 Channel)
+  📁 Grup: [Lokal] (40 Channel)
   ----------------------------------------
     1. Bandung tv (360p)
     2. Banten tv (720p) [not 24/7]
@@ -94,36 +94,35 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     9. Duta tv (360p) [not 24/7]
     10. Efarina tv (720p)
     11. Indonesiana tv
-    12. Izzah tv (480p)
-    13. Jawa pos tv jakarta (720p)
-    14. Jogja istimewa tv (720p)
-    15. Jowo
-    16. Kawanua tv (720p)
-    17. Kompas tv
-    18. Madu tv (576p)
-    19. Magna channel (1080p) [not 24/7]
-    20. Metro tv
-    21. Moji tv
-    22. Mqtv (720p) [not 24/7]
-    23. Nhk world japan
+    12. Jawa pos tv jakarta (720p)
+    13. Jogja istimewa tv (720p)
+    14. Jowo
+    15. Kawanua tv (720p)
+    16. Kompas tv
+    17. Madu tv (576p)
+    18. Magna channel (1080p) [not 24/7]
+    19. Metro tv
+    20. Moji tv
+    21. Mqtv (720p) [not 24/7]
+    22. Nhk world japan
+    23. Padang tv (720p) [not 24/7]
     24. Pontv (720p)
     25. R tv
     26. Radar tasikmalaya tv (720p) [not 24/7]
-    27. Radio kita tv (1080p)
-    28. Rodja tv (720p)
-    29. Salira tv (720p)
-    30. Smtv (720p) [not 24/7]
-    31. Stara tv (720p)
-    32. Stara tv bandung (1080p)
-    33. Stara tv cianjur (720p)
-    34. Stara tv malang (1080p)
-    35. Tatv (720p) [not 24/7]
-    36. Tv one
-    37. Tv tabalong (720p) [not 24/7]
-    38. Tv9 nusantara (720p)
-    39. Tvri jawa barat (480p)
-    40. Tvri world
-    41. Ugtv (720p)
+    27. Rodja tv (720p)
+    28. Salira tv (720p)
+    29. Smtv (720p) [not 24/7]
+    30. Stara tv (720p)
+    31. Stara tv bandung (1080p)
+    32. Stara tv cianjur (720p)
+    33. Stara tv malang (1080p)
+    34. Tatv (720p) [not 24/7]
+    35. Tv one
+    36. Tv tabalong (720p) [not 24/7]
+    37. Tv9 nusantara (720p)
+    38. Tvri jawa barat (480p)
+    39. Tvri world
+    40. Ugtv (720p)
 
   📁 Grup: [Lokal (auto)] (154 Channel)
   ----------------------------------------
@@ -138,7 +137,7 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     9. Anadolu Net TV (1080p)
     10. Angel TV Indonesia (720p)
     11. Ashiil TV (480p)
-    12. Atambua TV (720p)
+    12. Astro Blitar TV (720p)
     13. Atomic Academy TV (480p)
     14. Atomic TV (360p)
     15. BBC LIFESTYLE
@@ -166,8 +165,8 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     37. DAAI TV (Dens)
     38. DMI TV (576i)
     39. Davika TV (480p)
-    40. EmanTv (1080p)
-    41. Entertainment (V+)
+    40. Entertainment (V+)
+    41. Fajar TV (720p) [Not 24/7]
     42. Fashion TV
     43. Ficom Channel
     44. Food Travel (V+)
@@ -210,8 +209,8 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     81. Outdoor Channel (1080p)
     82. PKTV (480p)
     83. Peer TV Sudtirol (1080p)
-    84. RRI Net (1080p)
-    85. Radar Lampung TV (480p)
+    84. RCTV (Indonesia) (720p) [Not 24/7]
+    85. RRI Net (1080p)
     86. Radio 51 TV
     87. Rajawali TV
     88. Riau TV (1080p) [Not 24/7]
@@ -296,6 +295,10 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     3. Intravel (1080p)
     4. Travel escapes (1080p)
     5. Travel tv (576p)
+
+  📁 Grup: [Youtube Music] (1 Channel)
+  ----------------------------------------
+    1. YouTube Stream (DNL6Wy6IstE)
 
 =============================================
 ```
