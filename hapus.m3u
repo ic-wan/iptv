@@ -1269,13 +1269,13 @@ https://cdnjktcyber05.transvision.co.id/riutx01-7472893f4841818e2a59348212e5278f
 https://1011154949.vnns.net/CDN-FPT02/BINHTHUAN-SD-720p/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
-#EXTINF:-1 tvg-id="emantv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",EmanTv (1080p)
-https://avr.host247.net/live/emantv/playlist.m3u8
 #EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
-https://streaming.yufid.com/hls/radiokitatv.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
 https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
-https://streaming.radiosalamjambi.com/izzahtv.m3u8
+#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal (auto)",U Channel
+https://srs.u-channel.tv/live/uchannel-tv.m3u8
+#EXTINF:-1 tvg-id="BantenTV.id@SD" tvg-logo="https://i.imgur.com/tbtF40p.png" group-title="Lokal",Banten tv (720p) [not 24/7]
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTINF:-1 tvg-id="IAmChannel.id@SD" tvg-logo="https://i.imgur.com/Gg6OcGT.png" group-title="Lokal (auto)",I Am Channel (576p)
+https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
