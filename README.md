@@ -93,22 +93,22 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     8. Duta tv (360p) [not 24/7]
     9. Efarina tv (720p)
     10. Indonesiana tv
-    11. Izzah tv (480p)
-    12. Jawa pos tv jakarta (720p)
-    13. Jogja istimewa tv (720p)
-    14. Jowo
-    15. Kawanua tv (720p)
-    16. Kompas tv
-    17. Madu tv (576p)
-    18. Magna channel (1080p) [not 24/7]
-    19. Metro tv
-    20. Moji tv
-    21. Mqtv (720p) [not 24/7]
-    22. Nhk world japan
-    23. Padang tv (720p) [not 24/7]
-    24. Pontv (720p)
-    25. R tv
-    26. Radar tasikmalaya tv (720p) [not 24/7]
+    11. Jawa pos tv jakarta (720p)
+    12. Jogja istimewa tv (720p)
+    13. Jowo
+    14. Kawanua tv (720p)
+    15. Kompas tv
+    16. Madu tv (576p)
+    17. Magna channel (1080p) [not 24/7]
+    18. Metro tv
+    19. Moji tv
+    20. Mqtv (720p) [not 24/7]
+    21. Nhk world japan
+    22. Padang tv (720p) [not 24/7]
+    23. Pontv (720p)
+    24. R tv
+    25. Radar tasikmalaya tv (720p) [not 24/7]
+    26. Radio kita tv (1080p)
     27. Rodja tv (720p)
     28. Salira tv (720p)
     29. Smtv (720p) [not 24/7]
@@ -130,49 +130,49 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     2. A Spor SD (1080p)
     3. ABC Australia
     4. ANTV HD
-    5. Abadan
-    6. Ahsan TV
-    7. Ajman TV (1080p)
-    8. Al Qamar TV (1080p)
-    9. Anadolu Net TV (1080p)
-    10. Angel TV Indonesia (720p)
-    11. Ashiil TV (480p)
-    12. Astro Blitar TV (720p)
-    13. Atomic Academy TV (480p)
-    14. Atomic TV (360p)
-    15. Azan TV
-    16. BBC LIFESTYLE
-    17. BN Channel (ChannelFeed)
-    18. BRTV (720p)
-    19. BTV (Channel Feed)
-    20. BTV (V+)
-    21. Baan Baan TV 73
-    22. Balapan HD (1080p)
-    23. Balapan International (1080p)
-    24. Bali TV
-    25. Balikpapan TV (720p)
-    26. Bandung TV
-    27. Banjar TV (720p) [Not 24/7]
-    28. Banten TV
-    29. Batam TV (480p) [Not 24/7]
-    30. Berita Satu
-    31. Berita Satu (DensTV)
-    32. Bungo TV
-    33. CNBC Indonesia (ChannelFeed)
-    34. CNN Indonesia
-    35. Canal 24 Horas (720p)
-    36. Cao Bằng TV (720p)
-    37. CelebritiesTV (V+)
-    38. Clan Internacional Americas (1080p) [Geo-blocked]
-    39. DAAI TV
-    40. DAAI TV (Dens)
-    41. DMI TV (576i)
-    42. Davika TV (480p)
-    43. EmanTv (1080p)
-    44. Entertainment (V+)
-    45. Fajar TV (720p) [Not 24/7]
-    46. Fashion TV
-    47. Ficom Channel
+    5. Aathavan TV (720p)
+    6. Abadan
+    7. Ahsan TV
+    8. Ajman TV (1080p)
+    9. Al Qamar TV (1080p)
+    10. Anadolu Net TV (1080p)
+    11. Angel TV Indonesia (720p)
+    12. Ashiil TV (480p)
+    13. Astro Blitar TV (720p)
+    14. Atomic Academy TV (480p)
+    15. Atomic TV (360p)
+    16. Azan TV
+    17. BBC LIFESTYLE
+    18. BN Channel (ChannelFeed)
+    19. BRTV (720p)
+    20. BTV (Channel Feed)
+    21. BTV (V+)
+    22. Baan Baan TV 73
+    23. Balapan HD (1080p)
+    24. Balapan International (1080p)
+    25. Bali TV
+    26. Balikpapan TV (720p)
+    27. Bandung TV
+    28. Banjar TV (720p) [Not 24/7]
+    29. Banten TV
+    30. Batam TV (480p) [Not 24/7]
+    31. Berita Satu
+    32. Berita Satu (DensTV)
+    33. Bungo TV
+    34. CNBC Indonesia (ChannelFeed)
+    35. CNN Indonesia
+    36. Canal 24 Horas (720p)
+    37. Cao Bằng TV (720p)
+    38. CelebritiesTV (V+)
+    39. Clan Internacional Americas (1080p) [Geo-blocked]
+    40. DAAI TV
+    41. DAAI TV (Dens)
+    42. DMI TV (576i)
+    43. Davika TV (480p)
+    44. EmanTv (1080p)
+    45. Entertainment (V+)
+    46. Fajar TV (720p) [Not 24/7]
+    47. Fashion TV
     48. Food Travel (V+)
     49. GTV
     50. Garuda TV (1080p)
@@ -215,18 +215,18 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     87. Peer TV Sudtirol (1080p)
     88. RCTV (Indonesia) (720p) [Not 24/7]
     89. RRI Net (1080p)
-    90. Radar Lampung TV (480p)
-    91. Radio 51 TV
-    92. Rajawali TV
-    93. Riau TV (1080p) [Not 24/7]
-    94. Rinjani TV
-    95. SCTV HD
-    96. SMTV (720p)
-    97. STV (Indonesia) (720p) [Not 24/7]
-    98. Salam TV (720p)
-    99. Sangaji TV (720p)
-    100. SindoNews
-    101. SindoNews (V+)
+    90. Radio 51 TV
+    91. Rajawali TV
+    92. Riau TV (1080p) [Not 24/7]
+    93. Rinjani TV
+    94. SCTV HD
+    95. SMTV (720p)
+    96. STV (Indonesia) (720p) [Not 24/7]
+    97. Salam TV (720p)
+    98. Sangaji TV (720p)
+    99. SindoNews
+    100. SindoNews (V+)
+    101. Sooriyan TV (1080p)
     102. Sriwijaya TV (720p) [Not 24/7]
     103. Stara TV Bojonegoro (720p)
     104. Stara TV Jakarta (1080p)
