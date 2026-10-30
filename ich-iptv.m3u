@@ -201,8 +201,6 @@ https://amg00718-outdoorchannela-outdoortv-samsungau-uc7mp.amagi.tv/playlist/amg
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_576.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png" group-title="Lokal (auto)",TVE Star HD (1080p)
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
-#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (720p)
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
 #EXTINF:-1 tvg-id="HuzurTV.ru@SD" tvg-logo="https://i.imgur.com/Abg1fct.png" group-title="Lokal (auto)",Хузур ТВ (1080p) [Not 24/7]
 https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="DAAITV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0r_rhIVANc6dsGvQ76616ZSqF04=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/6482/e83fcf.png" group-title="Lokal (auto)",DAAI TV (Dens)
@@ -321,8 +319,6 @@ https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/tlc.smil/manifest.mpd
 https://s2129134.cdn.mytvnet.vn/pkg20/live_dzones/ftv.smil/manifest.mpd
 #EXTINF:-1 tvg-id="SzlagierTV.pl@SD" tvg-logo="https://i.imgur.com/VQk19Ng.png" group-title="Lokal (auto)",Szlagier TV
 http://92.114.85.87:8010/play/a00l/index.m3u8
-#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (1080p)
-https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Malang",JTV Malang
 http://122.248.43.242:1935/JTVMALANG/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="DAAITV.id@SD",DAAI TV
@@ -337,8 +333,6 @@ https://ott-balancer.tvri.go.id/live/eds/Lampung/hls/Lampung.m3u8
 https://ott-balancer.tvri.go.id/live/eds/Gorontalo/hls/Gorontalo.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@SouthSumatra",TVRI Sumatera Selatan (480p)
 https://ott-balancer.tvri.go.id/live/eds/Sumsel/hls/Sumsel.m3u8
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD
-https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="EfarinaTV.id@SD" tvg-logo="https://i.imgur.com/iYTimXh.png" group-title="Lokal",Efarina tv (720p)
 https://live.efarinatv.com/hls/bgtaufikganteng.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
@@ -371,8 +365,6 @@ https://stream-ssl.arenastreaming.com:8004/hardrock
 https://op-flashcon-digdayahd-1.dens.tv/h/h236/02.m3u8
 #EXTINF:-1 tvg-id="SMTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="Lokal",Smtv (720p) [not 24/7]
 http://122.248.43.242:1935/SMTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AhsanTV.id@SD",Ahsan TV
-https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
 #EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" tvg-logo="https://i.imgur.com/WcM7BP5.png" group-title="Lokal (auto)",Tropical Moon Urban TV [Not 24/7]
 https://sistemastr.tropicalmoonmedia.com:443/live/D8E123ACA054EF85B153C354A481A406/4.m3u8
 #EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD
@@ -399,8 +391,6 @@ https://61146e7ab7a66.streamlock.net:8089/tes/1/chunklist.m3u8
 https://dbcanada.sonarbanglatv.com/azantv/atv/index.m3u8
 #EXTINF:-1 tvg-id="AathavanTV.uk@SD" tvg-logo="https://i.imgur.com/LEVEhTH.png" group-title="Lokal (auto)",Aathavan TV (720p)
 https://yuppmumfta1.vgcdn.net/211125/athvantv/manifest.mpd
-#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
-https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RRINet.id@SD",RRI Net (1080p)
 https://private-streaming.rri.go.id/memfs/6f77c7b5-feb2-4935-9f89-e7e9fca0a54a_output_0.m3u8
 #EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
@@ -413,8 +403,6 @@ http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 https://srs.u-channel.tv/live/uchannel-tv.m3u8
 #EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
 https://streaming.radiosalamjambi.com/izzahtv.m3u8
-#EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
-https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="Lokal",Rodja tv (720p)
 https://rodjatv.com/rodjatv/live.m3u8
 #EXTINF:-1 tvg-id="The Rockin Life2" tvg-logo="https://assets-static.therockinlife.com/wp-content/uploads/2024/12/TRL-MUSIC-STREAM-PLAYER-JKT.jpg" group-title="Radio",The rockin life
@@ -437,7 +425,19 @@ http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNBCIndonesia.id@SD",CNBC Indonesia
 https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="CNBCIndonesia.id" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/35/CNBC_Indonesia.png" group-title="Lokal (auto)",CNBC Indonesia (ChannelFeed)
-https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
-http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV (Detik)
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Lokal (auto)",Ajman TV (1080p)
+https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNNIndonesia.id@SD",CNN Indonesia
+https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Lokal (auto)",Ajman TV (1080p)
+https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8

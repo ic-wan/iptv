@@ -1267,17 +1267,21 @@ https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
 https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
 #EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
 https://streaming.yufid.com/hls/radiokitatv.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNNIndonesia.id@SD",CNN Indonesia
-https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
-#EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Lokal (auto)",Ajman TV (1080p)
-https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV HD
 https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
-https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-id="DavikaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" group-title="Lokal (auto)",Davika TV (480p)
 https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
 #EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
 https://live-3.otcnet.ru/Balapan/index.m3u8
+#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (720p)
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu.m3u8
+#EXTINF:-1 tvg-id="UCL.uy@SD" tvg-logo="https://i.imgur.com/BzQphbw.png" group-title="Lokal (auto)",UCL (1080p)
+https://livedelta.cdn.antel.net.uy/out/u/url_canalu_2.m3u8?m=1670250741
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="AhsanTV.id@SD",Ahsan TV
+https://5bf7b725107e5.streamlock.net/ahsantv/ahsantv/playlist.m3u8
+#EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
+https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
