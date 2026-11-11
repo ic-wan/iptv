@@ -1339,8 +1339,6 @@ https://proxy-v.rctiplus.id/live/web/kompas/index.m3u8
 http://122.248.43.242:1935/JTVMADURA/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="BirTV.tr@SD" tvg-logo="https://birtv.tv/assets/upload/637f83951df60.png" group-title="Lokal (auto)",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
-https://streaming.radiosalamjambi.com/izzahtv.m3u8
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV (Detik)
 https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SooriyanTV.ca@SD" tvg-logo="https://i.ibb.co/LSyydKj/Sooriyan-TV-Tamil.jpg" group-title="Lokal (auto)",Sooriyan TV (1080p)
@@ -1349,9 +1347,111 @@ https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
 https://proxy-v.rctiplus.id/live/web/axn/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" group-title="Lokal (auto)" tvg-logo="https://w7.pngwing.com/pngs/573/795/png-transparent-france-tv5monde-television-channel-streaming-media-france-television-blue-text.png",TV5 Monde (Vision+)
 https://proxy-v.rctiplus.id/live/web/tv5/index.m3u8
-#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
-https://mrtvott.com/cache/MITV/master.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNBCIndonesia.id@SD",CNBC Indonesia
 https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNNIndonesia.id@SD",CNN Indonesia
 https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD (Detik)
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Lokal (auto)",RCTI (Vision+)
+https://proxy-v.rctiplus.id/live/web/rcti/index.m3u8
+#EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Lokal (auto)",MNC TV (Vision+)
+https://proxy-v.rctiplus.id/live/web/mnctv/index.m3u8
+#EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Lokal (auto)",Global TV (Vision+)
+https://proxy-v.rctiplus.id/live/web/gtv/index.m3u8
+#EXTINF:-1 tvg-id="ANTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/IRVkD3QGRzroJ4IZzXBpS-0MRls=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/782/e1af8b.png" group-title="Lokal (auto)",ANTV HD (Vision+)
+https://proxy-v.rctiplus.id/live/web/antv/index.m3u8
+#EXTINF:-1 tvg-id="KompasTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/Pf8yLSfHEUZeRI9tUzLDR2U8Zow=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/874/042ca3.png" group-title="Lokal (auto)",KompasTV (Intech)
+https://flv.intechmedia.net/live/ch102.m3u8|user-agent=Mozilla/5.0
+#EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Lokal (auto)",MetroTV (Intech)
+https://flv.intechmedia.net/live/ch101.m3u8|user-agent=Mozilla/5.0
+#EXTINF:-1 tvg-id="tvOne.id" tvg-logo="https://thumbor.prod.vidiocdn.com/APQ6a9vXvN6lU1zjeyL15IV_AJQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/783/07750c.png" group-title="Lokal (auto)",TVOne (Vision+)
+https://proxy-v.rctiplus.id/live/web/tvone/index.m3u8
+#EXTINF:-1 tvg-id="SindoNewsTV.id" tvg-logo="https://nabelsakha.com/wp-content/uploads/2023/10/Sindonews.png" group-title="Lokal (auto)",SindoNews (Vision+)
+https://proxy-v.rctiplus.id/live/web/sindonews/index.m3u8
+#EXTINF:-1 tvg-id="Moji.id@SD" tvg-logo="https://thumbor.prod.vidiocdn.com/g7gTjD2Il1GI4DJULOZ1cv6NSj4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/206/1823dc.png" group-title="Lokal (auto)",Moji TV (DensTV)
+https://proxy-v.rctiplus.id/live/web/moji/index.m3u8
+#EXTINF:-1 tvg-id="RTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/cStgoV5oqj2Om_6NMOzK0AFY-sg=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/1561/665aea.png" group-title="Lokal (auto)",RTV (DensTV)
+https://proxy-v.rctiplus.id/live/web/rtv/index.m3u8
+#EXTINF:-1 tvg-id="IDXChannel.id@SD" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg" group-title="Lokal (auto)",IDX (Vision+)
+https://proxy-v.rctiplus.id/live/web/idx/index.m3u8
+#EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Lokal (auto)",Berita Satu (DensTV)
+https://proxy-v.rctiplus.id/live/web/btv/index.m3u8
+#EXTINF:-1 tvg-id="Animax.id" group-title="Lokal (auto)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_animax.png",Animax (Vision+)
+https://proxy-v.rctiplus.id/live/web/animax/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/1200px-Nickelodeon_Junior.png" group-title="Lokal (auto)",Nickelodeon Junior (Vision+)
+https://proxy-v.rctiplus.id/live/web/nickjr/index.m3u8
+#EXTINF:-1 tvg-id="CBeebies.id" tvg-logo="https://ichef.bbci.co.uk/images/ic/1920xn/p0fpxchz.png" group-title="Lokal (auto)",Cbeebies (Vision+)
+https://proxy-v.rctiplus.id/live/web/cbeebies/index.m3u8
+#EXTINF:-1 tvg-id="DreamWorks.id" tvg-logo="https://e7.pngegg.com/pngimages/393/234/png-clipart-dreamworks-animation-animated-film-logo-dreamworks-poppy-text-film.png" group-title="Lokal (auto)",Dreamworks HD (Vision+)
+https://proxy-v.rctiplus.id/live/web/dreamworks/index.m3u8
+#EXTINF:-1 tvg-id="MMoonbugKids.uk@SD" group-title="Lokal (auto)" tvg-logo="https://www.visionplus.id/images/repository/909/162909-LOGO-m.png",Moonbug (Vision+)
+https://proxy-v.rctiplus.id/live/web/moonbug/index.m3u8
+#EXTINF:-1 tvg-id="KidsTV.id" tvg-logo="https://www.visionplus.id/images/repository/623/623-LOGO-m.png" group-title="Lokal (auto)",Kids TV (Vision+)
+https://proxy-v.rctiplus.id/live/web/hapykids/index.m3u8
+#EXTINF:-1 tvg-id="ZooMoo.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_39.png" group-title="Lokal (auto)",ZooMoo (Vision+)
+https://proxy-v.rctiplus.id/live/web/zoomoo/index.m3u8
+#EXTINF:-1 tvg-id="BuddyStar.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_9.png" group-title="Lokal (auto)",Buddy Star (Vision+)
+https://proxy-v.rctiplus.id/live/web/buddystars/index.m3u8
+#EXTINF:-1 tvg-id="24" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" group-title="Lokal (auto)",JTV (Vision +)
+https://proxy-v.rctiplus.id/live/web/jtv/index.m3u8
+#EXTINF:-1 tvg-id="JakTV.id" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="Lokal (auto)",JAKTV (Vision +)
+https://proxy-v.rctiplus.id/live/web/jaktv/index.m3u8
+#EXTINF:-1 tvg-id="26" tvg-logo="https://www.visionplus.id/images/repository/700/700-LOGO-m.png" group-title="Lokal (auto)",Bali TV (Vision+)
+https://proxy-v.rctiplus.id/live/web/balitv/index.m3u8
+#EXTINF:-1 tvg-id="27" tvg-logo="https://www.visionplus.id/images/repository/600/600-LOGO-m.png" group-title="Lokal (auto)",Bandung TV (Vision+)
+https://proxy-v.rctiplus.id/live/web/bandungtv/index.m3u8
+#EXTINF:-1 tvg-id="HitsMovies.id" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/16/HITS_Movies_logo.png/revision/latest/scale-to-width-down/423?cb=20220323123229&path-prefix=vi" group-title="Lokal (auto)",HitsMovies (Vision+)
+https://proxy-v.rctiplus.id/live/web/hitsmovies/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversal.id" tvg-logo="https://i.imgur.com/484iq4l.jpeg" group-title="Lokal (auto)", STUDIO UNIVERSAL (Vision+)
+https://proxy-v.rctiplus.id/live/web/universal/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="Galaxy.id@SD" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/19/Galaxy_tv_2020.png/revision/latest/scale-to-width-down/1200?cb=20241026110710&path-prefix=id",Galaxy (Vision+)
+https://proxy-v.rctiplus.id/live/web/galaxy/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="GALAXYPremium.id" tvg-logo="https://static.wikia.nocookie.net/logos/images/1/19/Galaxy_tv_2020.png/revision/latest/scale-to-width-down/1200?cb=20241026110710&path-prefix=id",Galaxy Premium (Vision+)
+https://proxy-v.rctiplus.id/live/web/galaxyprem/index.m3u8
+#EXTINF:-1 tvg-id="Originals.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_7.png" group-title="Lokal (auto)",ORIGINALS (Vision+)
+https://proxy-v.rctiplus.id/live/web/originals/index.m3u8
+#EXTINF:-1 tvg-id="Superrix.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_10.png" group-title="Lokal (auto)",SUPERRIX (Vision+)
+https://proxy-v.rctiplus.id/live/web/superrix/index.m3u8
+#EXTINF:-1 tvg-id="CinemachiXtra.uk@SD" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_6.png" group-title="Lokal (auto)",Uniquest (Vision+)
+https://proxy-v.rctiplus.id/live/web/uniques/index.m3u8
+#EXTINF:-1 tvg-id="Arirang.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_351.png" group-title="Lokal (auto)",Arirang (Vision+)
+https://proxy-v.rctiplus.id/live/web/arirang/index.m3u8
+#EXTINF:-1 tvg-id="ROCKAction.id" tvg-logo="https://i.imgur.com/l6lmlqG.png" group-title="Lokal (auto)",Rock Action (Vision+)
+https://proxy-v.rctiplus.id/live/web/rockaction/index.m3u8
+#EXTINF:-1 tvg-id="HITS Now.id" tvg-name="HITS Now.id" tvg-logo="https://mimipipi22.github.io/logo/entertainment/hitsnow.jpg" group-title="Lokal (auto)",Hits Now (Vision+)
+https://proxy-v.rctiplus.id/live/web/hitsnow/index.m3u8
+#EXTINF:-1 tvg-id="Lifetime.id" tvg-logo="https://1000logos.net/wp-content/uploads/2025/07/Lifetime-Logo.png" group-title="Lokal (auto)",Lifetime (Vision+)
+https://proxy-v.rctiplus.id/live/web/lifetime/index.m3u8
+#EXTINF:-1 tvg-id="VisionPrime.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/VisionPrime.png/revision/latest/scale-to-width-down/300?cb=20200225175642&path-prefix=es" group-title="Lokal (auto)",Vision Prime (Vision+)
+https://proxy-v.rctiplus.id/live/web/visionprime/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.id" tvg-logo="https://picture.dens.tv/wp/img/tvchannels_v1/340x160/1755135969_tvchannels_v1.jpg" group-title="Lokal (auto)",Al Jazeera English (Vision+)
+https://proxy-v.rctiplus.id/live/web/aljazeera/index.m3u8
+#EXTINF:-1 tvg-name="" tvg-id="BBC News" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_332.jpg" group-title="Lokal (auto)",BBC World (Vision+)
+https://proxy-v.rctiplus.id/live/web/bbcworld/index.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.id" group-title="Lokal (auto)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_bloomberg.png",Bloomberg
+https://proxy-v.rctiplus.id/live/web/bloomberg/index.m3u8
+#EXTINF:-1 tvg-id="CGTN" tvg-logo="https://static.mncnow.id/images/channel/87f1d571/242b_r32.jpg" group-title="Lokal (auto)",CGTN (Vision+)
+https://proxy-v.rctiplus.id/live/web/cgtn/index.m3u8
+#EXTINF:-1 tvg-id="CNA.id" tvg-name="" tvg-logo="https://cms.cignal.tv/Upload/Images/CNA%20LOGO%20-horizontal%20-%20on%20light%20background.png" group-title="Lokal (auto)",Channel News Asia (Vision+)
+https://proxy-v.rctiplus.id/live/web/cna/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNBC Asia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/cnbc.png",CNBC Asia (Vision+)
+https://proxy-v.rctiplus.id/live/web/cnbc/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="DW English" tvg-logo="https://static.mncnow.id/images/channel/ec5ca17f/9a41_r32.jpg",DW (Vision+)
+https://proxy-v.rctiplus.id/live/web/dwtv/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="Euronews.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/EuroNews.svg/2560px-EuroNews.svg.png",Euronews (Vision+)
+https://proxy-v.rctiplus.id/live/web/euronews/index.m3u8
+#EXTINF:-1 tvg-id="FOXNews.id" group-title="Lokal (auto)" tvg-logo="https://www.visionplus.id/images/repository/721/627721-SQUARE-l.jpg",FOX News (Vision+)
+https://proxy-v.rctiplus.id/live/web/foxnews/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="France24English.id" tvg-logo="https://static.mncnow.id/images/channel/feee5d98/3c51_r32.jpg",France 24 (Vision+)
+https://proxy-v.rctiplus.id/live/web/france24/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_355.jpeg" group-title="Lokal (auto)",NHK World Japan (Channel Feed)
+https://proxy-v.rctiplus.id/live/web/nhkworld/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldPremium.id" group-title="Lokal (auto)" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/logo_nhkworldpremium_small.png",NHK World Premium (Vision+)
+https://proxy-v.rctiplus.id/live/web/nhkworldprem/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="Russia Today" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_180x180-CL-RT_2025_10_24_15_49_57.jpg",Russia Today (Vision+)
+https://proxy-v.rctiplus.id/live/web/rteng/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TRT World" tvg-logo="https://static.mncnow.id/images/channel/ab7f9e6a/4023_r32.jpg",TRT World (Vision+)
+https://proxy-v.rctiplus.id/live/web/trtw/index.m3u8
