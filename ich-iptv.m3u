@@ -387,29 +387,39 @@ https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 https://radiosnet.site/hls/redeimpactogospeltv/redeimpactogospeltv.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="BalikpapanTV.id@SD",Balikpapan TV (720p)
 http://122.248.43.242:1935/BALIKPAPANTV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
-http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="WarnerTVAsia.us@SD" group-title="Lokal (auto)" tvg-logo="https://images.indihometv.com/assets/88_WARNER_2025_03_17_15_11_51.png",Warner TV
 http://aflaxtv.xyz:8080/F33848/cbd9779b/157594
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="IMC.id" tvg-name="" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_imc.png" group-title="Lokal (auto)",Indonesia Movie Channel (Vision+)
 http://aflaxtv.xyz:8080/F33848/cbd9779b/264769
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV (Detik)
-https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="auto.vtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png" group-title="Lokal (auto)",VTV
 https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNNIndonesia.id@SD",CNN Indonesia
 https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
-https://www.streaming.radartv.co.id/hls/test.m3u8
-#EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
-http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="auto.jagantara.tv" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfteWJfFkgoXCdpfYUDTjsWfDDE65AM5-h4xeHu7atO_kzgNT6RPKMktg3QZzKtn4_9DxuX9TGAE0ocyBKIk_OwSfmlSZwLJzsXdXWZgpUtA3rafn0ndogOEck4wvAXWTZ3QhR8KL_fiaMsSoAsMHGz6kSf0MTrRnM8dvMwVotKXjErQWZG630DZiTorw/s16000-rw/Jagantara-TV-Milik-Siapa-Tiba-tiba-Muncul-Channel-Baru-Bikin-Penasaran.jpg" group-title="Lokal (auto)",Jagantara TV
 https://flv.intechmedia.net/live/ch119.m3u8?
-#EXTINF:-1 tvg-id="auto.vtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png" group-title="Lokal (auto)",VTV
-https://flv.intechmedia.net/live/ch107.m3u8
+#EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
+https://flv.intechmedia.net/live/ch112.m3u8?
+#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD (Detik)
+https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://pbs.twimg.com/profile_images/1567391888617111552/vzO7QNcc_400x400.jpg" group-title="Lokal",Bn channel (720p)
+https://flv.intechmedia.net/live/ch112.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNBCIndonesia.id@SD",CNBC Indonesia
+https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
+#EXTINF:-1 tvg-id="MaduTV.id@SD" tvg-logo="https://i.imgur.com/cKpgbgW.png" group-title="Lokal",Madu tv (576p)
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+#EXTINF:-1 tvg-id="DutaTV.id@SD" tvg-logo="https://i.imgur.com/B4JW54M.png" group-title="Lokal",Duta tv (360p) [not 24/7]
+https://dutatv.siar.us/dutatv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
+https://dhohotv.siar.us/dhohotv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NusantaraTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/npPL9VlWMJ5owmeupR7ucPjdGl4=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/7432/bfecbc.png" group-title="Lokal (auto)",Nusantara TV (ChannelFeed)
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
+https://flv.intechmedia.net/live/ch112.m3u8?
