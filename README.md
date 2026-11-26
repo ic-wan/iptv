@@ -81,7 +81,7 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     4. Moonbug kids (1080p)
     5. Pbs kids
 
-  📁 Grup: [Lokal] (33 Channel)
+  📁 Grup: [Lokal] (31 Channel)
   ----------------------------------------
     1. Bandung tv (360p)
     2. Banyumas tv (720p) [not 24/7]
@@ -91,33 +91,31 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     6. Efarina tv (720p)
     7. Indonesiana tv
     8. Izzah tv (480p)
-    9. Jawa pos tv jakarta (720p)
-    10. Jowo
-    11. Kawanua tv (720p)
-    12. Kompas tv
-    13. Madu tv (576p)
-    14. Moji tv
-    15. Mqtv (720p) [not 24/7]
-    16. Nhk world japan
-    17. Pontv (720p)
-    18. R tv
-    19. Radar tasikmalaya tv (720p) [not 24/7]
-    20. Radio kita tv (1080p)
-    21. Rodja tv (720p)
-    22. Salira tv (720p)
-    23. Smtv (720p) [not 24/7]
-    24. Stara tv (720p)
-    25. Stara tv bandung (1080p)
-    26. Stara tv cianjur (720p)
-    27. Stara tv malang (1080p)
-    28. Tatv (720p) [not 24/7]
-    29. Tv one
-    30. Tv tabalong (720p) [not 24/7]
-    31. Tv9 nusantara (720p)
-    32. Tvri jawa barat (480p)
-    33. Tvri world
+    9. Jowo
+    10. Kawanua tv (720p)
+    11. Kompas tv
+    12. Madu tv (576p)
+    13. Moji tv
+    14. Mqtv (720p) [not 24/7]
+    15. Nhk world japan
+    16. Pontv (720p)
+    17. R tv
+    18. Radar tasikmalaya tv (720p) [not 24/7]
+    19. Rodja tv (720p)
+    20. Salira tv (720p)
+    21. Smtv (720p) [not 24/7]
+    22. Stara tv (720p)
+    23. Stara tv bandung (1080p)
+    24. Stara tv cianjur (720p)
+    25. Stara tv malang (1080p)
+    26. Tatv (720p) [not 24/7]
+    27. Tv one
+    28. Tv tabalong (720p) [not 24/7]
+    29. Tv9 nusantara (720p)
+    30. Tvri jawa barat (480p)
+    31. Tvri world
 
-  📁 Grup: [Lokal (auto)] (163 Channel)
+  📁 Grup: [Lokal (auto)] (158 Channel)
   ----------------------------------------
     1. !nsert
     2. 24 Horas (720p)
@@ -135,17 +133,17 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     14. Angel TV Indonesia (720p)
     15. Ashiil TV (480p)
     16. Astro Blitar TV (720p)
-    17. Atomic Academy TV (480p)
-    18. Atomic TV (360p)
-    19. Azan TV
-    20. BBC LIFESTYLE
-    21. BN Channel (ChannelFeed)
-    22. BRTV (720p)
-    23. BTV (Channel Feed)
-    24. BTV (V+)
-    25. Baan Baan TV 73
-    26. Balapan HD (1080p)
-    27. Balapan International (1080p)
+    17. Atambua TV (720p)
+    18. Atomic Academy TV (480p)
+    19. Atomic TV (360p)
+    20. Azan TV
+    21. BBC LIFESTYLE
+    22. BN Channel (ChannelFeed)
+    23. BRTV (720p)
+    24. BTV (Channel Feed)
+    25. BTV (V+)
+    26. Baan Baan TV 73
+    27. Balapan HD (1080p)
     28. Balikpapan TV (720p)
     29. Banjar TV (720p) [Not 24/7]
     30. Banten TV
@@ -154,86 +152,86 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     33. Berita Satu (DensTV)
     34. Bir TV (720p)
     35. Bungo TV
-    36. CNBC Indonesia
-    37. CNBC Indonesia (ChannelFeed)
-    38. CNN Indonesia
-    39. CTV Dla Ciebie TV
-    40. Cao Bằng TV (720p)
-    41. Clan Internacional Americas (1080p) [Geo-blocked]
-    42. DAAI TV
-    43. DAAI TV (Dens)
-    44. DMI TV (576i)
-    45. Dhoho TV
-    46. Dunia Lain
-    47. Eat N Go
-    48. Fashion TV
-    49. Ficom Channel
-    50. GTV
+    36. CNBC Indonesia (ChannelFeed)
+    37. CTV Dla Ciebie TV
+    38. Cao Bằng TV (720p)
+    39. Clan Internacional Americas (1080p) [Geo-blocked]
+    40. DAAI TV
+    41. DAAI TV (Dens)
+    42. DMI TV (576i)
+    43. Dhoho TV
+    44. Dunia Lain
+    45. Eat N Go
+    46. EmanTv (1080p)
+    47. Fashion TV
+    48. Ficom Channel
+    49. GTV
+    50. Garuda TV (1080p)
     51. Garuda TV (Flashcon)
     52. Hmong Star TV (720p) [Not 24/7]
     53. Hyder TV (720p)
     54. I Am Channel (576p)
     55. Indonesia Movie Channel (Vision+)
-    56. Indosiar (Vidio)
-    57. Indosiar HD
-    58. Inter TV (1080p)
-    59. Iunior TV (1080p)
-    60. JTV (720p)
-    61. JTV Kediri (1080p) [Not 24/7]
-    62. JTV Madiun
-    63. JTV Malang (480p)
-    64. Jagantara TV
-    65. Jawa Pos TV Jakarta (720p)
-    66. Jogja TV (720p) [Not 24/7]
-    67. Kordia TV (1080p)
-    68. La 2
-    69. Lingkar TV
-    70. Love the Planet (1080p)
-    71. MAGNA Channel (DensTV)
-    72. MAGNA TV (ChannelFeed)
-    73. MBG TV (1080p)
-    74. MDTV
-    75. MDTV (DensTV)
-    76. MDTV (Vidio)
-    77. MOJI TV HD (Alt 3 - DensTV flashcon)
-    78. MTV Ridiculousness
-    79. MTV Ridiculousness (United States) LatAm (720p)
-    80. Madani TV (720p)
-    81. Magna Channel (1080p)
-    82. Metro TV
-    83. MetroTV (DensTV)
-    84. MetroTV (Flashcon)
-    85. Myanmar International TV
-    86. Nusantara TV (ChannelFeed)
-    87. Omid e Iran TV
-    88. PKTV (480p)
-    89. Peer TV Sudtirol (1080p)
-    90. RCTV (Indonesia) (720p) [Not 24/7]
-    91. Radio 51 TV
-    92. Rajawali TV
-    93. Rede Impacto Gospel TV (720p)
-    94. SCTV (Vidio)
-    95. SCTV HD
-    96. SIN PO TV
-    97. SMTV (720p)
-    98. Salam TV (720p)
-    99. Sangaji TV (720p)
-    100. SindoNews
-    101. SindoNews (V+)
-    102. Sriwijaya TV (720p) [Not 24/7]
-    103. Stara TV Bojonegoro (720p)
-    104. Stara TV Jakarta (1080p)
-    105. Stara TV Parahyangan (720p)
-    106. Szlagier TV
+    56. Indosiar HD
+    57. Inter TV (1080p)
+    58. Iunior TV (1080p)
+    59. JTV (720p)
+    60. JTV Kediri (1080p) [Not 24/7]
+    61. JTV Madiun
+    62. JTV Malang (480p)
+    63. Jagantara TV
+    64. Jawa Pos TV Jakarta (720p)
+    65. Kordia TV (1080p)
+    66. La 2
+    67. Lingkar TV
+    68. Love the Planet (1080p)
+    69. MAGNA Channel (DensTV)
+    70. MAGNA TV (ChannelFeed)
+    71. MBG TV (1080p)
+    72. MDTV
+    73. MDTV (DensTV)
+    74. MDTV (Vidio)
+    75. MOJI TV HD (Alt 3 - DensTV flashcon)
+    76. MTV Ridiculousness
+    77. MTV Ridiculousness (United States) LatAm (720p)
+    78. Madani TV (720p)
+    79. Magna Channel (1080p)
+    80. Metro TV
+    81. MetroTV (DensTV)
+    82. MetroTV (Flashcon)
+    83. Nickelodeon Asia Indonesia (720p)
+    84. Nusantara TV (ChannelFeed)
+    85. Omid e Iran TV
+    86. PKTV (480p)
+    87. Peer TV Sudtirol (1080p)
+    88. RCTV (Indonesia) (720p) [Not 24/7]
+    89. Radar Lampung TV (480p)
+    90. Radio 51 TV
+    91. Rajawali TV
+    92. Rede Impacto Gospel TV (720p)
+    93. Riau TV (1080p) [Not 24/7]
+    94. Rinjani TV
+    95. SCTV (Vidio)
+    96. SCTV HD
+    97. SIN PO TV
+    98. SMTV (720p)
+    99. Salam TV (720p)
+    100. Sangaji TV (720p)
+    101. SindoNews
+    102. SindoNews (V+)
+    103. Sriwijaya TV (720p) [Not 24/7]
+    104. Stara TV Bojonegoro (720p)
+    105. Stara TV Jakarta (1080p)
+    106. Stara TV Parahyangan (720p)
     107. TLC HD
     108. TV Mu (720p) [Not 24/7]
     109. TVE Internacional America (576p) [Geo-blocked]
     110. TVE Star (576p)
     111. TVE Star HD (1080p)
-    112. TVOne (V+)
-    113. TVRI
-    114. TVRI (1080i)
-    115. TVRI (1080p)
+    112. TVOne (DensTV)
+    113. TVOne (V+)
+    114. TVRI
+    115. TVRI (1080i)
     116. TVRI Aceh (720p)
     117. TVRI Bali (480p)
     118. TVRI Bangka Belitung (480p)
@@ -265,30 +263,24 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     144. TVRI West Papua (1080p)
     145. TVRI Yogyakarta (720p)
     146. The Indonesia Channel (1080p)
-    147. Trans TV HD (720p)
-    148. Trans7 (Transcorp)
-    149. Trans7 HD
-    150. Trans7 HD (720p)
-    151. Trans7 HD (Detik)
-    152. TransTV (Detik)
-    153. TransTV (Transcorp)
-    154. TransTV HD
-    155. Tropical Moon Urban TV [Not 24/7]
-    156. U Channel
-    157. UGTV (720p)
-    158. VTV
-    159. VTV (Indonesia) HD (1080p)
-    160. Warner TV
-    161. Warner TV Asia (720p)
-    162. iNews HD
-    163. Хузур ТВ (1080p) [Not 24/7]
+    147. Trans7 (Transcorp)
+    148. Trans7 HD
+    149. TransTV (Transcorp)
+    150. TransTV HD
+    151. Tropical Moon Urban TV [Not 24/7]
+    152. U Channel
+    153. UGTV (720p)
+    154. VTV
+    155. Warner TV
+    156. Warner TV Asia (720p)
+    157. iNews HD
+    158. Хузур ТВ (1080p) [Not 24/7]
 
-  📁 Grup: [Radio] (4 Channel)
+  📁 Grup: [Radio] (3 Channel)
   ----------------------------------------
     1. Prambors fm
     2. Rodja fm
-    3. The rockin life
-    4. The rockin life (indirect)
+    3. The rockin life (indirect)
 
   📁 Grup: [Travels] (4 Channel)
   ----------------------------------------
@@ -296,6 +288,10 @@ Salin tautan *Raw* dari file berikut untuk dimasukkan ke aplikasi pemutar IPTV A
     2. Intravel (1080p)
     3. Travel escapes (1080p)
     4. Travel tv (576p)
+
+  📁 Grup: [Youtube Music] (1 Channel)
+  ----------------------------------------
+    1. YouTube Stream (DNL6Wy6IstE)
 
 =============================================
 ```
