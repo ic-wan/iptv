@@ -283,8 +283,6 @@ https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
 https://srs.u-channel.tv/live/uchannel-tv.m3u8
 #EXTINF:-1 tvg-id="auto.berita.satu" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Lokal (auto)",Berita Satu
 https://op-flashcon-digdayahd-1.dens.tv/h/h314/S2/mnf.m3u8
-#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal (auto)",UGTV (720p)
-https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
 #EXTINF:-1 tvg-id="AjmanTV.ae@SD" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="Lokal (auto)",Ajman TV (1080p)
 https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="AhsanTV.id@SD",Ahsan TV
@@ -325,8 +323,6 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/in
 https://d3b0v7fggu5zwm.cloudfront.net/out/v1/3aefa03d32954b678e5faab6daa04b58/index.mpd
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="AstroBlitarTV.id@SD",Astro Blitar TV (720p)
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
-https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 tvg-id="magna.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",MAGNA TV (ChannelFeed)
 https://edge.medcom.id/live-edge/smil:magna.smil/chunklist_w521170343_b1128000_sleng.m3u8
 #EXTINF:-1 tvg-id="IzzahTV.id@SD" tvg-logo="https://i.imgur.com/my7aqLc.png" group-title="Lokal",Izzah tv (480p)
@@ -359,8 +355,6 @@ https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 https://radiosnet.site/hls/redeimpactogospeltv/redeimpactogospeltv.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="JTV.id@Kediri",JTV Kediri (1080p) [Not 24/7]
 http://122.248.43.242:1935/JTVKEDIRI/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="auto.vtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png" group-title="Lokal (auto)",VTV
-https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 tvg-id="auto.jagantara.tv" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfteWJfFkgoXCdpfYUDTjsWfDDE65AM5-h4xeHu7atO_kzgNT6RPKMktg3QZzKtn4_9DxuX9TGAE0ocyBKIk_OwSfmlSZwLJzsXdXWZgpUtA3rafn0ndogOEck4wvAXWTZ3QhR8KL_fiaMsSoAsMHGz6kSf0MTrRnM8dvMwVotKXjErQWZG630DZiTorw/s16000-rw/Jagantara-TV-Milik-Siapa-Tiba-tiba-Muncul-Channel-Baru-Bikin-Penasaran.jpg" group-title="Lokal (auto)",Jagantara TV
 https://flv.intechmedia.net/live/ch119.m3u8?
 #EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
@@ -383,8 +377,6 @@ https://e.siar.us/live/tvmu.m3u8
 https://5bf7b725107e5.streamlock.net/bungotv/bungotv/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/u0aa_S_rQeujrp5eR6LwXdertrI=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/777/ea8483.png" group-title="Lokal (auto)",MetroTV (DensTV)
 https://op-flashcon-digdayahd-1.dens.tv/h/h12/index.m3u8
-#EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
-https://flv.intechmedia.net/live/ch112.m3u8?
 #EXTINF:-1 tvg-id="WarnerTVAsia.us@SD" group-title="Lokal (auto)" tvg-logo="https://images.indihometv.com/assets/88_WARNER_2025_03_17_15_11_51.png",Warner TV
 http://aflaxtv.xyz:8080/F33848/cbd9779b/157594
 #EXTINF:-1 tvg-id="RadarTasikmalayaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="Lokal",Radar tasikmalaya tv (720p) [not 24/7]
@@ -415,17 +407,237 @@ http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
 https://op-flashcon-digdayahd-1.dens.tv/h/h40/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonAsia.sg@Indonesia" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Lokal (auto)",Nickelodeon Asia Indonesia (720p)
 http://103.165.207.108:8000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
-http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RiauTV.id@SD",Riau TV (1080p) [Not 24/7]
-http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Lokal (auto)",Rinjani TV
 https://rinjanitv.cloud/hls/tvkabel.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="GarudaTV.id@SD",Garuda TV (1080p)
-https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
 https://www.streaming.radartv.co.id/hls/test.m3u8
 #EXTINF:-1 tvg-id="emantv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",EmanTv (1080p)
 https://avr.host247.net/live/emantv/playlist.m3u8
 #EXTINF:-1 group-title="Youtube Music" tvg-name="YouTube Stream (DNL6Wy6IstE)",YouTube Stream (DNL6Wy6IstE)
 https://www.youtube.com/watch?v=DNL6Wy6IstE
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TransTV.id@HD",Trans TV HD (720p)
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://thumbor.prod.vidiocdn.com/wSfbef0k6V3fn7rnZa4azgVrLcM=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/728/eb7747.png" group-title="Lokal (auto)",iNews HD
+https://cdn.pishow.tv/ott/live/411/master.m3u8
+#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV HD
+https://live.cnnindonesia.com/transtv/smil:transtv/chunklist_w2685575259_b744100_sleng.m3u8
+#EXTINF:-1 tvg-id="auto.banjar.tv" group-title="Lokal (auto)",Banjar TV
+https://astatv.karaa.web.id/api/s/i10007.m3u8
+#EXTINF:-1 tvg-id="auto.banten.tv" group-title="Lokal (auto)",Banten TV
+https://astatv.karaa.web.id/api/s/i10008.m3u8
+#EXTINF:-1 tvg-id="auto.brtv" group-title="Lokal (auto)",BRTV
+https://astatv.karaa.web.id/api/s/i10012.m3u8
+#EXTINF:-1 tvg-id="auto.dhoho.tv" group-title="Lokal (auto)",Dhoho TV
+https://astatv.karaa.web.id/api/s/2648.m3u8
+#EXTINF:-1 tvg-id="auto.ficom.channel" group-title="Lokal (auto)",Ficom Channel
+https://astatv.karaa.web.id/api/s/i10022.m3u8
+#EXTINF:-1 tvg-id="auto.jambi.tv" group-title="Lokal (auto)",Jambi TV
+https://astatv.karaa.web.id/api/s/i10025.m3u8
+#EXTINF:-1 tvg-id="AhsanTV.id@SD" tvg-logo="https://i.imgur.com/dZdUbYd.png" group-title="Lokal (auto)",Ahsan TV
+https://astatv.karaa.web.id/api/s/i10001.m3u8
+#EXTINF:-1 tvg-id="SurauTV.id@SD" tvg-logo="https://i.imgur.com/CKoxcWL.png" group-title="Lokal (auto)",Surau TV (720p)
+https://astatv.karaa.web.id/api/s/i10051.m3u8
+#EXTINF:-1 tvg-id="UChannel.id@SD" tvg-logo="https://i.imgur.com/qxkb0cy.png" group-title="Lokal (auto)",U Channel
+https://astatv.karaa.web.id/api/s/i10056.m3u8
+#EXTINF:-1 tvg-id="cnn.indonesia" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://live.cnnindonesia.com/livecnn/smil:cnntv/chunklist.m3u8
+#EXTINF:-1 tvg-id="tvri.world" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",TVRI World
+https://astatv.karaa.web.id/api/s/590.m3u8
+#EXTINF:-1 tvg-id="berita.satu" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Berita Satu (DensTV)
+https://astatv.karaa.web.id/api/s/5474.m3u8
+#EXTINF:-1 tvg-id="magna.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",MAGNA TV (ChannelFeed)
+https://astatv.karaa.web.id/api/s/i20009.m3u8
+#EXTINF:-1 tvg-id="garuda.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Garuda TV (ChannelFeed)
+https://astatv.karaa.web.id/api/s/65.m3u8
+#EXTINF:-1 tvg-id="Indonesiana TV" tvg-logo="https://layarceritaperempuan.indonesiana.tv/_nuxt/img/logo-indonesianatv-fit.0d9697f.png" group-title="Lokal (auto)",Indonesiana TV (ChannelFeed)
+https://astatv.karaa.web.id/api/s/i10024.m3u8
+#EXTINF:-1 tvg-id="280" tvg-name="AXN" tvg-logo="https://astatv.karaa.web.id/api/lg?t=R2ZUs0qiYB4iGPJ3PsrkMCvQrBRUPyAhjShiTjTsSYyiDLd4Qx6LsnaGrQQj-pluEbWup0i3KJWiiTPc9tGDpZUuLOWAQXFaCGDn1MU1HJFQBR3l7wUs7fZBbSSK1wVGjTjhKrjnr_aNK6MH5ruQwwxh2C3xJTm8VI3lrsbblRO_0DfGxL21HsgxCUWx9YT2Aw3stYpN7zsAjugYh71I6StzOkpMTd9byw" group-title="Lokal (auto)",AXN
+https://astatv.karaa.web.id/api/s/280.m3u8
+#EXTINF:-1 tvg-id="725" tvg-name="MNC Entertainment" tvg-logo="https://astatv.karaa.web.id/api/lg?t=_2sAlZARo97wbG7g5YVI689alb5Nvbzg7CWEqWIIvBhR1_dvEyd59-TR-hGskXuftWJqphJJyOKLwffVGHpBJpAssJWyyYISOx_8t6jnIJjftSjxkemMYP3C5UcE0_4875l_VPC2MMhMVS5oZsmDOhzuLO3m3fGy5_Xtid-TbZOFF9p35duhXc_6vwcCGD-YNeCJksCvT9lyAQTGWVicxdePkThoKxrAjg" group-title="Lokal (auto)",MNC Entertainment
+https://astatv.karaa.web.id/api/s/725.m3u8
+#EXTINF:-1 tvg-id="1082" tvg-name="Love Nature V+" tvg-logo="https://astatv.karaa.web.id/api/lg?t=qd1mnKSjxy-5uN_OfDlpDsQvqU0uw7WZdyPJvL5gD1MqFkoT-XhmsuZiq4_Q8-aZBN3b3WLVbHCNEapiyVntOi6cdjtNxDM8wOJSA3ZuN2CzKKuh5e8_diNofHiDNvegvbio2B0lqtboJpxOd598FbHRccPZ5kx1Ma5Qb1zeuUt7Z56PMp3caj9LL7TX1njWfBQGvdsmv3eW6jCUIXg9XHME5Qg1aqHgsw" group-title="Lokal (auto)",Love Nature V+
+https://astatv.karaa.web.id/api/s/1082.m3u8
+#EXTINF:-1 tvg-id="110" tvg-name="Rodja.tv" tvg-logo="https://astatv.karaa.web.id/api/lg?t=OUJUZqkoaAWc22wbyAruboqAldc4P6ve6aY96FLXjzrqK1nQGxjwdGmLRi9p4VSNc9knAM66hahWkaokSi2E69fFHZIVofwhjv1D9zzVVxKregSIDwqrwWRYgKqNeU-zSe0E19IJZ1kyEmHG9fM8eZrNLG6fh1cFqi2BOzkxhBl9-AOYT3aHTHrzjbxCYM3koFdapr_klI1xEH_5F8SApyISK8LoSZshxA" group-title="Lokal (auto)",Rodja.tv
+https://astatv.karaa.web.id/api/s/110.m3u8
+#EXTINF:-1 tvg-id="155" tvg-name="TV9 Nusantara" tvg-logo="https://astatv.karaa.web.id/api/lg?t=BDf9YWoJGKchSaiprr8enkuysY1I3q7M2t3Lnk38ohioqyUkc4CFD6HJFD8l_sRekA6mXFrH7WE0aXD6xX6eQeRJmcMG5lKRNVxZgZo_r3Zb_hLt5pI3RyW-hZD_mKkyhQQN2G-wBYaDcwyq2tOYvzvRzwSlZC1GKDvcfTfOgUdS0ESoXyyMTNlVIGM9yauNFpDrYgaGU7UqecOlHepiaO2GVzVyMGu6_w" group-title="Lokal (auto)",TV9 Nusantara
+https://astatv.karaa.web.id/api/s/155.m3u8
+#EXTINF:-1 tvg-id="957" tvg-name="HBO Cinemax" tvg-logo="https://astatv.karaa.web.id/api/lg?t=cW3GAiXxJBVM5R4xD0njD504py9ZVMhB0aVFktkrHZtC9b7RGJfISQmJpJaC9by6T-jMHX8C6fZjYXKwSOE5VdtKEuReCM0imhBucTys1LO2wtT7xTUrlt2YH0Q8iftf4jVnaS8KLpWQqL0YGnSTSd4FRpYwGsjeCgQo51C6kAcg8iO2P7QlihJgZFbzg5aRjHsM3K7U47noKGr6J35iFaXk88XbzZ7LUA" group-title="Lokal (auto)",HBO Cinemax
+https://astatv.karaa.web.id/api/s/957.m3u8
+#EXTINF:-1 tvg-id="287" tvg-name="tVN Movies" tvg-logo="https://astatv.karaa.web.id/api/lg?t=XJInC-8vlVvFj8vZwV6MSZG6CR3Vaj-r09jKRFQ3-vxrKyckX8LYABlzeyOiVeoJrnpIlMXoxlISMDBujEfHqhZLWz0WrBhz5zAMZ-zT5bUP8lNUEsiLRUFav6M2_7rzcRODo3ocaL-gRC1Vj4CmPM_iN9L1ce95-D_du4dRGxR6naqYyFDtAXbXPnKJK8VtyPY8dqarXf2M6nZPVx1K1AVZScjimkc9fQ" group-title="Lokal (auto)",tVN Movies
+https://astatv.karaa.web.id/api/s/287.m3u8
+#EXTINF:-1 tvg-id="724" tvg-name="Music TV" tvg-logo="https://astatv.karaa.web.id/api/lg?t=2ds0hvCvtsss60jnFPimkunM3f3Is-ErW8GqIJJFYxehYOftBtLM1oQtem0CWprzg0TH49Hge3FwmxXfNZO5zgXMdAlpclEHdTA6MUMTKgKmTilmQqQLhjweMANpwYOEBQyRM69vMQu6gihUufKgkHIVNkaX8hYQnzdJTIh2GayzaltYTcPkqCG-mTkKg_V3QGdEufRMXVpQOajllzPxSio1OexgMMoWDA" group-title="Lokal (auto)",Music TV
+https://astatv.karaa.web.id/api/s/724.m3u8
+#EXTINF:-1 tvg-id="27" tvg-name="CNBC" tvg-logo="https://astatv.karaa.web.id/api/lg?t=oqWYA-snWGWUTotRgEHHke1gdBky0hK6KLBg5SFYkxEKCcFW8bRaj78BYvDqAp4-bA6NELGlekTAKbukm0JnQUPCeP64E-s-BiiDgIXScT_P9Z_0HxHCWD-9z83nMxNqOeKnVGvmIaGHcEQnm3sk-WWBnaLQgLA8KPRQGnkB4aOGxfHNmtxB9EVgqme_NwxvxB2YNuJD1YYn3uXH7UaZ6ggxQUaMgxEWjw" group-title="Lokal (auto)",CNBC
+https://astatv.karaa.web.id/api/s/27.m3u8
+#EXTINF:-1 tvg-id="26" tvg-name="CNN" tvg-logo="https://astatv.karaa.web.id/api/lg?t=c2MPmrnLrPJHQdp8yDkcdQ5u3MgEfYMb_j6v5fw4HqCf0S2e1H7XDNTZ7gVlladKQQvaM65ii9UoXfOT-lMTd1JeGNhsNNMUYG1iOGKY2754ejoRGtl5wbhydRAz1cTmXOlmtoA_kbBnKzKzeBCaYfgSLovy0uweIhWCxGKt8kJp-wWM4pG61ldcZe99u-ckWj1AUBVOvbsY_Ol32vGncKFClzoSH9NnBg" group-title="Lokal (auto)",CNN
+https://astatv.karaa.web.id/api/s/26.m3u8
+#EXTINF:-1 tvg-id="17" tvg-name="TVRI Nasional" tvg-logo="https://astatv.karaa.web.id/api/lg?t=vDUViLW5V9Lr3_BJLe-OVjFbQTzDM_Odl02aNxny8kdq_iIwlYZf5XA2rBVDPtfAe45HANz1FA9dn9caV7XwnrlIcGgfmYvj0jP9o0nBuMQoJ8FCsKJ_feWoaJHCjZYGTVBERgrQBnQ-5msW6n1tNNqjIu2iBxPwzRfbJ9sapsleQe9-qwkVKX69qgfjL2lsXKihkg2hE851zXFvWBJsEl6Sg6peYCxTOw" group-title="Lokal (auto)",TVRI Nasional
+https://astatv.karaa.web.id/api/s/17.m3u8
+#EXTINF:-1 tvg-id="77" tvg-name="ALJAZEERA" tvg-logo="https://astatv.karaa.web.id/api/lg?t=QD7qM0K6Tzj0U2yR6hTBPAu6oGFNCFxXLQzny7Ezx9r62L3wBaRdC4B-3uhFLdAVbULO0N1cIR7061X61wfTcfHg4LAKf9kp-O4hjYHZY8azEWzyu4roWAof44jTNVUuVCjt_QHH4T4Ito9ni78Kwb42o1_AhkbDK3g_u2QOq2PyJtdqHP9sdoRx23MNWQMCCmiO5k8h0EsEDcrk7W8UChPkWWQKRv3BpA" group-title="Lokal (auto)",ALJAZEERA
+https://astatv.karaa.web.id/api/s/77.m3u8
+#EXTINF:-1 tvg-id="28" tvg-name="BTV" tvg-logo="https://astatv.karaa.web.id/api/lg?t=BUJgBjjYqcjGo6TPYVVLU7Q7lBYqqcD_BJVx0Byt55WLrYbHuBbuwcNNyOwbHaAjG0tAaSQgi7CraXHK9AfizDfHVg0PWtHLT6X9sl7k5xiYdd7FJGOEC06v_887Vgl9UfrQBHThNqPoO3DJIo5FmCislYCLtAqDrvcOnbgSCY5uRLAG2cXtmFKi1rlI6Vr7KIJwd5pjTP6bc2uEZVdD4W7T6JfKqYYx3A" group-title="Lokal (auto)",BTV
+https://astatv.karaa.web.id/api/s/28.m3u8
+#EXTINF:-1 tvg-id="30" tvg-name="Nusantara TV" tvg-logo="https://astatv.karaa.web.id/api/lg?t=LchtKWL8qa73Oz3RHavAFCPRaNJSEcJeZNx6ZjO0Lqmxyvg9nXb5w0WK7T99DBIdFP6OV5bE3obapNouwO_6GWM1mGVrxoh4BWEDwETGt-5qacVAIpO1qDgxLG7zgGKSfJmWLQdx6dAl1uNcAgVMxTXpLWCohZn4yAIjxMYDWaodO6RlRlc9oyQea7viktYUo2ph5iiFnZWyBX7t_BSS0TOCtHtuw71rrQ" group-title="Lokal (auto)",Nusantara TV
+https://astatv.karaa.web.id/api/s/30.m3u8
+#EXTINF:-1 tvg-id="i10002" tvg-name="AKTV" tvg-logo="https://astatv.karaa.web.id/logo/i10002.png" group-title="Lokal (auto)",AKTV
+https://astatv.karaa.web.id/api/s/i10002.m3u8
+#EXTINF:-1 tvg-id="i10003" tvg-name="Al Wafa Tarim" tvg-logo="https://astatv.karaa.web.id/logo/i10003.png" group-title="Lokal (auto)",Al Wafa Tarim
+https://astatv.karaa.web.id/api/s/i10003.m3u8
+#EXTINF:-1 tvg-id="i10004" tvg-name="Ashiil TV" tvg-logo="https://astatv.karaa.web.id/logo/i10004.png" group-title="Lokal (auto)",Ashiil TV
+https://astatv.karaa.web.id/api/s/i10004.m3u8
+#EXTINF:-1 tvg-id="i10005" tvg-name="Astro Blitar TV" tvg-logo="https://astatv.karaa.web.id/logo/i10005.png" group-title="Lokal (auto)",Astro Blitar TV
+https://astatv.karaa.web.id/api/s/i10005.m3u8
+#EXTINF:-1 tvg-id="i10010" tvg-name="BMS TV" tvg-logo="https://astatv.karaa.web.id/logo/i10010.png" group-title="Lokal (auto)",BMS TV
+https://astatv.karaa.web.id/api/s/i10010.m3u8
+#EXTINF:-1 tvg-id="i10013" tvg-name="Caruban TV" tvg-logo="https://astatv.karaa.web.id/logo/i10013.png" group-title="Lokal (auto)",Caruban TV
+https://astatv.karaa.web.id/api/s/i10013.m3u8
+#EXTINF:-1 tvg-id="i10019" tvg-name="DMI TV" tvg-logo="https://astatv.karaa.web.id/logo/i10019.png" group-title="Lokal (auto)",DMI TV
+https://astatv.karaa.web.id/api/s/i10019.m3u8
+#EXTINF:-1 tvg-id="i10020" tvg-name="Duta TV" tvg-logo="https://astatv.karaa.web.id/logo/i10020.png" group-title="Lokal (auto)",Duta TV
+https://astatv.karaa.web.id/api/s/i10020.m3u8
+#EXTINF:-1 tvg-id="i10021" tvg-name="Efarina TV" tvg-logo="https://astatv.karaa.web.id/logo/i10021.png" group-title="Lokal (auto)",Efarina TV
+https://astatv.karaa.web.id/api/s/i10021.m3u8
+#EXTINF:-1 tvg-id="i10023" tvg-name="I Am Channel" tvg-logo="https://astatv.karaa.web.id/logo/i10023.png" group-title="Lokal (auto)",I Am Channel
+https://astatv.karaa.web.id/api/s/i10023.m3u8
+#EXTINF:-1 tvg-id="i10031" tvg-name="Madani TV" tvg-logo="https://astatv.karaa.web.id/logo/i10031.png" group-title="Lokal (auto)",Madani TV
+https://astatv.karaa.web.id/api/s/i10031.m3u8
+#EXTINF:-1 tvg-id="i10032" tvg-name="Madu TV" tvg-logo="https://astatv.karaa.web.id/logo/i10032.png" group-title="Lokal (auto)",Madu TV
+https://astatv.karaa.web.id/api/s/i10032.m3u8
+#EXTINF:-1 tvg-id="i10033" tvg-name="Magna Channel" tvg-logo="https://astatv.karaa.web.id/logo/i10033.png" group-title="Lokal (auto)",Magna Channel
+https://astatv.karaa.web.id/api/s/i10033.m3u8
+#EXTINF:-1 tvg-id="i10035" tvg-name="MQTV" tvg-logo="https://astatv.karaa.web.id/logo/i10035.png" group-title="Lokal (auto)",MQTV
+https://astatv.karaa.web.id/api/s/i10035.m3u8
+#EXTINF:-1 tvg-id="i10037" tvg-name="PKTV" tvg-logo="https://astatv.karaa.web.id/logo/i10037.png" group-title="Lokal (auto)",PKTV
+https://astatv.karaa.web.id/api/s/i10037.m3u8
+#EXTINF:-1 tvg-id="i10040" tvg-name="RCTV" tvg-logo="https://astatv.karaa.web.id/logo/i10040.png" group-title="Lokal (auto)",RCTV
+https://astatv.karaa.web.id/api/s/i10040.m3u8
+#EXTINF:-1 tvg-id="i10042" tvg-name="Salam TV" tvg-logo="https://astatv.karaa.web.id/logo/i10042.png" group-title="Lokal (auto)",Salam TV
+https://astatv.karaa.web.id/api/s/i10042.m3u8
+#EXTINF:-1 tvg-id="i10043" tvg-name="Salira TV" tvg-logo="https://astatv.karaa.web.id/logo/i10043.png" group-title="Lokal (auto)",Salira TV
+https://astatv.karaa.web.id/api/s/i10043.m3u8
+#EXTINF:-1 tvg-id="i10045" tvg-name="Sangaji TV" tvg-logo="https://astatv.karaa.web.id/logo/i10045.png" group-title="Lokal (auto)",Sangaji TV
+https://astatv.karaa.web.id/api/s/i10045.m3u8
+#EXTINF:-1 tvg-id="i10047" tvg-name="SMTV" tvg-logo="https://astatv.karaa.web.id/logo/i10047.png" group-title="Lokal (auto)",SMTV
+https://astatv.karaa.web.id/api/s/i10047.m3u8
+#EXTINF:-1 tvg-id="i10049" tvg-name="Stara TV" tvg-logo="https://astatv.karaa.web.id/logo/i10049.png" group-title="Lokal (auto)",Stara TV
+https://astatv.karaa.web.id/api/s/i10049.m3u8
+#EXTINF:-1 tvg-id="i10053" tvg-name="The Indonesia Channel" tvg-logo="https://astatv.karaa.web.id/logo/i10053.png" group-title="Lokal (auto)",The Indonesia Channel
+https://astatv.karaa.web.id/api/s/i10053.m3u8
+#EXTINF:-1 tvg-id="i10054" tvg-name="TV Mu" tvg-logo="https://astatv.karaa.web.id/logo/i10054.png" group-title="Lokal (auto)",TV Mu
+https://astatv.karaa.web.id/api/s/i10054.m3u8
+#EXTINF:-1 tvg-id="i10057" tvg-name="USM TV" tvg-logo="https://astatv.karaa.web.id/logo/i10057.png" group-title="Lokal (auto)",USM TV
+https://astatv.karaa.web.id/api/s/i10057.m3u8
+#EXTINF:-1 tvg-id="i10059" tvg-name="YOY International" tvg-logo="https://astatv.karaa.web.id/logo/i10059.png" group-title="Lokal (auto)",YOY International
+https://astatv.karaa.web.id/api/s/i10059.m3u8
+#EXTINF:-1 tvg-id="i20001" tvg-name="Quran TV" tvg-logo="https://astatv.karaa.web.id/logo/i20001.png" group-title="Lokal (auto)",Quran TV
+https://astatv.karaa.web.id/api/s/i20001.m3u8
+#EXTINF:-1 tvg-id="i20002" tvg-name="OKTV" tvg-logo="https://astatv.karaa.web.id/logo/i20002.png" group-title="Lokal (auto)",OKTV
+https://astatv.karaa.web.id/api/s/i20002.m3u8
+#EXTINF:-1 tvg-id="i20003" tvg-name="DensPlay" tvg-logo="https://astatv.karaa.web.id/logo/i20003.png" group-title="Lokal (auto)",DensPlay
+https://astatv.karaa.web.id/api/s/i20003.m3u8
+#EXTINF:-1 tvg-id="i20004" tvg-name="DensKnowledge" tvg-logo="https://astatv.karaa.web.id/logo/i20004.png" group-title="Lokal (auto)",DensKnowledge
+https://astatv.karaa.web.id/api/s/i20004.m3u8
+#EXTINF:-1 tvg-id="i20005" tvg-name="DensLifeandStyle" tvg-logo="https://astatv.karaa.web.id/logo/i20005.png" group-title="Lokal (auto)",DensLifeandStyle
+https://astatv.karaa.web.id/api/s/i20005.m3u8
+#EXTINF:-1 tvg-id="i20008" tvg-name="Elshinta TV" tvg-logo="https://astatv.karaa.web.id/logo/i20008.png" group-title="Lokal (auto)",Elshinta TV
+https://astatv.karaa.web.id/api/s/i20008.m3u8
+#EXTINF:-1 tvg-id="239" tvg-name="Sportdigital Fussball" tvg-logo="https://astatv.karaa.web.id/api/lg?t=ljyDUuis_DEgIZjDzIjLDFN2CfLCIX5aakyZH_PUwCQ8TRP77_Mw--7AeQ6MBJG7bYNrp9ejY4M7Ufpmp9sctVscjV2HBK_brpmGPKDh66hbrjosAJT538lc92HKB20km-0zFzd3FzEJ7eGIHBswaCTMuQFkdDw92VmX_q4aBPmrL_3pc25NEcNYfo3_cecg0DjddEm1WQGIfwyOTROyPMyETjp_YkMPxQ" group-title="Lokal (auto)",Sportdigital Fussball
+https://astatv.karaa.web.id/api/s/239.m3u8
+#EXTINF:-1 tvg-id="2878" tvg-name="SporTV BR 1" tvg-logo="https://astatv.karaa.web.id/api/lg?t=vuweuME4R2hmlXps3M21K7SmRigMerHCS6EizEcessU3KCnzx5pvArhuGgZfZICT-GEbGOmb54KSKwrsj7omJh9NIiDnyR7aTlfZgSXinWJslo6J77ozCuz9H4eNRER6jZISboq8eVd5V752me11diPU6opBDKhk55a-p0b-fmghfvIKxTwLP9CyQstYuYFr8-Jd5x8U_tQ5gSrP-gOXOFk8hoVm8Mm7Kg" group-title="Lokal (auto)",SporTV BR 1
+https://astatv.karaa.web.id/api/s/2878.m3u8
+#EXTINF:-1 tvg-id="2879" tvg-name="SporTV BR 2" tvg-logo="https://astatv.karaa.web.id/api/lg?t=RIh-Rmawlmo_pvkhrCLPNWoRk7jxKKPwOYzfnWMfDRCa9x2iBUhImdCYe3czvuRPc-u3Y10LiBOGxssvAo00hdBbapyZITKlwGmDNjRPD06Sa7E-XqTv1ZymXf5jsOldz_KdEqlAYtEoMsU-TxT_356s2RgsCiz3wSH6Ezp-iv72iwG1zrd_C-Cl8N99vlIA3GXrLS19PjDqnMAqde5c3GYS2acQYnDa0Q" group-title="Lokal (auto)",SporTV BR 2
+https://astatv.karaa.web.id/api/s/2879.m3u8
+#EXTINF:-1 tvg-id="2880" tvg-name="SporTV BR 3" tvg-logo="https://astatv.karaa.web.id/api/lg?t=KRG7dOgCYmZDwrAcfauATv54Mm6NbN9k9bzMtER9-rFiAfvgKMny-zHGZj5V8KLT9H4VLgy3lhDa9HsZuLJqPVr9JvthMzVV3wIfQLjlNO_Ja6BpHqqq6wGyHvdCeOaW34nWD6_2W8BJp1QVYz27jmrFZKXZCXRHVtNcptRJceXiEtzmm6EYxH6tSZFRp_FQJR7cu2TElaDKz61lsD89prHc-y-3dfLbiA" group-title="Lokal (auto)",SporTV BR 3
+https://astatv.karaa.web.id/api/s/2880.m3u8
+#EXTINF:-1 tvg-id="4394" tvg-name="VIVO D-Sports 1 UR" tvg-logo="https://astatv.karaa.web.id/api/lg?t=tcQoW8gqyeNlH_70v0AOtnTgTcs-eL6sVLISMyo9BDy_ruf84K29RE0F0zUjytr101vrX1wdRZHzj5UU1HlY1yL1C8BajALHt455nWFs9lbgFnglbt9-ec34dN65Hh5NcpctIhAAIBvEUct80LlsmGq1yvlvetGaAPFOfFq_2z4ekkyOXs8LYt3DK0cyV-K-nOTH5Cc--0byPs2f1pKO73LlJtVmCiqFtA" group-title="Lokal (auto)",VIVO D-Sports 1 UR
+https://astatv.karaa.web.id/api/s/4394.m3u8
+#EXTINF:-1 tvg-id="MentariTV.id@SD" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="Lokal (auto)",Mentari TV
+https://vidio123.mikrofast.web.id/vidio/8237/index.mpd
+#EXTINF:-1 tvg-id="JakTV.id" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="Lokal (auto)",JAKTV (Vision +)
+https://astatv.karaa.web.id/api/s/23.m3u8
+#EXTINF:-1 tvg-id="auto.mnctv" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/imageCir_MNC-180x180_2025_11_06_13_06_02.jpg" group-title="Lokal (auto)",MNCTV
+https://astatv.karaa.web.id/api/s/9.m3u8
+#EXTINF:-1 tvg-id="156" tvg-name="Bandung TV" tvg-logo="https://astatv.karaa.web.id/api/lg?t=CSseIdNoF4-twrETGy14buMLW6Bx-suimqW_ul-ctjEZ0DfBFO5z147X6aTAX8QfGC9VXuwoZF39RQ2eDXUseLkZwfr0o_KI5Y8IYZS3jrn902Koaq9gbnsyKsZvcCPJVAxJCYstx-QQ87pSFZntvRjyrg7yPOU7_zSSVDS2Kes5Y51O4_bRdT1bi-GIewBbK8tMM5IZDKY5VmzMqveqp4b7x82rYin3JQ" group-title="Lokal (auto)",Bandung TV
+https://astatv.karaa.web.id/api/s/156.m3u8
+#EXTINF:-1 tvg-id="Channel Jowo" tvg-logo="https://channeljowo.com/wp-content/uploads/2024/09/cropped-LOGO-CHANNEL-JOWO_04-1536x642.png" group-title="Lokal (auto)",Channel Jowo (DensTV)
+https://astatv.karaa.web.id/api/s/i20007.m3u8
+#EXTINF:-1 tvg-id="ATV.tr@SD" tvg-logo="https://i.imgur.com/HyVUwFC.png" group-title="Lokal (auto)",ATV (Turkiye) (1080p)
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv_1080p.m3u8
+#EXTINF:-1 tvg-id="625" tvg-name="iLol Funny" tvg-logo="https://astatv.karaa.web.id/api/lg?t=gD9D42r_RVUdOjPcAjw7OjHcJslau2qDM_t68qpuuBKwmJzdJMT_DgS1ma_Bh6R1sieiUwWEQFDra-D_AgSAHoTI77B660cz5dK925zSPgJK3VfV8JIpu_ImXMcKDEm4Llysoav1XtdkhZR4vyWKoALgfSj7ljN9z8Ciu8arkKLYrTVuqE5gcC5kLIzpcTBbsW7T5PCnlrIBtMPpAmGaLCn2nA8RHARHYA" group-title="Lokal (auto)",iLol Funny
+https://astatv.karaa.web.id/api/s/625.m3u8
+#EXTINF:-1 tvg-id="605" tvg-name="TVRI Aceh" tvg-logo="https://astatv.karaa.web.id/api/lg?t=4OkP1HT6EUmE1YOpNq0eBuzg-MD6ziQeoQfmqAvfXryL4U2WYS5mjGIip9VWwHkF15lquVVuLOMpXPUPFEKckk7aK9N6HOTk-H9zWZRBNU4Ilj7pEabKvbEeNJqV7l0b4JyOBZ_IjTsl9DM3loqS8h8LEwfUQS_GYdnNHCOTDS953znGgjhfCrOBDDqoQAMWVt3ANdZmX1393UKDfhwk4bVk8zeHYtsSUA" group-title="Lokal (auto)",TVRI Aceh
+https://astatv.karaa.web.id/api/s/605.m3u8
+#EXTINF:-1 tvg-id="591" tvg-name="TVRI Ambon" tvg-logo="https://astatv.karaa.web.id/api/lg?t=31iXjbxKsfDijP8JNmw0JlnLtXzoargBKnRTTyRiNOCNu4RI9HEyz7_HI6hLgL-ZB8Vk5_RImRCCZANsPdcr47dDcs1eZgWw144eANoL8DkHvUhoitv9dEg4s095TJksfDtWXB3jzUjMEsblGWZ6gT9q8NSMYUKVlqlGW8ZK0lqtTNJrx8My3ZAhgRmkQfdRybrtqDW4Ga27B4gF_CMT-fK3b8g_19m0CQ" group-title="Lokal (auto)",TVRI Ambon
+https://astatv.karaa.web.id/api/s/591.m3u8
+#EXTINF:-1 tvg-id="593" tvg-name="TVRI Babel" tvg-logo="https://astatv.karaa.web.id/api/lg?t=656ZF1ULAcY2-E6LEUguhjoaLcw0Eo8oGhycDv81AWj1_rGedKXI-9wBzE7MfQRAtPD7zP73mau3G2Menh2O02nfo_QBS0K5OJoh0xI4meGpCae3WQpLSMmE5yFh2E2CSE3ovb3lydCsMVRiHcO-NUlQ8m04w-j50q7yyurTB_DN7ZUzisxfbizcv13R-SaETEJgxyJO1_RZ0jADikgUDNzmdArZiEhzZg" group-title="Lokal (auto)",TVRI Babel
+https://astatv.karaa.web.id/api/s/593.m3u8
+#EXTINF:-1 tvg-id="592" tvg-name="TVRI Bali" tvg-logo="https://astatv.karaa.web.id/api/lg?t=GUX7BQcAmg26I4IS31glYBeifhmbxJd-3-xpAlKiH4NSVtYs9a681AJX8jnHfcWd19wRBuwFYhTQ1gAuaiWxqgtaZ_vNRHnLTNrbx4LzxtSDGcDljiqg14dDqU78m8oMZVPfEDoZJVmxKoQwLlWwyqWj1N2y9XUGJXD_UInD3TfFr4_B_jO2Jt0XAVKpqX7JV7u0-Y_nTaCo5v3gIFstseEa3yZ8htIBUQ" group-title="Lokal (auto)",TVRI Bali
+https://astatv.karaa.web.id/api/s/592.m3u8
+#EXTINF:-1 tvg-id="594" tvg-name="TVRI Bengkulu" tvg-logo="https://astatv.karaa.web.id/api/lg?t=x9aAjdT6PxNf_CbeZi6nvcC8BF6O2jqgbRCkeQfcIAgnGlwrVwa1J5O61Dw5g7Joi5tukc-uJQ4gzmpUBnMgUCRa89QZLD9W8cqh1qKHgfyarAZr_YivNOqIQHpfeT8FuKzgIp7g1H5pRoP5X1V5SwWbTnCjMw7AUbV-14Opluc1fWOBUOyBPkznZRMYpgrhWA2x3dVwBZgICULos6paQ2CPvC777IfuOQ" group-title="Lokal (auto)",TVRI Bengkulu
+https://astatv.karaa.web.id/api/s/594.m3u8
+#EXTINF:-1 tvg-id="589" tvg-name="TVRI DKI" tvg-logo="https://astatv.karaa.web.id/api/lg?t=2rEP-ymIsZeQlMJK_mj3SyF5n8_-Hk51yrOfkiUzCxqVlmRJL9qqoTifkcmGBftkMiqFAnbgSUVhwWSvDykgk1-QaeXgpCwIRW7nq8SdGcoQor-PO6OyyuEWKybfSDSPHIn_seMp-QH_rQ4PNUd_spJ36bCOuUiyRMZvmt4YdY2jKSCp6vOalZvGTMzYH1ok_n51kF6OJ3PiZbyAM4XSeE9mqgx0nahIYA" group-title="Lokal (auto)",TVRI DKI
+https://astatv.karaa.web.id/api/s/589.m3u8
+#EXTINF:-1 tvg-id="595" tvg-name="TVRI Gorontalo" tvg-logo="https://astatv.karaa.web.id/api/lg?t=QWwLwjOWdAgK8g023h5TbtpywIdHzNo4-fsU8Iy1Xta4_0BJSj6nG-uVizRZC9XeGmkxPRMe8XLNTDoTBaB7lXCabQknV2yfwpH3eNNda8-wvnr67lDSGioEqpOGvFu1jKuZo81ATHn2O4BvKkpt1sU4d_cbpm531BSBx1oTL5gzS_LdjrrLp6KhW-QFQu-6p3WRZ1E0e2YCkr1HXBCXaI1QV5yFgszvvw" group-title="Lokal (auto)",TVRI Gorontalo
+https://astatv.karaa.web.id/api/s/595.m3u8
+#EXTINF:-1 tvg-id="596" tvg-name="TVRI Jabar" tvg-logo="https://astatv.karaa.web.id/api/lg?t=4VKfamQGCk2C4I5Szb0xQhUGKlL-eB42QSVD_T8D83qRJsT-labEShiMACFGoCfhbNGFFDFoUjp1HYvpeSfehabt3ovJ-ShVDSb-1vw4zCgk42gxpOQksNkn1AUQ6VcsLqQgFqVmpu2P0vTk8Zb_-FI0LTLuQSbOVruwsyTTEsVH2j8cjZLWNth7YdF6VFtNqtS1M_V4MO_v7Hc-fDYawyhF8GfPlNWpkw" group-title="Lokal (auto)",TVRI Jabar
+https://astatv.karaa.web.id/api/s/596.m3u8
+#EXTINF:-1 tvg-id="597" tvg-name="TVRI Jambi" tvg-logo="https://astatv.karaa.web.id/api/lg?t=OTKUu_TuHJpXQDb5FNuYCQfha2BgTY1xFNvnZoYufbfwyDuFsGxlAkhTnUMGucp4RogdtoPtDzhTtrYxC56uLO9dvbJFnJNY5T6ZejZAQHWsPz2MZ0q8gpN2_M3uhi4ZtYnw2AXvz0uGjAkbNyr8siTMrClRgJrUTbUYIUxDs8aukjRenC7doSMgGBDjXwyGd0NulLpX6YGhtt_mSDM_9gmWmeqWoonhMQ" group-title="Lokal (auto)",TVRI Jambi
+https://astatv.karaa.web.id/api/s/597.m3u8
+#EXTINF:-1 tvg-id="598" tvg-name="TVRI Jateng" tvg-logo="https://astatv.karaa.web.id/api/lg?t=y-t1vzm3g4787SqLCslVsGHORWX5Nkmf-2RfyfbIO_hBVA0QzbstXTvZ1nN0y4Q3acMtNYp9tKkhOLErtJ9pTMqbea8OuW0P-Ho8FikN_S1QPYi4adKWSwamTUKJAWn-RIrSNHXM1bBm6dbBShU6W9vc5pdZAc2V8oZ9fx57Byd_R7SzjuK30glmOXtwKWMon4XscnxvaM-vB4Wu1qqt43Q8BfMMEgUHLA" group-title="Lokal (auto)",TVRI Jateng
+https://astatv.karaa.web.id/api/s/598.m3u8
+#EXTINF:-1 tvg-id="599" tvg-name="TVRI Jatim" tvg-logo="https://astatv.karaa.web.id/api/lg?t=vEPP-EBFWkDcEiHE8UezTmDzunBBdd7Fz3V45ob4iho6gh-JeR6gL3ZByZ4Ma3Ai3MGo0tlv9LU2qCzxOMWnaWIIZb8vAI8unipwmIkyMSWcXaGa1rdSiWa7KsE20tuOsMz6nuKn2ajfWUjIDrGamMl6Vofr2jzUal-DAZiXMmMjSuJcVSbb-fWROPZaB-qLo0KicsYjDt6kX1BhGqX1OlQYsiDXPPkXOA" group-title="Lokal (auto)",TVRI Jatim
+https://astatv.karaa.web.id/api/s/599.m3u8
+#EXTINF:-1 tvg-id="617" tvg-name="TVRI Jogja" tvg-logo="https://astatv.karaa.web.id/api/lg?t=pxdv-C2K8bJNTZPxxbikp0YYGSc-gUc73UwvRIkTF7K9DeQMt0zakoPcU0jKygCOcqbtFixky6hATlII5_iq5lAhJnUoGp4IkOPf7WIr0YPdpA2r-YRtK-cBcSUMPlADTczXhXeQFVyBPTyLP8GkBJ-PALq-Oozd5Mw8FIY41SADw_gDxTQG1SGq_kSJlPO9NLKq8iN6kqw4KCZnwrYhwigu9Dr9g-1Rxw" group-title="Lokal (auto)",TVRI Jogja
+https://astatv.karaa.web.id/api/s/617.m3u8
+#EXTINF:-1 tvg-id="600" tvg-name="TVRI Kalbar" tvg-logo="https://astatv.karaa.web.id/api/lg?t=wCl-ZJYQz5kGymmbtJ5h1RdFDjTZ5upMXpbOToc9ay_Z5-mz-fAaTJ1jkHvj9eJV6FTQ_OTGWJdf1HUKD2c3IMTLB4YAD4eNFwLXVloEl7kyKpwr7f25i0UQz37kW9gS4uiSVQC7q5dLhfCHyUlXNPukX6fECwl48WIWXiKH_NsC43MB6xB1AEfTrn6_m-YGDEepdvpf0VH9w5vUAKIG-tuZZkIrCckGTA" group-title="Lokal (auto)",TVRI Kalbar
+https://astatv.karaa.web.id/api/s/600.m3u8
+#EXTINF:-1 tvg-id="601" tvg-name="TVRI Kalsel" tvg-logo="https://astatv.karaa.web.id/api/lg?t=CtwP8VaA7nggSHkBh_sAJHYGO8NyBJs0TIa89ALrNmJ2uaoMYtpbf15rxRYK9a0QVc9dPnfiqpTs04NCaosAHqkzziN8u7V_5JfZ9lY5xVmqy1PaoD7yYxsWKixLN61us4Azqh_kWSXm9JTCRHRe5suuaIUtdYe3ZPNfNTkw0NZ9TsRyWdyDPEsSfObVOLUnTk2d910kQD_ZH9iOhNW6ZQgJhL38qfQQFA" group-title="Lokal (auto)",TVRI Kalsel
+https://astatv.karaa.web.id/api/s/601.m3u8
+#EXTINF:-1 tvg-id="602" tvg-name="TVRI Kalteng" tvg-logo="https://astatv.karaa.web.id/api/lg?t=Y6GjvVx9meDoHQEIJo7F0kfJQJSGqPOdvUImwaIJIFdh66DVxvXzHp64lG1Dxyj3zTEcViuvAbiXJ1J532-ZGjT3fJeqjFrSA_S1W9ovT40-tvb0Y8aF2MYp6N8D-EPtyhqnHRLyvzurwK5h7u77kobAAkZzu2sYPMnWR2aM7CVzeSD_AV_YSL16IVy3eQTfOoMle_GOXomcRFjiRmX8-XgjqsZ9e9ZoJg" group-title="Lokal (auto)",TVRI Kalteng
+https://astatv.karaa.web.id/api/s/602.m3u8
+#EXTINF:-1 tvg-id="603" tvg-name="TVRI Kaltim" tvg-logo="https://astatv.karaa.web.id/api/lg?t=qTVEFnuGNlJjOVQSh8SZE9W_Us3UJH3CuDcNWHVb1JV619iFiAugzeDQ0bqYtCJMJF4-Ojc3O35PsAIJXw2gx0V_oEsSQmITQ6-s-sI1B2IlCgVq4xiyh6coDuykyz1gs8hkANaotiPoSr2haQQsBL3DG4oKoEzWOOrzctFYrvAsEJzt_blPC65ASKE5N3lva68KHnzD6PYz435e_MhyQCDHo5UNDBsX4g" group-title="Lokal (auto)",TVRI Kaltim
+https://astatv.karaa.web.id/api/s/603.m3u8
+#EXTINF:-1 tvg-id="604" tvg-name="TVRI Lampung" tvg-logo="https://astatv.karaa.web.id/api/lg?t=szh21lXazBZyyIPGoNDNvYrcXt2VkX7EigpqBfLm8DK7s01o8x-xmqbYIHhflKeLT0wO1k1NS5qR76Czmz67i10IYbNFVnhSRRjBB2S8d1XZamBdjPjNvZlrUnQxjVtOCyMib38pwoFL4JTsGVCfIJYsDM9gN0B3rRTGyuaPSEFhYvmdcNlQ40qFpVjVuhFMKQy2BEcHNTbo8C83e73memfKP4xFqNxzXg" group-title="Lokal (auto)",TVRI Lampung
+https://astatv.karaa.web.id/api/s/604.m3u8
+#EXTINF:-1 tvg-id="606" tvg-name="TVRI NTB" tvg-logo="https://astatv.karaa.web.id/api/lg?t=Q1a949Uskw1Tm8A1lM_fi8B1uouSMRcQEIVZrbnk1gdFjsoPdSzpW6Q-Rj_UYkMjnyj40N729d68mXMqDnt3tkfbDInLyfM895SdLI74T97wIS7752DKpxZ_V4dhWu911voJU3p0s37jwzki2-90Bj5Ux7CmTJbcOqM-EgG7bUy5gQBsV8S-d3sSRUsXHihchRyrwL0nkFnSpDi_Tco6dQwm9C9avAoJqw" group-title="Lokal (auto)",TVRI NTB
+https://astatv.karaa.web.id/api/s/606.m3u8
+#EXTINF:-1 tvg-id="607" tvg-name="TVRI NTT" tvg-logo="https://astatv.karaa.web.id/api/lg?t=LbsqIftNgIJXrZ9oNzXn2Ed9IjhHijCLn3CLoXqMnReciKiZ7vws8W33IwSJn3fhF3FZC78uACoGPh5g17yi6VUt3Zj05MuULXA06f71qPRj3dLsHxvO5PihegT4zSgdx1QmL4LNDOY7MmQC-CO79SUZmsdLJhWARxIfM4lYifTQD1CVCZI6ZHbPCsxr_RHbIWlTRXftToLgNcTXl8SKDWWEPglt2loxlQ" group-title="Lokal (auto)",TVRI NTT
+https://astatv.karaa.web.id/api/s/607.m3u8
+#EXTINF:-1 tvg-id="608" tvg-name="TVRI Papua" tvg-logo="https://astatv.karaa.web.id/api/lg?t=kcFON93lJag_iN6uPMLLGRCyrRmAycmitAI64jx75ZxQXhy08bKt0HRPMfaf3tbsXRNhpND32U9CBe5eoNpUpE-MUa3SyzS7OGSeuZBDpGveP0Yccin_rjWug5RYd9XvUapCs_HtFMujVK3GdNAbRiFU0jlOEvfTmF61P8k7vGNLssAFvBKIR-QsdTXowfkUinHq3AWxN825-hjUsrQYrVLFzYaUQcnUew" group-title="Lokal (auto)",TVRI Papua
+https://astatv.karaa.web.id/api/s/608.m3u8
+#EXTINF:-1 tvg-id="618" tvg-name="TVRI Papua barat" tvg-logo="https://astatv.karaa.web.id/api/lg?t=hq6QIfuJNYxtSEgFaQ0bXQqpZtMPEWPVwrMirhGzqFV9R8PQ5vO1VMXbDH8TF2YsBry2CNyOndW-WaabYun6cOfRZgvDMnEsm3M23Bhi8ByI7RRSAPHpO9cw5rMM5EIZtXtMnox603PLar91290XA8QXsU6fOza8XFmu2ZUDgPksyhIuNNs8A48LncFZ-0O_gz3BcuHvEw5IJM0dzrikSO7ikReLIgyjbg" group-title="Lokal (auto)",TVRI Papua barat
+https://astatv.karaa.web.id/api/s/618.m3u8
+#EXTINF:-1 tvg-id="609" tvg-name="TVRI Riau" tvg-logo="https://astatv.karaa.web.id/api/lg?t=_faZfMkKsAFOqwK-zS17ylCxirNAd_KiIvdbVcS5ms8ocYslJpwOkgdo4XMfnItrpqNWb5klj-doi3U3jczWh-Qz3m4Jl0ABvufDZuEbL0M6S_dXRX9C2ERGOPMItvCfSUQX0CCiA25T6UAwnPU7IngWcp4iybLdzxbEfZWX3QTimUGEA8Zc5KxgnBFlcloY6P6HjMr_xHLzD6eh6HeOYB6WxYi4nRWGTg" group-title="Lokal (auto)",TVRI Riau
+https://astatv.karaa.web.id/api/s/609.m3u8
+#EXTINF:-1 tvg-id="610" tvg-name="TVRI Sulbar" tvg-logo="https://astatv.karaa.web.id/api/lg?t=tZGRVxfmNpzXX-1ycPyn9TZJzuIpuouftzpX-VDr73iV-uMDrPX8n4qkYorQieotSnXIfjZeVoI2rd_Wqgt5PYu7kkKkAxOjBAxDFUSuwVlNzrKPpzyN4sn9PIryaAeyECXmTkIcirY2RnZPV-4BEdhRUQ9jfqEi1p33AFzYhhKAADrPZMcM_oHspVZjaDUrLIy_dOj4zwk58Te7tOxIClrtGd0xWZHCug" group-title="Lokal (auto)",TVRI Sulbar
+https://astatv.karaa.web.id/api/s/610.m3u8
+#EXTINF:-1 tvg-id="588" tvg-name="TVRI Sulsel" tvg-logo="https://astatv.karaa.web.id/api/lg?t=TgF62T1y_cAPa8wgfkfzAJF7aC51PL94Diu-sh9SImzKMf9bDMH6jGG3nbuMENFZBPWSpUZcb-xWF8MM4lJXMmr1hzhmTVEgZwLfAtLqV0YR4fVaWSb5xx0vhVUmBjMrvrR1k2JwtZZSNv4slbxTXqJ3Na2JNVH8bEw7C97YRwtt8Bf78z1mhsuNAuNwoye8MVHOe2cOkpUQuezeu5ire9zDEO3mMbNxaA" group-title="Lokal (auto)",TVRI Sulsel
+https://astatv.karaa.web.id/api/s/588.m3u8
+#EXTINF:-1 tvg-id="611" tvg-name="TVRI Sulteng" tvg-logo="https://astatv.karaa.web.id/api/lg?t=la6BVqcBUpdg4lR9f3HiCj9sAIYi2gWnMzU3kdfIr0wetKodfzFaA7DyOeLwgww7WYq3t0k8dCV5AOipFLcpVYRxxFUQYKaPB-PWQ-IyTONkZ5Lhxt5tnwJLOqcp8K5VL8HvhG0uUfxqpkZ3LQxfU8Dz3C78GVXIAE_wwe0S-Cm64C5Q3CbZJOAlYiOu8iNioaYRhOZNF-0rCPxyfqehTvEQ7uqB5qDafw" group-title="Lokal (auto)",TVRI Sulteng
+https://astatv.karaa.web.id/api/s/611.m3u8
+#EXTINF:-1 tvg-id="612" tvg-name="TVRI Sultra" tvg-logo="https://astatv.karaa.web.id/api/lg?t=IEvoiB5Mp2VCRaU4T9sxyaqehadpyh09h3ll2pVN36oEgXRVv1etJHsWAEFfPqqEnUpzMY3V9pZ7QFRBchd1sHIjh4TDN4cE5eNZE0xG6AAiSOgdmftQw3E2NKAhVxUUei-DbkarV0P8lSqKR2XetFMzduTmd0899ZKvjSRTgXEqUn3Geigi6TNxEN5hFNW0fqAg_oLLtTKe3uH6daMT7ubljlzjYOMBYA" group-title="Lokal (auto)",TVRI Sultra
+https://astatv.karaa.web.id/api/s/612.m3u8
+#EXTINF:-1 tvg-id="613" tvg-name="TVRI Sulut" tvg-logo="https://astatv.karaa.web.id/api/lg?t=6Wc19Q71cWc03g0-NoYWpAILR37JzZCqyni7BuTk3_bRU0E6knJ7qIdmqgPCiDqBTxQp0ZV-9pLup0J82Yvg4YsC-ZfB0qV5abpcng72FUh4cO4G9KyOVfXoGfMPdEFvnUeFotwK-0ZVWXAM8YhaeYE9ZV_ljFa34iQpvL86lLBFziAwXFpxGQfNaXTWNcpCDDwDxaN-j4pR7X05ZeNU3ljO4fIcxCkQSg" group-title="Lokal (auto)",TVRI Sulut
+https://astatv.karaa.web.id/api/s/613.m3u8
+#EXTINF:-1 tvg-id="614" tvg-name="TVRI Sumbar" tvg-logo="https://astatv.karaa.web.id/api/lg?t=hzDo5jvppZCFGZoHIZXri5DSTnBCQaAVyYjC59ln-EPqxFNnQjboQHjcd-lgFIIApx0oG9HLnbWis12P20wLc6rhU-ZvXvG0Vf2IA2xsVFryXqJ2IotegNXORi9nDag2zkSGAkud0krwtAxpyMZ2xQQ3PGAzfdBQr3qHTza4XRAyWlj1rNAQiyBFTACdYEV_M9d7ObM_50iVF_k_cD4auI4fHb8DjXW73g" group-title="Lokal (auto)",TVRI Sumbar
+https://astatv.karaa.web.id/api/s/614.m3u8
+#EXTINF:-1 tvg-id="615" tvg-name="TVRI Sumsel" tvg-logo="https://astatv.karaa.web.id/api/lg?t=sX4uXECk01ycE-v9ZXG3YXJbq2O7__vLZmd5UbX2fy5Yh1fWLWmREuqMNQuDrqXnJCl4waM9HsZ4pIhMOElPXKLhF_IDy0eD6ViVYyrL3GOaJXecFN8N9ZYrpWRPLBgO0eYzXe68gmUxDwooJfwaXv2frloasUb1QaLL0JFQ2B1lpQzs2ximgXG3_PDLejpfIyR4mHgPprwJwY73IGeTIJYm94AK-ZX0Ag" group-title="Lokal (auto)",TVRI Sumsel
+https://astatv.karaa.web.id/api/s/615.m3u8
+#EXTINF:-1 tvg-id="616" tvg-name="TVRI Sumut" tvg-logo="https://astatv.karaa.web.id/api/lg?t=AsXUXKVswRl_5GprFUc-eMGdTXhGBXYEBB4pUpoEk84bV4Y1oNsyUTvorHClET7zfL4xi1I4ApjqKhL_fimsxdNdgS_Z1QqoRZb3mbOpmXglS7QPdp4D7yBA136O0TJTpEzyJIU127aXuoFUjURbjdHfR6bV6cRDouZPNOHbI_oVX6hv46YBTG-J_Gi6HUJrwh_SsGguCQVOi6pPkU6NxzBP_SzIAFCg9g" group-title="Lokal (auto)",TVRI Sumut
+https://astatv.karaa.web.id/api/s/616.m3u8
+#EXTINF:-1 tvg-id="AXNAsia.sg@Indonesia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Lokal (auto)",AXN Asia Indonesia (720p)
+http://103.165.207.108:8000/play/a00n/index.m3u8
+#EXTINF:-1 tvg-id="DavikaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" group-title="Lokal (auto)",Davika TV (480p)
+https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
+#EXTINF:-1 tvg-id="The Rockin Life2" tvg-logo="https://assets-static.therockinlife.com/wp-content/uploads/2024/12/TRL-MUSIC-STREAM-PLAYER-JKT.jpg" group-title="Radio",The rockin life
+https://stream.radiojar.com/7csmg90fuqruv
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="Lokal (auto)",Indosiar (Vidio)
+https://vidio123.mikrofast.web.id/vidio/205/index.mpd
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="JogjaTV.id@SD",Jogja TV (720p) [Not 24/7]
+https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TransTV.id@HD",Trans TV HD (720p)
+https://live.cnbcindonesia.com/transtv/smil:transtv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CNNIndonesia.id" tvg-logo="https://cdn.cnnindonesia.com/cnnid/images/logo_cnn_fav.png?v=10.15.2" group-title="Lokal (auto)",CNN Indonesia (ChannelFeed)
+https://video.detik.com/livecnn/smil:cnntv/playlist.m3u8
