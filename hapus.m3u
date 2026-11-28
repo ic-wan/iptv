@@ -1475,32 +1475,22 @@ https://proxy-v.rctiplus.id/live/web/outdoor/index.m3u8
 https://proxy-v.rctiplus.id/live/web/globetrekker/index.m3u8
 #EXTINF:-1 tvg-id="LoveNature.id" tvg-logo="https://blueantmedia.com/wp-content/uploads/2025/02/LoveNature2024_Logo_Coral-300x119.png" group-title="Lokal (auto)",Love Nature (Vision+)
 https://proxy-v.rctiplus.id/live/web/lovenature/index.m3u8
-#EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (Vidio)
-https://bintangstreaming.my.id/000/vip.php/.mpd?id=204&type=dash
 #EXTINF:-1 tvg-id="IDX.id" tvg-logo="https://www.mncvision.id/userfiles/image/channel/iBcm_IDX.jpg" group-title="Lokal (auto)",IDX (V+)
 https://d2xx73ro32cip.cloudfront.net/out/v1/db34a1b61f414d2181c29f1892bc8d0b/index.mpd
 #EXTINF:-1 tvg-id="VisionPrime.id" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0a/VisionPrime.png/revision/latest/scale-to-width-down/300?cb=20200225175642&path-prefix=es" group-title="Lokal (auto)",Vision Prime (V+)
 https://d43tg978oium5.cloudfront.net/out/v1/873c24d3946048f68e459250f1d2fd98/index.mpd
 #EXTINF:-1 tvg-id="SCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/kH-K9J4cROqL0TZrAyQhw7P5pBk=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/204/4e9f5c.png" group-title="Lokal (auto)",SCTV (DASH/MPD)
 https://tvratu.my.id/nissa/index.mpd?id=204&type=dash
-#EXTINF:-1 tvg-id="PadangTV.id@SD" tvg-logo="https://i.imgur.com/EL2BfxY.png" group-title="Lokal",Padang tv (720p) [not 24/7]
-http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="RCTI.id" tvg-logo="https://thumbor.prod.vidiocdn.com/9c-sEWp6Du7DoWDn56cjma0gMpY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/665/337c4d.png" group-title="Lokal (auto)",RCTI (Vision+)
 https://rplus.inisemar.my.id/rcti.m3u8
 #EXTINF:-1 tvg-id="MNCTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/H-nyot3OCOIHY7qtKmguKyIUeBw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/870/ca65b5.png" group-title="Lokal (auto)",MNC TV (Vision+)
 https://linier-mnctv.rctiplus.id/mnctv-sdi-avc1_1000000=17-mp4a_96000=1.m3u8
 #EXTINF:-1 tvg-id="GTV.id@SD" tvg-logo="https://thumbor.prod.vidiocdn.com/6uEQ8IC06gH6XiMTVHtlRr1HAOE=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/778/810229.png" group-title="Lokal (auto)",Global TV (Vision+)
 https://linier-gtv.rctiplus.id/gtv-sdi-avc1_1000000=7-mp4a_96000=1.m3u8
-#EXTINF:-1 tvg-id="MDTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/LCZH_yEBnTYEQzrU1pB7w7ev-Bw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/875/325605.png" group-title="Lokal (auto)",MDTV (Vidio)
-https://bintangstreaming.my.id/000/vip.php/.mpd?id=875&type=dash
 #EXTINF:-1 tvg-id="iNews.id" tvg-logo="https://thumbor.prod.vidiocdn.com/BmeGg2IWkB_FAVPDviCk8gP8qcw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/5409/c40666.png" group-title="Lokal (auto)",iNews (Vision+)
 https://linier-inews.rctiplus.id/inews-sdi-avc1_1000000=22-mp4a_96000=1.m3u8
-#EXTINF:-1 tvg-id="timor.tv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Timor TV
-http://122.248.43.242:1935/TIMORTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="DhammaTV.id@SD",Dhamma TV (720p) [Not 24/7]
 https://b.webcache.maxindo.net.id/dhamma/dhamma.m3u8
-#EXTINF:-1 tvg-id="STV.id@SD" tvg-logo="https://i.imgur.com/EIrXgT8.png" group-title="Lokal (auto)",STV (Indonesia) (720p) [Not 24/7]
-http://122.248.43.242:1935/SAMARINDATV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 group-title="Lokal (auto)" tvg-id="FajarTV.id@SD",Fajar TV (720p) [Not 24/7]
 http://122.248.43.242:1935/FAJARTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV (Vidio)
@@ -1525,8 +1515,6 @@ https://dsgtq5sngxkde.cloudfront.net/rtv/index.m3u8
 https://dsgtq5sngxkde.cloudfront.net/idx/index.m3u8
 #EXTINF:-1 tvg-id="BTV.id@SD" tvg-logo="https://img.favpng.com/5/15/14/beritasatu-com-logo-beritasatu-media-holdings-news-png-favpng-ascxjWXRYnY9w2tGEsZusEmJa.jpg" group-title="Lokal (auto)",Berita Satu (DensTV)
 https://dsgtq5sngxkde.cloudfront.net/btv/index.m3u8
-#EXTINF:-1 tvg-id="MentariTV.id@SD" tvg-logo="https://thumbor.prod.vidiocdn.com/59CZO-IVdps6hUK6gEQqn-w-bCw=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/8237/18585d.png" group-title="Lokal (auto)",Mentari TV
-https://bintangstreaming.my.id/000/vip.php/.mpd?id=8237&type=dash
 #EXTINF:-1 tvg-id="24" tvg-logo="https://www.visionplus.id/images/repository/856/856-LOGO-m.png" group-title="Lokal (auto)",JTV (Vision +)
 https://dsgtq5sngxkde.cloudfront.net/jtv/index.m3u8
 #EXTINF:-1 tvg-id="JakTV.id" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="Lokal (auto)",JAKTV (Vision +)
@@ -1747,35 +1735,21 @@ https://astatv-api.pages.dev/api/s/614.m3u8
 https://astatv-api.pages.dev/api/s/615.m3u8
 #EXTINF:-1 tvg-id="616" tvg-name="TVRI Sumut" tvg-logo="https://astatv-api.pages.dev/api/lg?t=t6VVxT3YADNtm85R9scks7qRgvwWRxLnfhqQAXTvmnwOWq65oGaeqHoZzC2RfIu3ixwWzAFBsSY92XBh2rDWK18RL1P58dLgec-SQASUn7Z9hLQdnJgsqnjTpXbb7vGeJn_meG66WOS3wEzG7BVfPE4_sBtvLD_Sjjp6iliqNnUk9q8jCtSm7QwAFg4lqU22KdRaocdG2RWGub4GghlpH9Ipga0xiv3xCg" group-title="Lokal (auto)",TVRI Sumut
 https://astatv-api.pages.dev/api/s/616.m3u8
-#EXTINF:-1 tvg-id="RadioKitaTV.id@SD" tvg-logo="https://i.imgur.com/Dz3BzBe.png" group-title="Lokal",Radio kita tv (1080p)
-https://streaming.yufid.com/hls/radiokitatv.m3u8
-#EXTINF:-1 tvg-id="MyanmarInternationalTV.mm@SD" tvg-logo="https://i.imgur.com/ClmWqE5.png" group-title="Lokal (auto)",Myanmar International TV
-https://mrtvott.com/cache/MITV/master.m3u8
-#EXTINF:-1 tvg-id="TransTV.id" tvg-logo="https://thumbor.prod.vidiocdn.com/__j35q7LPpcS2EgkR7v8GpE4USQ=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/733/ecaa60.png" group-title="Lokal (auto)",TransTV (Detik)
-https://live.cnnindonesia.com/transtv/smil:transtv/chunklist_w2685575259_b744100_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNBCIndonesia.id@SD",CNBC Indonesia
-https://video.detik.com/livecnbc/smil:cnbctv/chunklist_w1279679883_b384000_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="CNNIndonesia.id@SD",CNN Indonesia
-https://video.detik.com/livecnn/smil:cnntv/chunklist_w268557525_b384000_sleng.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="Trans7.id@HD",Trans7 HD (720p)
-https://live.cnbcindonesia.com/trans7/smil:trans7.smil/playlist.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="TVRI.id@HD",TVRI (1080p)
-http://202.150.172.59/TVRI/index.m3u8
-#EXTINF:-1 tvg-id="VTV.id@HD" tvg-logo="https://i.postimg.cc/cJRJr3BR/2560px-VTV-Indonesia-White-2023-svg.png" group-title="Lokal (auto)",VTV (Indonesia) HD (1080p)
-http://202.150.172.59/VTVHD/index.m3u8
-#EXTINF:-1 tvg-id="balapan.international" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",Balapan International (1080p)
-https://live-3.otcnet.ru/Balapan/index.m3u8
-#EXTINF:-1 tvg-id="UGTV.id@SD" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="Lokal (auto)",UGTV (720p)
-https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1 group-title="Lokal (auto)" tvg-id="LingkarTV.id@SD",Lingkar TV
-https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 tvg-id="auto.vtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/VTV_Indonesia_red.png" group-title="Lokal (auto)",VTV
 https://flv.intechmedia.net/live/ch107.m3u8
 #EXTINF:-1 tvg-id="BNChannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/54/BN_Channel.png" group-title="Lokal (auto)",BN Channel (ChannelFeed)
 https://flv.intechmedia.net/live/ch112.m3u8?
 #EXTINF:-1 tvg-id="AtambuaTV.id@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/72/Atambua_TV.png" group-title="Lokal (auto)",Atambua TV (720p)
 http://122.248.43.242:1935/ATAMBUATV/_definst_/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="Trans7.id" tvg-logo="https://thumbor.prod.vidiocdn.com/-MEB2a6J4sB6SvBDimCb7JYP6WY=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/734/131514.png" group-title="Lokal (auto)",Trans7 HD
-https://live.cnnindonesia.com/trans7/smil:trans7/chunklist_w2685575259_b744100_sleng.m3u8
-#EXTINF:-1 tvg-id="LingkarTV.id@SD" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="Lokal (auto)",Lingkar TV
-https://astatv.karaa.web.id/api/s/i10030.m3u8
+#EXTINF:-1 tvg-id="auto.jagantara.tv" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfteWJfFkgoXCdpfYUDTjsWfDDE65AM5-h4xeHu7atO_kzgNT6RPKMktg3QZzKtn4_9DxuX9TGAE0ocyBKIk_OwSfmlSZwLJzsXdXWZgpUtA3rafn0ndogOEck4wvAXWTZ3QhR8KL_fiaMsSoAsMHGz6kSf0MTrRnM8dvMwVotKXjErQWZG630DZiTorw/s16000-rw/Jagantara-TV-Milik-Siapa-Tiba-tiba-Muncul-Channel-Baru-Bikin-Penasaran.jpg" group-title="Lokal (auto)",Jagantara TV
+https://flv.intechmedia.net/live/ch119.m3u8?
+#EXTINF:-1 group-title="Lokal (auto)" tvg-id="RadarLampungTV.id@SD",Radar Lampung TV (480p)
+https://www.streaming.radartv.co.id/hls/test.m3u8
+#EXTINF:-1 tvg-id="emantv" tvg-logo="https://i.imgur.com/o0DSsY1.png" group-title="Lokal (auto)",EmanTv (1080p)
+https://avr.host247.net/live/emantv/playlist.m3u8
+#EXTINF:-1 tvg-id="i10002" tvg-name="AKTV" tvg-logo="https://astatv.karaa.web.id/logo/i10002.png" group-title="Lokal (auto)",AKTV
+https://astatv.karaa.web.id/api/s/i10002.m3u8
+#EXTINF:-1 tvg-id="JakTV.id" tvg-logo="https://www.visionplus.id/images/repository/598/598-LOGO-m.png" group-title="Lokal (auto)",JAKTV (Vision +)
+https://astatv.karaa.web.id/api/s/23.m3u8
+#EXTINF:-1 tvg-id="DavikaTV.id@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/60/Logo_Davika_TV.png" group-title="Lokal (auto)",Davika TV (480p)
+https://5bf7b725107e5.streamlock.net/davika/davika/playlist.m3u8
